@@ -34,7 +34,7 @@ function defineData4Floor() {
     clickedPin = `${phase}_${name}`;
     floorSrc = `../levels/IMG/${level}.png`
     pointsOnLevel = points.filter(point => point.level === level);
-    defaultColor = phase === 'PHASE1'? 'red': 'green';
+    defaultColor = phase === 'PHASE1' ? 'red' : 'green';
     currentScene = tails.find(scene => scene.name === clickedPin)
 }
 //---end define query------------------
@@ -171,7 +171,7 @@ function drawSet(itemToShow, isChecked = true) {
                 return (d.y_img + 165)
             })
             .attr('r', 30)
-            .on('click', clickedOnPin,)
+            .on('click', clickedOnPin, )
             .on('mousemove', (d) => toolTip(d.name, d.phase, true))
             .on('mouseleave', (d) => toolTip(d.name, d.phase, false));
 
@@ -196,7 +196,7 @@ function clickedOnPin(d) {
     createToolTip(d.name, d.phase, d3.event.pageX, d3.event.pageY);
 };
 
-function createToolTip(id, phase, x, y, flag) {
+function createToolTip(id, phase, x, y, flag = false) {
     if (tooltipElem) {
         tooltipElem.remove();
         tooltipElem = null;
@@ -208,9 +208,8 @@ function createToolTip(id, phase, x, y, flag) {
     tooltipElem.innerHTML = id;
     tooltipElem.style.left = (x + posXDelta) + 'px';
     tooltipElem.style.top = (y + posYDelta) + 'px';
-    if (`${phase}_${id}` == clickedPin) {
-        tooltipElem.style.backgroundColor = checkedColor
-    }
+    let fillColor = `${phase}_${id}` == clickedPin ? checkedColor : defaultColor;
+    tooltipElem.style.backgroundColor = fillColor;
     document.body.append(tooltipElem);
 }
 

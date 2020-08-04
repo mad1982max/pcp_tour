@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PANORAMA</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+  <style>
+    @-ms-viewport {
+      width: device-width;
+    }
+  </style>
+  <link rel="stylesheet" href="vendor/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="multiple-scenes view-control-buttons">
+
+  <button class="btn btn-back" onclick=ref() type="button" id="backButton">
+    <img class="backArrow" src="../mainScheme/img/left-arrow.png" alt="">
+  </button>
+
+  <button class="btn btn-miniMap" onclick=showMap() type="button" id="showButton">
+    MINI MAP
+  </button>
+
+  <div id="pano"></div>
+
+  <div id="sceneList">
+    <div class="scenes">
+      <div id='wrapper'>
+      </div>
+    </div>
+  </div>
+
+  <div id="titleBar">
+    <h1 class="sceneName"></h1>
+  </div>
+
+  <a href="javascript:void(0)" id="sceneListToggle">
+    <img class="icon off" src="img/collapse.png">
+    <img class="icon on" src="img/expand.png">
+  </a>
+
+  <script src="vendor/es5-shim.js"></script>
+  <script src="vendor/eventShim.js"></script>
+  <script src="vendor/classList.js"></script>
+  <script src="vendor/requestAnimationFrame.js"></script>
+  <script src="vendor/screenfull.min.js"></script>
+  <script src="vendor/bowser.min.js"></script>
+  <script src="vendor/marzipano.js"></script>
+
+  <script type="text/javascript" src="../../interface_content/js/d3.min.js"></script>
+  <script type="text/javascript" src="../../interface_content/js/d3-zoom.js"></script>
+  <script type="text/javascript" src="../../interface_content/js/d3-transform.min.js"></script>
+  <script type="text/javascript" src="./eventModule.js"></script>
+
+  <script type="text/javascript" src="../../INTERFACE_CONTENT/js/data.js"></script>
+  <script src="../../interface_content/js/points.js"></script>
+  <script src="./tail_data.js"></script>
+
+  <script src="./index.js"></script>
+  <script src="./mainMarzipano.js"></script>
+
+</body>
+
+</html>

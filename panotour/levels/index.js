@@ -110,7 +110,21 @@ function buildSvg() {
     const zoom = d3
         .zoom()
         .scaleExtent([0.3, 7])
-        .on('zoom', zoomed);
+        .on('zoom', zoomed)
+        .on('start', () => {
+            mainLayer
+                .selectAll('.set')
+                .transition()
+                .duration(300)
+                .attr("visibility","hidden")
+        })
+        .on('end', () => {
+            mainLayer
+                .selectAll('.set')
+                .transition()
+                .duration(500)
+                .attr("visibility","visibile")
+        })
     svg.call(zoom);
 }
 

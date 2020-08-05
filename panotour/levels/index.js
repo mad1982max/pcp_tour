@@ -86,6 +86,9 @@ function buildSvg() {
         .attr("opacity", "0")
         .attr('transform', `scale(${curPos.k}) translate(${curPos.x},${curPos.y})`)
 
+
+    
+
     floorLayer = mainLayer.append('g')
     floorLayer
         .attr('class', 'floorLayer')
@@ -106,17 +109,19 @@ function buildSvg() {
         .transition()
         .duration(700)
         .attr("opacity", "1")
+        
 
     const zoom = d3
         .zoom()
         .scaleExtent([0.3, 7])
         .on('zoom', zoomed)
         .on('start', () => {
-            mainLayer
-                .selectAll('.set')
-                .transition()
-                .duration(300)
-                .attr("visibility","hidden")
+            console.log('---');
+            // mainLayer
+            //     .selectAll('.set')
+            //     .transition()
+            //     .duration(300)
+            //     .attr("visibility","hidden")
         })
         .on('end', () => {
             mainLayer

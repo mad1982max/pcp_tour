@@ -42,8 +42,10 @@ function defineData4Floor() {
 window.onload = onloadFn;
 
 function onloadFn() {
-    miniMap = document.getElementById('#showButton');
+    //miniMap = document.getElementById('#showButton');
     wrapper = document.getElementById('wrapper');
+    let sceneList = document.getElementById('sceneList');
+    window.addEventListener('resize', resize);
 
     // wrapper.addEventListener('mousedown', mouseDownFn);
     // wrapper.addEventListener('dragstart', dragStartFn);
@@ -60,6 +62,9 @@ function ref() {
 }
 
 function resize() {
+    console.log('-----resize');
+
+
     getScreenWidthHeight();
 
     if (wWidth > wrapper.offsetHeight * curPos.initPicW / curPos.initPicH) {
@@ -72,13 +77,12 @@ function resize() {
         curPos.y = (wrapper.offsetHeight / curPos.k - curPos.initPicH) / 5;
     }
 
-    // wrapper.style.height = `${246}px`;
-    // wrapper.style.width = `${400}px`;
-
     if (mainLayer) {
         mainLayer
             .attr('transform', `translate(${curPos.zoom.x},${curPos.zoom.y}) scale(${curPos.k*curPos.zoom.k}) translate(${curPos.x},${curPos.y})`)
     }
+
+    
 }
 
 function getScreenWidthHeight() {
@@ -115,11 +119,11 @@ function buildSvg() {
         .duration(700)
         .attr('opacity', '1')
 
-    // const zoom = d3
-    //     .zoom()
-    //     .scaleExtent([0.3, 7])
-    //     .on('zoom', zoomed);
-    // svg.call(zoom);  
+    const zoom = d3
+        .zoom()
+        .scaleExtent([0.3, 7])
+        .on('zoom', zoomed);
+    svg.call(zoom);  
 }
 
 function showMap() {
@@ -171,7 +175,7 @@ function drawSet(itemToShow, isChecked = true) {
                 return (d.y_img + 165)
             })
             .attr('r', 30)
-            .on('click', clickedOnPin, )
+            .on('click', clickedOnPin)
             .on('mousemove', (d) => toolTip(d.name, d.phase, true))
             .on('mouseleave', (d) => toolTip(d.name, d.phase, false));
 

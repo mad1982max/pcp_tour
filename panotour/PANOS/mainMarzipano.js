@@ -113,7 +113,7 @@
     // Set handler for scene list toggle.
     sceneListToggleElement.addEventListener('click', toggleSceneList);
 
-    showSceneList();
+    //showSceneList();
     // Start with the scene list open on desktop.
     if (!document.body.classList.contains('mobile')) {
         //showSceneList();
@@ -124,10 +124,8 @@
     }
 
     function switchScene(scene) {
-        //stopAutorotate();
         scene.view.setParameters(scene.data.initialViewParameters);
         scene.scene.switchTo();
-        //startAutorotate();
         updateSceneName(scene);
         updateSceneList(scene);
     }
@@ -157,8 +155,16 @@
         sceneListToggleElement.classList.remove('enabled');
     }
 
+    //***------------- */
     function toggleSceneList() {
         sceneListElement.classList.toggle('enabled');
+        sceneListToggleElement.classList.toggle('checked-map');
+
+        if(sceneListElement.classList.contains('enabled')) {            
+            sceneListElement.style.transform =  `translateX(100%)`;
+        } else {
+            sceneListElement.style.transform =  `translateX(0)`;            
+        }
         sceneListToggleElement.classList.toggle('enabled');
     }
 

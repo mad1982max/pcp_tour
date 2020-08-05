@@ -19,7 +19,7 @@
 <body class="multiple-scenes view-control-buttons">
 
   <button class="btn btn-back" onclick=ref() type="button" id="backButton">
-    <img class="backArrow" src="../mainScheme/img/left-arrow.png" alt="">
+    <img class="backArrow" src="../../interface_content//images/back_new_grey.svg" alt="">
   </button>
 
   <!-- <button class="btn btn-miniMap" onclick=showMap() type="button" id="showButton">
@@ -28,8 +28,9 @@
 
   <div id="pano"></div>
 
-  <div id="sceneList">
+  <div id="sceneList" class = "enabled">
     <div class="scenes">
+      <button draggable="true" class = "btn resizeMapBtn" id="resizeMapBtn"></button>
       <div id="wrapper">
       </div>
     </div>
@@ -40,8 +41,10 @@
   </div>
 
   <a href="javascript:void(0)" id="sceneListToggle">
-    <img class="icon off" src="img/collapse.png">
-    <img class="icon on" src="img/expand.png">
+    <img class="icon off" src="img/minimap_grey.svg">
+    <img class="icon on" src="img/minimap_white.svg">
+    <!-- <img class="icon off" src="img/collapse.png">
+    <img class="icon on" src="img/expand.png"> -->
   </a>
 
   <script src="vendor/es5-shim.js"></script>

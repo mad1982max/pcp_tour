@@ -3,7 +3,7 @@ let container, tooltipElem, wrapper, currentSceneIndex;
 let level, floorSrc, wHeight, wWidth, set, svg, svgHeight, floorLayer, mainLayer, miniMap, clickedPin;
 let showMiniMapFlag = false;
 let defaultColor;
-let checkedColor = '#0066ff'
+let checkedColor = '#00cc66'
 let tooltipPosFlag = false;
 let phase;
 let curPos = {
@@ -39,21 +39,74 @@ function defineData4Floor() {
 }
 //---end define query------------------
 
+
+//add resizeBtnFn----------------------------------
+function makeResizableDiv( div ) {
+    const element = document.querySelector( div );
+    const resizer = document.querySelector( '.resizeMapBtn' )
+    const minimum_size = 200;
+    let original_width = 0;
+    let original_height = 0;
+    let original_x = 0;
+    let original_y = 0;
+    let original_mouse_x = 0;
+    let original_mouse_y = 0;
+
+    function touchStart(e) {
+        console.log( 'mousedown resiser' );
+  
+      e.preventDefault()
+      e.stopPropagation()
+  
+      original_height = element.getBoundingClientRect().height;
+      original_width = element.getBoundingClientRect().width;
+      original_x = element.getBoundingClientRect().left;
+      original_y = element.getBoundingClientRect().top;
+
+      original_mouse_x = e.pageX || e.touches[0].pageX;
+      original_mouse_y = e.pageY || e.touches[0].pageY;
+
+      window.addEventListener( 'mousemove', resizeByDrag );
+      window.addEventListener( 'touchmove', resizeByDrag );
+      window.addEventListener( 'mouseup', stopResize );
+      window.addEventListener( 'touchend', stopResize );
+    }  
+
+    resizer.addEventListener( 'mousedown', touchStart );
+    resizer.addEventListener( 'touchstart', touchStart )
+  
+    function resizeByDrag( e ) {
+      const width = original_width - ( (e.pageX || e.touches[0].pageX) - original_mouse_x );
+      const height = width/curPos.initPicW*curPos.initPicH;
+      if ( width > minimum_size ) {
+        element.style.width = width + 'px'
+        element.style.height = height + 'px'
+      } else {
+        element.style.width = minimum_size + 'px'
+       
+      }
+      resize();
+    }
+  
+    function stopResize() {
+      window.removeEventListener( 'mousemove', resizeByDrag );
+      window.removeEventListener( 'touchmove', resizeByDrag );
+    }
+    
+  }
+ //end  resizeBtnFn---------------------------------- 
+
 window.onload = onloadFn;
 
 function onloadFn() {
-    //miniMap = document.getElementById('#showButton');
+    makeResizableDiv( '#sceneList' )
     wrapper = document.getElementById('wrapper');
     let sceneList = document.getElementById('sceneList');
     window.addEventListener('resize', resize);
-
-    // wrapper.addEventListener('mousedown', mouseDownFn);
-    // wrapper.addEventListener('dragstart', dragStartFn);
-
-    //pano.readConfigUrlAsync('./' + level + '/node' + name + '.xml');
     buildSvg();
     resize();
     document.body.style.opacity = 1;
+    
 }
 
 function ref() {
@@ -82,7 +135,7 @@ function resize() {
             .attr('transform', `translate(${curPos.zoom.x},${curPos.zoom.y}) scale(${curPos.k*curPos.zoom.k}) translate(${curPos.x},${curPos.y})`)
     }
 
-    
+
 }
 
 function getScreenWidthHeight() {

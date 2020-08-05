@@ -63,23 +63,10 @@ object {
     margin: auto;
 }
 
-.btn-back {
-    width: 80px;
+/* .btn-back {
+    width: 60px;
     position: absolute;
     top: 10px;
     z-index: 10;
-}
-
-
-@media (min-width: 479px) {
-
-}
-
-
-@media (min-width: 767px) and (max-width: 991px){
-
-}
-
-@media (min-width: 991px){
-
-}
+    padding: 6px;
+} */

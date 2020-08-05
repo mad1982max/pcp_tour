@@ -19,7 +19,7 @@
       <image
          class = "floor"
          id="image20"
-         xlink:href = "./small_levels.png" />
+         xlink:href = "./small_levels_clear.png" />
       <a>
          <rect
          pointer-events = "visible"

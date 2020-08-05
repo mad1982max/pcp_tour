@@ -14,6 +14,12 @@
 <body>
     <div class="container-fluid">
         <div class="row header justify-content-between">
+            <div class="col-auto pl-1 d-flex align-items-center">
+                <button class="btn btn-back" onclick="clickBack()" type="button"
+                    id="backButton">
+                    <img class="backArrow" src="../../interface_content/images/back_new_grey.svg" alt="">
+                </button>
+            </div>
             <div class="col-auto">
                 <div class="">
                     DOLWIN ALPHA
@@ -22,11 +28,7 @@
             <div class="col-auto px-0 btn-menu d-flex">
                 <div class="dropdown d-flex">
                     <a class = "btn btn-menu d-flex align-items-center" href="ftp://Dolwinalpha:anonymous@79.160.140.197">SCANS</a>
-                    <!-- <button class="btn btn-menu d-flex align-items-center" type="button" id="dropdownMenuButton"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        SCANS
-                    </button> -->
-                    <div style = "z-index:100" class="dropdown-menu dropdown-menu-right mr-1" aria-labelledby="dropdownMenuButton">
+                    <!-- <div style = "z-index:100" class="dropdown-menu dropdown-menu-right mr-1" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://viscoas-my.sharepoint.com/:f:/g/personal/m_tiutiunnyk_visco_no/Ei74m8fv3QhFvFMxEEY70BABoEq3QSvPTqdGaQNvc4AMFg?e=Jwnxhl
                         ">PTS DATA</a>
 
@@ -36,16 +38,13 @@
 
                         <a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://viscoas-my.sharepoint.com/:f:/g/personal/m_tiutiunnyk_visco_no/EglJ2Ohk8NdKnrVrUn7jHDUBYivDNDzg68cGWf5sleM9gg
                         ">POD DATA</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid body-main px-0">
-        <button class="btn btn-back" onclick="clickBack()" type="button"
-            id="backButton">
-            <img class="backArrow" src="./img/left-arrow.png" alt="">
-        </button>
+        
         
     </div>
     <object id="svg" data="./img/all_mini.svg" type="image/svg+xml">

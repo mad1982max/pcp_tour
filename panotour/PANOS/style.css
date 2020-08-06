@@ -93,7 +93,7 @@ body.multiple-scenes.mobile #titleBar {
   background-color: rgba(250, 250, 250, 0.8);
   font-family: OstrichSans-Black;
   color: black;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -107,7 +107,7 @@ body.multiple-scenes.mobile #titleBar {
 
 .mobile #titleBar .sceneName {
   line-height: 40px;
-  /* color: black; */
+  font-size: 36px;;
 }
 
 #fullscreenToggle .icon.on {
@@ -203,6 +203,7 @@ body.multiple-scenes.mobile #titleBar {
   right: 0;
   transform: translateX(100%);
   margin-top: 40px;
+  max-width: 100%;
   width: 486px;
   height: 300px;
   overflow-x: hidden;
@@ -229,12 +230,12 @@ body.multiple-scenes.mobile #titleBar {
 }
 
 .mobile #sceneList {
-  width: 100%;
-  right: -100%;
+  /* width: 100%; */
+  /* right: -100%; */
 }
 
 .mobile #sceneList.enabled {
-  margin-right: 100%;
+  /* margin-right: 100%; */
 }
 
 .mobile #sceneList .scenes {
@@ -256,7 +257,7 @@ body.multiple-scenes.mobile #titleBar {
 
 .mobile #sceneList .scenes {
   width: 100%;
-  height: 250px;
+  height: 100%;
 }
 
 #sceneList .scenes .text {

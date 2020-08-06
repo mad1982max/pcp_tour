@@ -1,7 +1,6 @@
 (function () {
     var Marzipano = window.Marzipano;
     var bowser = window.bowser;
-    var screenfull = window.screenfull;
     let phaseTail = tails.filter(tail => {
         return tail.id.split("_")[0] === phase
     });
@@ -131,7 +130,7 @@
     }
 
     function updateSceneName(scene) {
-        sceneNameElement.innerHTML = sanitize(scene.data.name);
+        sceneNameElement.innerHTML = sanitize(scene.data.name.split("_")[1]);
     }
 
     function updateSceneList(scene) {
@@ -156,6 +155,7 @@
     }
 
     //***------------- */
+    toggleSceneList()
     function toggleSceneList() {
         sceneListElement.classList.toggle('enabled');
         sceneListToggleElement.classList.toggle('checked-map');

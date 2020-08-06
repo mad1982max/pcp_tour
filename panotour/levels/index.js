@@ -52,6 +52,7 @@ function getScreenWidthHeight() {
 
 
 function resize() {
+    console.log('**resize');
     getScreenWidthHeight();
 
     if (wWidth > svgHeight * curPos.initPicW / curPos.initPicH) {
@@ -114,11 +115,6 @@ function buildSvg() {
         .on("zoom", zoomed)
         .on("start", () => {
             console.log("---");
-            // mainLayer
-            //     .selectAll(".set")
-            //     .transition()
-            //     .duration(300)
-            //     .attr("visibility","hidden")
         })
         .on("end", () => {
             mainLayer
@@ -232,14 +228,12 @@ function drawCover(itemToShow, isChecked) {
 }
 
 function zoomed() {
-    const {
-        transform
-    } = d3.event;
     let {
         k,
         x,
         y
-    } = transform;
+    } = d3.event.transform;
+
     let transform2 = d3Transform()
         .translate([x, y])
         .scale(k * curPos.k)

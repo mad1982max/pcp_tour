@@ -1,32 +1,32 @@
-
 /* @font-face {
     font-family: OstrichSans-Black;
     src: url('../../../INTERFACE_CONTENT/fonts/OstrichSans-Black.otf');
   } */
 
-html, body {
+html,
+body {
     height: 100%;
     overflow: hidden;
 }
 
 body {
-    background: #303030;  
+    background: #303030;
     opacity: 0;
     transition: opacity 500ms;
 }
 
 
 * {
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
 
 img {
-    width: 100%; 
+    width: 100%;
 }
 
-button, 
-button:active, 
+button,
+button:active,
 button:focus {
     box-shadow: none !important;
     outline: none !important;
@@ -41,24 +41,16 @@ object {
     margin: auto;
 }
 
-/* .btn-back {
-    width: 60px;
-    position: absolute;
-    top: 10px;
-    z-index: 10;
-    padding: 6px;
-} */
-
-canvas { 
-    display:block; 
-    width: 100%; 
-    height:100%;  
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .checkbox {
     background: rgb(53, 51, 51);
     margin: 5px;
-    position:absolute;
+    position: absolute;
     right: 0;
     color: rgb(243, 243, 239);
     padding: 10px;
@@ -74,22 +66,23 @@ canvas {
     color: #ff2a2aff;
 }
 
-input[type=checkbox] { 
-    vertical-align: middle; 
-    position: relative; 
-    bottom: 3px; 
-} 
-  
-label { 
-    display: block;
-     
+input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 3px;
 }
 
-@media (min-width: 991px){
-    input[type=checkbox] { 
-        bottom: 5px; 
-    } 
-    .checkbox{
+label {
+    display: block;
+
+}
+
+@media (min-width: 991px) {
+    input[type=checkbox] {
+        bottom: 5px;
+    }
+
+    .checkbox {
         font-size: 20px;
     }
 }
@@ -97,4 +90,3 @@ label {
 #container {
     margin: auto;
 }
-

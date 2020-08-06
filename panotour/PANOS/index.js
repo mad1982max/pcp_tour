@@ -1,6 +1,6 @@
 'use strict';
 let container, tooltipElem, wrapper, currentSceneIndex;
-let level, floorSrc, wHeight, wWidth, set, svg, svgHeight, floorLayer, mainLayer, miniMap, clickedPin;
+let level, sceneList, floorSrc, wHeight, wWidth, set, svg, svgHeight, floorLayer, mainLayer, miniMap, clickedPin;
 let showMiniMapFlag = false;
 let defaultColor;
 let checkedColor = '#00cc66'
@@ -99,14 +99,13 @@ function makeResizableDiv( div ) {
 window.onload = onloadFn;
 
 function onloadFn() {
-    makeResizableDiv( '#sceneList' )
+    document.body.style.opacity = 1;
+    makeResizableDiv( '#sceneList' );
+    sceneList = document.querySelector('#sceneList');
     wrapper = document.getElementById('wrapper');
-    let sceneList = document.getElementById('sceneList');
     window.addEventListener('resize', resize);
     buildSvg();
-    resize();
-    document.body.style.opacity = 1;
-    
+    resize();    
 }
 
 function ref() {
@@ -115,12 +114,15 @@ function ref() {
 }
 
 function resize() {
-    console.log('-----resize');
+    deleteTooltip();
+    
+    let sceneListW = sceneList.offsetWidth;
+    if(sceneListW === window.innerWidth) {
+        sceneList.style.height = `${mainLayer.node().getBoundingClientRect().height}px`;
+        sceneList.style.width = `${mainLayer.node().getBoundingClientRect().width}px`;
+    }
 
-
-    getScreenWidthHeight();
-
-    if (wWidth > wrapper.offsetHeight * curPos.initPicW / curPos.initPicH) {
+    if (sceneListW > wrapper.offsetHeight * curPos.initPicW / curPos.initPicH) {
         curPos.k = wrapper.offsetHeight / curPos.initPicH;
         curPos.x = (wrapper.offsetWidth / curPos.k - curPos.initPicW) / 2;
         curPos.y = 0;
@@ -134,18 +136,9 @@ function resize() {
         mainLayer
             .attr('transform', `translate(${curPos.zoom.x},${curPos.zoom.y}) scale(${curPos.k*curPos.zoom.k}) translate(${curPos.x},${curPos.y})`)
     }
-
-
-}
-
-function getScreenWidthHeight() {
-    wHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-    wWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    svgHeight = wHeight;
 }
 
 function buildSvg() {
-
     svg = d3.select('#wrapper').append('svg');
     svg
         .attr('class', 'svgContainer')
@@ -170,19 +163,12 @@ function buildSvg() {
     mainLayer
         .transition()
         .duration(700)
-        .attr('opacity', '1')
-
+        .attr('opacity', '1');
     const zoom = d3
         .zoom()
         .scaleExtent([0.3, 7])
         .on('zoom', zoomed);
     svg.call(zoom);  
-}
-
-function showMap() {
-    showMiniMapFlag = !showMiniMapFlag;
-    wrapper.style.visibility = showMiniMapFlag ? 'visible' : 'hidden';
-    if (!showMiniMapFlag && tooltipElem) tooltipElem.remove();
 }
 
 function zoomed() {
@@ -221,12 +207,8 @@ function drawSet(itemToShow, isChecked = true) {
             .attr('id', d => `_${d.name}`)
             .append('circle')
             .attr('fill', (d) => d.fullname === clickedPin ? checkedColor : defaultColor)
-            .attr('cx', d => {
-                return d.x_img
-            })
-            .attr('cy', d => {
-                return (d.y_img + 165)
-            })
+            .attr('cx', d => d.x_img)
+            .attr('cy', d => d.y_img + 165)
             .attr('r', 30)
             .on('click', clickedOnPin)
             .on('mousemove', (d) => toolTip(d.name, d.phase, true))
@@ -249,15 +231,12 @@ function reColorize(selector, oldColor, singleElem, newColor) {
 function clickedOnPin(d) {
     reColorize('circle', defaultColor, d3.event.target, checkedColor);
     clickedPin = d.fullname;
-    switchPhoto360Observable.notify(clickedPin)
+    switchPhoto360Observable.notify(clickedPin);
     createToolTip(d.name, d.phase, d3.event.pageX, d3.event.pageY);
 };
 
 function createToolTip(id, phase, x, y, flag = false) {
-    if (tooltipElem) {
-        tooltipElem.remove();
-        tooltipElem = null;
-    }
+    deleteTooltip();
     let posYDelta = 15;
     let posXDelta = flag ? -35 : 15;
     tooltipElem = document.createElement('div');
@@ -272,9 +251,16 @@ function createToolTip(id, phase, x, y, flag = false) {
 
 function toolTip(id, phase, actionFlag) {
     if (!actionFlag) {
-        tooltipElem.remove();
+        deleteTooltip()
         return
     }
     if (window.innerWidth - d3.event.pageX < 50) tooltipPosFlag = true;
     createToolTip(id, phase, d3.event.pageX, d3.event.pageY, tooltipPosFlag);
+}
+
+function deleteTooltip() {
+    if (tooltipElem) {
+        tooltipElem.remove();
+        tooltipElem = null;
+    }
 }

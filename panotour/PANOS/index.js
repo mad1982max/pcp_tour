@@ -3,10 +3,10 @@ let container, tooltipElem, wrapper, currentSceneIndex;
 let level, sceneList, floorSrc, wHeight, wWidth, set, svg, svgHeight, floorLayer, mainLayer, miniMap, clickedPin;
 let showMiniMapFlag = false;
 let defaultColor;
-let checkedColor = '#00cc66'
+let checkedColor = '#00cc66';
 let tooltipPosFlag = false;
 let phase;
-let curPos = {
+let currentRatioImgData = {
     zoom: {
         x: 0,
         y: 0,
@@ -14,8 +14,8 @@ let curPos = {
     },
     x: 0,
     y: 0,
-    initPicW: 3000,
-    initPicH: 1850,
+    initPicWidth: 3000,
+    initPicHeight: 1850,
     k: 0
 }
 
@@ -32,10 +32,10 @@ function defineData4Floor() {
     name = searchParams.get('name');
     phase = searchParams.get('phase');
     clickedPin = `${phase}_${name}`;
-    floorSrc = `../levels/IMG/${level}.png`
+    floorSrc = `../levels/IMG/${level}.png`;
     pointsOnLevel = points.filter(point => point.level === level);
     defaultColor = phase === 'PHASE1' ? 'red' : 'green';
-    currentScene = tails.find(scene => scene.name === clickedPin)
+    currentScene = tails.find(scene => scene.name === clickedPin);
 }
 //---end define query------------------
 
@@ -73,11 +73,11 @@ function makeResizableDiv( div ) {
     }  
 
     resizer.addEventListener( 'mousedown', touchStart );
-    resizer.addEventListener( 'touchstart', touchStart )
+    resizer.addEventListener( 'touchstart', touchStart );
   
     function resizeByDrag( e ) {
       const width = original_width - ( (e.pageX || e.touches[0].pageX) - original_mouse_x );
-      const height = width/curPos.initPicW*curPos.initPicH;
+      const height = width/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight;
       if ( width > minimum_size ) {
         element.style.width = width + 'px'
         element.style.height = height + 'px'
@@ -103,9 +103,15 @@ function onloadFn() {
     makeResizableDiv( '#sceneList' );
     sceneList = document.querySelector('#sceneList');
     wrapper = document.getElementById('wrapper');
+    let centerizeMapBtn = document.getElementById('centerizeMapBtn');
+    centerizeMapBtn.addEventListener('click', centerizeFn);
     window.addEventListener('resize', resize);
     buildSvg();
     resize();    
+}
+
+function centerizeFn() {
+    console.log('click centerize');
 }
 
 function ref() {
@@ -122,19 +128,19 @@ function resize() {
         sceneList.style.width = `${mainLayer.node().getBoundingClientRect().width}px`;
     }
 
-    if (sceneListW > wrapper.offsetHeight * curPos.initPicW / curPos.initPicH) {
-        curPos.k = wrapper.offsetHeight / curPos.initPicH;
-        curPos.x = (wrapper.offsetWidth / curPos.k - curPos.initPicW) / 2;
-        curPos.y = 0;
+    if (sceneListW > wrapper.offsetHeight * currentRatioImgData.initPicWidth / currentRatioImgData.initPicHeight) {
+        currentRatioImgData.k = wrapper.offsetHeight / currentRatioImgData.initPicHeight;
+        currentRatioImgData.x = (wrapper.offsetWidth / currentRatioImgData.k - currentRatioImgData.initPicWidth) / 2;
+        currentRatioImgData.y = 0;
     } else {
-        curPos.k = wrapper.offsetWidth / curPos.initPicW;
-        curPos.x = 0;
-        curPos.y = (wrapper.offsetHeight / curPos.k - curPos.initPicH) / 5;
+        currentRatioImgData.k = wrapper.offsetWidth / currentRatioImgData.initPicWidth;
+        currentRatioImgData.x = 0;
+        currentRatioImgData.y = (wrapper.offsetHeight / currentRatioImgData.k - currentRatioImgData.initPicHeight) / 5;
     }
 
     if (mainLayer) {
         mainLayer
-            .attr('transform', `translate(${curPos.zoom.x},${curPos.zoom.y}) scale(${curPos.k*curPos.zoom.k}) translate(${curPos.x},${curPos.y})`)
+            .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
     }
 }
 
@@ -143,13 +149,13 @@ function buildSvg() {
     svg
         .attr('class', 'svgContainer')
         .attr('height', '100%')
-        .attr('width', '100%')
+        .attr('width', '100%');
 
     mainLayer = svg.append('g');
     mainLayer
         .attr('class', 'mainLayer')
         .attr('opacity', '0')
-        .attr('transform', `scale(${curPos.k}) translate(${curPos.x},${curPos.y})`)
+        .attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
 
     floorLayer = mainLayer.append('g')
     floorLayer
@@ -157,9 +163,9 @@ function buildSvg() {
     let floor = floorLayer.append('image');
     floor.attr('class', 'currentFloor');
     floor.on('load', () => {
-        drawSet(phase)
+        drawSet(phase);
     })
-    floor.attr('xlink:href', floorSrc)
+    floor.attr('xlink:href', floorSrc);
     mainLayer
         .transition()
         .duration(700)
@@ -182,16 +188,16 @@ function zoomed() {
     } = transform;
     let transform2 = d3Transform()
         .translate([x, y])
-        .scale(k * curPos.k)
-        .translate([curPos.x, curPos.y])
+        .scale(k * currentRatioImgData.k)
+        .translate([currentRatioImgData.x, currentRatioImgData.y])
     mainLayer.attr('transform', transform2);
 
-    curPos.zoom = {
+    currentRatioImgData.zoom = {
         x,
         y,
         k
     };
-    curPos.tr = transform2;
+    currentRatioImgData.tr = transform2;
 }
 
 function drawSet(itemToShow, isChecked = true) {

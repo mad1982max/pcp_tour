@@ -1,12 +1,12 @@
 (function () {
     var Marzipano = window.Marzipano;
     var bowser = window.bowser;
-    let phaseTail = tails.filter(tail => {
-        return tail.id.split("_")[0] === phase
-    });
+    // let phaseTail = tails.filter(tail => {
+    //     return tail.id.split("_")[0] === phase
+    // });
 
     var APP_DATA = {
-        "scenes": phaseTail,
+        "scenes": tails,
         "name": "Project Title",
         "settings": {
             "mouseViewMode": "drag",
@@ -14,7 +14,7 @@
             "fullscreenButton": false,
             "viewControlButtons": false
         }
-    }
+    };
 
     // Grab elements from DOM.
     var panoElement = document.querySelector('#pano');
@@ -63,14 +63,16 @@
     // Initialize viewer.
     var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
 
+
+    console.log('currentScene', currentScene);
     let scene = createScene(currentScene);
     switchScene(scene);
 
     function createScene(sceneData) {
         var urlPrefix = "tiles";
         var source = Marzipano.ImageUrlSource.fromString(
-            urlPrefix + "/" + sceneData.id + "/{z}/{f}/{y}/{x}.jpg", {
-                cubeMapPreviewUrl: urlPrefix + "/" + sceneData.id + "/preview.jpg"
+            urlPrefix + "/" + sceneData.name + "/{z}/{f}/{y}/{x}.jpg", {
+                cubeMapPreviewUrl: urlPrefix + "/" + sceneData.name + "/preview.jpg"
             });
         var geometry = new Marzipano.CubeGeometry(sceneData.levels);
 
@@ -130,7 +132,8 @@
     }
 
     function updateSceneName(scene) {
-        sceneNameElement.innerHTML = sanitize(scene.data.name.split("_")[1]);
+        // sceneNameElement.innerHTML = sanitize(scene.data.id);
+        sceneNameElement.innerHTML = scene.data.id;
     }
 
     function updateSceneList(scene) {
@@ -155,7 +158,7 @@
     }
 
     //***------------- */
-    toggleSceneList()
+    toggleSceneList();
     function toggleSceneList() {
         sceneListElement.classList.toggle('enabled');
         sceneListToggleElement.classList.toggle('checked-map');

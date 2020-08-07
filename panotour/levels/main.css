@@ -15,7 +15,6 @@ body {
     transition: opacity 500ms;
 }
 
-
 * {
     box-sizing: border-box;
 }
@@ -55,7 +54,8 @@ canvas {
     color: rgb(243, 243, 239);
     padding: 10px;
     font-weight: 700;
-    border: 1px solid rgb(141, 140, 140)
+    border: 1px solid rgb(141, 140, 140);
+    display: none;
 }
 
 .green {

@@ -1,7 +1,8 @@
 let header, footer, container;
-let level, floorSrc, coverSrc, headerFooterHeight, wHeight, wWidth, cover, set, svg, svgHeight, floorLayer, mainLayer, green, red;
+let level, floorSrc, coverSrc, headerFooterHeight, wHeight, wWidth, cover, set, svg, svgHeight, floorLayer, mainLayer;
+// let green, red;
 let setFlagObj = {};
-let curPos = {
+let currentRatioImgData = {
     zoom: {
         x: 0,
         y: 0,
@@ -9,7 +10,7 @@ let curPos = {
     },
     x: 0,
     y: 0,
-    initPicW: 3000,
+    initPicWidth: 3000,
     initPicH: 1850,
     k: 0
 }
@@ -22,13 +23,13 @@ function defineData4Floor() {
     let paramsString = window.location.search;
     let searchParams = new URLSearchParams(paramsString);
     level = searchParams.get("level");
-    floorSrc = `./img/${level}.png`
+    floorSrc = `./img/${level}.png`;
     coverSrc = new Image();
     coverSrc.src = `./img/${level}_coverGrey.gif`;
-    green = new Image();
-    green.src = `./img/green_.svg`;
-    red = new Image();
-    red.src = `./img/red_.svg`;
+    // green = new Image();
+    // green.src = `./img/green_.svg`;
+    // red = new Image();
+    // red.src = `./img/red_.svg`;
     pointsOnLevel = points.filter(point => point.level === level)
 }
 
@@ -52,24 +53,23 @@ function getScreenWidthHeight() {
 
 
 function resize() {
-    console.log('**resize');
     getScreenWidthHeight();
 
-    if (wWidth > svgHeight * curPos.initPicW / curPos.initPicH) {
-        curPos.k = svgHeight / curPos.initPicH;
-        curPos.x = (wWidth / curPos.k - curPos.initPicW) / 2;
-        curPos.y = 0;
+    if (wWidth > svgHeight * currentRatioImgData.initPicWidth / currentRatioImgData.initPicH) {
+        currentRatioImgData.k = svgHeight / currentRatioImgData.initPicH;
+        currentRatioImgData.x = (wWidth / currentRatioImgData.k - currentRatioImgData.initPicWidth) / 2;
+        currentRatioImgData.y = 0;
     } else {
-        curPos.k = wWidth / curPos.initPicW;
-        curPos.x = 0;
-        curPos.y = (wHeight / curPos.k - curPos.initPicH) / 5;
+        currentRatioImgData.k = wWidth / currentRatioImgData.initPicWidth;
+        currentRatioImgData.x = 0;
+        currentRatioImgData.y = (wHeight / currentRatioImgData.k - currentRatioImgData.initPicH) / 5;
     }
     container.style.height = `${svgHeight}px`;
     container.style.width = `${wWidth}px`;
 
     if (mainLayer) {
         mainLayer
-            .attr("transform", `translate(${curPos.zoom.x},${curPos.zoom.y}) scale(${curPos.k*curPos.zoom.k}) translate(${curPos.x},${curPos.y})`)
+            .attr("transform", `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
     }
 }
 
@@ -85,7 +85,7 @@ function buildSvg() {
     mainLayer
         .attr("class", "mainLayer")
         .attr("opacity", "0")
-        .attr("transform", `scale(${curPos.k}) translate(${curPos.x},${curPos.y})`)
+        .attr("transform", `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
     
 
     floorLayer = mainLayer.append("g")
@@ -94,14 +94,14 @@ function buildSvg() {
     let floor = floorLayer.append("image");
     floor.attr("class", "currentFloor");
     floor.on("load", () => {
-        let checkBoxArr = [...document.querySelectorAll(".form-check-input")];
-        console.log("checkBoxArr", checkBoxArr);
-        checkBoxArr.forEach(box => {
-            setFlagObj[box.id] = box.checked;
-            box.addEventListener("change", (e) => checkBoxListener(e.target.id, e.target.checked))
-            checkBoxListener(box.id, box.checked);
-
-        });
+        drawSet('all');
+        //checkbox disabled
+        // let checkBoxArr = [...document.querySelectorAll(".form-check-input")];
+        // checkBoxArr.forEach(box => {
+        //     setFlagObj[box.id] = box.checked;
+        //     box.addEventListener("change", (e) => checkBoxListener(e.target.id, e.target.checked))
+        //     checkBoxListener(box.id, box.checked);
+        // });
     })
     floor.attr("xlink:href", floorSrc)
     mainLayer
@@ -126,28 +126,30 @@ function buildSvg() {
     svg.call(zoom);
 }
 
-function checkBoxListener(itemToShow, isChecked) {
-    switch (itemToShow) {
-        case "cover":
-            drawCover(itemToShow, isChecked);
-            break;
-        case "PHASE1":
-        case "PHASE2":
-            drawSet(itemToShow, isChecked);
-            break;
-        default:
-            console.log("--nothing to draw");
-    }
-}
 
-function drawSet(itemToShow, isChecked) {
-    console.log("to add", itemToShow, isChecked);
+//checkbox disabled
+// function checkBoxListener(itemToShow, isChecked) {
+//     switch (itemToShow) {
+//         case "cover":
+//             drawCover(itemToShow, isChecked);
+//             break;
+//         case "PHASE1":
+//         case "PHASE2":
+//             drawSet(itemToShow, isChecked);
+//             break;
+//         default:
+//             console.log("--nothing to draw");
+//     }
+// }
+
+function drawSet(itemToShow, isChecked = true) {
 
     if (isChecked) {
-        let currentSet = pointsOnLevel.filter(point => point.phase === itemToShow)
+        let currentSet = pointsOnLevel.filter(point => itemToShow === "all" ? true : point.phase === itemToShow);
 
         //let pinSrc = itemToShow === "PHASE1" ? red.src : green.src
-        let currentColor = itemToShow === "PHASE1" ? "#FF2A2A" : "#00BD63"
+        //let currentColor = itemToShow === "PHASE1" ? "#FF2A2A" : "#00BD63";
+        let currentColor = "#FF2A2A";
 
         set = mainLayer.append("g")
         set.attr("class", `set ${itemToShow}`)
@@ -159,14 +161,10 @@ function drawSet(itemToShow, isChecked) {
             .attr("id", d => d.name)
             .append("circle")
                 .attr("fill", currentColor)
-                .attr("cx", d => {
-                    return d.x_img
-                })
-                .attr("cy", d => {
-                    return (d.y_img + 165)
-                })
+                .attr("cx", d => d.x_img)
+                .attr("cy", d => d.y_img + 165)
                 .attr("r", 25)
-                .on("click", clickedOnPin)  
+                .on("click", clickedOnPin);
 
         // set = mainLayer.append("g")
         // set.attr("class", `set ${itemToShow}`)
@@ -192,11 +190,9 @@ function drawSet(itemToShow, isChecked) {
             .join("g")
             .append("text")
             .attr("x", d => {
-                return d.x_img
+                return d.x_img;
             })
-            .attr("y", d => {
-                return (d.y_img + 168)
-            })
+            .attr("y", d => d.y_img + 168)
             .attr("text-anchor", "middle")
             .attr("font-size", 20)
             .attr("fill", "white")
@@ -206,7 +202,7 @@ function drawSet(itemToShow, isChecked) {
             .attr("pointer-events", "none")
             .text(d => d.name);
     } else {
-        let current = svg.select(`.${itemToShow}`)
+        let current = svg.select(`.${itemToShow}`);
         if (current) current.remove();
     }
 }
@@ -236,14 +232,14 @@ function zoomed() {
 
     let transform2 = d3Transform()
         .translate([x, y])
-        .scale(k * curPos.k)
-        .translate([curPos.x, curPos.y])
+        .scale(k * currentRatioImgData.k)
+        .translate([currentRatioImgData.x, currentRatioImgData.y])
     mainLayer.attr("transform", transform2);
 
-    curPos.zoom = {
+    currentRatioImgData.zoom = {
         x,
         y,
         k
     };
-    curPos.tr = transform2;
+    currentRatioImgData.tr = transform2;
 }

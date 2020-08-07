@@ -16,10 +16,8 @@
     <div class="container-fluid">
         <div class="row header justify-content-between">
             <div class="col-auto pl-1 d-flex align-items-center">
-                <button 
-                    class="btn btn-back" 
-                    onclick="document.location.href='../../panotour/mainScheme/main_scheme.html'" 
-                    type="button"
+                <button class="btn btn-back"
+                    onclick="document.location.href='../../panotour/mainScheme/main_scheme.html'" type="button"
                     id="backButton">
                     <img class="backArrow" src="../../interface_content/images/back_new_grey.svg" alt="">
                 </button>
@@ -30,8 +28,10 @@
                 </div>
             </div>
             <div class="col-auto px-0 btn-menu d-flex">
-                <div class="d-flex dropdown">
-                    <a class="btn btn-menu d-flex align-items-center" href="ftp://Dolwinalpha@79.160.140.197">SCANS</a>
+                <div class="d-flex dropdown d-flex align-items-center">
+                    <a class="btn btn-menu btn-download" href="ftp://Dolwinalpha@79.160.140.197">
+                        <img src="../../interface_content//images/download_ico.svg" alt="">
+                    </a>
                     <!-- <div class="dropdown-menu dropdown-menu-right mr-1" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://viscoas-my.sharepoint.com/:f:/g/personal/m_tiutiunnyk_visco_no/Ei74m8fv3QhFvFMxEEY70BABoEq3QSvPTqdGaQNvc4AMFg?e=Jwnxhl
                         ">PTS DATA</a>
@@ -55,7 +55,7 @@
             </div>
             <div class="form-check">
                 <label class="form-check-label green" for="PHASE2">
-                <input class="form-check-input" type="checkbox" value="" id="PHASE2">                
+                    <input checked class="form-check-input" type="checkbox" value="" id="PHASE2">
                     PHASE 2
                 </label>
             </div>

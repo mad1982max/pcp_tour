@@ -74,7 +74,7 @@ button:focus, a.btn {
     padding-bottom: 0px;
 }
 
-.btn-back {
+.btn-back, .btn-download {
     display: flex;
     align-items: center;
     justify-items: center;

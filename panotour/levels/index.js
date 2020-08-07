@@ -24,8 +24,8 @@ function defineData4Floor() {
     let searchParams = new URLSearchParams(paramsString);
     level = searchParams.get("level");
     floorSrc = `./img/${level}.png`;
-    coverSrc = new Image();
-    coverSrc.src = `./img/${level}_coverGrey.gif`;
+    // coverSrc = new Image();
+    // coverSrc.src = `./img/${level}_coverGrey.gif`;
     // green = new Image();
     // green.src = `./img/green_.svg`;
     // red = new Image();

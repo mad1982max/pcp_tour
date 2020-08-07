@@ -18,15 +18,15 @@ window.onload = function() {
         if(w>600) {
             let g18 = svg.querySelector('#g18');
             let {height: imgHeight} = img.getBoundingClientRect();
-            g18.setAttribute('transform', `translate(0, -${(h - imgHeight)/3})`)
+            g18.setAttribute('transform', `translate(0, -${(h - imgHeight)/3})`);
         } else {
 
         }
         floorRect = [...svgDocument.querySelectorAll('.block')];
         floorRect.forEach(singleBlock => {
-            singleBlock.addEventListener('click', clickFloor)
-            singleBlock.addEventListener('mouseenter', mouseOverFloor)
-            singleBlock.addEventListener('mouseleave', mouseLeave)
+            singleBlock.addEventListener('click', clickFloor);
+            singleBlock.addEventListener('mouseenter', mouseOverFloor);
+            singleBlock.addEventListener('mouseleave', mouseLeave);
         })
     };
 }
@@ -55,9 +55,9 @@ function resizeFn() {
     w = window.innerWidth || document.documentElement.clientWidth ||
         document.body.clientWidth;
     if (w < 600 && w < h) {
-        obj.setAttribute('data', './img/all_mini.svg')
+        obj.setAttribute('data', './img/all_mini.svg');
     } else {
-        obj.setAttribute('data', './img/allFloorsScheme.svg')
+        obj.setAttribute('data', './img/allFloorsScheme.svg');
     }   
     let hSVG = h - headerFooterHeight;
     obj.style.height = hSVG + 'px';
@@ -71,7 +71,7 @@ function mouseLeave() {
 
 function mouseOverFloor() {
     this.style.fill = 'rgba(0,0,0,0.2)';
-    this.style.stroke = '#FFF773'
+    this.style.stroke = '#FFF773';
     this.style.strokeWidth = 8;
     this.style.cursor = 'pointer';
 }

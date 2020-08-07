@@ -1,11 +1,24 @@
 'use strict';
 let container, tooltipElem, wrapper, currentSceneIndex;
-let level, sceneList, floorSrc, wHeight, wWidth, set, svg, svgHeight, floorLayer, mainLayer, miniMap, clickedPin;
+let level, sceneList, floorSrc, wHeight, wWidth, set, svg, svgHeight, floorLayer, mainLayer, miniMap, clickedPin, mapLevel;
 let showMiniMapFlag = false;
 let defaultColor;
 let checkedColor = '#00cc66';
 let tooltipPosFlag = false;
 let phase;
+let levels = ["22.8", "27.8", "37.8", "47.8"];
+let currentRatioImgDataInit = {
+    zoom: {
+        x: 0,
+        y: 0,
+        k: 1
+    },
+    x: 0,
+    y: 0,
+    initPicWidth: 3000,
+    initPicHeight: 1850,
+    k: 0
+}
 let currentRatioImgData = {
     zoom: {
         x: 0,
@@ -29,12 +42,13 @@ function defineData4Floor() {
     var paramsString = window.location.search;
     var searchParams = new URLSearchParams(paramsString);
     level = searchParams.get('level');
+    mapLevel = level;
     name = searchParams.get('name');
     phase = searchParams.get('phase');
     clickedPin = `${phase}_${name}`;
     floorSrc = `../levels/IMG/${level}.png`;
     pointsOnLevel = points.filter(point => point.level === level);
-    defaultColor = phase === 'PHASE1' ? 'red' : 'green';
+    defaultColor = "#FF2A2A";
     currentScene = tails.find(scene => scene.name === clickedPin);
 }
 //---end define query------------------
@@ -43,7 +57,7 @@ function defineData4Floor() {
 //add resizeBtnFn----------------------------------
 function makeResizableDiv( div ) {
     const element = document.querySelector( div );
-    const resizer = document.querySelector( '.resizeMapBtn' )
+    const resizer = document.querySelector( '.resizeMapBtn');
     const minimum_size = 200;
     let original_width = 0;
     let original_height = 0;
@@ -55,8 +69,8 @@ function makeResizableDiv( div ) {
     function touchStart(e) {
         console.log( 'mousedown resiser' );
   
-      e.preventDefault()
-      e.stopPropagation()
+      e.preventDefault();
+      e.stopPropagation();
   
       original_height = element.getBoundingClientRect().height;
       original_width = element.getBoundingClientRect().width;
@@ -79,10 +93,10 @@ function makeResizableDiv( div ) {
       const width = original_width - ( (e.pageX || e.touches[0].pageX) - original_mouse_x );
       const height = width/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight;
       if ( width > minimum_size ) {
-        element.style.width = width + 'px'
-        element.style.height = height + 'px'
+        element.style.width = width + 'px';
+        element.style.height = height + 'px';
       } else {
-        element.style.width = minimum_size + 'px'
+        element.style.width = minimum_size + 'px';
        
       }
       resize();
@@ -103,15 +117,43 @@ function onloadFn() {
     makeResizableDiv( '#sceneList' );
     sceneList = document.querySelector('#sceneList');
     wrapper = document.getElementById('wrapper');
+    let stairsUpBtn = document.getElementById('stairsUpBtn');
+    let stairsDownBtn = document.getElementById('stairsDownBtn');
+    stairsDownBtn.addEventListener('click', changeStairsFn.bind(null, -1));
+    stairsUpBtn.addEventListener('click', changeStairsFn.bind(null, 1));
     let centerizeMapBtn = document.getElementById('centerizeMapBtn');
     centerizeMapBtn.addEventListener('click', centerizeFn);
+
     window.addEventListener('resize', resize);
     buildSvg();
     resize();    
 }
 
 function centerizeFn() {
+    resize();
     console.log('click centerize');
+    // mainLayer
+    //     .attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+
+
+}
+
+function changeStairsFn(counter) {
+    let indexOfFloor = levels.indexOf(level.split("_")[1]);
+    let nextLevel = levels[indexOfFloor+counter];
+    if(nextLevel) {
+        level = "level_" + nextLevel;
+        pointsOnLevel = points.filter(point => point.level === level);
+        console.log("next:",  level, pointsOnLevel.length);
+        deleteSet('svg', '.set');
+        floorSrc = `../levels/IMG/${level}.png`;
+        floorLayer
+            .select('image')
+            .attr('xlink:href', floorSrc);
+    } else {
+        console.log('---level not exist');
+
+    }
 }
 
 function ref() {
@@ -120,8 +162,7 @@ function ref() {
 }
 
 function resize() {
-    deleteTooltip();
-    
+    deleteSet('doc', '.tooltip');    
     let sceneListW = sceneList.offsetWidth;
     if(sceneListW === window.innerWidth) {
         sceneList.style.height = `${mainLayer.node().getBoundingClientRect().height}px`;
@@ -155,7 +196,7 @@ function buildSvg() {
     mainLayer
         .attr('class', 'mainLayer')
         .attr('opacity', '0')
-        .attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
+        .attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
 
     floorLayer = mainLayer.append('g')
     floorLayer
@@ -163,17 +204,22 @@ function buildSvg() {
     let floor = floorLayer.append('image');
     floor.attr('class', 'currentFloor');
     floor.on('load', () => {
-        drawSet(phase);
-    })
+        drawSet('set', "all");
+    });
     floor.attr('xlink:href', floorSrc);
     mainLayer
         .transition()
         .duration(700)
         .attr('opacity', '1');
+
     const zoom = d3
         .zoom()
         .scaleExtent([0.3, 7])
-        .on('zoom', zoomed);
+        .on('zoom', () => {
+            //deleteTooltip();
+            deleteSet('doc','.tooltip');
+            zoomed();
+        });
     svg.call(zoom);  
 }
 
@@ -200,11 +246,21 @@ function zoomed() {
     currentRatioImgData.tr = transform2;
 }
 
-function drawSet(itemToShow, isChecked = true) {
-    let currentSet = pointsOnLevel.filter(point => point.phase === itemToShow);
+function deleteSet(base, selector) {
+    let element;
+    if (base === "doc") {
+        element = document.querySelector(selector)
+    } else if(base === "svg") {
+        element = svg.select(selector);
+    }    
+    if (element) element.remove();
+}
+
+function drawSet(className, itemToShow, isChecked = true) {
+    let currentSet = pointsOnLevel.filter(point => itemToShow === "all" ? true : point.phase === itemToShow);
     if (isChecked) {
         set = mainLayer.append('g')
-        set.attr('class', `set ${phase}`)
+        set.attr('class', className)
             .selectAll('g')
             .data(currentSet)
             .join('g')
@@ -217,11 +273,11 @@ function drawSet(itemToShow, isChecked = true) {
             .attr('cy', d => d.y_img + 165)
             .attr('r', 30)
             .on('click', clickedOnPin)
-            .on('mousemove', (d) => toolTip(d.name, d.phase, true))
-            .on('mouseleave', (d) => toolTip(d.name, d.phase, false));
+            .on('mousemove', (d) => toolTipFn(d.name, d.phase))
+            .on('mouseleave', (d) => toolTipFn(d.name, d.phase, false));
 
     } else {
-        if (set) svg.select('.set').remove();
+        deleteSet('svg', `.${selector}`);
     }
 }
 
@@ -238,13 +294,16 @@ function clickedOnPin(d) {
     reColorize('circle', defaultColor, d3.event.target, checkedColor);
     clickedPin = d.fullname;
     switchPhoto360Observable.notify(clickedPin);
-    createToolTip(d.name, d.phase, d3.event.pageX, d3.event.pageY);
+    toolTipFn(d.name, d.phase);
 };
 
-function createToolTip(id, phase, x, y, flag = false) {
-    deleteTooltip();
+function toolTipFn(id, phase, flag = true) {
+    deleteSet('doc', '.tooltip');
+    if(!flag) return;
+    let x = d3.event.pageX;
+    let y = d3.event.pageY;
     let posYDelta = 15;
-    let posXDelta = flag ? -35 : 15;
+    let posXDelta = window.innerWidth - d3.event.pageX < 50 ? -35 : 15;
     tooltipElem = document.createElement('div');
     tooltipElem.className = 'tooltip';
     tooltipElem.innerHTML = id;
@@ -257,16 +316,9 @@ function createToolTip(id, phase, x, y, flag = false) {
 
 function toolTip(id, phase, actionFlag) {
     if (!actionFlag) {
-        deleteTooltip()
+        deleteSet('doc', '.tooltip');
         return
     }
     if (window.innerWidth - d3.event.pageX < 50) tooltipPosFlag = true;
     createToolTip(id, phase, d3.event.pageX, d3.event.pageY, tooltipPosFlag);
-}
-
-function deleteTooltip() {
-    if (tooltipElem) {
-        tooltipElem.remove();
-        tooltipElem = null;
-    }
 }

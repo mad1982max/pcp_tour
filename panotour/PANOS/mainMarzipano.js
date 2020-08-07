@@ -62,9 +62,6 @@
 
     // Initialize viewer.
     var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
-
-
-    console.log('currentScene', currentScene);
     let scene = createScene(currentScene);
     switchScene(scene);
 

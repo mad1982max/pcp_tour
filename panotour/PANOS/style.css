@@ -825,6 +825,7 @@ img {
 .tooltip {
   position: fixed;
   box-sizing: border-box;
+  font-size: 12px;
   z-index: 100;
   width: 35px;
   line-height: 30px;
@@ -865,8 +866,8 @@ img {
   border: none;
   cursor: pointer;  
   border-radius: 9px;
-  background: #303030;
-  background: rgba(48, 48, 48, 0.6);
+  /* background: #303030;
+  background: rgba(48, 48, 48, 0.6); */
 }
 
 .mapBtn:hover {

@@ -6,6 +6,7 @@ let defaultColor;
 let checkedColor = '#00cc66';
 let tooltipPosFlag = false;
 let phase;
+let zoom;
 let levels = ["22.8", "27.8", "37.8", "47.8"];
 let currentRatioImgDataInit = {
     zoom: {
@@ -130,15 +131,14 @@ function onloadFn() {
 }
 
 function centerizeFn() {
-    resize();
-    console.log('click centerize');
-    // mainLayer
-    //     .attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
-
-
+    svg
+        .transition()
+        .duration(500)
+        .call(zoom.transform, d3.zoomIdentity.translate(0,0).scale(1));
 }
 
 function changeStairsFn(counter) {
+    
     let indexOfFloor = levels.indexOf(level.split("_")[1]);
     let nextLevel = levels[indexOfFloor+counter];
     if(nextLevel) {
@@ -154,6 +154,7 @@ function changeStairsFn(counter) {
         console.log('---level not exist');
 
     }
+    centerizeFn();
 }
 
 function ref() {
@@ -162,7 +163,8 @@ function ref() {
 }
 
 function resize() {
-    deleteSet('doc', '.tooltip');    
+    deleteSet('doc', '.tooltip'); 
+
     let sceneListW = sceneList.offsetWidth;
     if(sceneListW === window.innerWidth) {
         sceneList.style.height = `${mainLayer.node().getBoundingClientRect().height}px`;
@@ -196,7 +198,7 @@ function buildSvg() {
     mainLayer
         .attr('class', 'mainLayer')
         .attr('opacity', '0')
-        .attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+        .attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
 
     floorLayer = mainLayer.append('g')
     floorLayer
@@ -212,11 +214,10 @@ function buildSvg() {
         .duration(700)
         .attr('opacity', '1');
 
-    const zoom = d3
+    zoom = d3
         .zoom()
         .scaleExtent([0.3, 7])
         .on('zoom', () => {
-            //deleteTooltip();
             deleteSet('doc','.tooltip');
             zoomed();
         });

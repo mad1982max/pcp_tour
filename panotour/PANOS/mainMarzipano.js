@@ -63,12 +63,13 @@
     // Initialize viewer.
     var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
     let scene = createScene(currentScene);
+    console.log(currentScene);
     switchScene(scene);
 
     function createScene(sceneData) {
         var urlPrefix = "tiles";
         var source = Marzipano.ImageUrlSource.fromString(
-            urlPrefix + "/" + sceneData.name + "/{z}/{f}/{y}/{x}.jpg", {
+            urlPrefix + "/" + sceneData.name.toLowerCase() + "/{z}/{f}/{y}/{x}.jpg", {
                 cubeMapPreviewUrl: urlPrefix + "/" + sceneData.name + "/preview.jpg"
             });
         var geometry = new Marzipano.CubeGeometry(sceneData.levels);

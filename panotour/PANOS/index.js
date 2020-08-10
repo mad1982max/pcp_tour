@@ -7,19 +7,8 @@ let checkedColor = '#00cc66';
 let tooltipPosFlag = false;
 let phase;
 let zoom;
+let isFirstLoading = true
 let levels = ["22.8", "27.8", "37.8", "47.8"];
-let currentRatioImgDataInit = {
-    zoom: {
-        x: 0,
-        y: 0,
-        k: 1
-    },
-    x: 0,
-    y: 0,
-    initPicWidth: 3000,
-    initPicHeight: 1850,
-    k: 0
-}
 let currentRatioImgData = {
     zoom: {
         x: 0,
@@ -30,6 +19,7 @@ let currentRatioImgData = {
     y: 0,
     initPicWidth: 3000,
     initPicHeight: 1850,
+    initRatio: 3000/1850,
     k: 0
 }
 
@@ -59,7 +49,7 @@ function defineData4Floor() {
 function makeResizableDiv( div ) {
     const element = document.querySelector( div );
     const resizer = document.querySelector( '.resizeMapBtn');
-    const minimum_size = 200;
+    const minimum_size = 250;
     let original_width = 0;
     let original_height = 0;
     let original_x = 0;
@@ -91,7 +81,7 @@ function makeResizableDiv( div ) {
     resizer.addEventListener( 'touchstart', touchStart );
   
     function resizeByDrag( e ) {
-      const width = original_width - ( (e.pageX || e.touches[0].pageX) - original_mouse_x );
+      const width = original_width - ( (e.pageX || (e.touches ? e.touches[0].pageX: 1)) - original_mouse_x );
       const height = width/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight;
       if ( width > minimum_size ) {
         element.style.width = width + 'px';
@@ -127,7 +117,8 @@ function onloadFn() {
 
     window.addEventListener('resize', resize);
     buildSvg();
-    resize();    
+    resize();
+    isFirstLoading = false;    
 }
 
 function centerizeFn() {
@@ -165,10 +156,12 @@ function ref() {
 function resize() {
     deleteSet('doc', '.tooltip'); 
 
+    
     let sceneListW = sceneList.offsetWidth;
-    if(sceneListW === window.innerWidth) {
-        sceneList.style.height = `${mainLayer.node().getBoundingClientRect().height}px`;
-        sceneList.style.width = `${mainLayer.node().getBoundingClientRect().width}px`;
+
+    if(sceneListW == window.innerWidth) {
+        sceneList.style.height = `${mainLayer.node().getBoundingClientRect().height || sceneListW/currentRatioImgData.initRatio}px`;
+        sceneList.style.width = `${mainLayer.node().getBoundingClientRect().width || sceneListW}px`;
     }
 
     if (sceneListW > wrapper.offsetHeight * currentRatioImgData.initPicWidth / currentRatioImgData.initPicHeight) {
@@ -183,7 +176,9 @@ function resize() {
 
     if (mainLayer) {
         mainLayer
-            .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
+            .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+    } else {
+        console.log('not exist');
     }
 }
 

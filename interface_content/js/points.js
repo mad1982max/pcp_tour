@@ -2180,17 +2180,17 @@ let points = [{
 //     y_img: 1232,
 //     level: "level_22.8"
 // }, 
-{
-    fullname: "PHASE1_320",
-    phase: "PHASE1",
-    name: 320,
-    x_real: 146.68,
-    y_real: 201.12,
-    z_real: 24.35,
-    x_img: 1914,
-    y_img: 1316,
-    level: "level_22.8"
-}, 
+// {
+//     fullname: "PHASE1_320",
+//     phase: "PHASE1",
+//     name: 320,
+//     x_real: 146.68,
+//     y_real: 201.12,
+//     z_real: 24.35,
+//     x_img: 1914,
+//     y_img: 1316,
+//     level: "level_22.8"
+// }, 
 // {
 //     fullname: "PHASE1_321",
 //     phase: "PHASE1",

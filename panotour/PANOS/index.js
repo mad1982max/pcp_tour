@@ -146,7 +146,7 @@ function changeStairsFn(counter) {
         pointsOnLevel = points.filter(point => point.level === level);
         console.log("next:",  level, pointsOnLevel.length);
         deleteSet('svg', '.set');
-        floorSrc = `../levels/IMG/${level}.png`;
+        floorSrc = `../levels/img/${level}.png`;
         floorLayer
             .select('image')
             .attr('xlink:href', floorSrc);

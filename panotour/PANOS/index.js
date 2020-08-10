@@ -47,7 +47,7 @@ function defineData4Floor() {
     name = searchParams.get('name');
     phase = searchParams.get('phase');
     clickedPin = `${phase}_${name}`;
-    floorSrc = `../levels/IMG/${level}.png`;
+    floorSrc = `../levels/img/${level}.png`;
     pointsOnLevel = points.filter(point => point.level === level);
     defaultColor = "#FF2A2A";
     currentScene = tails.find(scene => scene.name === clickedPin);

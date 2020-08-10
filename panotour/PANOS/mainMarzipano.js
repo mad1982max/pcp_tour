@@ -70,7 +70,7 @@
         var urlPrefix = "tiles";
         var source = Marzipano.ImageUrlSource.fromString(
             urlPrefix + "/" + sceneData.name.toLowerCase() + "/{z}/{f}/{y}/{x}.jpg", {
-                cubeMapPreviewUrl: urlPrefix + "/" + sceneData.name + "/preview.jpg"
+                cubeMapPreviewUrl: urlPrefix + "/" + sceneData.name.toLowerCase() + "/preview.jpg"
             });
         var geometry = new Marzipano.CubeGeometry(sceneData.levels);
 

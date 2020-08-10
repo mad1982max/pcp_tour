@@ -91,6 +91,7 @@ function makeResizableDiv( div ) {
        
       }
       resize();
+      centerizeFn();
     }
   
     function stopResize() {
@@ -105,8 +106,8 @@ window.onload = onloadFn;
 
 function onloadFn() {
     document.body.style.opacity = 1;
-    makeResizableDiv( '#sceneList' );
-    sceneList = document.querySelector('#sceneList');
+    makeResizableDiv( '#mapList' );
+    sceneList = document.querySelector('#mapList');
     wrapper = document.getElementById('wrapper');
     let stairsUpBtn = document.getElementById('stairsUpBtn');
     let stairsDownBtn = document.getElementById('stairsDownBtn');
@@ -114,11 +115,16 @@ function onloadFn() {
     stairsUpBtn.addEventListener('click', changeStairsFn.bind(null, 1));
     let centerizeMapBtn = document.getElementById('centerizeMapBtn');
     centerizeMapBtn.addEventListener('click', centerizeFn);
+    window.addEventListener("orientationchange", function(event) {
+        console.log("the orientation of the device is now " + event.target.screen.orientation.angle);
+        resize();
+      centerizeFn();
+      });
 
     window.addEventListener('resize', resize);
     buildSvg();
     resize();
-    isFirstLoading = false;    
+  
 }
 
 function centerizeFn() {

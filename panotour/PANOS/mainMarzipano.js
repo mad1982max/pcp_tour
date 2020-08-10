@@ -19,9 +19,9 @@
     // Grab elements from DOM.
     var panoElement = document.querySelector('#pano');
     var sceneNameElement = document.querySelector('#titleBar .sceneName');
-    var sceneListElement = document.querySelector('#sceneList');
-    var sceneElements = document.querySelectorAll('#sceneList .scene');
-    var sceneListToggleElement = document.querySelector('#sceneListToggle');
+    var mapListElement = document.querySelector('#mapList');
+    var sceneElements = document.querySelectorAll('#mapList .scene');
+    var mapListToggleElement = document.querySelector('#mapToggle');
 
     // Detect desktop or mobile mode.
     if (window.matchMedia) {
@@ -110,12 +110,12 @@
     }
 
     // Set handler for scene list toggle.
-    sceneListToggleElement.addEventListener('click', toggleSceneList);
+    mapListToggleElement.addEventListener('click', togglemapList);
 
-    //showSceneList();
+    //showmapList();
     // Start with the scene list open on desktop.
     if (!document.body.classList.contains('mobile')) {
-        //showSceneList();
+        //showmapList();
     }
 
     function sanitize(s) {
@@ -126,7 +126,7 @@
         scene.view.setParameters(scene.data.initialViewParameters);
         scene.scene.switchTo();
         updateSceneName(scene);
-        updateSceneList(scene);
+        updatemapList(scene);
     }
 
     function updateSceneName(scene) {
@@ -134,7 +134,7 @@
         sceneNameElement.innerHTML = scene.data.id;
     }
 
-    function updateSceneList(scene) {
+    function updatemapList(scene) {
         for (var i = 0; i < sceneElements.length; i++) {
             var el = sceneElements[i];
             if (el.getAttribute('data-id') === scene.data.id) {
@@ -145,28 +145,28 @@
         }
     }
 
-    function showSceneList() {
-        sceneListElement.classList.add('enabled');
-        sceneListToggleElement.classList.add('enabled');
+    function showmapList() {
+        mapListElement.classList.add('enabled');
+        mapListToggleElement.classList.add('enabled');
     }
 
-    function hideSceneList() {
-        sceneListElement.classList.remove('enabled');
-        sceneListToggleElement.classList.remove('enabled');
+    function hidemapList() {
+        mapListElement.classList.remove('enabled');
+        mapListToggleElement.classList.remove('enabled');
     }
 
     //***------------- */
-    toggleSceneList();
-    function toggleSceneList() {
-        sceneListElement.classList.toggle('enabled');
-        sceneListToggleElement.classList.toggle('checked-map');
+    togglemapList();
+    function togglemapList() {
+        mapListElement.classList.toggle('enabled');
+        mapListToggleElement.classList.toggle('checked-map');
 
-        if(sceneListElement.classList.contains('enabled')) {            
-            sceneListElement.style.transform =  `translateX(100%)`;
+        if(mapListElement.classList.contains('enabled')) {            
+            mapListElement.style.transform =  `translateX(100%)`;
         } else {
-            sceneListElement.style.transform =  `translateX(0)`;            
+            mapListElement.style.transform =  `translateX(0)`;            
         }
-        sceneListToggleElement.classList.toggle('enabled');
+        mapListToggleElement.classList.toggle('enabled');
     }
 
     function createLinkHotspotElement(hotspot) {

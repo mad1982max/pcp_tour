@@ -87,8 +87,7 @@ function makeResizableDiv( div ) {
         element.style.width = width + 'px';
         element.style.height = height + 'px';
       } else {
-        element.style.width = minimum_size + 'px';
-       
+        element.style.width = minimum_size + 'px';       
       }
       resize();
       //centerizeFn();
@@ -134,7 +133,6 @@ function initMapWidth() {
         sceneList.style.height = minimum_size/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight + 'px';
     } else {
         sceneList.style.width = '100%';
-
     }
     
 }
@@ -194,18 +192,17 @@ function resize() {
 
     
 
-    centerizeFn();
-    // if (mainLayer) {
-    //     mainLayer
-    //         .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
-    // } else {
-    //     console.log('not exist');
-    // }
+    //centerizeFn();
+    if (mainLayer) {
+        mainLayer
+            .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+    } else {
+        console.log('not exist');
+    }
 
 }
 
-function buildSvg() {
-    
+function buildSvg() {    
     svg = d3.select('#wrapper').append('svg');
     svg
         .attr('class', 'svgContainer')
@@ -216,7 +213,7 @@ function buildSvg() {
     mainLayer
         .attr('class', 'mainLayer')
         .attr('opacity', '0')
-        .attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
+        //.attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
 
     floorLayer = mainLayer.append('g');
     floorLayer
@@ -293,7 +290,7 @@ function drawSet(className, itemToShow, isChecked = true) {
             .attr('fill', (d) => d.fullname === clickedPin ? checkedColor : defaultColor)
             .attr('cx', d => d.x_img)
             .attr('cy', d => d.y_img + 165)
-            .attr('r', 30)
+            .attr('r', 15)
             .on('click', clickedOnPin)
             .on('mousemove', (d) => toolTipFn(d.name, d.phase))
             .on('mouseleave', (d) => toolTipFn(d.name, d.phase, false));

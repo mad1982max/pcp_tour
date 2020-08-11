@@ -156,16 +156,14 @@ body.multiple-scenes.mobile #titleBar {
   margin-top: 40px;
   max-width: 100%;
   max-height: calc(100% - 50px);
-  /* width: 100%; */
-
   background-color: rgb(58, 68, 84);
   background-color: rgba(58, 68, 84, 0.5);
   border-radius: 5px;
   border-top-right-radius: 0;
   /* position: relative; */
   overflow: hidden;
-  -webkit-transition: transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .mapBtnGroup {
@@ -184,7 +182,6 @@ body.multiple-scenes.mobile #titleBar {
 
 
 @media (max-width: 600px) {
-
 }
 
 /* manual buttons */
@@ -257,7 +254,6 @@ img {
 }
 
 svg {
-
 }
 
 .resizeMapBtn {

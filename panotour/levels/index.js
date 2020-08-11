@@ -63,12 +63,12 @@ function resize() {
     container.style.height = `${svgHeight}px`;
     container.style.width = `${wWidth}px`;
 
-    centerizeFn();
+    //centerizeFn();
 
-    // if (mainLayer) {
-    //     mainLayer
-    //         .attr("transform", `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
-    // }
+    if (mainLayer) {
+        mainLayer
+            .attr("transform", `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+    }
 }
 
 function buildSvg() {
@@ -83,7 +83,7 @@ function buildSvg() {
     mainLayer
         .attr("class", "mainLayer")
         .attr("opacity", "0")
-        .attr("transform", `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
+        //.attr("transform", `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
     
 
     floorLayer = mainLayer.append("g")
@@ -108,12 +108,12 @@ function buildSvg() {
         .scaleExtent([0.3, 10])
         .on("zoom", () => {
             zoomed();
-            rebuildClusters();
-        })
-        .on("start", () => {
-        })
-        .on("end", () => {
+            //rebuildClusters();
         });
+        // .on("start", () => {
+        // })
+        // .on("end", () => {
+        // });
     svg.call(zoom);
 }
 

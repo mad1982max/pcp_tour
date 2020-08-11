@@ -1,9 +1,6 @@
 (function () {
     var Marzipano = window.Marzipano;
     var bowser = window.bowser;
-    // let phaseTail = tails.filter(tail => {
-    //     return tail.id.split("_")[0] === phase
-    // });
 
     var APP_DATA = {
         "scenes": tails,

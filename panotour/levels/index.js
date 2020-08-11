@@ -17,7 +17,7 @@ let currentRatioImgData = {
 let oldScale = 1;
 let clusterInitObj = [ 150, 75, 0 ];
 let setsToShow = [];
-let pointsOnLevel;
+let pointsOnLevel, currentSet_0, currentSet_1, currentSet_2;
 
 window.onload = onloadFn;
 
@@ -27,6 +27,9 @@ function defineData4Floor() {
     level = searchParams.get("level");
     floorSrc = `./img/${level}.png`;
     pointsOnLevel = points.filter(point => point.level === level);
+    currentSet_0 = clusterize(pointsOnLevel, clusterInitObj[0]);
+    currentSet_1 = clusterize(pointsOnLevel, clusterInitObj[1]);
+    currentSet_2 = clusterize(pointsOnLevel, clusterInitObj[2]);
 }
 
 function onloadFn() {
@@ -46,7 +49,6 @@ function getScreenWidthHeight() {
     wWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     svgHeight = wHeight - headerFooterHeight;
 }
-
 
 function resize() {
     getScreenWidthHeight();
@@ -83,8 +85,7 @@ function buildSvg() {
     mainLayer
         .attr("class", "mainLayer")
         .attr("opacity", "0")
-        //.attr("transform", `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
-    
+        //.attr("transform", `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)    
 
     floorLayer = mainLayer.append("g")
     floorLayer
@@ -93,9 +94,7 @@ function buildSvg() {
     floor.attr("class", "currentFloor");
     floor.attr("xlink:href", floorSrc);
     floor.on("load", () => {
-        let pointsOnLevelCopy = pointsOnLevel.slice();
-        let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[0]);
-        drawSet('all', currentSet, 'big');
+        drawSet('all', currentSet_0, 'big');
     });
     
     mainLayer
@@ -121,36 +120,31 @@ function rebuildClusters () {
     let scale = d3.zoomTransform(svg.node()).k;
     console.log(scale, oldScale);
     if(scale.toFixed(1) === oldScale.toFixed(1)) return;
-    console.log("--", scale, oldScale);
     oldScale = scale;
-
-    let pointsOnLevelCopy = pointsOnLevel.slice();
-    if (scale < 1.7) {
-        deleteSet('svg', '.set');
-        let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[0]);
-        drawSet('all', currentSet, 'big');
-        return;
-    }
+    deleteSet('svg', '.set');
+    let dataForClusters;
+    let pinSize = "big";
     
-    if(scale > 1.7 && scale < 2.3) {
-        deleteSet('svg', '.set');
-        let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[1]);
-        drawSet('all', currentSet, 'big');
-        return;
-    }
 
-    if(scale > 2.3) {
-        deleteSet('svg', '.set');
-        let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[2]);
-        drawSet('all', currentSet, 'small');
-    }     
+    if (scale < 2) {
+        console.log('scale < 1.7')
+        dataForClusters = currentSet_0;       
+    } else if (scale > 2 && scale < 3) {
+        console.log('scale > 1.7 && scale < 2.3')
+        dataForClusters = currentSet_1;
+    } else {
+        console.log('else, scale > 2')
+        dataForClusters = currentSet_2;
+        pinSize = "small";
+    }
+    drawSet('all', dataForClusters, pinSize);   
 }
 
 
 function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
-
+    console.log(currentSet)
     if (isChecked) {
-        set = mainLayer.append("g")
+        set = mainLayer.append("g");
         set.attr("class", `set ${itemToShow}`)
             .selectAll("g")        
             .data(currentSet)
@@ -159,10 +153,10 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
             .attr("cursor", "pointer")
             .attr("id", d => d.name)
             .append("circle")
-                .attr("fill", d => d.points.length > 1 ? "#00BD63" : "#FF2A2A")
+                .attr("fill", d => d.pointsCopy.length > 1 ? "#00BD63" : "#FF2A2A")
                 .attr("cx", d => d.centroid.x)
                 .attr("cy", d => d.centroid.y + 165)
-                .attr("r", d =>d.points.length > 1 ? 35 : sizePoint === "big" ? 25 : 13)
+                .attr("r", d =>d.pointsCopy.length > 1 ? 35 : sizePoint === "big" ? 25 : 13)
                 .on("click", clickedOnPin);
 
         set
@@ -170,18 +164,16 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
             .data(currentSet)
             .join("g")
             .append("text")
-            .attr("x", d => {
-                return d.centroid.x;
-            })
+            .attr("x", d => d.centroid.x)
             .attr("y", d => d.centroid.y + 168)
             .attr("text-anchor", "middle")
-            .attr("font-size", d => d.points.length > 1 ? 45 : sizePoint === "big" ? 20 : 8)
+            .attr("font-size", d => d.pointsCopy.length > 1 ? 45 : sizePoint === "big" ? 20 : 8)
             .attr("fill", "white")
             .attr("font-family", "sans-serif")
-            .attr("dy", d => d.points.length > 1 ? "12": sizePoint === "big" ? "4" : "-1")
+            .attr("dy", d => d.pointsCopy.length > 1 ? "12": sizePoint === "big" ? "4" : "-1")
             .attr("dx", "-0")
             .attr("pointer-events", "none")
-            .text(d => d.points.length > 1 ? d.points.length: d.points[0].name);
+            .text(d => d.pointsCopy.length > 1 ? d.pointsCopy.length: d.pointsCopy[0].name);
     } else {
         let current = svg.select(`.${itemToShow}`);
         if (current) current.remove();

@@ -1,5 +1,6 @@
 
 let clusterize = function (points, baseDistance){
+    let pointsCopy = points.slice();
     function Vector2(x,y){
         this.x = x;
         this.y = y;
@@ -45,17 +46,17 @@ let clusterize = function (points, baseDistance){
         };
     }
     function Cluster(firstPoint){
-        this.points = [firstPoint];
+        this.pointsCopy = [firstPoint];
         this.centroid = firstPoint.position.copy();
         this.recalculateCentroid = function(){
-            this.centroid = this.points.reduce(function(accumulator, currentValue){
+            this.centroid = this.pointsCopy.reduce(function(accumulator, currentValue){
                 return accumulator.add(currentValue.position);
-            }, new Vector2(0, 0)).scalarDivide(this.points.length);
+            }, new Vector2(0, 0)).scalarDivide(this.pointsCopy.length);
             return this.centroid;
         };
         this.addPoint = function(point){
-            this.centroid.scalarMultiply(this.points.length).add(point.position).scalarDivide(this.points.length+1);
-            this.points.push(point);
+            this.centroid.scalarMultiply(this.pointsCopy.length).add(point.position).scalarDivide(this.pointsCopy.length+1);
+            this.pointsCopy.push(point);
         };
     }
 
@@ -71,19 +72,19 @@ let clusterize = function (points, baseDistance){
         return d;
     };
 
-    points.forEach(function(point){point.position = new Vector2(point.x_img, point.y_img);});
+    pointsCopy.forEach(function(point){point.position = new Vector2(point.x_img, point.y_img);});
 
-    points.forEach(function(point, index){
+    pointsCopy.forEach(function(point, index){
         if (!point) return;
 
         let newCluster = new Cluster(point);
-        points[index] = null;
-        points.forEach(function (point, index){
+        pointsCopy[index] = null;
+        pointsCopy.forEach(function (point, index){
             if (!point) return;
             const distance = newCluster.centroid.copy().subtract(point.position).lengthSquared();
-            if (distance < distanceFromCount(newCluster.points.length)){
+            if (distance < distanceFromCount(newCluster.pointsCopy.length)){
                 newCluster.addPoint(point);
-                points[index] = null;
+                pointsCopy[index] = null;
             }
         });
         clusters.push(newCluster);

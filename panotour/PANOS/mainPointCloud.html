@@ -17,8 +17,13 @@
 </head>
 
 <body class="multiple-scenes view-control-buttons">
+  <!-- onclick=ref()  -->
 
-  <button class="btn btn-back" onclick=ref() type="button" id="backButton">
+  <button 
+    class="btn btn-back"
+    onclick="window.history.go(-1); return false;"     
+    type="button" 
+    id="backButton">
     <img class="backArrow" src="../../interface_content/images/back_new_grey.svg" alt="">
   </button>
 

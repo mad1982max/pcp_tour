@@ -104,7 +104,7 @@ function buildSvg() {
 
     zoom = d3
         .zoom()
-        .extent([[0, 0], [100, 200]])
+        //.extent([[0, 0], [100, 200]])
         .scaleExtent([0.3, 10])
         .on("zoom", () => {
             deleteSet('svg', '.highLight');

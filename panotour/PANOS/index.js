@@ -166,7 +166,6 @@ function changeStairsFn(counter) {
 
 function ref() {
     let newRef = '../../panotour/levels/sitemap.html' + window.location.search;
-    console.log('newRef', newRef);
     document.location.href = newRef;
 }
 
@@ -192,13 +191,13 @@ function resize() {
 
     
 
-    //centerizeFn();
-    if (mainLayer) {
-        mainLayer
-            .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
-    } else {
-        console.log('not exist');
-    }
+    centerizeFn();
+    // if (mainLayer) {
+    //     mainLayer
+    //         .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+    // } else {
+    //     console.log('not exist');
+    // }
 
 }
 
@@ -294,6 +293,9 @@ function drawSet(className, itemToShow, isChecked = true) {
             .on('click', clickedOnPin)
             .on('mousemove', (d) => toolTipFn(d.name, d.phase))
             .on('mouseleave', (d) => toolTipFn(d.name, d.phase, false));
+        // svg.call(zoom.transform, d3.zoomIdentity
+        //     .translate(200, 300)
+        //     .scale(5));
 
     } else {
         deleteSet('svg', `.${selector}`);

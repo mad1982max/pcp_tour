@@ -17,15 +17,18 @@
 </head>
 
 <body class="multiple-scenes view-control-buttons">
-  <!-- onclick=ref()  -->
+   
 
   <button 
     class="btn btn-back"
-    onclick="window.history.go(-1); return false;"     
+    
+    onclick=ref()
     type="button" 
     id="backButton">
     <img class="backArrow" src="../../interface_content/images/back_new_grey.svg" alt="">
   </button>
+
+  <!-- onclick="window.history.go(-1); return false;"  -->
 
   <!-- <button class="btn btn-miniMap" onclick=showMap() type="button" id="showButton">
     MINI MAP

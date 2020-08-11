@@ -153,11 +153,9 @@ function changeStairsFn(counter) {
 }
 
 function ref() {
-    let newRef = '/panotour/levels/sitemap.html' + window.location.search;
-    console.log('newRef', newRef)
+    let newRef = '../../panotour/levels/sitemap.html' + window.location.search;
+    console.log('newRef', newRef);
     document.location.href = newRef;
-    
-    // onclick="document.location.href='../../panotour/mainScheme/main_scheme.html'" type="button"
 }
 
 function resize() {

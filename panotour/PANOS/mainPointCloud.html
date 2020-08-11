@@ -28,23 +28,22 @@
 
   <div id="pano"></div>
 
-  <div id="mapList" class = "enabled">
-    <div class="map">
-      <button draggable="true" class = "resizeMapBtn" id="resizeMapBtn">
+  <div id="mapList" class="enabled">
+    <div class="mapBtnGroup">
+      <button draggable="true" class="resizeMapBtn" id="resizeMapBtn">
         <img src="./img/resize-ico.svg" alt="">
       </button>
-      <button class = "centerizeMapBtn mapBtn" id="centerizeMapBtn">
+      <button class="centerizeMapBtn mapBtn" id="centerizeMapBtn">
         <img src="./img/centerize.svg" alt="">
       </button>
-      <button class = "stairsUpBtn mapBtn" id="stairsUpBtn">
+      <button class="stairsUpBtn mapBtn" id="stairsUpBtn">
         <img src="./img//stairs_up.svg" alt="">
       </button>
-      <button class = "stairsDownBtn mapBtn" id="stairsDownBtn">
+      <button class="stairsDownBtn mapBtn" id="stairsDownBtn">
         <img src="./img/stairs_down.svg" alt="">
       </button>
-      <div id="wrapper">
-      </div>
     </div>
+    <div id="wrapper"></div>
   </div>
 
   <div id="titleBar">
@@ -75,6 +74,7 @@
   <script src="../../interface_content/js/points.js"></script>
   <script src="./tail_data.js"></script>
 
+  <script src = "./_clusterization_.js"></script>
   <script src="./index.js"></script>
   <script src="./mainMarzipano.js"></script>
 

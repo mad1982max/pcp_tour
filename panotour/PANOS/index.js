@@ -58,8 +58,7 @@ function makeResizableDiv( div ) {
     let original_mouse_y = 0;
 
     function touchStart(e) {
-        console.log( 'mousedown resiser' );
-  
+
       e.preventDefault();
       e.stopPropagation();
   
@@ -91,7 +90,7 @@ function makeResizableDiv( div ) {
        
       }
       resize();
-      centerizeFn();
+      //centerizeFn();
     }
   
     function stopResize() {
@@ -117,20 +116,19 @@ function onloadFn() {
     centerizeMapBtn.addEventListener('click', centerizeFn);
     window.addEventListener("orientationchange", function(event) {
         console.log("the orientation of the device is now " + event.target.screen.orientation.angle);
-        resize();
-      centerizeFn();
+        document.body.style.opacity = 0;
+        window.location.reload(false);
       });
 
-    window.addEventListener('resize', resize);
+    window.addEventListener('resize', resize);    
     buildSvg();
     resize();
-  
 }
 
 function centerizeFn() {
     svg
         .transition()
-        .duration(500)
+        .duration(400)
         .call(zoom.transform, d3.zoomIdentity.translate(0,0).scale(1));
 }
 
@@ -160,15 +158,14 @@ function ref() {
 }
 
 function resize() {
-    deleteSet('doc', '.tooltip'); 
-
-    
+    deleteSet('doc', '.tooltip');     
     let sceneListW = sceneList.offsetWidth;
 
     if(sceneListW == window.innerWidth) {
         sceneList.style.height = `${mainLayer.node().getBoundingClientRect().height || sceneListW/currentRatioImgData.initRatio}px`;
         sceneList.style.width = `${mainLayer.node().getBoundingClientRect().width || sceneListW}px`;
     }
+    
 
     if (sceneListW > wrapper.offsetHeight * currentRatioImgData.initPicWidth / currentRatioImgData.initPicHeight) {
         currentRatioImgData.k = wrapper.offsetHeight / currentRatioImgData.initPicHeight;
@@ -180,12 +177,14 @@ function resize() {
         currentRatioImgData.y = (wrapper.offsetHeight / currentRatioImgData.k - currentRatioImgData.initPicHeight) / 5;
     }
 
-    if (mainLayer) {
-        mainLayer
-            .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
-    } else {
-        console.log('not exist');
-    }
+    centerizeFn();
+    // if (mainLayer) {
+    //     mainLayer
+    //         .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+    // } else {
+    //     console.log('not exist');
+    // }
+
 }
 
 function buildSvg() {
@@ -221,19 +220,23 @@ function buildSvg() {
         .on('zoom', () => {
             deleteSet('doc','.tooltip');
             zoomed();
+            // redrawPins();
         });
     svg.call(zoom);  
 }
 
+function redrawPins() {
+    let scale = d3.zoomTransform(svg.node()).k;
+    console.log(scale);
+}
+
 function zoomed() {
-    const {
-        transform
-    } = d3.event;
+    console.log('zoomed');
     let {
         k,
         x,
         y
-    } = transform;
+    } = d3.event.transform;
     let transform2 = d3Transform()
         .translate([x, y])
         .scale(k * currentRatioImgData.k)
@@ -245,7 +248,6 @@ function zoomed() {
         y,
         k
     };
-    currentRatioImgData.tr = transform2;
 }
 
 function deleteSet(base, selector) {

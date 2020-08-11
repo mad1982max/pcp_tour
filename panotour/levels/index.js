@@ -15,7 +15,7 @@ let currentRatioImgData = {
     k: 0
 }
 let oldScale = 1;
-let clusterInitObj = [ 150, 75, 0 ];
+let clusterInitObj = [150, 75, 0];
 let setsToShow = [];
 let pointsOnLevel, currentSet_0, currentSet_1, currentSet_2;
 
@@ -85,7 +85,7 @@ function buildSvg() {
     mainLayer
         .attr("class", "mainLayer")
         .attr("opacity", "0")
-        //.attr("transform", `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)    
+    //.attr("transform", `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)    
 
     floorLayer = mainLayer.append("g")
     floorLayer
@@ -96,68 +96,67 @@ function buildSvg() {
     floor.on("load", () => {
         drawSet('all', currentSet_0, 'big');
     });
-    
+
     mainLayer
         .transition()
         .duration(700)
-        .attr("opacity", "1");        
+        .attr("opacity", "1");
 
     zoom = d3
         .zoom()
+        .extent([[0, 0], [100, 200]])
         .scaleExtent([0.3, 10])
         .on("zoom", () => {
+            deleteSet('svg', '.highLight');
             zoomed();
             rebuildClusters();
         });
-        // .on("start", () => {
-        // })
-        // .on("end", () => {
-        // });
+    // .on("start", () => {
+    // })
+    // .on("end", () => {
+    // });
     svg.call(zoom);
 }
 
-function rebuildClusters () {    
+function rebuildClusters() {
     let scale = d3.zoomTransform(svg.node()).k;
-    console.log(scale, oldScale);
-    if(scale.toFixed(1) === oldScale.toFixed(1)) return;
+    //console.log(scale.toFixed(1), oldScale.toFixed(1));
+    if (scale.toFixed(1) === oldScale.toFixed(1)) return;
     oldScale = scale;
     deleteSet('svg', '.set');
     let dataForClusters;
     let pinSize = "big";
-    
 
     if (scale < 2) {
-        console.log('scale < 1.7')
-        dataForClusters = currentSet_0;       
+        dataForClusters = currentSet_0;
     } else if (scale > 2 && scale < 3) {
-        console.log('scale > 1.7 && scale < 2.3')
         dataForClusters = currentSet_1;
     } else {
-        console.log('else, scale > 2')
         dataForClusters = currentSet_2;
         pinSize = "small";
     }
-    drawSet('all', dataForClusters, pinSize);   
+    drawSet('all', dataForClusters, pinSize);
 }
 
 
 function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
-    console.log(currentSet)
     if (isChecked) {
         set = mainLayer.append("g");
         set.attr("class", `set ${itemToShow}`)
-            .selectAll("g")        
+            .selectAll("g")
             .data(currentSet)
             .join("g")
             .attr("pointer-events", "visible")
             .attr("cursor", "pointer")
             .attr("id", d => d.name)
             .append("circle")
-                .attr("fill", d => d.pointsCopy.length > 1 ? "#00BD63" : "#FF2A2A")
-                .attr("cx", d => d.centroid.x)
-                .attr("cy", d => d.centroid.y + 165)
-                .attr("r", d =>d.pointsCopy.length > 1 ? 35 : sizePoint === "big" ? 25 : 13)
-                .on("click", clickedOnPin);
+            .attr("fill", d => d.pointsCopy.length > 1 ? "#00BD63" : "#FF2A2A")
+            .attr("cx", d => d.centroid.x)
+            .attr("cy", d => d.centroid.y + 165)
+            .attr("r", d => d.pointsCopy.length > 1 ? 35 : sizePoint === "big" ? 25 : 13)
+            .on("click", clickedOnPin)
+            .on('mouseenter', d => highLight(d, true))
+            .on('mouseleave', d => highLight(d, false))
 
         set
             .selectAll("g")
@@ -170,33 +169,59 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
             .attr("font-size", d => d.pointsCopy.length > 1 ? 45 : sizePoint === "big" ? 20 : 8)
             .attr("fill", "white")
             .attr("font-family", "sans-serif")
-            .attr("dy", d => d.pointsCopy.length > 1 ? "12": sizePoint === "big" ? "4" : "-1")
+            .attr("dy", d => d.pointsCopy.length > 1 ? "12" : sizePoint === "big" ? "4" : "-1")
             .attr("dx", "-0")
             .attr("pointer-events", "none")
-            .text(d => d.pointsCopy.length > 1 ? d.pointsCopy.length: d.pointsCopy[0].name);
+            .text(d => d.pointsCopy.length > 1 ? d.pointsCopy.length : d.pointsCopy[0].name);
     } else {
         let current = svg.select(`.${itemToShow}`);
         if (current) current.remove();
     }
 }
 
+
+function highLight(d, isBuild) {
+    if(d.pointsCopy.length ===1) return;
+    if(!isBuild) {
+        deleteSet('svg', '.highLight');
+    }
+    if(isBuild) {
+        svg
+            .select('.mainLayer')
+            .append('g')
+            .attr('class', 'highLight')
+            .selectAll('circle')
+            .data(d.pointsCopy)
+            .join("circle")
+            .attr('cx', d => d.x_img)
+            .attr('cy', d => d.y_img + 165)
+            .attr('pointer-events', 'visible')
+            .attr('r', 15)
+            .attr('fill', 'yellow'); 
+    }
+}
+
+
 function deleteSet(base, selector) {
     let element;
     if (base === "doc") {
-        element = document.querySelector(selector)
-    } else if(base === "svg") {
+        element = document.querySelector(selector);
+    } else if (base === "svg") {
         element = svg.select(selector);
-    }    
+    }
     if (element) element.remove();
 }
 
 function clickedOnPin(d) {
-    let points = d.points;
-    if(points.length === 1) {
-        let {name, phase} = points[0];
+    let points = d.pointsCopy;
+    if (points.length === 1) {
+        let {
+            name,
+            phase
+        } = points[0];
         window.open("../PANOS/mainPointCloud.html?level=" + level + "&name=" + name + "&phase=" + phase, "_self");
     } else {
-        console.log('too much')
+        console.log('too much');
     }
 };
 
@@ -204,14 +229,14 @@ function centerizeFn() {
     svg
         .transition()
         .duration(400)
-        .call(zoom.transform, d3.zoomIdentity.translate(0,0).scale(1));
+        .call(zoom.transform, d3.zoomIdentity.translate(0, 0).scale(1));
 }
 
 function drawCover(itemToShow, isChecked) {
     console.log("cover to build:", itemToShow, isChecked);
     if (isChecked) {
         cover = floorLayer.insert("image", ":first-child");
-        cover.attr("xlink:href", coverSrc.src)
+        cover.attr("xlink:href", coverSrc.src);
     } else {
         if (cover) cover.remove();
     }
@@ -227,7 +252,7 @@ function zoomed() {
     let transform2 = d3Transform()
         .translate([x, y])
         .scale(k * currentRatioImgData.k)
-        .translate([currentRatioImgData.x, currentRatioImgData.y])
+        .translate([currentRatioImgData.x, currentRatioImgData.y]);
     mainLayer.attr("transform", transform2);
 
     currentRatioImgData.zoom = {

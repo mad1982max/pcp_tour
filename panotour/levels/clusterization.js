@@ -1,5 +1,5 @@
 
-function clusterize(points, baseDistance){
+let clusterize = function (points, baseDistance){
     function Vector2(x,y){
         this.x = x;
         this.y = y;
@@ -59,7 +59,7 @@ function clusterize(points, baseDistance){
         };
     }
 
-    const clasters = [];
+    const clusters = [];
     const distances = {};
     const distanceFromCount = function(count){
         let d = distances[count];
@@ -86,8 +86,8 @@ function clusterize(points, baseDistance){
                 points[index] = null;
             }
         });
-        clasters.push(newCluster);
+        clusters.push(newCluster);
     });
-    return clasters;
+    return clusters;
 }
 

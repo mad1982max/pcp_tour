@@ -152,6 +152,7 @@ body.multiple-scenes.mobile #titleBar {
   top: 0;
   right: 0;
   transform: translateX(100%);
+  -webkit-transform: translateX(100%);
   margin-top: 40px;
   max-width: 100%;
   max-height: calc(100% - 50px);

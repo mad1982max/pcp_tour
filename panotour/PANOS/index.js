@@ -10,6 +10,8 @@ let zoom;
 const minimum_size = 350;
 let isFirstLoading = true
 let levels = ["22.8", "27.8", "37.8", "47.8"];
+let oldScale = 1;
+let clusterInitObj = [ 150, 75, 0 ];
 let currentRatioImgData = {
     zoom: {
         x: 0,
@@ -119,11 +121,11 @@ function onloadFn() {
     window.addEventListener("orientationchange", function(event) {
         console.log("the orientation of the device is now " + event.target.screen.orientation.angle);
         document.body.style.opacity = 0;
-        window.location.reload(false);
-      });
+        window.location.reload();
+    });
 
     window.addEventListener('resize', resize);  
-    initMapWidth()
+    initMapWidth();
     buildSvg();
     resize();
 }
@@ -135,8 +137,34 @@ function initMapWidth() {
     } else {
         sceneList.style.width = '100%';
 
+    }    
+}
+
+function rebuildClusters () {    
+    let scale = d3.zoomTransform(svg.node()).k;
+    console.log(scale, oldScale);
+    if(scale.toFixed(3) === oldScale.toFixed(3)) return;
+    oldScale = scale;
+
+    let pointsOnLevelCopy = pointsOnLevel.slice();
+    if (scale < 1.7) {
+        deleteSet('svg', '.set');
+        let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[0]);
+        drawSet('all', currentSet, 'big');
+        return;
     }
     
+    if(scale > 1.7 && scale < 2) {
+        deleteSet('svg', '.set');
+        let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[1]);
+        drawSet('all', currentSet, 'big');
+        return;
+    }
+    if(scale > 2) {
+        deleteSet('svg', '.set');
+        let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[2]);
+        drawSet('all', currentSet, 'small');
+    }     
 }
 
 function centerizeFn() {

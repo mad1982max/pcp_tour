@@ -14,6 +14,8 @@ let currentRatioImgData = {
     initPicH: 1850,
     k: 0
 }
+let oldScale = 1;
+let clusterInitObj = [ 150, 75, 0 ];
 let setsToShow = [];
 let pointsOnLevel;
 
@@ -24,13 +26,7 @@ function defineData4Floor() {
     let searchParams = new URLSearchParams(paramsString);
     level = searchParams.get("level");
     floorSrc = `./img/${level}.png`;
-    // coverSrc = new Image();
-    // coverSrc.src = `./img/${level}_coverGrey.gif`;
-    // green = new Image();
-    // green.src = `./img/green_.svg`;
-    // red = new Image();
-    // red.src = `./img/red_.svg`;
-    pointsOnLevel = points.filter(point => point.level === level)
+    pointsOnLevel = points.filter(point => point.level === level);
 }
 
 function onloadFn() {
@@ -81,7 +77,7 @@ function buildSvg() {
     svg
         .attr("class", "svgContainer")
         .attr("height", "100%")
-        .attr("width", "100%")
+        .attr("width", "100%");
 
     mainLayer = svg.append("g");
     mainLayer
@@ -95,17 +91,13 @@ function buildSvg() {
         .attr("class", "floorLayer")
     let floor = floorLayer.append("image");
     floor.attr("class", "currentFloor");
+    floor.attr("xlink:href", floorSrc);
     floor.on("load", () => {
-        drawSet('all');
-        //checkbox disabled
-        // let checkBoxArr = [...document.querySelectorAll(".form-check-input")];
-        // checkBoxArr.forEach(box => {
-        //     setFlagObj[box.id] = box.checked;
-        //     box.addEventListener("change", (e) => checkBoxListener(e.target.id, e.target.checked))
-        //     checkBoxListener(box.id, box.checked);
-        // });
-    })
-    floor.attr("xlink:href", floorSrc)
+        let pointsOnLevelCopy = pointsOnLevel.slice();
+        let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[0]);
+        drawSet('all', currentSet, 'big');
+    });
+    
     mainLayer
         .transition()
         .duration(700)
@@ -114,45 +106,48 @@ function buildSvg() {
     zoom = d3
         .zoom()
         .scaleExtent([0.3, 7])
-        .on("zoom", zoomed)
+        .on("zoom", () => {
+            zoomed();
+            rebuildClusters();
+        })
         .on("start", () => {
-            console.log("---");
         })
         .on("end", () => {
-            mainLayer
-                .selectAll(".set")
-                .transition()
-                .duration(500)
-                .attr("visibility","visibile")
-        })
+        });
     svg.call(zoom);
 }
 
+function rebuildClusters () {    
+    let scale = d3.zoomTransform(svg.node()).k;
+    console.log(scale, oldScale);
+    if(scale.toFixed(3) === oldScale.toFixed(3)) return;
+    oldScale = scale;
 
-//checkbox disabled
-// function checkBoxListener(itemToShow, isChecked) {
-//     switch (itemToShow) {
-//         case "cover":
-//             drawCover(itemToShow, isChecked);
-//             break;
-//         case "PHASE1":
-//         case "PHASE2":
-//             drawSet(itemToShow, isChecked);
-//             break;
-//         default:
-//             console.log("--nothing to draw");
-//     }
-// }
+    let pointsOnLevelCopy = pointsOnLevel.slice();
+    if (scale < 1.7) {
+        deleteSet('svg', '.set');
+        let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[0]);
+        drawSet('all', currentSet, 'big');
+        return;
+    }
+    
+    if(scale > 1.7 && scale < 2) {
+        deleteSet('svg', '.set');
+        let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[1]);
+        drawSet('all', currentSet, 'big');
+        return;
+    }
+    if(scale > 2) {
+        deleteSet('svg', '.set');
+        let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[2]);
+        drawSet('all', currentSet, 'small');
+    }     
+}
 
-function drawSet(itemToShow, isChecked = true) {
+
+function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
 
     if (isChecked) {
-        let currentSet = pointsOnLevel.filter(point => itemToShow === "all" ? true : point.phase === itemToShow);
-
-        //let pinSrc = itemToShow === "PHASE1" ? red.src : green.src
-        //let currentColor = itemToShow === "PHASE1" ? "#FF2A2A" : "#00BD63";
-        let currentColor = "#FF2A2A";
-
         set = mainLayer.append("g")
         set.attr("class", `set ${itemToShow}`)
             .selectAll("g")        
@@ -162,56 +157,53 @@ function drawSet(itemToShow, isChecked = true) {
             .attr("cursor", "pointer")
             .attr("id", d => d.name)
             .append("circle")
-                .attr("fill", currentColor)
-                .attr("cx", d => d.x_img)
-                .attr("cy", d => d.y_img + 165)
-                .attr("r", 25)
+                .attr("fill", d => d.points.length > 1 ? "#00BD63" : "#FF2A2A")
+                .attr("cx", d => d.centroid.x)
+                .attr("cy", d => d.centroid.y + 165)
+                .attr("r", d =>d.points.length > 1 ? 35 : sizePoint === "big" ? 25 : 13)
                 .on("click", clickedOnPin);
 
-        // set = mainLayer.append("g")
-        // set.attr("class", `set ${itemToShow}`)
-        //     .selectAll("g")
-        //     .data(currentSet)
-        //     .join("g")
-        //     .attr("pointer-events", "visible")
-        //     .attr("cursor", "pointer")
-        //     .attr("id", d => d.name)
-        //     .append("image")
-        //     .attr("class", "currentFloor")
-        //     .attr("xlink:href", pinSrc)
-        //     .attr("x", d => {
-        //         return d.x_img - 25
-        //     })
-        //     .attr("y", d => {
-        //         return (d.y_img + 115)
-        //     })
-        //     .on("click", clickedOnPin);
         set
             .selectAll("g")
             .data(currentSet)
             .join("g")
             .append("text")
             .attr("x", d => {
-                return d.x_img;
+                return d.centroid.x;
             })
-            .attr("y", d => d.y_img + 168)
+            .attr("y", d => d.centroid.y + 168)
             .attr("text-anchor", "middle")
-            .attr("font-size", 20)
+            .attr("font-size", d => d.points.length > 1 ? 45 : sizePoint === "big" ? 20 : 8)
             .attr("fill", "white")
             .attr("font-family", "sans-serif")
-            .attr("dy", "4")
-            .attr("dx", "-1")
+            .attr("dy", d => d.points.length > 1 ? "12": sizePoint === "big" ? "4" : "-1")
+            .attr("dx", "-0")
             .attr("pointer-events", "none")
-            .text(d => d.name);
+            .text(d => d.points.length > 1 ? d.points.length: d.points[0].name);
     } else {
         let current = svg.select(`.${itemToShow}`);
         if (current) current.remove();
     }
 }
 
+function deleteSet(base, selector) {
+    let element;
+    if (base === "doc") {
+        element = document.querySelector(selector)
+    } else if(base === "svg") {
+        element = svg.select(selector);
+    }    
+    if (element) element.remove();
+}
+
 function clickedOnPin(d) {
-    console.log("clicked pin:", d);
-    window.open("../PANOS/mainPointCloud.html?level=" + level + "&name=" + d.name + "&phase=" + d.phase, "_self");
+    let points = d.points;
+    if(points.length === 1) {
+        let {name, phase} = points[0];
+        window.open("../PANOS/mainPointCloud.html?level=" + level + "&name=" + name + "&phase=" + phase, "_self");
+    } else {
+        console.log('too much')
+    }
 };
 
 function centerizeFn() {
@@ -250,3 +242,28 @@ function zoomed() {
         k
     };
 }
+
+//checkbox disabled
+// function checkBoxListener(itemToShow, isChecked) {
+//     switch (itemToShow) {
+//         case "cover":
+//             drawCover(itemToShow, isChecked);
+//             break;
+//         case "PHASE1":
+//         case "PHASE2":
+//             drawSet(itemToShow, isChecked);
+//             break;
+//         default:
+//             console.log("--nothing to draw");
+//     }
+// }
+
+//let currentSet = pointsOnLevel.filter(point => itemToShow === "all" ? true : point.phase === itemToShow);
+
+//checkbox disabled
+// let checkBoxArr = [...document.querySelectorAll(".form-check-input")];
+// checkBoxArr.forEach(box => {
+//     setFlagObj[box.id] = box.checked;
+//     box.addEventListener("change", (e) => checkBoxListener(e.target.id, e.target.checked))
+//     checkBoxListener(box.id, box.checked);
+// });

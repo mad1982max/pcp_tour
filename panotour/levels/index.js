@@ -105,7 +105,7 @@ function buildSvg() {
 
     zoom = d3
         .zoom()
-        .scaleExtent([0.3, 7])
+        .scaleExtent([0.3, 10])
         .on("zoom", () => {
             zoomed();
             rebuildClusters();
@@ -120,7 +120,7 @@ function buildSvg() {
 function rebuildClusters () {    
     let scale = d3.zoomTransform(svg.node()).k;
     console.log(scale, oldScale);
-    if(scale.toFixed(3) === oldScale.toFixed(3)) return;
+    if(scale.toFixed(1) === oldScale.toFixed(1)) return;
     oldScale = scale;
 
     let pointsOnLevelCopy = pointsOnLevel.slice();
@@ -131,13 +131,13 @@ function rebuildClusters () {
         return;
     }
     
-    if(scale > 1.7 && scale < 2) {
+    if(scale > 1.7 && scale < 2.3) {
         deleteSet('svg', '.set');
         let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[1]);
         drawSet('all', currentSet, 'big');
         return;
     }
-    if(scale > 2) {
+    if(scale > 2.3) {
         deleteSet('svg', '.set');
         let currentSet = clusterize(pointsOnLevelCopy, clusterInitObj[2]);
         drawSet('all', currentSet, 'small');

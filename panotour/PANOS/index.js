@@ -7,6 +7,7 @@ let checkedColor = '#00cc66';
 let tooltipPosFlag = false;
 let phase;
 let zoom;
+const minimum_size = 350;
 let isFirstLoading = true
 let levels = ["22.8", "27.8", "37.8", "47.8"];
 let currentRatioImgData = {
@@ -49,7 +50,7 @@ function defineData4Floor() {
 function makeResizableDiv( div ) {
     const element = document.querySelector( div );
     const resizer = document.querySelector( '.resizeMapBtn');
-    const minimum_size = 250;
+    
     let original_width = 0;
     let original_height = 0;
     let original_x = 0;
@@ -114,15 +115,28 @@ function onloadFn() {
     stairsUpBtn.addEventListener('click', changeStairsFn.bind(null, 1));
     let centerizeMapBtn = document.getElementById('centerizeMapBtn');
     centerizeMapBtn.addEventListener('click', centerizeFn);
+
     window.addEventListener("orientationchange", function(event) {
         console.log("the orientation of the device is now " + event.target.screen.orientation.angle);
         document.body.style.opacity = 0;
         window.location.reload(false);
       });
 
-    window.addEventListener('resize', resize);    
+    window.addEventListener('resize', resize);  
+    initMapWidth()
     buildSvg();
     resize();
+}
+
+function initMapWidth() {
+    if(window.innerWidth > 500) {
+        sceneList.style.width = minimum_size + 'px';
+        sceneList.style.height = minimum_size/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight + 'px';
+    } else {
+        sceneList.style.width = '100%';
+
+    }
+    
 }
 
 function centerizeFn() {
@@ -165,7 +179,7 @@ function resize() {
     if(sceneListW == window.innerWidth) {
         sceneList.style.height = `${mainLayer.node().getBoundingClientRect().height || sceneListW/currentRatioImgData.initRatio}px`;
         sceneList.style.width = `${mainLayer.node().getBoundingClientRect().width || sceneListW}px`;
-    }
+    }   
     
 
     if (sceneListW > wrapper.offsetHeight * currentRatioImgData.initPicWidth / currentRatioImgData.initPicHeight) {
@@ -178,6 +192,8 @@ function resize() {
         currentRatioImgData.y = (wrapper.offsetHeight / currentRatioImgData.k - currentRatioImgData.initPicHeight) / 5;
     }
 
+    
+
     centerizeFn();
     // if (mainLayer) {
     //     mainLayer
@@ -189,6 +205,7 @@ function resize() {
 }
 
 function buildSvg() {
+    
     svg = d3.select('#wrapper').append('svg');
     svg
         .attr('class', 'svgContainer')
@@ -201,9 +218,9 @@ function buildSvg() {
         .attr('opacity', '0')
         .attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
 
-    floorLayer = mainLayer.append('g')
+    floorLayer = mainLayer.append('g');
     floorLayer
-        .attr('class', 'floorLayer')
+        .attr('class', 'floorLayer');
     let floor = floorLayer.append('image');
     floor.attr('class', 'currentFloor');
     floor.on('load', () => {
@@ -217,7 +234,7 @@ function buildSvg() {
 
     zoom = d3
         .zoom()
-        .scaleExtent([0.3, 7])
+        .scaleExtent([0.3, 10])
         .on('zoom', () => {
             deleteSet('doc','.tooltip');
             zoomed();

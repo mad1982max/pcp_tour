@@ -1,6 +1,6 @@
 let header, footer, container;
 let level, floorSrc, coverSrc, headerFooterHeight, wHeight, wWidth, cover, set, svg, svgHeight, floorLayer, mainLayer;
-// let green, red;
+let zoom;
 let setFlagObj = {};
 let currentRatioImgData = {
     zoom: {
@@ -67,10 +67,12 @@ function resize() {
     container.style.height = `${svgHeight}px`;
     container.style.width = `${wWidth}px`;
 
-    if (mainLayer) {
-        mainLayer
-            .attr("transform", `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
-    }
+    centerizeFn();
+
+    // if (mainLayer) {
+    //     mainLayer
+    //         .attr("transform", `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+    // }
 }
 
 function buildSvg() {
@@ -109,7 +111,7 @@ function buildSvg() {
         .duration(700)
         .attr("opacity", "1");        
 
-    const zoom = d3
+    zoom = d3
         .zoom()
         .scaleExtent([0.3, 7])
         .on("zoom", zoomed)
@@ -212,6 +214,12 @@ function clickedOnPin(d) {
     window.open("../PANOS/mainPointCloud.html?level=" + level + "&name=" + d.name + "&phase=" + d.phase, "_self");
 };
 
+function centerizeFn() {
+    svg
+        .transition()
+        .duration(400)
+        .call(zoom.transform, d3.zoomIdentity.translate(0,0).scale(1));
+}
 
 function drawCover(itemToShow, isChecked) {
     console.log("cover to build:", itemToShow, isChecked);
@@ -241,5 +249,4 @@ function zoomed() {
         y,
         k
     };
-    currentRatioImgData.tr = transform2;
 }

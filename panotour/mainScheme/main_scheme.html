@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <title>Dolwin Alpha</title>
+    <script src="../../interface_content/js/auth.js"></script>
+    <script>
+        auth_status_object.add_auth_callback(function (resolved) {
+            if (!resolved) {
+                window.location = '/';
+            }
+        });
+    </script>
     <link href="../../interface_content/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../interface_content/css/header_footer.css">
     <link rel="stylesheet" href="./css/main.css">

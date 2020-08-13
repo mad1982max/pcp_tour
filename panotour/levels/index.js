@@ -89,6 +89,9 @@ function buildSvg() {
     mainLayer
         .attr("class", "mainLayer")
         .attr("opacity", "0")
+        // .on('click', () => {
+        //     if(svg.select('highLight')) deleteSet('svg', '.highLight');
+        // })
     //.attr("transform", `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)    
 
     floorLayer = mainLayer.append("g")
@@ -156,7 +159,7 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
             .attr("fill", d => d.pointsCopy.length > 1 ? "#00BD63" : "#FF2A2A")
             .attr("cx", d => d.centroid.x)
             .attr("cy", d => d.centroid.y + 165)
-            .attr("r", d => d.pointsCopy.length > 1 ? 40 : sizePoint === "big" ? 30 : 10)
+            .attr("r", d => d.pointsCopy.length > 1 ? 40 : sizePoint === "big" ? 25 : 10)
             .on("click", clickedOnPin)
             //.on('mouseenter', d => highLight(d, true))
             // .on('mouseleave', d => highLight(d, false))
@@ -169,10 +172,10 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
             .attr("x", d => d.centroid.x)
             .attr("y", d => d.centroid.y + 168)
             .attr("text-anchor", "middle")
-            .attr("font-size", d => d.pointsCopy.length > 1 ? 45 : sizePoint === "big" ? 25 : 8)
+            .attr("font-size", d => d.pointsCopy.length > 1 ? 45 : sizePoint === "big" ? 16 : 8)
             .attr("fill", "white")
             .attr("font-family", "sans-serif")
-            .attr("dy", d => d.pointsCopy.length > 1 ? "12" : sizePoint === "big" ? "5" : "-1")
+            .attr("dy", d => d.pointsCopy.length > 1 ? "12" : sizePoint === "big" ? "3" : "-1")
             .attr("dx", d => d.pointsCopy.length > 1 ? "0" : sizePoint === "big" ? "0" : "0")
             .attr("pointer-events", "none")
             .text(d => d.pointsCopy.length > 1 ? d.pointsCopy.length : d.pointsCopy[0].name);
@@ -199,8 +202,10 @@ function highLight(d, isBuild) {
             .attr('cx', d => d.x_img)
             .attr('cy', d => d.y_img + 165)
             .attr('pointer-events', 'visible')
-            .attr('r', 30)
-            .attr('fill', "#FF2A2A"); 
+            .attr('r', 25)
+            .attr('fill', "#FF2A2A")
+            .attr("cursor", "pointer")
+            .on("click", clickedOnHighLighted)
 
         svg
             .select('.mainLayer')
@@ -213,10 +218,10 @@ function highLight(d, isBuild) {
             .attr("x", d => d.x_img)
             .attr("y", d => d.y_img + 168)
             .attr("text-anchor", "middle")
-            .attr("font-size", 25)
+            .attr("font-size", 16)
             .attr("fill", "white")
             .attr("font-family", "sans-serif")
-            .attr("dy", 5)
+            .attr("dy", 3)
             .attr("dx", 0)
             .attr("pointer-events", "none")
             .text(d => d.name);
@@ -232,6 +237,15 @@ function deleteSet(base, selector) {
         element = svg.selectAll(selector);
     }
     if (element) element.remove();
+}
+
+function clickedOnHighLighted(d) {
+    console.log(d);
+    let {
+        name,
+        phase
+    } = d;
+    window.open("../PANOS/mainPointCloud.html?level=" + level + "&name=" + name + "&phase=" + phase, "_self");
 }
 
 function clickedOnPin(d) {

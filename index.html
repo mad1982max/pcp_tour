@@ -6,12 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <title>Dolwin Alpha</title>
+    <script src="./interface_content/js/auth.js"></script>
+    <script>
+        auth_status_object.add_auth_callback(function (resolved) {
+            document.getElementById('auth-container').style.display = resolved ? 'none' : '';
+        });
+    </script>
     <link href="./interface_content/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./interface_content/css/header_footer.css">
     <link rel="stylesheet" href="./interface_content/css/main.css">
 </head>
 
 <body>
+    <div id="auth-container"
+        style="position: fixed; top:0; bottom: 0; left: 0; right: 0; z-index: 1; backdrop-filter: blur(5px)">
+        <div style="position: absolute; top:50%; left: calc(50% + 15px); transform: translate(-50%, -50%); width: 100vw; max-width: 1200px;"
+            class="row">
+            <div style="padding: 20px; background-color: #fff; border-radius: 10px;"
+                class="col-9 offset-0 col-sm-8 offset-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+                <form style="display: flex; flex-direction: column;">
+                    <label>
+                        <span>Login:</span>
+                        <input type="text" name="username" style="width: 100%;" class="form-control"
+                            pattern="[0-9a-zA-Z]*">
+                    </label>
+                    <label>
+                        <span>Password:</span>
+                        <input type="password" name="password" style="width: 100%;" class="form-control">
+                    </label>
+                    <input type="submit" class="btn btn-primary" value="Log in">
+                </form>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid px-0">
         <div class="header pl-2" style="background:black; color:white">
             VCOG PCP PORTAL
@@ -140,7 +167,7 @@
                     class="logoC">C</span>O</a>
         </div>
     </div>
-
+    <script src="./interface_content/js/on-form-submit.js"></script>
     <script src="./interface_content/js/jquery-3.0.0.slim.min.js"></script>
     <script src="./interface_content/js/bootstrap.bundle.min.js"></script>
     <script src="./interface_content/js/index.js"></script>

@@ -156,10 +156,10 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
             .attr("fill", d => d.pointsCopy.length > 1 ? "#00BD63" : "#FF2A2A")
             .attr("cx", d => d.centroid.x)
             .attr("cy", d => d.centroid.y + 165)
-            .attr("r", d => d.pointsCopy.length > 1 ? 40 : sizePoint === "big" ? 35 : 10)
+            .attr("r", d => d.pointsCopy.length > 1 ? 40 : sizePoint === "big" ? 30 : 10)
             .on("click", clickedOnPin)
-            .on('mouseenter', d => highLight(d, true))
-            .on('mouseleave', d => highLight(d, false))
+            //.on('mouseenter', d => highLight(d, true))
+            // .on('mouseleave', d => highLight(d, false))
 
         set
             .selectAll("g")
@@ -169,11 +169,11 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
             .attr("x", d => d.centroid.x)
             .attr("y", d => d.centroid.y + 168)
             .attr("text-anchor", "middle")
-            .attr("font-size", d => d.pointsCopy.length > 1 ? 45 : sizePoint === "big" ? 30 : 8)
+            .attr("font-size", d => d.pointsCopy.length > 1 ? 45 : sizePoint === "big" ? 25 : 8)
             .attr("fill", "white")
             .attr("font-family", "sans-serif")
             .attr("dy", d => d.pointsCopy.length > 1 ? "12" : sizePoint === "big" ? "5" : "-1")
-            .attr("dx", "0")
+            .attr("dx", d => d.pointsCopy.length > 1 ? "0" : sizePoint === "big" ? "0" : "0")
             .attr("pointer-events", "none")
             .text(d => d.pointsCopy.length > 1 ? d.pointsCopy.length : d.pointsCopy[0].name);
     } else {
@@ -198,9 +198,28 @@ function highLight(d, isBuild) {
             .join("circle")
             .attr('cx', d => d.x_img)
             .attr('cy', d => d.y_img + 165)
-            .attr('pointer-events', 'none')
-            .attr('r', 25)
+            .attr('pointer-events', 'visible')
+            .attr('r', 30)
             .attr('fill', "#FF2A2A"); 
+
+        svg
+            .select('.mainLayer')
+            .append('g')
+            .attr('class', 'highLight')
+            .selectAll('g')
+            .data(d.pointsCopy)
+            .join("g")
+            .append("text")
+            .attr("x", d => d.x_img)
+            .attr("y", d => d.y_img + 168)
+            .attr("text-anchor", "middle")
+            .attr("font-size", 25)
+            .attr("fill", "white")
+            .attr("font-family", "sans-serif")
+            .attr("dy", 5)
+            .attr("dx", 0)
+            .attr("pointer-events", "none")
+            .text(d => d.name);
     }
 }
 
@@ -210,12 +229,13 @@ function deleteSet(base, selector) {
     if (base === "doc") {
         element = document.querySelector(selector);
     } else if (base === "svg") {
-        element = svg.select(selector);
+        element = svg.selectAll(selector);
     }
     if (element) element.remove();
 }
 
 function clickedOnPin(d) {
+    deleteSet('svg', '.highLight');
     let points = d.pointsCopy;
     if (points.length === 1) {
         let {
@@ -224,7 +244,7 @@ function clickedOnPin(d) {
         } = points[0];
         window.open("../PANOS/mainPointCloud.html?level=" + level + "&name=" + name + "&phase=" + phase, "_self");
     } else {
-        
+        highLight(d, true);
         let {clientX, clientY} = d3.event;
         console.log('---too much', clientX, clientY);
     }

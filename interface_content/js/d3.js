@@ -17717,6 +17717,9 @@ function zoom() {
       wheelDelay = 150,
       clickDistance2 = 0;
 
+  
+
+
   function zoom(selection) {
     selection
         .property("__zoom", defaultTransform)
@@ -17941,6 +17944,8 @@ function zoom() {
     if (duration > 0) select(this).transition().duration(duration).call(schedule, t1, p0);
     else select(this).call(zoom.transform, t1);
   }
+
+  
 
   function touchstarted() {
     if (!filter.apply(this, arguments)) return;

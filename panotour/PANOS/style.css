@@ -307,3 +307,41 @@ svg {
   background-color: #3399ff;
   background-color:rgba(51, 153, 255, 0.9)
 }
+
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .mapBtn {  
+    width: 45px;
+    height: 45px;
+  }
+  .centerizeMapBtn {
+    top: 0;
+  }
+  
+  .stairsUpBtn {
+    top: 50px;
+  }
+  
+  .stairsDownBtn {
+    top: 100px;
+  }
+}
+
+@media (min-width: 800px) {
+  .mapBtn {  
+    width: 50px;
+    height: 50px;
+  }
+  .centerizeMapBtn {
+    top: 0;
+  }
+  
+  .stairsUpBtn {
+    top: 55px;
+  }
+  
+  .stairsDownBtn {
+    top: 110px;
+  }
+}
+

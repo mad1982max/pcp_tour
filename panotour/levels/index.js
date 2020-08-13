@@ -15,7 +15,7 @@ let currentRatioImgData = {
     k: 0
 }
 let oldScale = 1;
-let clusterInitObj = [150, 75, 0];
+let clusterInitObj = [200, 120, 0];
 let setsToShow = [];
 let pointsOnLevel, currentSet_0, currentSet_1, currentSet_2;
 
@@ -67,6 +67,10 @@ function resize() {
 
     //centerizeFn();
 
+    // if (mainLayer) {
+    //     mainLayer
+    //         .attr("transform", `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+    // }
     if (mainLayer) {
         mainLayer
             .attr("transform", `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
@@ -102,9 +106,7 @@ function buildSvg() {
         .duration(700)
         .attr("opacity", "1");
 
-    zoom = d3
-        .zoom()
-        //.extent([[0, 0], [100, 200]])
+    zoom = d3.zoom()
         .scaleExtent([0.3, 10])
         .on("zoom", () => {
             deleteSet('svg', '.highLight');
@@ -116,6 +118,7 @@ function buildSvg() {
     // .on("end", () => {
     // });
     svg.call(zoom);
+    d3.select("svg").on("dblclick.zoom", null);
 }
 
 function rebuildClusters() {
@@ -127,9 +130,9 @@ function rebuildClusters() {
     let dataForClusters;
     let pinSize = "big";
 
-    if (scale < 2) {
+    if (scale <= 2.5) {
         dataForClusters = currentSet_0;
-    } else if (scale > 2 && scale < 3) {
+    } else if (scale > 2.5 && scale <= 4) {
         dataForClusters = currentSet_1;
     } else {
         dataForClusters = currentSet_2;
@@ -153,7 +156,7 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
             .attr("fill", d => d.pointsCopy.length > 1 ? "#00BD63" : "#FF2A2A")
             .attr("cx", d => d.centroid.x)
             .attr("cy", d => d.centroid.y + 165)
-            .attr("r", d => d.pointsCopy.length > 1 ? 35 : sizePoint === "big" ? 25 : 13)
+            .attr("r", d => d.pointsCopy.length > 1 ? 40 : sizePoint === "big" ? 35 : 10)
             .on("click", clickedOnPin)
             .on('mouseenter', d => highLight(d, true))
             .on('mouseleave', d => highLight(d, false))
@@ -166,11 +169,11 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
             .attr("x", d => d.centroid.x)
             .attr("y", d => d.centroid.y + 168)
             .attr("text-anchor", "middle")
-            .attr("font-size", d => d.pointsCopy.length > 1 ? 45 : sizePoint === "big" ? 20 : 8)
+            .attr("font-size", d => d.pointsCopy.length > 1 ? 45 : sizePoint === "big" ? 30 : 8)
             .attr("fill", "white")
             .attr("font-family", "sans-serif")
-            .attr("dy", d => d.pointsCopy.length > 1 ? "12" : sizePoint === "big" ? "4" : "-1")
-            .attr("dx", "-0")
+            .attr("dy", d => d.pointsCopy.length > 1 ? "12" : sizePoint === "big" ? "5" : "-1")
+            .attr("dx", "0")
             .attr("pointer-events", "none")
             .text(d => d.pointsCopy.length > 1 ? d.pointsCopy.length : d.pointsCopy[0].name);
     } else {
@@ -195,9 +198,9 @@ function highLight(d, isBuild) {
             .join("circle")
             .attr('cx', d => d.x_img)
             .attr('cy', d => d.y_img + 165)
-            .attr('pointer-events', 'visible')
-            .attr('r', 15)
-            .attr('fill', 'yellow'); 
+            .attr('pointer-events', 'none')
+            .attr('r', 25)
+            .attr('fill', "#FF2A2A"); 
     }
 }
 
@@ -221,7 +224,9 @@ function clickedOnPin(d) {
         } = points[0];
         window.open("../PANOS/mainPointCloud.html?level=" + level + "&name=" + name + "&phase=" + phase, "_self");
     } else {
-        console.log('too much');
+        
+        let {clientX, clientY} = d3.event;
+        console.log('---too much', clientX, clientY);
     }
 };
 

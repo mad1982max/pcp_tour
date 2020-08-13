@@ -7,7 +7,9 @@ let checkedColor = '#00cc66';
 let tooltipPosFlag = false;
 let phase;
 let zoom;
-const minimum_size = 350;
+const minimum_size = 490;
+let oldR = 15;
+let newR = 25;
 let isFirstLoading = true
 let levels = ["22.8", "27.8", "37.8", "47.8"];
 let currentRatioImgData = {
@@ -128,13 +130,16 @@ function onloadFn() {
 }
 
 function initMapWidth() {
-    if(window.innerWidth > 500) {
+    if(window.innerWidth < 500) {
+        sceneList.style.width = '100%';
+        sceneList.style.height = window.innerWidth/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight + 'px';
+    } else if(window.innerWidth > 500 && window.innerWidth <800) {
         sceneList.style.width = minimum_size + 'px';
         sceneList.style.height = minimum_size/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight + 'px';
     } else {
-        sceneList.style.width = '100%';
-    }
-    
+        sceneList.style.width = 700 + 'px';
+        sceneList.style.height = 700/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight + 'px';
+    }    
 }
 
 function centerizeFn() {
@@ -191,13 +196,13 @@ function resize() {
 
     
 
-    centerizeFn();
-    // if (mainLayer) {
-    //     mainLayer
-    //         .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
-    // } else {
-    //     console.log('not exist');
-    // }
+    //centerizeFn();
+    if (mainLayer) {
+        mainLayer
+            .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+    } else {
+        console.log('not exist');
+    }
 
 }
 
@@ -237,6 +242,7 @@ function buildSvg() {
             // redrawPins();
         });
     svg.call(zoom);  
+    d3.select("svg").on("dblclick.zoom", null);
 }
 
 function redrawPins() {
@@ -289,20 +295,17 @@ function drawSet(className, itemToShow, isChecked = true) {
             .attr('fill', (d) => d.fullname === clickedPin ? checkedColor : defaultColor)
             .attr('cx', d => d.x_img)
             .attr('cy', d => d.y_img + 165)
-            .attr('r', 15)
+            .attr('r', (d) => d.fullname == clickedPin ? newR : oldR)
             .on('click', clickedOnPin)
             .on('mousemove', (d) => toolTipFn(d.name, d.phase))
             .on('mouseleave', (d) => toolTipFn(d.name, d.phase, false));
-        // svg.call(zoom.transform, d3.zoomIdentity
-        //     .translate(200, 300)
-        //     .scale(5));
 
     } else {
         deleteSet('svg', `.${selector}`);
     }
 }
 
-function reColorize(selector, oldColor, singleElem, newColor) {
+function reColorizeAfterClick(selector, oldColor, singleElem, newColor) {
     set.selectAll(selector).attr('fill', oldColor);
     if (singleElem.attr) {
         singleElem.attr('fill', newColor)
@@ -311,8 +314,18 @@ function reColorize(selector, oldColor, singleElem, newColor) {
     }
 }
 
+function reSizeAfterClick(selector, oldSize, singleElem, newSize) {
+    set.selectAll(selector).attr('r', oldSize);
+    if (singleElem.attr) {
+        singleElem.attr('r', newSize)
+    } else {
+        singleElem.setAttribute('r', newSize);
+    }
+}
+
 function clickedOnPin(d) {
-    reColorize('circle', defaultColor, d3.event.target, checkedColor);
+    reColorizeAfterClick('circle', defaultColor, d3.event.target, checkedColor);
+    reSizeAfterClick('circle', oldR, d3.event.target, newR)
     clickedPin = d.fullname;
     switchPhoto360Observable.notify(clickedPin);
     toolTipFn(d.name, d.phase);

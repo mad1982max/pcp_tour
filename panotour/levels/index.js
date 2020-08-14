@@ -121,26 +121,21 @@ function buildSvg() {
             zoomed();
             rebuildClusters();
         });
-    // .on("start", () => {
-    // })
-    // .on("end", () => {
-    // });
     svg.call(zoom);
     d3.select("svg").on("dblclick.zoom", null);
 }
 
 function rebuildClusters() {
     let scale = d3.zoomTransform(svg.node()).k;
-    //console.log(scale.toFixed(1), oldScale.toFixed(1));
     if (scale.toFixed(1) === oldScale.toFixed(1)) return;
     oldScale = scale;
     deleteSet('svg', '.set');
     let dataForClusters;
     let pinSize = "big";
 
-    if (scale <= 2.5) {
+    if (scale <= 1.5) {
         dataForClusters = currentSet_0;
-    } else if (scale > 2.5 && scale <= 4) {
+    } else if (scale > 1.5 && scale <= 2) {
         dataForClusters = currentSet_1;
     } else {
         dataForClusters = currentSet_2;
@@ -166,9 +161,6 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
             .attr("cy", d => d.centroid.y + 165)
             .attr("r", d => d.pointsCopy.length > 1 ? 40 : sizePoint === "big" ? 25 : 10)
             .on("click", clickedOnPin)
-        //.on('mouseenter', d => highLight(d, true))
-        // .on('mouseleave', d => highLight(d, false))
-
         set
             .selectAll("g")
             .data(currentSet)

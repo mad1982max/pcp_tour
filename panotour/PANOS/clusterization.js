@@ -88,6 +88,9 @@ function clusterize(points, baseDistance){
         });
         clasters.push(newCluster);
     });
+    clasters.forEach(function(item, i) {
+        item.is = i;
+    })
     return clasters;
 }
 

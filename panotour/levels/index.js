@@ -19,6 +19,9 @@ let clusterInitObj = [200, 120, 0];
 let setsToShow = [];
 let pointsOnLevel, currentSet_0, currentSet_1, currentSet_2;
 
+let highlghtedVisible = false;
+let currentCluster;
+
 window.onload = onloadFn;
 
 function defineData4Floor() {
@@ -89,14 +92,16 @@ function buildSvg() {
     mainLayer
         .attr("class", "mainLayer")
         .attr("opacity", "0")
-        // .on('click', () => {
-        //     if(svg.select('highLight')) deleteSet('svg', '.highLight');
-        // })
+
     //.attr("transform", `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)    
 
     floorLayer = mainLayer.append("g")
     floorLayer
         .attr("class", "floorLayer")
+        .on('click', () => {
+            if (svg.select('highLight')) deleteSet('svg', '.highLight');
+            currentCluster = null;
+        })
     let floor = floorLayer.append("image");
     floor.attr("class", "currentFloor");
     floor.attr("xlink:href", floorSrc);
@@ -161,8 +166,8 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
             .attr("cy", d => d.centroid.y + 165)
             .attr("r", d => d.pointsCopy.length > 1 ? 40 : sizePoint === "big" ? 25 : 10)
             .on("click", clickedOnPin)
-            //.on('mouseenter', d => highLight(d, true))
-            // .on('mouseleave', d => highLight(d, false))
+        //.on('mouseenter', d => highLight(d, true))
+        // .on('mouseleave', d => highLight(d, false))
 
         set
             .selectAll("g")
@@ -187,11 +192,11 @@ function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
 
 
 function highLight(d, isBuild) {
-    if(d.pointsCopy.length ===1) return;
-    if(!isBuild) {
+    if (d.pointsCopy.length === 1) return;
+    if (!isBuild) {
         deleteSet('svg', '.highLight');
     }
-    if(isBuild) {
+    if (isBuild) {
         svg
             .select('.mainLayer')
             .append('g')
@@ -258,9 +263,20 @@ function clickedOnPin(d) {
         } = points[0];
         window.open("../PANOS/mainPointCloud.html?level=" + level + "&name=" + name + "&phase=" + phase, "_self");
     } else {
-        highLight(d, true);
-        let {clientX, clientY} = d3.event;
-        console.log('---too much', clientX, clientY);
+        if (currentCluster === d.id) {
+            deleteSet('svg', '.highLight');
+            currentCluster = null;
+        } else {
+            highLight(d, true);
+            currentCluster = d.id;
+        }
+
+
+        let {
+            clientX,
+            clientY
+        } = d3.event;
+        console.log('---cluster', clientX, clientY);
     }
 };
 

@@ -89,6 +89,9 @@ let clusterize = function (points, baseDistance){
         });
         clusters.push(newCluster);
     });
+    clusters.forEach(function(item, i) {
+        item.id = i;
+    });
     return clusters;
 }
 

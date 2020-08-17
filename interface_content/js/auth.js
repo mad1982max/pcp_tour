@@ -1,5 +1,7 @@
 {
-    const authUrl = 'http://pcp-portal.atwebpages.com/auth.php';
+    const authUrl = 'https://pcp-portal.ga/auth.php';
+    // https://pcp-portal.ga/login.php
+    // https://pcp-portal.ga/auth.php
 
     let success = null; // local variable for auth status
     const resolveCallbacks = [];

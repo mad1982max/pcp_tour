@@ -15,13 +15,13 @@ window.onload = function() {
         svg = svgDocument;
         img = svgDocument.querySelector('.floor');
         img.setAttribute('width', '100%')
-        if(w>600) {
-            let g18 = svg.querySelector('#g18');
-            let {height: imgHeight} = img.getBoundingClientRect();
-            g18.setAttribute('transform', `translate(0, -${(h - imgHeight)/3})`);
-        } else {
+        // if(w>600) {
+        //     let g18 = svg.querySelector('#g18');
+        //     let {height: imgHeight} = img.getBoundingClientRect();
+        //     g18.setAttribute('transform', `translate(0, -${(h - imgHeight)/3})`);
+        // } else {
 
-        }
+        // }
         floorRect = [...svgDocument.querySelectorAll('.block')];
         floorRect.forEach(singleBlock => {
             singleBlock.addEventListener('click', clickFloor);
@@ -55,9 +55,9 @@ function resizeFn() {
     w = window.innerWidth || document.documentElement.clientWidth ||
         document.body.clientWidth;
     if (w < 600 && w < h) {
-        obj.setAttribute('data', './img/all_mini.svg');
+        obj.setAttribute('data', './img/floorsScheme_small.svg');
     } else {
-        obj.setAttribute('data', './img/allFloorsScheme.svg');
+        obj.setAttribute('data', './img/floorsScheme_big.svg');
     }   
     let hSVG = h - headerFooterHeight;
     obj.style.height = hSVG + 'px';

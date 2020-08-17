@@ -83,9 +83,20 @@ img {
     position: static;
 }
 
+.btn-logout {
+    border: none;
+    width: 40px;
+    z-index: 10;
+    padding: 4px;
+}
+
 @media (min-width: 479px) {
     .main-title {
         font-size: 22px;
+    }
+
+    .btn-logout {
+        width: 43px;
     }
 }
 
@@ -93,10 +104,20 @@ img {
     .main-title {
         font-size: 24px;
     }
+    .btn-logout {
+        width: 47px;
+    }
+}
+
+@media (min-width: 991px) {
+    .btn-logout {
+        width: 52px;
+    }
 }
 
 @media (min-width: 991px) and (min-height: 921px) {
     .footer {
         position: absolute;
     }
+    
 }

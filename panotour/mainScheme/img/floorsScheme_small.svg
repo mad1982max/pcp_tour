@@ -19,27 +19,27 @@
       <image
          class = "floor"
          id="image20"
-         xlink:href = "./small_levels_clear.png" />
+         xlink:href = "./new/floorsScheme_small.jpg" />
       <a>
          <rect
          pointer-events = "visible"
          class="block"
-         id="level_22.8"
+         id="level_58.0"
          style="fill:none;fill-rule:evenodd"
-         width="283"
-         height="168"
-         x="292"
-         y="23" />
+         width="258"
+         height="150"
+         x="322"
+         y="21" />
       </a>
       <a>
          <rect
          pointer-events = "visible"
          class="block"
-         id="level_27.8"
-         y="219"
-         x="295"
-         width="286"
-         height="172"
+         id="level_47.8"
+         y="175"
+         width="258"
+         height="150"
+         x="322"
          style="fill:none;fill-rule:evenodd" />
       </a>
       <a>
@@ -47,21 +47,32 @@
          pointer-events = "visible"
          class="block"
          id="level_37.8"
-         y="418"
-         x="292"
-         width="287"
-         height="169"
+         y="328"
+         width="258"
+         height="150"
+         x="322"
          style="fill:none;fill-rule:evenodd" />
       </a>
       <a>
          <rect
          pointer-events = "visible"
          class="block"
-         id="level_47.8"
-         y="618"
-         x="289"
-         width="288"
-         height="169"
+         id="level_27.8"
+         y="481"
+         width="258"
+         height="150"
+         x="322"
+         style="fill:none;fill-rule:evenodd" />
+      </a>
+      <a>
+         <rect
+         pointer-events = "visible"
+         class="block"
+         id="level_22.8"
+         y="635"
+         width="258"
+         height="150"
+         x="322"
          style="fill:none;fill-rule:evenodd" />
       </a>
    </g>

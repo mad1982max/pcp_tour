@@ -11,7 +11,7 @@ const minimum_size = 490;
 let oldR = 15;
 let newR = 25;
 let isFirstLoading = true
-let levels = ["22.8", "27.8", "37.8", "47.8"];
+let levels = ["22.8", "27.8", "37.8", "47.8", "58.0"];
 let currentRatioImgData = {
     zoom: {
         x: 0,
@@ -40,7 +40,7 @@ function defineData4Floor() {
     name = searchParams.get('name');
     phase = searchParams.get('phase');
     clickedPin = `${phase}_${name}`;
-    floorSrc = `../levels/img/${level}.png`;
+    floorSrc = `../levels/img/new/${level}.png`;
     pointsOnLevel = points.filter(point => point.level === level);
     defaultColor = "#FF2A2A";
     currentScene = tails.find(scene => scene.name === clickedPin);
@@ -158,7 +158,7 @@ function changeStairsFn(counter) {
         pointsOnLevel = points.filter(point => point.level === level);
         console.log("next:",  level, pointsOnLevel.length);
         deleteSet('svg', '.set');
-        floorSrc = `../levels/img/${level}.png`;
+        floorSrc = `../levels/new/img/${level}.png`;
         floorLayer
             .select('image')
             .attr('xlink:href', floorSrc);
@@ -226,6 +226,7 @@ function buildSvg() {
     floor.attr('class', 'currentFloor');
     floor.on('load', () => {
         drawSet('set', "all");
+        //buildViewCone(0.3);
     });
     floor.attr('xlink:href', floorSrc);
     mainLayer
@@ -290,7 +291,7 @@ function drawSet(className, itemToShow, isChecked = true) {
             .join('g')
             .attr('pointer-events', 'visible')
             .attr('cursor', 'pointer')
-            .attr('id', d => `_${d.name}`)
+            .attr('class', d => `_${d.name}`)
             .append('circle')
             .attr('fill', (d) => d.fullname === clickedPin ? checkedColor : defaultColor)
             .attr('cx', d => d.x_img)
@@ -298,7 +299,7 @@ function drawSet(className, itemToShow, isChecked = true) {
             .attr('r', (d) => d.fullname == clickedPin ? newR : oldR)
             .on('click', clickedOnPin)
             .on('mousemove', (d) => toolTipFn(d.name, d.phase))
-            .on('mouseleave', (d) => toolTipFn(d.name, d.phase, false));
+            .on('mouseleave', (d) => toolTipFn(d.name, d.phase, false));            
 
     } else {
         deleteSet('svg', `.${selector}`);
@@ -327,6 +328,7 @@ function clickedOnPin(d) {
     reColorizeAfterClick('circle', defaultColor, d3.event.target, checkedColor);
     reSizeAfterClick('circle', oldR, d3.event.target, newR)
     clickedPin = d.fullname;
+    name = d.name;
     switchPhoto360Observable.notify(clickedPin);
     toolTipFn(d.name, d.phase);
 };
@@ -355,4 +357,37 @@ function toolTip(id, phase, actionFlag) {
     }
     if (window.innerWidth - d3.event.pageX < 50) tooltipPosFlag = true;
     createToolTip(id, phase, d3.event.pageX, d3.event.pageY, tooltipPosFlag);
+}
+
+rotationObservable.subscribe((data) => {
+    //changeView(data/ Math.PI*180);
+});
+
+
+function changeView(angle) {
+    let point = pointsOnLevel.find(point => point.fullname === clickedPin);
+    set
+        .select(`._${point.name}`).select('.view')
+        .attr('transform', `rotate(${angle})`)
+}
+
+
+
+function buildViewCone(angle) {
+    let point = pointsOnLevel.find(point => point.fullname === clickedPin);
+    console.log(point)
+    set
+        .select(`._${name}`)
+        .append('g')
+        // .attr('transform-box', 'fill-box')
+        .attr('transform-origin', 'center')
+        .attr('class', 'view')
+        .append('rect')
+        .attr('x', point.x_img - 7.5)
+        .attr('y', point.y_img + 165)
+        
+        .attr('width', 15)
+        .attr('height', 45)
+        .attr('fill', 'orange')
+
 }

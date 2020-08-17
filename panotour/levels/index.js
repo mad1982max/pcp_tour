@@ -28,7 +28,7 @@ function defineData4Floor() {
     let paramsString = window.location.search;
     let searchParams = new URLSearchParams(paramsString);
     level = searchParams.get("level");
-    floorSrc = `./img/${level}.png`;
+    floorSrc = `./img/new/${level}.png`;
     pointsOnLevel = points.filter(point => point.level === level);
     currentSet_0 = clusterize(pointsOnLevel, clusterInitObj[0]);
     currentSet_1 = clusterize(pointsOnLevel, clusterInitObj[1]);

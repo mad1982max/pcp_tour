@@ -19,27 +19,27 @@
     <image
       class = "floor"
       id="image20"
-      xlink:href = "./allFloorsScheme_clear.png" />
+      xlink:href = "./new/floorsScheme_big.jpg" />
        <a>
       <rect
          pointer-events = "visible"
          class="block"
-         id="level_22.8"
+         id="level_58.0"
          style="fill:none;fill-rule:evenodd"
-         width="449"
-         height="265"
-         x="50"
-         y="179" />
+         width="256"
+         height="150"
+         x="1006"
+         y="15" />
     </a>
     <a>
       <rect
          pointer-events = "visible"
          class="block"
          id="level_47.8"
-         y="179"
-         x="998"
-         height="265"
-         width="449"
+         y="168"
+         width="256"
+         height="150"
+         x="1006"
          style="fill:none;fill-rule:evenodd" />
     </a>
     <a>
@@ -48,20 +48,31 @@
          class="block"
          id="level_37.8"
          style="fill:none;fill-rule:evenodd"
-         width="449"
-         height="265"
-         x="997"
-         y="494" />
+         width="256"
+         height="150"
+         x="1006"
+         y="321" />
     </a>
     <a>
       <rect
          pointer-events = "visible"
          class="block"
          id="level_27.8"
-         y="495"
-         x="51"
-         height="266"
-         width="447"
+         y="474"
+         width="256"
+         height="150"
+         x="1006"
+         style="fill:none;fill-rule:evenodd" />
+    </a>
+    <a>
+      <rect
+         pointer-events = "visible"
+         class="block"
+         id="level_22.8"
+         y="627"
+         width="256"
+         height="150"
+         x="1006"
          style="fill:none;fill-rule:evenodd" />
     </a>
   </g>

@@ -20,6 +20,25 @@
     var sceneElements = document.querySelectorAll('#mapList .scene');
     var mapListToggleElement = document.querySelector('#mapToggle');
 
+    
+    panoElement.addEventListener('mousedown', mousedownFn);
+
+    function mousedownFn() {
+        panoElement.addEventListener('mousemove', rotateMapFn);
+        function rotateMapFn() {
+            var scene = viewer.scene(); // get the current scene
+            var view = scene.view();
+            var yaw = view.yaw();
+            rotationObservable.notify(yaw)
+        }
+        panoElement.addEventListener('mouseup', mouseupFn);
+        function mouseupFn() {
+            panoElement.removeEventListener('mousemove', rotateMapFn);
+        }
+    }
+
+
+
     // Detect desktop or mobile mode.
     if (window.matchMedia) {
         var setMode = function () {

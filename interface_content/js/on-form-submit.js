@@ -1,6 +1,6 @@
 {
     const form = document.getElementsByTagName('form')[0];
-    const loginUrl = 'http://pcp-portal.atwebpages.com/login.php';
+    const loginUrl = 'https://pcp-portal.ga/login.php';
     form.addEventListener('submit', function (event) {
         event.preventDefault(); // disable page reload on form submit
         const elements = event.currentTarget.elements;

@@ -63,3 +63,8 @@ window.onload = function() {
 
 }
 
+function logout() {
+    window.localStorage.removeItem('token');
+    auth_status_object.auth_check();
+}
+

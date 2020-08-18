@@ -14,7 +14,9 @@ window.onload = function() {
         let svgDocument = obj.contentDocument;
         svg = svgDocument;
         img = svgDocument.querySelector('.floor');
-        img.setAttribute('width', '100%')
+        img.setAttribute('width', '100%');
+        // img.setAttribute('max-height', '100%');
+        // img.style.width = '100%';
         // if(w>600) {
         //     let g18 = svg.querySelector('#g18');
         //     let {height: imgHeight} = img.getBoundingClientRect();
@@ -72,7 +74,7 @@ function mouseLeave() {
 function mouseOverFloor() {
     this.style.fill = 'rgba(0,0,0,0.2)';
     this.style.stroke = '#FFF773';
-    this.style.strokeWidth = 8;
+    this.style.strokeWidth = 5;
     this.style.cursor = 'pointer';
 }
 

@@ -8,8 +8,7 @@ let points = [{
     x_img: 645,
     y_img: 466,
     level: "level_27.8"
-}, 
-{
+}, {
     fullname: "PHASE1_102",
     phase: "PHASE1",
     name: 102,
@@ -2179,8 +2178,7 @@ let points = [{
     x_img: 2092,
     y_img: 1232,
     level: "level_22.8"
-}, 
-{
+}, {
     fullname: "PHASE1_320",
     phase: "PHASE1",
     name: 320,
@@ -2190,8 +2188,7 @@ let points = [{
     x_img: 1914,
     y_img: 1316,
     level: "level_22.8"
-}, 
-{
+}, {
     fullname: "PHASE1_321",
     phase: "PHASE1",
     name: 321,
@@ -2351,8 +2348,7 @@ let points = [{
     x_img: 547,
     y_img: 337,
     level: "level_22.8"
-}, 
-{
+}, {
     fullname: "PHASE1_338",
     phase: "PHASE1",
     name: 338,
@@ -2362,8 +2358,7 @@ let points = [{
     x_img: 534,
     y_img: 229,
     level: "level_22.8"
-}, 
-{
+}, {
     fullname: "PHASE1_339",
     phase: "PHASE1",
     name: 339,
@@ -6270,7 +6265,7 @@ let points = [{
     z_real: 59.26,
     x_img: 2493.21,
     y_img: 1164,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_329"
 }, {
     fullname: "PHASE2_697",
@@ -6281,7 +6276,7 @@ let points = [{
     z_real: 59.26,
     x_img: 2535.84,
     y_img: 1292.78,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_330"
 }, {
     fullname: "PHASE2_698",
@@ -6292,7 +6287,7 @@ let points = [{
     z_real: 59.21,
     x_img: 2408.28,
     y_img: 1125.42,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_331"
 }, {
     fullname: "PHASE2_699",
@@ -6303,7 +6298,7 @@ let points = [{
     z_real: 59.2,
     x_img: 2404.05,
     y_img: 1260.54,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_332"
 }, {
     fullname: "PHASE2_700",
@@ -6314,7 +6309,7 @@ let points = [{
     z_real: 59.19,
     x_img: 2326.67,
     y_img: 1326.87,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_333"
 }, {
     fullname: "PHASE2_701",
@@ -6325,7 +6320,7 @@ let points = [{
     z_real: 59.21,
     x_img: 2162.6,
     y_img: 1301.93,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_334"
 }, {
     fullname: "PHASE2_702",
@@ -6336,7 +6331,7 @@ let points = [{
     z_real: 59.21,
     x_img: 2064.75,
     y_img: 1221.64,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_335"
 }, {
     fullname: "PHASE2_703",
@@ -6347,7 +6342,7 @@ let points = [{
     z_real: 59.19,
     x_img: 1857.59,
     y_img: 1253.55,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_336"
 }, {
     fullname: "PHASE2_704",
@@ -6358,7 +6353,7 @@ let points = [{
     z_real: 59.2,
     x_img: 1609.07,
     y_img: 1251.87,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_337"
 }, {
     fullname: "PHASE2_705",
@@ -6369,7 +6364,7 @@ let points = [{
     z_real: 59.2,
     x_img: 1438.53,
     y_img: 1273.69,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_338"
 }, {
     fullname: "PHASE2_706",
@@ -6380,7 +6375,7 @@ let points = [{
     z_real: 61.29,
     x_img: 1641.15,
     y_img: 1306.54,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_339"
 }, {
     fullname: "PHASE2_707",
@@ -6391,7 +6386,7 @@ let points = [{
     z_real: 61.3,
     x_img: 1662.33,
     y_img: 1393.56,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_340"
 }, {
     fullname: "PHASE2_708",
@@ -6402,7 +6397,7 @@ let points = [{
     z_real: 59.21,
     x_img: 1189.52,
     y_img: 1281.57,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_341"
 }, {
     fullname: "PHASE2_709",
@@ -6413,7 +6408,7 @@ let points = [{
     z_real: 59.2,
     x_img: 1003.29,
     y_img: 1270.69,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_342"
 }, {
     fullname: "PHASE2_710",
@@ -6424,7 +6419,7 @@ let points = [{
     z_real: 59.2,
     x_img: 1297.92,
     y_img: 1283.09,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_343"
 }, {
     fullname: "PHASE2_711",
@@ -6435,7 +6430,7 @@ let points = [{
     z_real: 59.2,
     x_img: 869.41,
     y_img: 1190.93,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_344"
 }, {
     fullname: "PHASE2_712",
@@ -6446,7 +6441,7 @@ let points = [{
     z_real: 59.21,
     x_img: 883.78,
     y_img: 1029.03,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_345"
 }, {
     fullname: "PHASE2_713",
@@ -6457,7 +6452,7 @@ let points = [{
     z_real: 59.2,
     x_img: 1053.87,
     y_img: 1049.7,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_346"
 }, {
     fullname: "PHASE2_714",
@@ -6468,7 +6463,7 @@ let points = [{
     z_real: 59.2,
     x_img: 1184.14,
     y_img: 1049.55,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_347"
 }, {
     fullname: "PHASE2_715",
@@ -6479,7 +6474,7 @@ let points = [{
     z_real: 59.2,
     x_img: 1260.79,
     y_img: 972.18,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_348"
 }, {
     fullname: "PHASE2_716",
@@ -6490,7 +6485,7 @@ let points = [{
     z_real: 59.21,
     x_img: 1492.05,
     y_img: 963.54,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_349"
 }, {
     fullname: "PHASE2_717",
@@ -6501,7 +6496,7 @@ let points = [{
     z_real: 59.2,
     x_img: 1723.63,
     y_img: 1002.88,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_350"
 }, {
     fullname: "PHASE2_718",
@@ -6512,7 +6507,7 @@ let points = [{
     z_real: 59.2,
     x_img: 1966.6,
     y_img: 1014.57,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_351"
 }, {
     fullname: "PHASE2_719",
@@ -7678,7 +7673,7 @@ let points = [{
     z_real: 59.21,
     x_img: 407.11,
     y_img: 1319.34,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_457"
 }, {
     fullname: "PHASE2_825",
@@ -7689,7 +7684,7 @@ let points = [{
     z_real: 59.27,
     x_img: 516.16,
     y_img: 1334.05,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_458"
 }, {
     fullname: "PHASE2_826",
@@ -10296,7 +10291,7 @@ let points = [{
     z_real: 59.21,
     x_img: 2087.33,
     y_img: 924.31,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_695"
 }, {
     fullname: "PHASE2_1063",
@@ -10307,7 +10302,7 @@ let points = [{
     z_real: 59.2,
     x_img: 2211.24,
     y_img: 1097.65,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_696"
 }, {
     fullname: "PHASE2_1064",
@@ -10318,7 +10313,7 @@ let points = [{
     z_real: 59.58,
     x_img: 2239.11,
     y_img: 829.41,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_697"
 }, {
     fullname: "PHASE2_1065",
@@ -10329,7 +10324,7 @@ let points = [{
     z_real: 59.58,
     x_img: 2385.84,
     y_img: 691.03,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_698"
 }, {
     fullname: "PHASE2_1066",
@@ -10340,7 +10335,7 @@ let points = [{
     z_real: 59.22,
     x_img: 2392.93,
     y_img: 589.89,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_699"
 }, {
     fullname: "PHASE2_1067",
@@ -10351,7 +10346,7 @@ let points = [{
     z_real: 59.22,
     x_img: 2411.82,
     y_img: 446.63,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_700"
 }, {
     fullname: "PHASE2_1068",
@@ -10362,7 +10357,7 @@ let points = [{
     z_real: 59.21,
     x_img: 2367.89,
     y_img: 356.04,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_701"
 }, {
     fullname: "PHASE2_1069",
@@ -10373,7 +10368,7 @@ let points = [{
     z_real: 59.21,
     x_img: 2365.15,
     y_img: 191.59,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_702"
 }, {
     fullname: "PHASE2_1070",
@@ -10384,7 +10379,7 @@ let points = [{
     z_real: 59.64,
     x_img: 2399.41,
     y_img: 960.44,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_703"
 }, {
     fullname: "PHASE2_1071",
@@ -10395,7 +10390,7 @@ let points = [{
     z_real: 59.57,
     x_img: 2078.95,
     y_img: 682.47,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_704"
 }, {
     fullname: "PHASE2_1072",
@@ -10406,7 +10401,7 @@ let points = [{
     z_real: 59.58,
     x_img: 2023.33,
     y_img: 524.06,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_705"
 }, {
     fullname: "PHASE2_1073",
@@ -10417,7 +10412,7 @@ let points = [{
     z_real: 59.58,
     x_img: 2128.62,
     y_img: 333.26,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_706"
 }, {
     fullname: "PHASE2_1074",
@@ -10428,7 +10423,7 @@ let points = [{
     z_real: 59.59,
     x_img: 2119.88,
     y_img: 166.06,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_707"
 }, {
     fullname: "PHASE2_1075",
@@ -10439,7 +10434,7 @@ let points = [{
     z_real: 59.59,
     x_img: 2260.25,
     y_img: 158.63,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_708"
 }, {
     fullname: "PHASE2_1076",
@@ -10450,7 +10445,7 @@ let points = [{
     z_real: 59.58,
     x_img: 1796.03,
     y_img: 242.09,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_709"
 }, {
     fullname: "PHASE2_1077",
@@ -10461,7 +10456,7 @@ let points = [{
     z_real: 59.58,
     x_img: 1518.05,
     y_img: 229.64,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_710"
 }, {
     fullname: "PHASE2_1078",
@@ -10472,7 +10467,7 @@ let points = [{
     z_real: 59.56,
     x_img: 1190.4,
     y_img: 319.95,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_711"
 }, {
     fullname: "PHASE2_1079",
@@ -10483,7 +10478,7 @@ let points = [{
     z_real: 59.57,
     x_img: 1193.98,
     y_img: 561.91,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_712"
 }, {
     fullname: "PHASE2_1080",
@@ -10494,7 +10489,7 @@ let points = [{
     z_real: 59.56,
     x_img: 1411.04,
     y_img: 535.23,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_713"
 }, {
     fullname: "PHASE2_1081",
@@ -10505,7 +10500,7 @@ let points = [{
     z_real: 59.55,
     x_img: 1704.06,
     y_img: 531.66,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_714"
 }, {
     fullname: "PHASE2_1082",
@@ -10516,7 +10511,7 @@ let points = [{
     z_real: 59.54,
     x_img: 1184.11,
     y_img: 821.52,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_715"
 }, {
     fullname: "PHASE2_1083",
@@ -10527,7 +10522,7 @@ let points = [{
     z_real: 59.54,
     x_img: 1052.22,
     y_img: 575.76,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_716"
 }, {
     fullname: "PHASE2_1084",
@@ -10538,7 +10533,7 @@ let points = [{
     z_real: 59.59,
     x_img: 1126.84,
     y_img: 824.94,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_717"
 }, {
     fullname: "PHASE2_1085",
@@ -10549,7 +10544,7 @@ let points = [{
     z_real: 59.58,
     x_img: 1072.98,
     y_img: 902.28,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_718"
 }, {
     fullname: "PHASE2_1086",
@@ -10560,7 +10555,7 @@ let points = [{
     z_real: 59.57,
     x_img: 1081.34,
     y_img: 746.9,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_719"
 }, {
     fullname: "PHASE2_1087",
@@ -10571,7 +10566,7 @@ let points = [{
     z_real: 59.58,
     x_img: 1065.46,
     y_img: 692.38,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_720"
 }, {
     fullname: "PHASE2_1088",
@@ -10582,7 +10577,7 @@ let points = [{
     z_real: 59.58,
     x_img: 1105.63,
     y_img: 674.15,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_721"
 }, {
     fullname: "PHASE2_1089",
@@ -10593,7 +10588,7 @@ let points = [{
     z_real: 59.58,
     x_img: 915.56,
     y_img: 732.87,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_722"
 }, {
     fullname: "PHASE2_1090",
@@ -10604,7 +10599,7 @@ let points = [{
     z_real: 59.58,
     x_img: 925.15,
     y_img: 834.04,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_723"
 }, {
     fullname: "PHASE2_1091",
@@ -10615,7 +10610,7 @@ let points = [{
     z_real: 59.58,
     x_img: 960.16,
     y_img: 914.46,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_724"
 }, {
     fullname: "PHASE2_1092",
@@ -10626,7 +10621,7 @@ let points = [{
     z_real: 59.59,
     x_img: 919.74,
     y_img: 652.4,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_725"
 }, {
     fullname: "PHASE2_1093",
@@ -10637,7 +10632,7 @@ let points = [{
     z_real: 59.2,
     x_img: 918.84,
     y_img: 607.92,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_726"
 }, {
     fullname: "PHASE2_1094",
@@ -10648,7 +10643,7 @@ let points = [{
     z_real: 59.55,
     x_img: 1173.9,
     y_img: 697.28,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_727"
 }, {
     fullname: "PHASE2_1095",
@@ -10659,7 +10654,7 @@ let points = [{
     z_real: 59.55,
     x_img: 1174.54,
     y_img: 913.48,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_728"
 }, {
     fullname: "PHASE2_1096",
@@ -10670,7 +10665,7 @@ let points = [{
     z_real: 59.58,
     x_img: 845.42,
     y_img: 573.07,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_729"
 }, {
     fullname: "PHASE2_1097",
@@ -10681,7 +10676,7 @@ let points = [{
     z_real: 59.54,
     x_img: 853.44,
     y_img: 266.1,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_730"
 }, {
     fullname: "PHASE2_1098",
@@ -10692,7 +10687,7 @@ let points = [{
     z_real: 59.67,
     x_img: 790.51,
     y_img: 388.16,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_731"
 }, {
     fullname: "PHASE2_1099",
@@ -10703,7 +10698,7 @@ let points = [{
     z_real: 59.53,
     x_img: 633.08,
     y_img: 373.58,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_732"
 }, {
     fullname: "PHASE2_1100",
@@ -10714,7 +10709,7 @@ let points = [{
     z_real: 59.53,
     x_img: 746.64,
     y_img: 242.03,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_733"
 }, {
     fullname: "PHASE2_1101",
@@ -10725,7 +10720,7 @@ let points = [{
     z_real: 62.37,
     x_img: 752.17,
     y_img: 115.91,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_734"
 }, {
     fullname: "PHASE2_1102",
@@ -10736,7 +10731,7 @@ let points = [{
     z_real: 63.19,
     x_img: 806.89,
     y_img: 31.52,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_735"
 }, {
     fullname: "PHASE2_1103",
@@ -10747,7 +10742,7 @@ let points = [{
     z_real: 64.93,
     x_img: 858.87,
     y_img: -16.38,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_736"
 }, {
     fullname: "PHASE2_1104",
@@ -10758,7 +10753,7 @@ let points = [{
     z_real: 66.51,
     x_img: 800.1,
     y_img: 127.36,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_737"
 }, {
     fullname: "PHASE2_1105",
@@ -10769,7 +10764,7 @@ let points = [{
     z_real: 66.52,
     x_img: 774.27,
     y_img: 431.94,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_738"
 }, {
     fullname: "PHASE2_1106",
@@ -10780,7 +10775,7 @@ let points = [{
     z_real: 66.41,
     x_img: 558.48,
     y_img: 570.24,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_739"
 }, {
     fullname: "PHASE2_1107",
@@ -10791,7 +10786,7 @@ let points = [{
     z_real: 66.33,
     x_img: 237.02,
     y_img: 385.32,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_740"
 }, {
     fullname: "PHASE2_1108",
@@ -10802,7 +10797,7 @@ let points = [{
     z_real: 66.38,
     x_img: 372.04,
     y_img: 17.91,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_741"
 }, {
     fullname: "PHASE2_1109",
@@ -10813,7 +10808,7 @@ let points = [{
     z_real: 64.77,
     x_img: 444.94,
     y_img: 714.75,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_742"
 }, {
     fullname: "PHASE2_1110",
@@ -10824,7 +10819,7 @@ let points = [{
     z_real: 64.83,
     x_img: 543.8,
     y_img: 714.31,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_743"
 }, {
     fullname: "PHASE2_1111",
@@ -10835,7 +10830,7 @@ let points = [{
     z_real: 61.96,
     x_img: 546.57,
     y_img: 566.27,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_744"
 }, {
     fullname: "PHASE2_1112",
@@ -10846,7 +10841,7 @@ let points = [{
     z_real: 61.91,
     x_img: 632.74,
     y_img: 514.53,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_745"
 }, {
     fullname: "PHASE2_1113",
@@ -10857,7 +10852,7 @@ let points = [{
     z_real: 59.46,
     x_img: 619.98,
     y_img: 212.09,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_746"
 }, {
     fullname: "PHASE2_1114",
@@ -10868,7 +10863,7 @@ let points = [{
     z_real: 59.59,
     x_img: 546.56,
     y_img: 167.62,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_747"
 }, {
     fullname: "PHASE2_1115",
@@ -10879,7 +10874,7 @@ let points = [{
     z_real: 59.48,
     x_img: 488.43,
     y_img: 173.76,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_748"
 }, {
     fullname: "PHASE2_1116",
@@ -10890,7 +10885,7 @@ let points = [{
     z_real: 60.35,
     x_img: 856.33,
     y_img: 784.48,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_749"
 }, {
     fullname: "PHASE2_1117",
@@ -10901,7 +10896,7 @@ let points = [{
     z_real: 60.17,
     x_img: 854.32,
     y_img: 969.74,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_750"
 }, {
     fullname: "PHASE2_1118",
@@ -10912,7 +10907,7 @@ let points = [{
     z_real: 59.51,
     x_img: 733.11,
     y_img: 1196.31,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_751"
 }, {
     fullname: "PHASE2_1119",
@@ -10923,7 +10918,7 @@ let points = [{
     z_real: 59.58,
     x_img: 732.05,
     y_img: 1365.42,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_752"
 }, {
     fullname: "PHASE2_1120",
@@ -10934,7 +10929,7 @@ let points = [{
     z_real: 59.51,
     x_img: 549.18,
     y_img: 1052.53,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_753"
 }, {
     fullname: "PHASE2_1121",
@@ -10945,7 +10940,7 @@ let points = [{
     z_real: 59.53,
     x_img: 615.41,
     y_img: 853.42,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_754"
 }, {
     fullname: "PHASE2_1122",
@@ -10956,7 +10951,7 @@ let points = [{
     z_real: 59.5,
     x_img: 605.89,
     y_img: 680.68,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_755"
 }, {
     fullname: "PHASE2_1123",
@@ -10967,7 +10962,7 @@ let points = [{
     z_real: 59.53,
     x_img: 533.2,
     y_img: 472.03,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_756"
 }, {
     fullname: "PHASE2_1124",
@@ -10978,7 +10973,7 @@ let points = [{
     z_real: 59.49,
     x_img: 724.17,
     y_img: 566.67,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_757"
 }, {
     fullname: "PHASE2_1125",
@@ -10989,7 +10984,7 @@ let points = [{
     z_real: 63.26,
     x_img: 1096.43,
     y_img: 915.96,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_758"
 }, {
     fullname: "PHASE2_1126",
@@ -11000,7 +10995,7 @@ let points = [{
     z_real: 63.24,
     x_img: 1104.32,
     y_img: 718.62,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_759"
 }, {
     fullname: "PHASE2_1127",
@@ -11011,7 +11006,7 @@ let points = [{
     z_real: 63.27,
     x_img: 925.21,
     y_img: 668.47,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_760"
 }, {
     fullname: "PHASE2_1128",
@@ -11055,7 +11050,7 @@ let points = [{
     z_real: 62.74,
     x_img: 2491.43,
     y_img: 1130.64,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_765"
 }, {
     fullname: "PHASE2_1132",
@@ -11066,7 +11061,7 @@ let points = [{
     z_real: 62.78,
     x_img: 2543.06,
     y_img: 1143.09,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_766"
 }, {
     fullname: "PHASE2_1133",
@@ -11077,7 +11072,7 @@ let points = [{
     z_real: 65.91,
     x_img: 2541.14,
     y_img: 1310.95,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_767"
 }, {
     fullname: "PHASE2_1134",
@@ -11088,7 +11083,7 @@ let points = [{
     z_real: 65.97,
     x_img: 2495.21,
     y_img: 1234.2,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_768"
 }, {
     fullname: "PHASE2_1135",
@@ -11099,7 +11094,7 @@ let points = [{
     z_real: 68.66,
     x_img: 2488.87,
     y_img: 1106.8,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_769"
 }, {
     fullname: "PHASE2_1136",
@@ -11110,7 +11105,7 @@ let points = [{
     z_real: 68.67,
     x_img: 2554.69,
     y_img: 1217.52,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_770"
 }, {
     fullname: "PHASE2_1137",
@@ -11121,7 +11116,7 @@ let points = [{
     z_real: 68.61,
     x_img: 2492.73,
     y_img: 1338.86,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_771"
 }, {
     fullname: "PHASE2_1138",
@@ -12793,7 +12788,7 @@ let points = [{
     z_real: 59.23,
     x_img: 481.77,
     y_img: 164.46,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_924"
 }, {
     fullname: "PHASE2_1290",
@@ -12837,7 +12832,7 @@ let points = [{
     z_real: 59.21,
     x_img: 2108.68,
     y_img: 404.27,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_928"
 }, {
     fullname: "PHASE2_1294",
@@ -12848,7 +12843,7 @@ let points = [{
     z_real: 59.21,
     x_img: 2112.32,
     y_img: 476.65,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_929"
 }, {
     fullname: "PHASE2_1295",
@@ -12859,7 +12854,7 @@ let points = [{
     z_real: 59.22,
     x_img: 2113.22,
     y_img: 551.59,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_930"
 }, {
     fullname: "PHASE2_1296",
@@ -12870,7 +12865,7 @@ let points = [{
     z_real: 59.39,
     x_img: 2155.88,
     y_img: 552.6,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_931"
 }, {
     fullname: "PHASE2_1297",
@@ -12881,7 +12876,7 @@ let points = [{
     z_real: 59.39,
     x_img: 2268.41,
     y_img: 544.31,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_932"
 }, {
     fullname: "PHASE2_1298",
@@ -12892,7 +12887,7 @@ let points = [{
     z_real: 59.38,
     x_img: 2322.13,
     y_img: 543.7,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_933"
 }, {
     fullname: "PHASE2_1299",
@@ -12903,7 +12898,7 @@ let points = [{
     z_real: 59.38,
     x_img: 2143.08,
     y_img: 465.98,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_934"
 }, {
     fullname: "PHASE2_1300",
@@ -12914,7 +12909,7 @@ let points = [{
     z_real: 59.38,
     x_img: 2264.21,
     y_img: 470.78,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_935"
 }, {
     fullname: "PHASE2_1301",
@@ -12925,7 +12920,7 @@ let points = [{
     z_real: 59.38,
     x_img: 2322.4,
     y_img: 467.48,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_936"
 }, {
     fullname: "PHASE2_1302",
@@ -12936,7 +12931,7 @@ let points = [{
     z_real: 59.38,
     x_img: 2151.68,
     y_img: 395.35,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_937"
 }, {
     fullname: "PHASE2_1303",
@@ -12947,7 +12942,7 @@ let points = [{
     z_real: 59.39,
     x_img: 2161.54,
     y_img: 438.76,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_938"
 }, {
     fullname: "PHASE2_1304",
@@ -12958,10 +12953,9 @@ let points = [{
     z_real: 59.38,
     x_img: 2272.82,
     y_img: 386.05,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_939"
-}, 
-{
+}, {
     fullname: "PHASE2_1305",
     phase: "PHASE2",
     name: 1305,
@@ -12970,7 +12964,6 @@ let points = [{
     z_real: 59.38,
     x_img: 2321.5,
     y_img: 388.43,
-    level: "level_47.8",
+    level: "level_58.0",
     oldName: "PHASE2_940"
-}
-]
+}]

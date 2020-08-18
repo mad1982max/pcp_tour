@@ -55,8 +55,8 @@
   </metadata>
   
   <style type="text/css"> 
-   .red {
-      fill: #66a3ff
+   .color {
+      fill: #f2f2f2
    }
   </style>
   <g
@@ -65,42 +65,42 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <circle
-         class = "red"
+         class = "color"
        r="13.229166"
        cy="221.11606"
        cx="13.229164"
        id="path833"
        style="fill-rule:evenodd;stroke-width:0.264583" />
     <circle
-    class = "red"
+    class = "color"
        style="fill-rule:evenodd;stroke-width:0.264583"
        id="path833-4"
        cx="13.607142"
        cy="251.73213"
        r="13.229167" />
     <circle
-    class = "red"
+    class = "color"
        style="fill-rule:evenodd;stroke-width:0.264583"
        id="path833-0"
        cx="13.607145"
        cy="283.48215"
        r="13.229167" />
     <circle
-    class = "red"
+    class = "color"
        style="fill-rule:evenodd;stroke-width:0.264583"
        id="path833-2"
        cx="45.357143"
        cy="283.48215"
        r="13.229167" />
     <circle
-    class = "red"
+    class = "color"
        style="fill-rule:evenodd;stroke-width:0.264583"
        id="path833-09"
        cx="77.107147"
        cy="284.99408"
        r="13.229167" />
     <circle
-    class = "red"
+    class = "color"
        style="fill-rule:evenodd;stroke-width:0.264583"
        id="path833-7"
        cx="44.601192"

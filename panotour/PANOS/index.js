@@ -149,22 +149,20 @@ function centerizeFn() {
         .call(zoom.transform, d3.zoomIdentity.translate(0,0).scale(1));
 }
 
-function changeStairsFn(counter) {
-    
+function changeStairsFn(counter) {    
     let indexOfFloor = levels.indexOf(level.split("_")[1]);
     let nextLevel = levels[indexOfFloor+counter];
     if(nextLevel) {
         level = "level_" + nextLevel;
         pointsOnLevel = points.filter(point => point.level === level);
-        console.log("next:",  level, pointsOnLevel.length);
+        console.log("next:",  level, pointsOnLevel.length,"dots");
         deleteSet('svg', '.set');
-        floorSrc = `../levels/new/img/${level}.png`;
+        floorSrc = `../levels/img/new/${level}.png`;
         floorLayer
             .select('image')
             .attr('xlink:href', floorSrc);
     } else {
         console.log('---level not exist');
-
     }
     centerizeFn();
 }
@@ -192,11 +190,8 @@ function resize() {
         currentRatioImgData.k = wrapper.offsetWidth / currentRatioImgData.initPicWidth;
         currentRatioImgData.x = 0;
         currentRatioImgData.y = (wrapper.offsetHeight / currentRatioImgData.k - currentRatioImgData.initPicHeight) / 5;
-    }
+    }    
 
-    
-
-    //centerizeFn();
     if (mainLayer) {
         mainLayer
             .attr('transform', `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
@@ -252,7 +247,7 @@ function redrawPins() {
 }
 
 function zoomed() {
-    console.log('zoomed');
+    //console.log('zoomed');
     let {
         k,
         x,

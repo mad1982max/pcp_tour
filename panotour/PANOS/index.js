@@ -129,7 +129,7 @@ function onloadFn() {
 
 function initMapWidth() {
     if (window.innerWidth < 500) {
-        sceneList.style.width = window.innerWidth;
+        sceneList.style.width = window.innerWidth + 'px';
         sceneList.style.height = window.innerWidth / currentRatioImgData.initPicWidth * currentRatioImgData.initPicHeight + 'px';
     } else if (window.innerWidth > 500 && window.innerWidth < 800) {
         sceneList.style.width = xs_size + 'px';
@@ -173,6 +173,7 @@ function ref() {
 function resize() {
     deleteSet('doc', '.tooltip');
     let sceneListW = sceneList.offsetWidth;
+
 
     if (sceneListW == window.innerWidth) {
         sceneList.style.height = `${mainLayer.node().getBoundingClientRect().height || sceneListW/currentRatioImgData.initRatio}px`;

@@ -7,7 +7,7 @@ let checkedColor = '#00cc66';
 let tooltipPosFlag = false;
 let phase;
 let zoom;
-const minimum_size = 490;
+const xs_size = 300;
 let oldR = 15;
 let newR = 25;
 let isFirstLoading = true
@@ -22,7 +22,7 @@ let currentRatioImgData = {
     y: 0,
     initPicWidth: 3000,
     initPicHeight: 1850,
-    initRatio: 3000/1850,
+    initRatio: 3000 / 1850,
     k: 0
 }
 
@@ -49,10 +49,9 @@ function defineData4Floor() {
 
 
 //add resizeBtnFn----------------------------------
-function makeResizableDiv( div ) {
-    const element = document.querySelector( div );
-    const resizer = document.querySelector( '.resizeMapBtn');
-    
+function makeResizableDiv(div) {
+    const element = document.querySelector(div);
+    const resizer = document.querySelector('.resizeMapBtn');
     let original_width = 0;
     let original_height = 0;
     let original_x = 0;
@@ -62,52 +61,51 @@ function makeResizableDiv( div ) {
 
     function touchStart(e) {
 
-      e.preventDefault();
-      e.stopPropagation();
-  
-      original_height = element.getBoundingClientRect().height;
-      original_width = element.getBoundingClientRect().width;
-      original_x = element.getBoundingClientRect().left;
-      original_y = element.getBoundingClientRect().top;
+        e.preventDefault();
+        e.stopPropagation();
+        original_height = element.getBoundingClientRect().height;
+        original_width = element.getBoundingClientRect().width;
+        original_x = element.getBoundingClientRect().left;
+        original_y = element.getBoundingClientRect().top;
 
-      original_mouse_x = e.pageX || e.touches[0].pageX;
-      original_mouse_y = e.pageY || e.touches[0].pageY;
+        original_mouse_x = e.pageX || e.touches[0].pageX;
+        original_mouse_y = e.pageY || e.touches[0].pageY;
 
-      window.addEventListener( 'mousemove', resizeByDrag );
-      window.addEventListener( 'touchmove', resizeByDrag );
-      window.addEventListener( 'mouseup', stopResize );
-      window.addEventListener( 'touchend', stopResize );
-    }  
-
-    resizer.addEventListener( 'mousedown', touchStart );
-    resizer.addEventListener( 'touchstart', touchStart );
-  
-    function resizeByDrag( e ) {
-      const width = original_width - ( (e.pageX || (e.touches ? e.touches[0].pageX: 1)) - original_mouse_x );
-      const height = width/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight;
-      if ( width > minimum_size ) {
-        element.style.width = width + 'px';
-        element.style.height = height + 'px';
-      } else {
-        element.style.width = minimum_size + 'px';       
-      }
-      resize();
-      //centerizeFn();
+        window.addEventListener('mousemove', resizeByDrag);
+        window.addEventListener('touchmove', resizeByDrag);
+        window.addEventListener('mouseup', stopResize);
+        window.addEventListener('touchend', stopResize);
     }
-  
+
+    resizer.addEventListener('mousedown', touchStart);
+    resizer.addEventListener('touchstart', touchStart);
+
+    function resizeByDrag(e) {
+        const width = original_width - ((e.pageX || (e.touches ? e.touches[0].pageX : 1)) - original_mouse_x);
+        const height = width / currentRatioImgData.initPicWidth * currentRatioImgData.initPicHeight;
+        if (width >= xs_size) {
+            element.style.width = width + 'px';
+            element.style.height = height + 'px';
+        } else {
+            element.style.width = xs_size + 'px';
+        }
+        resize();
+        //centerizeFn();
+    }
+
     function stopResize() {
-      window.removeEventListener( 'mousemove', resizeByDrag );
-      window.removeEventListener( 'touchmove', resizeByDrag );
+        window.removeEventListener('mousemove', resizeByDrag);
+        window.removeEventListener('touchmove', resizeByDrag);
     }
-    
-  }
- //end  resizeBtnFn---------------------------------- 
+
+}
+//end  resizeBtnFn---------------------------------- 
 
 window.onload = onloadFn;
 
 function onloadFn() {
     document.body.style.opacity = 1;
-    makeResizableDiv( '#mapList' );
+    makeResizableDiv('#mapList');
     sceneList = document.querySelector('#mapList');
     wrapper = document.getElementById('wrapper');
     let stairsUpBtn = document.getElementById('stairsUpBtn');
@@ -117,45 +115,45 @@ function onloadFn() {
     let centerizeMapBtn = document.getElementById('centerizeMapBtn');
     centerizeMapBtn.addEventListener('click', centerizeFn);
 
-    window.addEventListener("orientationchange", function(event) {
+    window.addEventListener("orientationchange", function (event) {
         console.log("the orientation of the device is now " + event.target.screen.orientation.angle);
         document.body.style.opacity = 0;
         window.location.reload();
     });
 
-    window.addEventListener('resize', resize);  
+    window.addEventListener('resize', resize);
     initMapWidth();
     buildSvg();
     resize();
 }
 
 function initMapWidth() {
-    if(window.innerWidth < 500) {
-        sceneList.style.width = '100%';
-        sceneList.style.height = window.innerWidth/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight + 'px';
-    } else if(window.innerWidth > 500 && window.innerWidth <800) {
-        sceneList.style.width = minimum_size + 'px';
-        sceneList.style.height = minimum_size/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight + 'px';
+    if (window.innerWidth < 500) {
+        sceneList.style.width = window.innerWidth;
+        sceneList.style.height = window.innerWidth / currentRatioImgData.initPicWidth * currentRatioImgData.initPicHeight + 'px';
+    } else if (window.innerWidth > 500 && window.innerWidth < 800) {
+        sceneList.style.width = xs_size + 'px';
+        sceneList.style.height = xs_size / currentRatioImgData.initPicWidth * currentRatioImgData.initPicHeight + 'px';
     } else {
-        sceneList.style.width = 700 + 'px';
-        sceneList.style.height = 700/currentRatioImgData.initPicWidth*currentRatioImgData.initPicHeight + 'px';
-    }    
+        sceneList.style.width = xs_size * 1.5 + 'px';
+        sceneList.style.height = xs_size * 1.5 / currentRatioImgData.initPicWidth * currentRatioImgData.initPicHeight + 'px';
+    }
 }
 
 function centerizeFn() {
     svg
         .transition()
         .duration(400)
-        .call(zoom.transform, d3.zoomIdentity.translate(0,0).scale(1));
+        .call(zoom.transform, d3.zoomIdentity.translate(0, 0).scale(1));
 }
 
-function changeStairsFn(counter) {    
+function changeStairsFn(counter) {
     let indexOfFloor = levels.indexOf(level.split("_")[1]);
-    let nextLevel = levels[indexOfFloor+counter];
-    if(nextLevel) {
+    let nextLevel = levels[indexOfFloor + counter];
+    if (nextLevel) {
         level = "level_" + nextLevel;
         pointsOnLevel = points.filter(point => point.level === level);
-        console.log("next:",  level, pointsOnLevel.length,"dots");
+        console.log("next:", level, pointsOnLevel.length, "dots");
         deleteSet('svg', '.set');
         floorSrc = `../levels/img/new/${level}.png`;
         floorLayer
@@ -173,14 +171,14 @@ function ref() {
 }
 
 function resize() {
-    deleteSet('doc', '.tooltip');     
+    deleteSet('doc', '.tooltip');
     let sceneListW = sceneList.offsetWidth;
 
-    if(sceneListW == window.innerWidth) {
+    if (sceneListW == window.innerWidth) {
         sceneList.style.height = `${mainLayer.node().getBoundingClientRect().height || sceneListW/currentRatioImgData.initRatio}px`;
         sceneList.style.width = `${mainLayer.node().getBoundingClientRect().width || sceneListW}px`;
-    }   
-    
+    }
+
 
     if (sceneListW > wrapper.offsetHeight * currentRatioImgData.initPicWidth / currentRatioImgData.initPicHeight) {
         currentRatioImgData.k = wrapper.offsetHeight / currentRatioImgData.initPicHeight;
@@ -190,7 +188,7 @@ function resize() {
         currentRatioImgData.k = wrapper.offsetWidth / currentRatioImgData.initPicWidth;
         currentRatioImgData.x = 0;
         currentRatioImgData.y = (wrapper.offsetHeight / currentRatioImgData.k - currentRatioImgData.initPicHeight) / 5;
-    }    
+    }
 
     if (mainLayer) {
         mainLayer
@@ -201,7 +199,7 @@ function resize() {
 
 }
 
-function buildSvg() {    
+function buildSvg() {
     svg = d3.select('#wrapper').append('svg');
     svg
         .attr('class', 'svgContainer')
@@ -212,7 +210,7 @@ function buildSvg() {
     mainLayer
         .attr('class', 'mainLayer')
         .attr('opacity', '0')
-        //.attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
+    //.attr('transform', `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)
 
     floorLayer = mainLayer.append('g');
     floorLayer
@@ -233,11 +231,11 @@ function buildSvg() {
         .zoom()
         .scaleExtent([0.3, 10])
         .on('zoom', () => {
-            deleteSet('doc','.tooltip');
+            deleteSet('doc', '.tooltip');
             zoomed();
             // redrawPins();
         });
-    svg.call(zoom);  
+    svg.call(zoom);
     d3.select("svg").on("dblclick.zoom", null);
 }
 
@@ -270,9 +268,9 @@ function deleteSet(base, selector) {
     let element;
     if (base === "doc") {
         element = document.querySelector(selector)
-    } else if(base === "svg") {
+    } else if (base === "svg") {
         element = svg.select(selector);
-    }    
+    }
     if (element) element.remove();
 }
 
@@ -294,7 +292,7 @@ function drawSet(className, itemToShow, isChecked = true) {
             .attr('r', (d) => d.fullname == clickedPin ? newR : oldR)
             .on('click', clickedOnPin)
             .on('mousemove', (d) => toolTipFn(d.name, d.phase))
-            .on('mouseleave', (d) => toolTipFn(d.name, d.phase, false));            
+            .on('mouseleave', (d) => toolTipFn(d.name, d.phase, false));
 
     } else {
         deleteSet('svg', `.${selector}`);
@@ -330,7 +328,7 @@ function clickedOnPin(d) {
 
 function toolTipFn(id, phase, flag = true) {
     deleteSet('doc', '.tooltip');
-    if(!flag) return;
+    if (!flag) return;
     let x = d3.event.pageX;
     let y = d3.event.pageY;
     let posYDelta = 15;
@@ -380,7 +378,7 @@ function buildViewCone(angle) {
         .append('rect')
         .attr('x', point.x_img - 7.5)
         .attr('y', point.y_img + 165)
-        
+
         .attr('width', 15)
         .attr('height', 45)
         .attr('fill', 'orange')

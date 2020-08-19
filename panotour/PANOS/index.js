@@ -399,7 +399,6 @@ function buildViewCone(angle) {
         .append('rect')
         .attr('x', point.x_img - 7.5)
         .attr('y', point.y_img)
-
         .attr('width', 15)
         .attr('height', 45)
         .attr('fill', 'orange')

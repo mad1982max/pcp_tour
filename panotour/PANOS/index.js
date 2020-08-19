@@ -295,7 +295,7 @@ function drawSet(className, itemToShow, isChecked = true) {
             .append('circle')
             .attr('fill', (d) => d.fullname === clickedPin ? checkedColor : defaultColor)
             .attr('cx', d => d.x_img)
-            .attr('cy', d => d.y_img + 165)
+            .attr('cy', d => d.y_img)
             .attr('r', (d) => d.fullname == clickedPin ? newR : oldR)
             .on('click', clickedOnPin)
             .on('mousemove', (d) => toolTipFn(d.name, d.phase))
@@ -385,7 +385,7 @@ function changeView(angle) {
     let point = pointsOnLevel.find(point => point.fullname === clickedPin);
     set
         .select(`._${point.name}`).select('.view')
-        .attr('transform', `rotate(${angle} ${point.x_img} ${point.y_img+ 165})`)
+        .attr('transform', `rotate(${angle} ${point.x_img} ${point.y_img})`)
 }
 
 
@@ -398,7 +398,7 @@ function buildViewCone(angle) {
         .attr('class', 'view')
         .append('rect')
         .attr('x', point.x_img - 7.5)
-        .attr('y', point.y_img + 165)
+        .attr('y', point.y_img)
 
         .attr('width', 15)
         .attr('height', 45)

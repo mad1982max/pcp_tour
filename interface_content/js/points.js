@@ -5,11 +5,9 @@ let points = [{
     "x_real": 102.7,
     "y_real": 230.09,
     "z_real": 29.33,
-    "x_img": 618.7198622273254,
-    "y_img": 670.2746406570841,
-    "level": "level_27.8",
-    "x_img_old": 645,
-    "y_img_old": 466
+    "x_img": 618.72,
+    "y_img": 670.27,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_102",
     "phase": "PHASE1",
@@ -17,11 +15,9 @@ let points = [{
     "x_real": 105.48,
     "y_real": 239.55,
     "z_real": 29.01,
-    "x_img": 703.3008036739384,
-    "y_img": 395.8957905544139,
-    "level": "level_27.8",
-    "x_img_old": 730,
-    "y_img_old": 173
+    "x_img": 703.3,
+    "y_img": 395.9,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_103",
     "phase": "PHASE1",
@@ -29,11 +25,9 @@ let points = [{
     "x_real": 101.77,
     "y_real": 232.52,
     "z_real": 29.33,
-    "x_img": 590.4247990815156,
-    "y_img": 599.7946611909647,
-    "level": "level_27.8",
-    "x_img_old": 616,
-    "y_img_old": 391
+    "x_img": 590.42,
+    "y_img": 599.79,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_104",
     "phase": "PHASE1",
@@ -41,11 +35,9 @@ let points = [{
     "x_real": 107.76,
     "y_real": 241.66,
     "z_real": 29.02,
-    "x_img": 772.6693455797936,
-    "y_img": 334.69712525667364,
-    "level": "level_27.8",
-    "x_img_old": 801,
-    "y_img_old": 108
+    "x_img": 772.67,
+    "y_img": 334.7,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_105",
     "phase": "PHASE1",
@@ -53,11 +45,9 @@ let points = [{
     "x_real": 100.36,
     "y_real": 237.4,
     "z_real": 29.34,
-    "x_img": 547.5258323765793,
-    "y_img": 458.2546201232026,
-    "level": "level_27.8",
-    "x_img_old": 572,
-    "y_img_old": 240
+    "x_img": 547.53,
+    "y_img": 458.25,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_106",
     "phase": "PHASE1",
@@ -65,11 +55,9 @@ let points = [{
     "x_real": 110.91,
     "y_real": 240.2,
     "z_real": 29.01,
-    "x_img": 868.5074626865671,
-    "y_img": 377.04312114989716,
-    "level": "level_27.8",
-    "x_img_old": 898,
-    "y_img_old": 153
+    "x_img": 868.51,
+    "y_img": 377.04,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_107",
     "phase": "PHASE1",
@@ -77,11 +65,9 @@ let points = [{
     "x_real": 100,
     "y_real": 240.12,
     "z_real": 29.34,
-    "x_img": 536.5729047072336,
-    "y_img": 379.36344969199126,
-    "level": "level_27.8",
-    "x_img_old": 561,
-    "y_img_old": 156
+    "x_img": 536.57,
+    "y_img": 379.36,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_108",
     "phase": "PHASE1",
@@ -89,11 +75,9 @@ let points = [{
     "x_real": 113.49,
     "y_real": 240.54,
     "z_real": 29.01,
-    "x_img": 947.003444316877,
-    "y_img": 367.18172484599563,
-    "level": "level_27.8",
-    "x_img_old": 978,
-    "y_img_old": 143
+    "x_img": 947,
+    "y_img": 367.18,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_109",
     "phase": "PHASE1",
@@ -101,11 +85,9 @@ let points = [{
     "x_real": 97.34,
     "y_real": 240.67,
     "z_real": 29.34,
-    "x_img": 455.6429391504025,
-    "y_img": 363.4111909650928,
-    "level": "level_27.8",
-    "x_img_old": 479,
-    "y_img_old": 139
+    "x_img": 455.64,
+    "y_img": 363.41,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_110",
     "phase": "PHASE1",
@@ -113,11 +95,9 @@ let points = [{
     "x_real": 118.69,
     "y_real": 240.93,
     "z_real": 29,
-    "x_img": 1105.2123995407578,
-    "y_img": 355.8701232032854,
-    "level": "level_27.8",
-    "x_img_old": 1139,
-    "y_img_old": 131
+    "x_img": 1105.21,
+    "y_img": 355.87,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_111",
     "phase": "PHASE1",
@@ -125,11 +105,9 @@ let points = [{
     "x_real": 107.32,
     "y_real": 229.89,
     "z_real": 29.33,
-    "x_img": 759.2824339839267,
-    "y_img": 676.0754620123207,
-    "level": "level_27.8",
-    "x_img_old": 787,
-    "y_img_old": 472
+    "x_img": 759.28,
+    "y_img": 676.08,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_112",
     "phase": "PHASE1",
@@ -137,11 +115,9 @@ let points = [{
     "x_real": 122.22,
     "y_real": 238.94,
     "z_real": 28.99,
-    "x_img": 1212.6119402985073,
-    "y_img": 413.58829568788497,
-    "level": "level_27.8",
-    "x_img_old": 1248,
-    "y_img_old": 192
+    "x_img": 1212.61,
+    "y_img": 413.59,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_113",
     "phase": "PHASE1",
@@ -149,11 +125,9 @@ let points = [{
     "x_real": 117.34,
     "y_real": 229.07,
     "z_real": 29.32,
-    "x_img": 1064.138920780712,
-    "y_img": 699.8588295687887,
-    "level": "level_27.8",
-    "x_img_old": 1097,
-    "y_img_old": 498
+    "x_img": 1064.14,
+    "y_img": 699.86,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_114",
     "phase": "PHASE1",
@@ -161,11 +135,9 @@ let points = [{
     "x_real": 122.59,
     "y_real": 241.37,
     "z_real": 29.01,
-    "x_img": 1223.8691159586683,
-    "y_img": 343.10831622176556,
-    "level": "level_27.8",
-    "x_img_old": 1260,
-    "y_img_old": 117
+    "x_img": 1223.87,
+    "y_img": 343.11,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_115",
     "phase": "PHASE1",
@@ -173,11 +145,9 @@ let points = [{
     "x_real": 121.04,
     "y_real": 233.89,
     "z_real": 29.31,
-    "x_img": 1176.7106773823193,
-    "y_img": 560.0590349075974,
-    "level": "level_27.8",
-    "x_img_old": 1212,
-    "y_img_old": 348
+    "x_img": 1176.71,
+    "y_img": 560.06,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_116",
     "phase": "PHASE1",
@@ -185,11 +155,9 @@ let points = [{
     "x_real": 115.31,
     "y_real": 234.02,
     "z_real": 28.98,
-    "x_img": 1002.3765786452354,
-    "y_img": 556.2885010266937,
-    "level": "level_27.8",
-    "x_img_old": 1034.58,
-    "y_img_old": 344.52
+    "x_img": 1002.38,
+    "y_img": 556.29,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_117",
     "phase": "PHASE1",
@@ -197,11 +165,9 @@ let points = [{
     "x_real": 102.57,
     "y_real": 227.1,
     "z_real": 29,
-    "x_img": 614.7646383467281,
-    "y_img": 756.996919917864,
-    "level": "level_27.8",
-    "x_img_old": 640,
-    "y_img_old": 559
+    "x_img": 614.76,
+    "y_img": 757,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_118",
     "phase": "PHASE1",
@@ -209,11 +175,9 @@ let points = [{
     "x_real": 102.73,
     "y_real": 216.9,
     "z_real": 29.33,
-    "x_img": 619.6326061997711,
-    "y_img": 1052.8388090349072,
-    "level": "level_27.8",
-    "x_img_old": 646,
-    "y_img_old": 874
+    "x_img": 619.63,
+    "y_img": 1052.84,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_119",
     "phase": "PHASE1",
@@ -221,11 +185,9 @@ let points = [{
     "x_real": 102.63,
     "y_real": 221.17,
     "z_real": 29.33,
-    "x_img": 616.5901262916191,
-    "y_img": 928.9912731006161,
-    "level": "level_27.8",
-    "x_img_old": 643,
-    "y_img_old": 742
+    "x_img": 616.59,
+    "y_img": 928.99,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_120",
     "phase": "PHASE1",
@@ -233,11 +195,9 @@ let points = [{
     "x_real": 103.23,
     "y_real": 212.04,
     "z_real": 29.33,
-    "x_img": 634.8450057405284,
-    "y_img": 1193.798767967146,
-    "level": "level_27.8",
-    "x_img_old": 661,
-    "y_img_old": 1025
+    "x_img": 634.85,
+    "y_img": 1193.8,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_121",
     "phase": "PHASE1",
@@ -245,11 +205,9 @@ let points = [{
     "x_real": 101.38,
     "y_real": 208.87,
     "z_real": 29.33,
-    "x_img": 578.5591274397248,
-    "y_img": 1285.7417864476383,
-    "level": "level_27.8",
-    "x_img_old": 604,
-    "y_img_old": 1123
+    "x_img": 578.56,
+    "y_img": 1285.74,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_122",
     "phase": "PHASE1",
@@ -257,11 +215,9 @@ let points = [{
     "x_real": 100.82,
     "y_real": 205.39,
     "z_real": 29.33,
-    "x_img": 561.521239954076,
-    "y_img": 1386.6760780287477,
-    "level": "level_27.8",
-    "x_img_old": 587,
-    "y_img_old": 1230
+    "x_img": 561.52,
+    "y_img": 1386.68,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_123",
     "phase": "PHASE1",
@@ -269,11 +225,9 @@ let points = [{
     "x_real": 99.81,
     "y_real": 202.5,
     "z_real": 29.33,
-    "x_img": 530.7921928817459,
-    "y_img": 1470.4979466119094,
-    "level": "level_27.8",
-    "x_img_old": 556,
-    "y_img_old": 1320
+    "x_img": 530.79,
+    "y_img": 1470.5,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_124",
     "phase": "PHASE1",
@@ -281,11 +235,9 @@ let points = [{
     "x_real": 101.71,
     "y_real": 200.91,
     "z_real": 29.32,
-    "x_img": 588.5993111366247,
-    "y_img": 1516.6144763860366,
-    "level": "level_27.8",
-    "x_img_old": 615,
-    "y_img_old": 1369
+    "x_img": 588.6,
+    "y_img": 1516.61,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_125",
     "phase": "PHASE1",
@@ -293,11 +245,9 @@ let points = [{
     "x_real": 105.2,
     "y_real": 204.2,
     "z_real": 29.32,
-    "x_img": 694.781859931114,
-    "y_img": 1421.1909650924026,
-    "level": "level_27.8",
-    "x_img_old": 722,
-    "y_img_old": 1267
+    "x_img": 694.78,
+    "y_img": 1421.19,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_126",
     "phase": "PHASE1",
@@ -305,11 +255,9 @@ let points = [{
     "x_real": 107.11,
     "y_real": 200.92,
     "z_real": 29.33,
-    "x_img": 752.8932261768086,
-    "y_img": 1516.3244353182754,
-    "level": "level_27.8",
-    "x_img_old": 782,
-    "y_img_old": 1368
+    "x_img": 752.89,
+    "y_img": 1516.32,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_127",
     "phase": "PHASE1",
@@ -317,11 +265,9 @@ let points = [{
     "x_real": 113.13,
     "y_real": 200.98,
     "z_real": 29.33,
-    "x_img": 936.0505166475314,
-    "y_img": 1514.5841889117046,
-    "level": "level_27.8",
-    "x_img_old": 968,
-    "y_img_old": 1366
+    "x_img": 936.05,
+    "y_img": 1514.58,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_128",
     "phase": "PHASE1",
@@ -329,11 +275,9 @@ let points = [{
     "x_real": 115.99,
     "y_real": 201.1,
     "z_real": 29.33,
-    "x_img": 1023.0654420206656,
-    "y_img": 1511.103696098562,
-    "level": "level_27.8",
-    "x_img_old": 1056,
-    "y_img_old": 1363
+    "x_img": 1023.07,
+    "y_img": 1511.1,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_129",
     "phase": "PHASE1",
@@ -341,11 +285,9 @@ let points = [{
     "x_real": 119.12,
     "y_real": 202.1,
     "z_real": 29.33,
-    "x_img": 1118.2950631458093,
-    "y_img": 1482.0995893223817,
-    "level": "level_27.8",
-    "x_img_old": 1153,
-    "y_img_old": 1332
+    "x_img": 1118.3,
+    "y_img": 1482.1,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_130",
     "phase": "PHASE1",
@@ -353,11 +295,9 @@ let points = [{
     "x_real": 121.76,
     "y_real": 200.55,
     "z_real": 29.34,
-    "x_img": 1198.6165327210106,
-    "y_img": 1527.0559548254614,
-    "level": "level_27.8",
-    "x_img_old": 1235,
-    "y_img_old": 1380
+    "x_img": 1198.62,
+    "y_img": 1527.06,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_131",
     "phase": "PHASE1",
@@ -365,11 +305,9 @@ let points = [{
     "x_real": 124.87,
     "y_real": 201.52,
     "z_real": 29.32,
-    "x_img": 1293.2376578645235,
-    "y_img": 1498.9219712525664,
-    "level": "level_27.8",
-    "x_img_old": 1331,
-    "y_img_old": 1350
+    "x_img": 1293.24,
+    "y_img": 1498.92,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_132",
     "phase": "PHASE1",
@@ -377,11 +315,9 @@ let points = [{
     "x_real": 121.36,
     "y_real": 207.48,
     "z_real": 29.32,
-    "x_img": 1186.4466130884039,
-    "y_img": 1326.0574948665299,
-    "level": "level_27.8",
-    "x_img_old": 1222,
-    "y_img_old": 1165
+    "x_img": 1186.45,
+    "y_img": 1326.06,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_133",
     "phase": "PHASE1",
@@ -389,11 +325,9 @@ let points = [{
     "x_real": 114.01,
     "y_real": 212.74,
     "z_real": 29.32,
-    "x_img": 962.8243398392656,
-    "y_img": 1173.4958932238187,
-    "level": "level_27.8",
-    "x_img_old": 995,
-    "y_img_old": 1003
+    "x_img": 962.82,
+    "y_img": 1173.5,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_134",
     "phase": "PHASE1",
@@ -401,11 +335,9 @@ let points = [{
     "x_real": 108.37,
     "y_real": 211.72,
     "z_real": 29.34,
-    "x_img": 791.2284730195183,
-    "y_img": 1203.0800821355233,
-    "level": "level_27.8",
-    "x_img_old": 820,
-    "y_img_old": 1034
+    "x_img": 791.23,
+    "y_img": 1203.08,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_135",
     "phase": "PHASE1",
@@ -413,11 +345,9 @@ let points = [{
     "x_real": 111.81,
     "y_real": 205.39,
     "z_real": 29.32,
-    "x_img": 895.8897818599312,
-    "y_img": 1386.6760780287477,
-    "level": "level_27.8",
-    "x_img_old": 927,
-    "y_img_old": 1230
+    "x_img": 895.89,
+    "y_img": 1386.68,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_136",
     "phase": "PHASE1",
@@ -425,11 +355,9 @@ let points = [{
     "x_real": 128.02,
     "y_real": 201.29,
     "z_real": 29.33,
-    "x_img": 1389.0757749712975,
-    "y_img": 1505.5929158110885,
-    "level": "level_27.8",
-    "x_img_old": 1429,
-    "y_img_old": 1357
+    "x_img": 1389.08,
+    "y_img": 1505.59,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_137",
     "phase": "PHASE1",
@@ -437,11 +365,9 @@ let points = [{
     "x_real": 132.92,
     "y_real": 201.21,
     "z_real": 29.34,
-    "x_img": 1538.1572904707223,
-    "y_img": 1507.9132443531826,
-    "level": "level_27.8",
-    "x_img_old": 1580,
-    "y_img_old": 1359
+    "x_img": 1538.16,
+    "y_img": 1507.91,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_138",
     "phase": "PHASE1",
@@ -449,11 +375,9 @@ let points = [{
     "x_real": 136.8,
     "y_real": 201.31,
     "z_real": 29.34,
-    "x_img": 1656.205510907003,
-    "y_img": 1505.0128336755643,
-    "level": "level_27.8",
-    "x_img_old": 1700,
-    "y_img_old": 1356
+    "x_img": 1656.21,
+    "y_img": 1505.01,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_139",
     "phase": "PHASE1",
@@ -461,11 +385,9 @@ let points = [{
     "x_real": 141.22,
     "y_real": 200.18,
     "z_real": 29.35,
-    "x_img": 1790.6831228473015,
-    "y_img": 1537.7874743326483,
-    "level": "level_27.8",
-    "x_img_old": 1837,
-    "y_img_old": 1391
+    "x_img": 1790.68,
+    "y_img": 1537.79,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_140",
     "phase": "PHASE1",
@@ -473,11 +395,9 @@ let points = [{
     "x_real": 144.2,
     "y_real": 201.66,
     "z_real": 29.33,
-    "x_img": 1881.3490241102168,
-    "y_img": 1494.8613963039015,
-    "level": "level_27.8",
-    "x_img_old": 1929,
-    "y_img_old": 1345
+    "x_img": 1881.35,
+    "y_img": 1494.86,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_141",
     "phase": "PHASE1",
@@ -485,11 +405,9 @@ let points = [{
     "x_real": 148.93,
     "y_real": 201.03,
     "z_real": 29.35,
-    "x_img": 2025.258323765786,
-    "y_img": 1513.133983572895,
-    "level": "level_27.8",
-    "x_img_old": 2075,
-    "y_img_old": 1364
+    "x_img": 2025.26,
+    "y_img": 1513.13,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_142",
     "phase": "PHASE1",
@@ -497,11 +415,9 @@ let points = [{
     "x_real": 153.05,
     "y_real": 201.52,
     "z_real": 29.35,
-    "x_img": 2150.6084959816294,
-    "y_img": 1498.9219712525664,
-    "level": "level_27.8",
-    "x_img_old": 2203,
-    "y_img_old": 1349
+    "x_img": 2150.61,
+    "y_img": 1498.92,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_143",
     "phase": "PHASE1",
@@ -509,11 +425,9 @@ let points = [{
     "x_real": 158.26,
     "y_real": 201.76,
     "z_real": 29.34,
-    "x_img": 2309.1216991963242,
-    "y_img": 1491.9609856262832,
-    "level": "level_27.8",
-    "x_img_old": 2364,
-    "y_img_old": 1342
+    "x_img": 2309.12,
+    "y_img": 1491.96,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_144",
     "phase": "PHASE1",
@@ -521,11 +435,9 @@ let points = [{
     "x_real": 159.83,
     "y_real": 199.91,
     "z_real": 29.35,
-    "x_img": 2356.888633754305,
-    "y_img": 1545.618583162217,
-    "level": "level_27.8",
-    "x_img_old": 2413,
-    "y_img_old": 1399
+    "x_img": 2356.89,
+    "y_img": 1545.62,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_145",
     "phase": "PHASE1",
@@ -533,11 +445,9 @@ let points = [{
     "x_real": 124.68,
     "y_real": 206.59,
     "z_real": 29.31,
-    "x_img": 1287.4569460390358,
-    "y_img": 1351.8711498973298,
-    "level": "level_27.8",
-    "x_img_old": 1325,
-    "y_img_old": 1193
+    "x_img": 1287.46,
+    "y_img": 1351.87,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_146",
     "phase": "PHASE1",
@@ -545,11 +455,9 @@ let points = [{
     "x_real": 124.36,
     "y_real": 240.31,
     "z_real": 29.34,
-    "x_img": 1277.7210103329503,
-    "y_img": 373.85266940451766,
-    "level": "level_27.8",
-    "x_img_old": 1314,
-    "y_img_old": 149
+    "x_img": 1277.72,
+    "y_img": 373.85,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_147",
     "phase": "PHASE1",
@@ -557,11 +465,9 @@ let points = [{
     "x_real": 129.46,
     "y_real": 240.46,
     "z_real": 29.35,
-    "x_img": 1432.8874856486796,
-    "y_img": 369.50205338808973,
-    "level": "level_27.8",
-    "x_img_old": 1472,
-    "y_img_old": 145
+    "x_img": 1432.89,
+    "y_img": 369.5,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_148",
     "phase": "PHASE1",
@@ -569,11 +475,9 @@ let points = [{
     "x_real": 134.15,
     "y_real": 240.24,
     "z_real": 29.36,
-    "x_img": 1575.5797933409872,
-    "y_img": 375.88295687884965,
-    "level": "level_27.8",
-    "x_img_old": 1617,
-    "y_img_old": 151
+    "x_img": 1575.58,
+    "y_img": 375.88,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_149",
     "phase": "PHASE1",
@@ -581,11 +485,9 @@ let points = [{
     "x_real": 139.64,
     "y_real": 239.94,
     "z_real": 29.35,
-    "x_img": 1742.6119402985064,
-    "y_img": 384.5841889117046,
-    "level": "level_27.8",
-    "x_img_old": 1787,
-    "y_img_old": 161
+    "x_img": 1742.61,
+    "y_img": 384.58,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_150",
     "phase": "PHASE1",
@@ -593,11 +495,9 @@ let points = [{
     "x_real": 145.14,
     "y_real": 241.25,
     "z_real": 29.35,
-    "x_img": 1909.948335246842,
-    "y_img": 346.5888090349072,
-    "level": "level_27.8",
-    "x_img_old": 1957,
-    "y_img_old": 120
+    "x_img": 1909.95,
+    "y_img": 346.59,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_151",
     "phase": "PHASE1",
@@ -605,11 +505,9 @@ let points = [{
     "x_real": 149.57,
     "y_real": 240.5,
     "z_real": 29.34,
-    "x_img": 2044.730195177955,
-    "y_img": 368.34188911704314,
-    "level": "level_27.8",
-    "x_img_old": 2094,
-    "y_img_old": 143
+    "x_img": 2044.73,
+    "y_img": 368.34,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_152",
     "phase": "PHASE1",
@@ -617,11 +515,9 @@ let points = [{
     "x_real": 153.25,
     "y_real": 240.05,
     "z_real": 29.35,
-    "x_img": 2156.6934557979325,
-    "y_img": 381.3937371663242,
-    "level": "level_27.8",
-    "x_img_old": 2208,
-    "y_img_old": 157
+    "x_img": 2156.69,
+    "y_img": 381.39,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_153",
     "phase": "PHASE1",
@@ -629,11 +525,9 @@ let points = [{
     "x_real": 157.68,
     "y_real": 240.58,
     "z_real": 29.36,
-    "x_img": 2291.4753157290465,
-    "y_img": 366.0215605749481,
-    "level": "level_27.8",
-    "x_img_old": 2345,
-    "y_img_old": 140
+    "x_img": 2291.48,
+    "y_img": 366.02,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_154",
     "phase": "PHASE1",
@@ -641,11 +535,9 @@ let points = [{
     "x_real": 159.85,
     "y_real": 241.89,
     "z_real": 29.34,
-    "x_img": 2357.497129735934,
-    "y_img": 328.02618069815253,
-    "level": "level_27.8",
-    "x_img_old": 2412,
-    "y_img_old": 100
+    "x_img": 2357.5,
+    "y_img": 328.03,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_155",
     "phase": "PHASE1",
@@ -653,11 +545,9 @@ let points = [{
     "x_real": 158.97,
     "y_real": 233.67,
     "z_real": 29.34,
-    "x_img": 2330.723306544201,
-    "y_img": 566.4399383983573,
-    "level": "level_27.8",
-    "x_img_old": 2385,
-    "y_img_old": 354
+    "x_img": 2330.72,
+    "y_img": 566.44,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_156",
     "phase": "PHASE1",
@@ -665,11 +555,9 @@ let points = [{
     "x_real": 161.09,
     "y_real": 230.81,
     "z_real": 29.35,
-    "x_img": 2395.223880597014,
-    "y_img": 649.3916837782335,
-    "level": "level_27.8",
-    "x_img_old": 2451,
-    "y_img_old": 443
+    "x_img": 2395.22,
+    "y_img": 649.39,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_157",
     "phase": "PHASE1",
@@ -677,11 +565,9 @@ let points = [{
     "x_real": 96.19,
     "y_real": 235.61,
     "z_real": 31.83,
-    "x_img": 420.6544202066598,
-    "y_img": 510.17197125256644,
-    "level": "level_27.8",
-    "x_img_old": 443,
-    "y_img_old": 295
+    "x_img": 420.65,
+    "y_img": 510.17,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_158",
     "phase": "PHASE1",
@@ -689,11 +575,9 @@ let points = [{
     "x_real": 97.62,
     "y_real": 240.5,
     "z_real": 34.34,
-    "x_img": 464.1618828932269,
-    "y_img": 368.34188911704314,
-    "level": "level_27.8",
-    "x_img_old": 487,
-    "y_img_old": 144
+    "x_img": 464.16,
+    "y_img": 368.34,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_159",
     "phase": "PHASE1",
@@ -701,11 +585,9 @@ let points = [{
     "x_real": 96.13,
     "y_real": 235.59,
     "z_real": 36.83,
-    "x_img": 418.8289322617684,
-    "y_img": 510.75205338808973,
-    "level": "level_37.8",
-    "x_img_old": 342,
-    "y_img_old": 291
+    "x_img": 418.83,
+    "y_img": 510.75,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_160",
     "phase": "PHASE1",
@@ -713,11 +595,9 @@ let points = [{
     "x_real": 97.53,
     "y_real": 240.63,
     "z_real": 39.33,
-    "x_img": 461.42365097589027,
-    "y_img": 364.5713552361394,
-    "level": "level_37.8",
-    "x_img_old": 414,
-    "y_img_old": 177
+    "x_img": 461.42,
+    "y_img": 364.57,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_161",
     "phase": "PHASE1",
@@ -725,11 +605,9 @@ let points = [{
     "x_real": 100.26,
     "y_real": 240.14,
     "z_real": 39.36,
-    "x_img": 544.4833524684277,
-    "y_img": 378.7833675564689,
-    "level": "level_37.8",
-    "x_img_old": 480,
-    "y_img_old": 170
+    "x_img": 544.48,
+    "y_img": 378.78,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_162",
     "phase": "PHASE1",
@@ -737,11 +615,9 @@ let points = [{
     "x_real": 100.34,
     "y_real": 237.5,
     "z_real": 39.35,
-    "x_img": 546.917336394949,
-    "y_img": 455.3542094455852,
-    "level": "level_37.8",
-    "x_img_old": 482,
-    "y_img_old": 252
+    "x_img": 546.92,
+    "y_img": 455.35,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_163",
     "phase": "PHASE1",
@@ -749,11 +625,9 @@ let points = [{
     "x_real": 101.71,
     "y_real": 235.53,
     "z_real": 39.35,
-    "x_img": 588.5993111366247,
-    "y_img": 512.4922997946605,
-    "level": "level_37.8",
-    "x_img_old": 525,
-    "y_img_old": 313
+    "x_img": 588.6,
+    "y_img": 512.49,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_164",
     "phase": "PHASE1",
@@ -761,11 +635,9 @@ let points = [{
     "x_real": 101.33,
     "y_real": 227.53,
     "z_real": 39.36,
-    "x_img": 577.0378874856492,
-    "y_img": 744.5251540041063,
-    "level": "level_37.8",
-    "x_img_old": 513,
-    "y_img_old": 562
+    "x_img": 577.04,
+    "y_img": 744.53,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_165",
     "phase": "PHASE1",
@@ -773,11 +645,9 @@ let points = [{
     "x_real": 102.14,
     "y_real": 222.18,
     "z_real": 39.34,
-    "x_img": 601.6819747416766,
-    "y_img": 899.6971252566727,
-    "level": "level_37.8",
-    "x_img_old": 538,
-    "y_img_old": 728
+    "x_img": 601.68,
+    "y_img": 899.7,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_166",
     "phase": "PHASE1",
@@ -785,11 +655,9 @@ let points = [{
     "x_real": 102.33,
     "y_real": 215.53,
     "z_real": 39.35,
-    "x_img": 607.4626865671644,
-    "y_img": 1092.5744353182745,
-    "level": "level_37.8",
-    "x_img_old": 545,
-    "y_img_old": 934
+    "x_img": 607.46,
+    "y_img": 1092.57,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_167",
     "phase": "PHASE1",
@@ -797,11 +665,9 @@ let points = [{
     "x_real": 103.09,
     "y_real": 209.37,
     "z_real": 39.32,
-    "x_img": 630.5855338691163,
-    "y_img": 1271.2397330595477,
-    "level": "level_37.8",
-    "x_img_old": 568,
-    "y_img_old": 1125
+    "x_img": 630.59,
+    "y_img": 1271.24,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_168",
     "phase": "PHASE1",
@@ -809,11 +675,9 @@ let points = [{
     "x_real": 100.38,
     "y_real": 204.61,
     "z_real": 39.34,
-    "x_img": 548.1343283582091,
-    "y_img": 1409.2992813141673,
-    "level": "level_37.8",
-    "x_img_old": 485,
-    "y_img_old": 1273
+    "x_img": 548.13,
+    "y_img": 1409.3,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_169",
     "phase": "PHASE1",
@@ -821,11 +685,9 @@ let points = [{
     "x_real": 99.71,
     "y_real": 202.44,
     "z_real": 39.34,
-    "x_img": 527.7497129735939,
-    "y_img": 1472.2381930184802,
-    "level": "level_37.8",
-    "x_img_old": 464,
-    "y_img_old": 1340
+    "x_img": 527.75,
+    "y_img": 1472.24,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_170",
     "phase": "PHASE1",
@@ -833,11 +695,9 @@ let points = [{
     "x_real": 101.67,
     "y_real": 201.45,
     "z_real": 39.34,
-    "x_img": 587.3823191733645,
-    "y_img": 1500.9522587268993,
-    "level": "level_37.8",
-    "x_img_old": 525,
-    "y_img_old": 1371
+    "x_img": 587.38,
+    "y_img": 1500.95,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_171",
     "phase": "PHASE1",
@@ -845,11 +705,9 @@ let points = [{
     "x_real": 104.76,
     "y_real": 202.44,
     "z_real": 39.33,
-    "x_img": 681.3949483352476,
-    "y_img": 1472.2381930184802,
-    "level": "level_37.8",
-    "x_img_old": 621,
-    "y_img_old": 1340
+    "x_img": 681.39,
+    "y_img": 1472.24,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_172",
     "phase": "PHASE1",
@@ -857,11 +715,9 @@ let points = [{
     "x_real": 109.53,
     "y_real": 201.79,
     "z_real": 39.33,
-    "x_img": 826.521239954076,
-    "y_img": 1491.0908624229978,
-    "level": "level_37.8",
-    "x_img_old": 769,
-    "y_img_old": 1360
+    "x_img": 826.52,
+    "y_img": 1491.09,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_173",
     "phase": "PHASE1",
@@ -869,11 +725,9 @@ let points = [{
     "x_real": 115.49,
     "y_real": 201.2,
     "z_real": 39.32,
-    "x_img": 1007.8530424799083,
-    "y_img": 1508.2032854209447,
-    "level": "level_37.8",
-    "x_img_old": 954,
-    "y_img_old": 1378
+    "x_img": 1007.85,
+    "y_img": 1508.2,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_174",
     "phase": "PHASE1",
@@ -881,11 +735,9 @@ let points = [{
     "x_real": 119.62,
     "y_real": 201.46,
     "z_real": 39.33,
-    "x_img": 1133.5074626865671,
-    "y_img": 1500.6622176591372,
-    "level": "level_37.8",
-    "x_img_old": 1082,
-    "y_img_old": 1370
+    "x_img": 1133.51,
+    "y_img": 1500.66,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_175",
     "phase": "PHASE1",
@@ -893,11 +745,9 @@ let points = [{
     "x_real": 125.25,
     "y_real": 201.54,
     "z_real": 39.32,
-    "x_img": 1304.799081515499,
-    "y_img": 1498.3418891170431,
-    "level": "level_37.8",
-    "x_img_old": 1257,
-    "y_img_old": 1367
+    "x_img": 1304.8,
+    "y_img": 1498.34,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_176",
     "phase": "PHASE1",
@@ -905,11 +755,9 @@ let points = [{
     "x_real": 129.39,
     "y_real": 199.63,
     "z_real": 39.33,
-    "x_img": 1430.7577497129728,
-    "y_img": 1553.7397330595477,
-    "level": "level_37.8",
-    "x_img_old": 1385,
-    "y_img_old": 1426
+    "x_img": 1430.76,
+    "y_img": 1553.74,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_177",
     "phase": "PHASE1",
@@ -917,11 +765,9 @@ let points = [{
     "x_real": 131.52,
     "y_real": 201.34,
     "z_real": 39.32,
-    "x_img": 1495.5625717566013,
-    "y_img": 1504.1427104722788,
-    "level": "level_37.8",
-    "x_img_old": 1451,
-    "y_img_old": 1373
+    "x_img": 1495.56,
+    "y_img": 1504.14,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_178",
     "phase": "PHASE1",
@@ -929,11 +775,9 @@ let points = [{
     "x_real": 138.29,
     "y_real": 205.87,
     "z_real": 39.3,
-    "x_img": 1701.5384615384605,
-    "y_img": 1372.7541067761804,
-    "level": "level_37.8",
-    "x_img_old": 1661,
-    "y_img_old": 1232
+    "x_img": 1701.54,
+    "y_img": 1372.75,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_179",
     "phase": "PHASE1",
@@ -941,11 +785,9 @@ let points = [{
     "x_real": 139.37,
     "y_real": 200.01,
     "z_real": 39.32,
-    "x_img": 1734.3972445464974,
-    "y_img": 1542.7181724845996,
-    "level": "level_37.8",
-    "x_img_old": 1695,
-    "y_img_old": 1414
+    "x_img": 1734.4,
+    "y_img": 1542.72,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_180",
     "phase": "PHASE1",
@@ -953,11 +795,9 @@ let points = [{
     "x_real": 101.85,
     "y_real": 240.55,
     "z_real": 39.34,
-    "x_img": 592.8587830080369,
-    "y_img": 366.8916837782335,
-    "level": "level_37.8",
-    "x_img_old": 529,
-    "y_img_old": 157
+    "x_img": 592.86,
+    "y_img": 366.89,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_181",
     "phase": "PHASE1",
@@ -965,11 +805,9 @@ let points = [{
     "x_real": 106.76,
     "y_real": 241.53,
     "z_real": 39.35,
-    "x_img": 742.2445464982784,
-    "y_img": 338.46765913757645,
-    "level": "level_37.8",
-    "x_img_old": 681,
-    "y_img_old": 127
+    "x_img": 742.24,
+    "y_img": 338.47,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_182",
     "phase": "PHASE1",
@@ -977,11 +815,9 @@ let points = [{
     "x_real": 112.26,
     "y_real": 241.03,
     "z_real": 39.34,
-    "x_img": 909.5809414466135,
-    "y_img": 352.9697125256671,
-    "level": "level_37.8",
-    "x_img_old": 852,
-    "y_img_old": 142
+    "x_img": 909.58,
+    "y_img": 352.97,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_183",
     "phase": "PHASE1",
@@ -989,11 +825,9 @@ let points = [{
     "x_real": 118.44,
     "y_real": 240.35,
     "z_real": 39.34,
-    "x_img": 1097.6061997703787,
-    "y_img": 372.69250513347015,
-    "level": "level_37.8",
-    "x_img_old": 1044,
-    "y_img_old": 163
+    "x_img": 1097.61,
+    "y_img": 372.69,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_184",
     "phase": "PHASE1",
@@ -1001,11 +835,9 @@ let points = [{
     "x_real": 125.95,
     "y_real": 241.84,
     "z_real": 39.35,
-    "x_img": 1326.09644087256,
-    "y_img": 329.4763860369603,
-    "level": "level_37.8",
-    "x_img_old": 1277,
-    "y_img_old": 116
+    "x_img": 1326.1,
+    "y_img": 329.48,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_185",
     "phase": "PHASE1",
@@ -1013,11 +845,9 @@ let points = [{
     "x_real": 131.93,
     "y_real": 239.77,
     "z_real": 39.34,
-    "x_img": 1508.036739380023,
-    "y_img": 389.5148870636549,
-    "level": "level_37.8",
-    "x_img_old": 1462,
-    "y_img_old": 180
+    "x_img": 1508.04,
+    "y_img": 389.51,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_186",
     "phase": "PHASE1",
@@ -1025,11 +855,9 @@ let points = [{
     "x_real": 137.08,
     "y_real": 238.61,
     "z_real": 39.32,
-    "x_img": 1664.7244546498273,
-    "y_img": 423.1596509240244,
-    "level": "level_37.8",
-    "x_img_old": 1622,
-    "y_img_old": 216
+    "x_img": 1664.72,
+    "y_img": 423.16,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_187",
     "phase": "PHASE1",
@@ -1037,11 +865,9 @@ let points = [{
     "x_real": 139.38,
     "y_real": 241.47,
     "z_real": 39.34,
-    "x_img": 1734.7014925373128,
-    "y_img": 340.20790554414816,
-    "level": "level_37.8",
-    "x_img_old": 1693,
-    "y_img_old": 128
+    "x_img": 1734.7,
+    "y_img": 340.21,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_188",
     "phase": "PHASE1",
@@ -1049,11 +875,9 @@ let points = [{
     "x_real": 138.13,
     "y_real": 234.19,
     "z_real": 39.29,
-    "x_img": 1696.670493685418,
-    "y_img": 551.3578028747434,
-    "level": "level_37.8",
-    "x_img_old": 1655,
-    "y_img_old": 353
+    "x_img": 1696.67,
+    "y_img": 551.36,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_189",
     "phase": "PHASE1",
@@ -1061,11 +885,9 @@ let points = [{
     "x_real": 160.23,
     "y_real": 227,
     "z_real": 29.35,
-    "x_img": 2369.0585533869103,
-    "y_img": 759.8973305954823,
-    "level": "level_27.8",
-    "x_img_old": 2424,
-    "y_img_old": 561
+    "x_img": 2369.06,
+    "y_img": 759.9,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_190",
     "phase": "PHASE1",
@@ -1073,11 +895,9 @@ let points = [{
     "x_real": 160.4,
     "y_real": 222.34,
     "z_real": 29.34,
-    "x_img": 2374.230769230768,
-    "y_img": 895.0564681724845,
-    "level": "level_27.8",
-    "x_img_old": 2430,
-    "y_img_old": 705
+    "x_img": 2374.23,
+    "y_img": 895.06,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_191",
     "phase": "PHASE1",
@@ -1085,11 +905,9 @@ let points = [{
     "x_real": 159.1,
     "y_real": 218.07,
     "z_real": 29.33,
-    "x_img": 2334.6785304247974,
-    "y_img": 1018.9040041067765,
-    "level": "level_27.8",
-    "x_img_old": 2390,
-    "y_img_old": 837
+    "x_img": 2334.68,
+    "y_img": 1018.9,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_192",
     "phase": "PHASE1",
@@ -1097,11 +915,9 @@ let points = [{
     "x_real": 158.13,
     "y_real": 213.97,
     "z_real": 29.34,
-    "x_img": 2305.166475315728,
-    "y_img": 1137.8208418891163,
-    "level": "level_27.8",
-    "x_img_old": 2360,
-    "y_img_old": 964
+    "x_img": 2305.17,
+    "y_img": 1137.82,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_193",
     "phase": "PHASE1",
@@ -1109,11 +925,9 @@ let points = [{
     "x_real": 160.72,
     "y_real": 207.95,
     "z_real": 29.34,
-    "x_img": 2383.966704936853,
-    "y_img": 1312.4255646817246,
-    "level": "level_27.8",
-    "x_img_old": 2440,
-    "y_img_old": 1150
+    "x_img": 2383.97,
+    "y_img": 1312.43,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_194",
     "phase": "PHASE1",
@@ -1121,11 +935,9 @@ let points = [{
     "x_real": 162.24,
     "y_real": 204.37,
     "z_real": 29.34,
-    "x_img": 2430.212399540757,
-    "y_img": 1416.2602669404514,
-    "level": "level_27.8",
-    "x_img_old": 2487,
-    "y_img_old": 1261
+    "x_img": 2430.21,
+    "y_img": 1416.26,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_195",
     "phase": "PHASE1",
@@ -1133,11 +945,9 @@ let points = [{
     "x_real": 162.03,
     "y_real": 201.44,
     "z_real": 29.33,
-    "x_img": 2423.8231917336384,
-    "y_img": 1501.2422997946605,
-    "level": "level_27.8",
-    "x_img_old": 2481,
-    "y_img_old": 1351
+    "x_img": 2423.82,
+    "y_img": 1501.24,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_196",
     "phase": "PHASE1",
@@ -1145,11 +955,9 @@ let points = [{
     "x_real": 165.01,
     "y_real": 201.27,
     "z_real": 29.35,
-    "x_img": 2514.4890929965536,
-    "y_img": 1506.1729979466108,
-    "level": "level_27.8",
-    "x_img_old": 2573,
-    "y_img_old": 1357
+    "x_img": 2514.49,
+    "y_img": 1506.17,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_197",
     "phase": "PHASE1",
@@ -1157,11 +965,9 @@ let points = [{
     "x_real": 162.4,
     "y_real": 219.04,
     "z_real": 29.35,
-    "x_img": 2435.0803673937994,
-    "y_img": 990.7700205338806,
-    "level": "level_27.8",
-    "x_img_old": 2492,
-    "y_img_old": 807
+    "x_img": 2435.08,
+    "y_img": 990.77,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_198",
     "phase": "PHASE1",
@@ -1169,11 +975,9 @@ let points = [{
     "x_real": 166.59,
     "y_real": 217.41,
     "z_real": 29.32,
-    "x_img": 2562.5602755453488,
-    "y_img": 1038.0467145790553,
-    "level": "level_27.8",
-    "x_img_old": 2621,
-    "y_img_old": 857
+    "x_img": 2562.56,
+    "y_img": 1038.05,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_199",
     "phase": "PHASE1",
@@ -1181,11 +985,9 @@ let points = [{
     "x_real": 99.81,
     "y_real": 201.34,
     "z_real": 29.33,
-    "x_img": 530.7921928817459,
-    "y_img": 1504.1427104722788,
-    "level": "level_27.8",
-    "x_img_old": 556,
-    "y_img_old": 1356
+    "x_img": 530.79,
+    "y_img": 1504.14,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_200",
     "phase": "PHASE1",
@@ -1193,11 +995,9 @@ let points = [{
     "x_real": 96.59,
     "y_real": 201.11,
     "z_real": 29.33,
-    "x_img": 432.82433983926603,
-    "y_img": 1510.8136550308,
-    "level": "level_27.8",
-    "x_img_old": 456,
-    "y_img_old": 1363
+    "x_img": 432.82,
+    "y_img": 1510.81,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_201",
     "phase": "PHASE1",
@@ -1205,11 +1005,9 @@ let points = [{
     "x_real": 96.01,
     "y_real": 235.75,
     "z_real": 41.83,
-    "x_img": 415.17795637198697,
-    "y_img": 506.11139630390153,
-    "level": "level_37.8",
-    "x_img_old": 377,
-    "y_img_old": 313
+    "x_img": 415.18,
+    "y_img": 506.11,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_202",
     "phase": "PHASE1",
@@ -1217,11 +1015,9 @@ let points = [{
     "x_real": 97.81,
     "y_real": 240.64,
     "z_real": 44.33,
-    "x_img": 469.94259471871464,
-    "y_img": 364.28131416837823,
-    "level": "level_37.8",
-    "x_img_old": 388,
-    "y_img_old": 146
+    "x_img": 469.94,
+    "y_img": 364.28,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_203",
     "phase": "PHASE1",
@@ -1229,11 +1025,9 @@ let points = [{
     "x_real": 96.43,
     "y_real": 235.04,
     "z_real": 46.84,
-    "x_img": 427.95637198622353,
-    "y_img": 526.70431211499,
-    "level": "level_47.8",
-    "x_img_old": 436,
-    "y_img_old": 330
+    "x_img": 427.96,
+    "y_img": 526.7,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_204",
     "phase": "PHASE1",
@@ -1241,11 +1035,9 @@ let points = [{
     "x_real": 97.99,
     "y_real": 240.47,
     "z_real": 49.36,
-    "x_img": 475.41905855338746,
-    "y_img": 369.21201232032854,
-    "level": "level_47.8",
-    "x_img_old": 483,
-    "y_img_old": 166
+    "x_img": 475.42,
+    "y_img": 369.21,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_205",
     "phase": "PHASE1",
@@ -1253,11 +1045,9 @@ let points = [{
     "x_real": 107.7,
     "y_real": 240.33,
     "z_real": 49.36,
-    "x_img": 770.8438576349026,
-    "y_img": 373.27258726899345,
-    "level": "level_47.8",
-    "x_img_old": 776,
-    "y_img_old": 171
+    "x_img": 770.84,
+    "y_img": 373.27,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_206",
     "phase": "PHASE1",
@@ -1265,11 +1055,9 @@ let points = [{
     "x_real": 110.56,
     "y_real": 240.08,
     "z_real": 49.34,
-    "x_img": 857.8587830080369,
-    "y_img": 380.52361396303877,
-    "level": "level_47.8",
-    "x_img_old": 863,
-    "y_img_old": 178
+    "x_img": 857.86,
+    "y_img": 380.52,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_207",
     "phase": "PHASE1",
@@ -1277,11 +1065,9 @@ let points = [{
     "x_real": 112.33,
     "y_real": 240.01,
     "z_real": 49.33,
-    "x_img": 911.7106773823193,
-    "y_img": 382.5539014373717,
-    "level": "level_47.8",
-    "x_img_old": 916,
-    "y_img_old": 180
+    "x_img": 911.71,
+    "y_img": 382.55,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_208",
     "phase": "PHASE1",
@@ -1289,11 +1075,9 @@ let points = [{
     "x_real": 122.41,
     "y_real": 239.76,
     "z_real": 49.35,
-    "x_img": 1218.392652123995,
-    "y_img": 389.804928131417,
-    "level": "level_47.8",
-    "x_img_old": 1221,
-    "y_img_old": 188
+    "x_img": 1218.39,
+    "y_img": 389.8,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_209",
     "phase": "PHASE1",
@@ -1301,11 +1085,9 @@ let points = [{
     "x_real": 132.16,
     "y_real": 239.77,
     "z_real": 49.35,
-    "x_img": 1515.0344431687708,
-    "y_img": 389.5148870636549,
-    "level": "level_47.8",
-    "x_img_old": 1515,
-    "y_img_old": 189
+    "x_img": 1515.03,
+    "y_img": 389.51,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_210",
     "phase": "PHASE1",
@@ -1313,11 +1095,9 @@ let points = [{
     "x_real": 133.59,
     "y_real": 239.32,
     "z_real": 49.35,
-    "x_img": 1558.5419058553384,
-    "y_img": 402.56673511293684,
-    "level": "level_47.8",
-    "x_img_old": 1558,
-    "y_img_old": 202
+    "x_img": 1558.54,
+    "y_img": 402.57,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_211",
     "phase": "PHASE1",
@@ -1325,11 +1105,9 @@ let points = [{
     "x_real": 134.82,
     "y_real": 240.86,
     "z_real": 49.35,
-    "x_img": 1595.9644087256024,
-    "y_img": 357.9004106776174,
-    "level": "level_47.8",
-    "x_img_old": 1596,
-    "y_img_old": 156
+    "x_img": 1595.96,
+    "y_img": 357.9,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_212",
     "phase": "PHASE1",
@@ -1337,11 +1115,9 @@ let points = [{
     "x_real": 138.03,
     "y_real": 240.82,
     "z_real": 49.35,
-    "x_img": 1693.628013777267,
-    "y_img": 359.0605749486649,
-    "level": "level_47.8",
-    "x_img_old": 1692,
-    "y_img_old": 157
+    "x_img": 1693.63,
+    "y_img": 359.06,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_213",
     "phase": "PHASE1",
@@ -1349,11 +1125,9 @@ let points = [{
     "x_real": 138.86,
     "y_real": 241.82,
     "z_real": 49.35,
-    "x_img": 1718.8805970149256,
-    "y_img": 330.05646817248453,
-    "level": "level_47.8",
-    "x_img_old": 1718,
-    "y_img_old": 127
+    "x_img": 1718.88,
+    "y_img": 330.06,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_214",
     "phase": "PHASE1",
@@ -1361,11 +1135,9 @@ let points = [{
     "x_real": 138.3,
     "y_real": 237.17,
     "z_real": 49.62,
-    "x_img": 1701.8427095292768,
-    "y_img": 464.9255646817246,
-    "level": "level_47.8",
-    "x_img_old": 1700,
-    "y_img_old": 267
+    "x_img": 1701.84,
+    "y_img": 464.93,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_215",
     "phase": "PHASE1",
@@ -1373,11 +1145,9 @@ let points = [{
     "x_real": 142.16,
     "y_real": 240.88,
     "z_real": 49.34,
-    "x_img": 1819.2824339839258,
-    "y_img": 357.3203285420941,
-    "level": "level_47.8",
-    "x_img_old": 1817,
-    "y_img_old": 156
+    "x_img": 1819.28,
+    "y_img": 357.32,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_216",
     "phase": "PHASE1",
@@ -1385,11 +1155,9 @@ let points = [{
     "x_real": 147.01,
     "y_real": 240.8,
     "z_real": 49.35,
-    "x_img": 1966.842709529276,
-    "y_img": 359.6406570841882,
-    "level": "level_47.8",
-    "x_img_old": 1964,
-    "y_img_old": 158
+    "x_img": 1966.84,
+    "y_img": 359.64,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_217",
     "phase": "PHASE1",
@@ -1397,11 +1165,9 @@ let points = [{
     "x_real": 150.87,
     "y_real": 241.42,
     "z_real": 49.35,
-    "x_img": 2084.282433983926,
-    "y_img": 341.65811088295686,
-    "level": "level_47.8",
-    "x_img_old": 2080,
-    "y_img_old": 140
+    "x_img": 2084.28,
+    "y_img": 341.66,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_218",
     "phase": "PHASE1",
@@ -1409,11 +1175,9 @@ let points = [{
     "x_real": 152.86,
     "y_real": 238.98,
     "z_real": 49.34,
-    "x_img": 2144.8277841561417,
-    "y_img": 412.42813141683837,
-    "level": "level_47.8",
-    "x_img_old": 2140,
-    "y_img_old": 214
+    "x_img": 2144.83,
+    "y_img": 412.43,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_219",
     "phase": "PHASE1",
@@ -1421,11 +1185,9 @@ let points = [{
     "x_real": 155.15,
     "y_real": 240.62,
     "z_real": 49.34,
-    "x_img": 2214.5005740528118,
-    "y_img": 364.86139630390153,
-    "level": "level_47.8",
-    "x_img_old": 2209,
-    "y_img_old": 164
+    "x_img": 2214.5,
+    "y_img": 364.86,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_220",
     "phase": "PHASE1",
@@ -1433,11 +1195,9 @@ let points = [{
     "x_real": 158.83,
     "y_real": 241.24,
     "z_real": 49.34,
-    "x_img": 2326.4638346727893,
-    "y_img": 346.8788501026693,
-    "level": "level_47.8",
-    "x_img_old": 2321,
-    "y_img_old": 146
+    "x_img": 2326.46,
+    "y_img": 346.88,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_221",
     "phase": "PHASE1",
@@ -1445,11 +1205,9 @@ let points = [{
     "x_real": 153.44,
     "y_real": 235.97,
     "z_real": 49.34,
-    "x_img": 2162.4741676234203,
-    "y_img": 499.7304928131416,
-    "level": "level_47.8",
-    "x_img_old": 2158,
-    "y_img_old": 305
+    "x_img": 2162.47,
+    "y_img": 499.73,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_222",
     "phase": "PHASE1",
@@ -1457,11 +1215,9 @@ let points = [{
     "x_real": 152.11,
     "y_real": 230.06,
     "z_real": 49.34,
-    "x_img": 2122.009184845005,
-    "y_img": 671.1447638603695,
-    "level": "level_47.8",
-    "x_img_old": 2117,
-    "y_img_old": 483
+    "x_img": 2122.01,
+    "y_img": 671.14,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_223",
     "phase": "PHASE1",
@@ -1469,11 +1225,9 @@ let points = [{
     "x_real": 150.32,
     "y_real": 230.66,
     "z_real": 49.34,
-    "x_img": 2067.5487944890915,
-    "y_img": 653.7422997946614,
-    "level": "level_47.8",
-    "x_img_old": 2063,
-    "y_img_old": 465
+    "x_img": 2067.55,
+    "y_img": 653.74,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_224",
     "phase": "PHASE1",
@@ -1481,11 +1235,9 @@ let points = [{
     "x_real": 150.11,
     "y_real": 236.74,
     "z_real": 49.33,
-    "x_img": 2061.159586681974,
-    "y_img": 477.39733059548234,
-    "level": "level_47.8",
-    "x_img_old": 2057,
-    "y_img_old": 281
+    "x_img": 2061.16,
+    "y_img": 477.4,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_225",
     "phase": "PHASE1",
@@ -1493,11 +1245,9 @@ let points = [{
     "x_real": 151.97,
     "y_real": 227.31,
     "z_real": 49.35,
-    "x_img": 2117.7497129735925,
-    "y_img": 750.9060574948662,
-    "level": "level_47.8",
-    "x_img_old": 2113,
-    "y_img_old": 566
+    "x_img": 2117.75,
+    "y_img": 750.91,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_226",
     "phase": "PHASE1",
@@ -1505,11 +1255,9 @@ let points = [{
     "x_real": 153.03,
     "y_real": 220.84,
     "z_real": 49.34,
-    "x_img": 2149.9999999999986,
-    "y_img": 938.5626283367556,
-    "level": "level_47.8",
-    "x_img_old": 2145,
-    "y_img_old": 762
+    "x_img": 2150,
+    "y_img": 938.56,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_227",
     "phase": "PHASE1",
@@ -1517,11 +1265,9 @@ let points = [{
     "x_real": 152.8,
     "y_real": 214.38,
     "z_real": 49.34,
-    "x_img": 2143.002296211251,
-    "y_img": 1125.9291581108828,
-    "level": "level_47.8",
-    "x_img_old": 2137,
-    "y_img_old": 957
+    "x_img": 2143,
+    "y_img": 1125.93,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_228",
     "phase": "PHASE1",
@@ -1529,11 +1275,9 @@ let points = [{
     "x_real": 152.62,
     "y_real": 209.63,
     "z_real": 49.33,
-    "x_img": 2137.525832376578,
-    "y_img": 1263.6986652977412,
-    "level": "level_47.8",
-    "x_img_old": 2132,
-    "y_img_old": 1100
+    "x_img": 2137.53,
+    "y_img": 1263.7,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_229",
     "phase": "PHASE1",
@@ -1541,11 +1285,9 @@ let points = [{
     "x_real": 152.73,
     "y_real": 202.49,
     "z_real": 49.33,
-    "x_img": 2140.8725602755444,
-    "y_img": 1470.7879876796706,
-    "level": "level_47.8",
-    "x_img_old": 2135,
-    "y_img_old": 1316
+    "x_img": 2140.87,
+    "y_img": 1470.79,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_230",
     "phase": "PHASE1",
@@ -1553,11 +1295,9 @@ let points = [{
     "x_real": 156.18,
     "y_real": 201.78,
     "z_real": 49.33,
-    "x_img": 2245.8381171067726,
-    "y_img": 1491.380903490759,
-    "level": "level_47.8",
-    "x_img_old": 2239,
-    "y_img_old": 1337
+    "x_img": 2245.84,
+    "y_img": 1491.38,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_231",
     "phase": "PHASE1",
@@ -1565,11 +1305,9 @@ let points = [{
     "x_real": 160.36,
     "y_real": 201.7,
     "z_real": 49.34,
-    "x_img": 2373.0137772675075,
-    "y_img": 1493.701232032854,
-    "level": "level_47.8",
-    "x_img_old": 2365,
-    "y_img_old": 1340
+    "x_img": 2373.01,
+    "y_img": 1493.7,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_232",
     "phase": "PHASE1",
@@ -1577,11 +1315,9 @@ let points = [{
     "x_real": 162.78,
     "y_real": 201.7,
     "z_real": 49.34,
-    "x_img": 2446.641791044775,
-    "y_img": 1493.701232032854,
-    "level": "level_47.8",
-    "x_img_old": 2438,
-    "y_img_old": 1340
+    "x_img": 2446.64,
+    "y_img": 1493.7,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_233",
     "phase": "PHASE1",
@@ -1589,11 +1325,9 @@ let points = [{
     "x_real": 166.75,
     "y_real": 201.59,
     "z_real": 49.38,
-    "x_img": 2567.4282433983913,
-    "y_img": 1496.8916837782335,
-    "level": "level_47.8",
-    "x_img_old": 2558,
-    "y_img_old": 1344
+    "x_img": 2567.43,
+    "y_img": 1496.89,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_234",
     "phase": "PHASE1",
@@ -1601,11 +1335,9 @@ let points = [{
     "x_real": 152.31,
     "y_real": 200.41,
     "z_real": 49.33,
-    "x_img": 2128.0941446613083,
-    "y_img": 1531.1165297741272,
-    "level": "level_47.8",
-    "x_img_old": 2122,
-    "y_img_old": 1379
+    "x_img": 2128.09,
+    "y_img": 1531.12,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_235",
     "phase": "PHASE1",
@@ -1613,11 +1345,9 @@ let points = [{
     "x_real": 150.4,
     "y_real": 212.06,
     "z_real": 49.33,
-    "x_img": 2069.9827784156137,
-    "y_img": 1193.2186858316218,
-    "level": "level_47.8",
-    "x_img_old": 2065,
-    "y_img_old": 1027
+    "x_img": 2069.98,
+    "y_img": 1193.22,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_236",
     "phase": "PHASE1",
@@ -1625,11 +1355,9 @@ let points = [{
     "x_real": 138.9,
     "y_real": 211.23,
     "z_real": 49.31,
-    "x_img": 1720.0975889781853,
-    "y_img": 1217.2920944558518,
-    "level": "level_47.8",
-    "x_img_old": 1717,
-    "y_img_old": 1051
+    "x_img": 1720.1,
+    "y_img": 1217.29,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_237",
     "phase": "PHASE1",
@@ -1637,11 +1365,9 @@ let points = [{
     "x_real": 146.47,
     "y_real": 200.77,
     "z_real": 49.34,
-    "x_img": 1950.413318025257,
-    "y_img": 1520.6750513347015,
-    "level": "level_47.8",
-    "x_img_old": 1946,
-    "y_img_old": 1367
+    "x_img": 1950.41,
+    "y_img": 1520.68,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_238",
     "phase": "PHASE1",
@@ -1649,11 +1375,9 @@ let points = [{
     "x_real": 141.66,
     "y_real": 200.06,
     "z_real": 49.32,
-    "x_img": 1804.0700344431675,
-    "y_img": 1541.26796714579,
-    "level": "level_47.8",
-    "x_img_old": 1800,
-    "y_img_old": 1389
+    "x_img": 1804.07,
+    "y_img": 1541.27,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_239",
     "phase": "PHASE1",
@@ -1661,11 +1385,9 @@ let points = [{
     "x_real": 137.51,
     "y_real": 200.55,
     "z_real": 49.32,
-    "x_img": 1677.8071182548788,
-    "y_img": 1527.0559548254614,
-    "level": "level_47.8",
-    "x_img_old": 1675,
-    "y_img_old": 1374
+    "x_img": 1677.81,
+    "y_img": 1527.06,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_240",
     "phase": "PHASE1",
@@ -1673,11 +1395,9 @@ let points = [{
     "x_real": 134.41,
     "y_real": 200.74,
     "z_real": 49.33,
-    "x_img": 1583.4902411021808,
-    "y_img": 1521.545174537987,
-    "level": "level_47.8",
-    "x_img_old": 1581,
-    "y_img_old": 1368
+    "x_img": 1583.49,
+    "y_img": 1521.55,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_241",
     "phase": "PHASE1",
@@ -1685,11 +1405,9 @@ let points = [{
     "x_real": 136.24,
     "y_real": 205.02,
     "z_real": 49.58,
-    "x_img": 1639.1676234213542,
-    "y_img": 1397.4075975359337,
-    "level": "level_47.8",
-    "x_img_old": 1637,
-    "y_img_old": 1239
+    "x_img": 1639.17,
+    "y_img": 1397.41,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_242",
     "phase": "PHASE1",
@@ -1697,11 +1415,9 @@ let points = [{
     "x_real": 135.67,
     "y_real": 209.19,
     "z_real": 49.58,
-    "x_img": 1621.82548794489,
-    "y_img": 1276.46047227926,
-    "level": "level_47.8",
-    "x_img_old": 1620,
-    "y_img_old": 1113
+    "x_img": 1621.83,
+    "y_img": 1276.46,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_243",
     "phase": "PHASE1",
@@ -1709,11 +1425,9 @@ let points = [{
     "x_real": 132.55,
     "y_real": 201.84,
     "z_real": 49.33,
-    "x_img": 1526.9001148105626,
-    "y_img": 1489.6406570841882,
-    "level": "level_47.8",
-    "x_img_old": 1525,
-    "y_img_old": 1334
+    "x_img": 1526.9,
+    "y_img": 1489.64,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_244",
     "phase": "PHASE1",
@@ -1721,11 +1435,9 @@ let points = [{
     "x_real": 126.7,
     "y_real": 201.47,
     "z_real": 49.23,
-    "x_img": 1348.9150401836969,
-    "y_img": 1500.3721765913751,
-    "level": "level_47.8",
-    "x_img_old": 1348,
-    "y_img_old": 1345
+    "x_img": 1348.92,
+    "y_img": 1500.37,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_245",
     "phase": "PHASE1",
@@ -1733,11 +1445,9 @@ let points = [{
     "x_real": 117.76,
     "y_real": 201.33,
     "z_real": 49.32,
-    "x_img": 1076.9173363949485,
-    "y_img": 1504.43275154004,
-    "level": "level_47.8",
-    "x_img_old": 1078,
-    "y_img_old": 1349
+    "x_img": 1076.92,
+    "y_img": 1504.43,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_246",
     "phase": "PHASE1",
@@ -1745,11 +1455,9 @@ let points = [{
     "x_real": 111.49,
     "y_real": 202.02,
     "z_real": 49.24,
-    "x_img": 886.1538461538462,
-    "y_img": 1484.4199178644758,
-    "level": "level_47.8",
-    "x_img_old": 889,
-    "y_img_old": 1328
+    "x_img": 886.15,
+    "y_img": 1484.42,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_247",
     "phase": "PHASE1",
@@ -1757,11 +1465,9 @@ let points = [{
     "x_real": 112.58,
     "y_real": 208.51,
     "z_real": 49.32,
-    "x_img": 919.316877152698,
-    "y_img": 1296.1832648870632,
-    "level": "level_47.8",
-    "x_img_old": 922,
-    "y_img_old": 1132
+    "x_img": 919.32,
+    "y_img": 1296.18,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_248",
     "phase": "PHASE1",
@@ -1769,11 +1475,9 @@ let points = [{
     "x_real": 112.77,
     "y_real": 212.32,
     "z_real": 49.24,
-    "x_img": 925.0975889781862,
-    "y_img": 1185.6776180698153,
-    "level": "level_47.8",
-    "x_img_old": 928,
-    "y_img_old": 1017
+    "x_img": 925.1,
+    "y_img": 1185.68,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_249",
     "phase": "PHASE1",
@@ -1781,11 +1485,9 @@ let points = [{
     "x_real": 112.63,
     "y_real": 214.49,
     "z_real": 49.33,
-    "x_img": 920.838117106774,
-    "y_img": 1122.7387063655024,
-    "level": "level_47.8",
-    "x_img_old": 924,
-    "y_img_old": 951
+    "x_img": 920.84,
+    "y_img": 1122.74,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_250",
     "phase": "PHASE1",
@@ -1793,11 +1495,9 @@ let points = [{
     "x_real": 112.52,
     "y_real": 222.18,
     "z_real": 49.24,
-    "x_img": 917.4913892078071,
-    "y_img": 899.6971252566727,
-    "level": "level_47.8",
-    "x_img_old": 921,
-    "y_img_old": 719
+    "x_img": 917.49,
+    "y_img": 899.7,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_251",
     "phase": "PHASE1",
@@ -1805,11 +1505,9 @@ let points = [{
     "x_real": 112.39,
     "y_real": 231.4,
     "z_real": 49.33,
-    "x_img": 913.5361653272103,
-    "y_img": 632.2792607802867,
-    "level": "level_47.8",
-    "x_img_old": 918,
-    "y_img_old": 441
+    "x_img": 913.54,
+    "y_img": 632.28,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_252",
     "phase": "PHASE1",
@@ -1817,11 +1515,9 @@ let points = [{
     "x_real": 112.67,
     "y_real": 233.26,
     "z_real": 49.25,
-    "x_img": 922.0551090700346,
-    "y_img": 578.3316221765917,
-    "level": "level_47.8",
-    "x_img_old": 926,
-    "y_img_old": 384
+    "x_img": 922.06,
+    "y_img": 578.33,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_253",
     "phase": "PHASE1",
@@ -1829,11 +1525,9 @@ let points = [{
     "x_real": 99.96,
     "y_real": 240.54,
     "z_real": 49.37,
-    "x_img": 535.3559127439726,
-    "y_img": 367.18172484599563,
-    "level": "level_47.8",
-    "x_img_old": 543,
-    "y_img_old": 164
+    "x_img": 535.36,
+    "y_img": 367.18,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_254",
     "phase": "PHASE1",
@@ -1841,11 +1535,9 @@ let points = [{
     "x_real": 107.86,
     "y_real": 228.88,
     "z_real": 39.35,
-    "x_img": 775.7118254879451,
-    "y_img": 705.3696098562632,
-    "level": "level_37.8",
-    "x_img_old": 716,
-    "y_img_old": 519
+    "x_img": 775.71,
+    "y_img": 705.37,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_255",
     "phase": "PHASE1",
@@ -1853,11 +1545,9 @@ let points = [{
     "x_real": 115.2,
     "y_real": 229.16,
     "z_real": 39.34,
-    "x_img": 999.029850746269,
-    "y_img": 697.2484599589325,
-    "level": "level_37.8",
-    "x_img_old": 943,
-    "y_img_old": 510
+    "x_img": 999.03,
+    "y_img": 697.25,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_256",
     "phase": "PHASE1",
@@ -1865,11 +1555,9 @@ let points = [{
     "x_real": 125.03,
     "y_real": 229.27,
     "z_real": 39.32,
-    "x_img": 1298.105625717566,
-    "y_img": 694.0580082135521,
-    "level": "level_37.8",
-    "x_img_old": 1249,
-    "y_img_old": 506
+    "x_img": 1298.11,
+    "y_img": 694.06,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_257",
     "phase": "PHASE1",
@@ -1877,11 +1565,9 @@ let points = [{
     "x_real": 132.78,
     "y_real": 229.39,
     "z_real": 39.33,
-    "x_img": 1533.8978185993105,
-    "y_img": 690.5775154004104,
-    "level": "level_37.8",
-    "x_img_old": 1489,
-    "y_img_old": 502
+    "x_img": 1533.9,
+    "y_img": 690.58,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_258",
     "phase": "PHASE1",
@@ -1889,11 +1575,9 @@ let points = [{
     "x_real": 138.16,
     "y_real": 225.75,
     "z_real": 39.32,
-    "x_img": 1697.5832376578642,
-    "y_img": 796.152464065708,
-    "level": "level_37.8",
-    "x_img_old": 1656,
-    "y_img_old": 615
+    "x_img": 1697.58,
+    "y_img": 796.15,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_259",
     "phase": "PHASE1",
@@ -1901,11 +1585,9 @@ let points = [{
     "x_real": 127.45,
     "y_real": 227.16,
     "z_real": 39.32,
-    "x_img": 1371.7336394948334,
-    "y_img": 755.2566735112932,
-    "level": "level_37.8",
-    "x_img_old": 1324,
-    "y_img_old": 572
+    "x_img": 1371.73,
+    "y_img": 755.26,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_260",
     "phase": "PHASE1",
@@ -1913,11 +1595,9 @@ let points = [{
     "x_real": 122,
     "y_real": 227.06,
     "z_real": 39.33,
-    "x_img": 1205.9184845005739,
-    "y_img": 758.1570841889115,
-    "level": "level_37.8",
-    "x_img_old": 1155,
-    "y_img_old": 575
+    "x_img": 1205.92,
+    "y_img": 758.16,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_261",
     "phase": "PHASE1",
@@ -1925,11 +1605,9 @@ let points = [{
     "x_real": 114.72,
     "y_real": 227.17,
     "z_real": 39.34,
-    "x_img": 984.4259471871414,
-    "y_img": 754.966632443532,
-    "level": "level_37.8",
-    "x_img_old": 929,
-    "y_img_old": 572
+    "x_img": 984.43,
+    "y_img": 754.97,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_262",
     "phase": "PHASE1",
@@ -1937,11 +1615,9 @@ let points = [{
     "x_real": 108.03,
     "y_real": 226.36,
     "z_real": 39.34,
-    "x_img": 780.884041331803,
-    "y_img": 778.4599589322379,
-    "level": "level_37.8",
-    "x_img_old": 721,
-    "y_img_old": 598
+    "x_img": 780.88,
+    "y_img": 778.46,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_263",
     "phase": "PHASE1",
@@ -1949,11 +1625,9 @@ let points = [{
     "x_real": 107.83,
     "y_real": 215.09,
     "z_real": 39.34,
-    "x_img": 774.7990815154994,
-    "y_img": 1105.3362422997943,
-    "level": "level_37.8",
-    "x_img_old": 715,
-    "y_img_old": 948
+    "x_img": 774.8,
+    "y_img": 1105.34,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_264",
     "phase": "PHASE1",
@@ -1961,11 +1635,9 @@ let points = [{
     "x_real": 115.18,
     "y_real": 215.5,
     "z_real": 39.32,
-    "x_img": 998.4213547646386,
-    "y_img": 1093.4445585215599,
-    "level": "level_37.8",
-    "x_img_old": 944,
-    "y_img_old": 934
+    "x_img": 998.42,
+    "y_img": 1093.44,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_265",
     "phase": "PHASE1",
@@ -1973,11 +1645,9 @@ let points = [{
     "x_real": 123.54,
     "y_real": 214.4,
     "z_real": 39.32,
-    "x_img": 1252.772675086108,
-    "y_img": 1125.3490759753586,
-    "level": "level_37.8",
-    "x_img_old": 1203,
-    "y_img_old": 968
+    "x_img": 1252.77,
+    "y_img": 1125.35,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_266",
     "phase": "PHASE1",
@@ -1985,11 +1655,9 @@ let points = [{
     "x_real": 130.26,
     "y_real": 214.78,
     "z_real": 39.32,
-    "x_img": 1457.2273249138916,
-    "y_img": 1114.3275154004104,
-    "level": "level_37.8",
-    "x_img_old": 1411,
-    "y_img_old": 956
+    "x_img": 1457.23,
+    "y_img": 1114.33,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_267",
     "phase": "PHASE1",
@@ -1997,11 +1665,9 @@ let points = [{
     "x_real": 136.55,
     "y_real": 216.32,
     "z_real": 39.32,
-    "x_img": 1648.5993111366247,
-    "y_img": 1069.661190965092,
-    "level": "level_37.8",
-    "x_img_old": 1607,
-    "y_img_old": 908
+    "x_img": 1648.6,
+    "y_img": 1069.66,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_268",
     "phase": "PHASE1",
@@ -2009,11 +1675,9 @@ let points = [{
     "x_real": 137.01,
     "y_real": 212.54,
     "z_real": 39.31,
-    "x_img": 1662.5947187141205,
-    "y_img": 1179.2967145790553,
-    "level": "level_37.8",
-    "x_img_old": 1621,
-    "y_img_old": 1025
+    "x_img": 1662.59,
+    "y_img": 1179.3,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_269",
     "phase": "PHASE1",
@@ -2021,11 +1685,9 @@ let points = [{
     "x_real": 127.11,
     "y_real": 212.85,
     "z_real": 39.31,
-    "x_img": 1361.389207807118,
-    "y_img": 1170.3054414784392,
-    "level": "level_37.8",
-    "x_img_old": 1314,
-    "y_img_old": 1016
+    "x_img": 1361.39,
+    "y_img": 1170.31,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_270",
     "phase": "PHASE1",
@@ -2033,11 +1695,9 @@ let points = [{
     "x_real": 119.58,
     "y_real": 212.67,
     "z_real": 39.33,
-    "x_img": 1132.2904707233065,
-    "y_img": 1175.5261806981516,
-    "level": "level_37.8",
-    "x_img_old": 1080,
-    "y_img_old": 1022
+    "x_img": 1132.29,
+    "y_img": 1175.53,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_271",
     "phase": "PHASE1",
@@ -2045,11 +1705,9 @@ let points = [{
     "x_real": 110.75,
     "y_real": 212.33,
     "z_real": 39.33,
-    "x_img": 863.6394948335251,
-    "y_img": 1185.3875770020531,
-    "level": "level_37.8",
-    "x_img_old": 806,
-    "y_img_old": 1033
+    "x_img": 863.64,
+    "y_img": 1185.39,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_272",
     "phase": "PHASE1",
@@ -2057,11 +1715,9 @@ let points = [{
     "x_real": 105.6,
     "y_real": 212.2,
     "z_real": 39.33,
-    "x_img": 706.9517795637198,
-    "y_img": 1189.1581108829569,
-    "level": "level_37.8",
-    "x_img_old": 646,
-    "y_img_old": 1037
+    "x_img": 706.95,
+    "y_img": 1189.16,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_273",
     "phase": "PHASE1",
@@ -2069,11 +1725,9 @@ let points = [{
     "x_real": 141.3,
     "y_real": 239.32,
     "z_real": 39.42,
-    "x_img": 1793.1171067738228,
-    "y_img": 402.56673511293684,
-    "level": "level_37.8",
-    "x_img_old": 1753,
-    "y_img_old": 194
+    "x_img": 1793.12,
+    "y_img": 402.57,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_274",
     "phase": "PHASE1",
@@ -2081,11 +1735,9 @@ let points = [{
     "x_real": 142.47,
     "y_real": 233.67,
     "z_real": 39.4,
-    "x_img": 1828.7141216991954,
-    "y_img": 566.4399383983573,
-    "level": "level_37.8",
-    "x_img_old": 1790,
-    "y_img_old": 369
+    "x_img": 1828.71,
+    "y_img": 566.44,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_275",
     "phase": "PHASE1",
@@ -2093,11 +1745,9 @@ let points = [{
     "x_real": 141.97,
     "y_real": 225.99,
     "z_real": 39.39,
-    "x_img": 1813.501722158438,
-    "y_img": 789.1914784394248,
-    "level": "level_37.8",
-    "x_img_old": 1775,
-    "y_img_old": 608
+    "x_img": 1813.5,
+    "y_img": 789.19,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_276",
     "phase": "PHASE1",
@@ -2105,11 +1755,9 @@ let points = [{
     "x_real": 143.99,
     "y_real": 217.29,
     "z_real": 39.39,
-    "x_img": 1874.9598163030992,
-    "y_img": 1041.527207392197,
-    "level": "level_37.8",
-    "x_img_old": 1838,
-    "y_img_old": 878
+    "x_img": 1874.96,
+    "y_img": 1041.53,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_277",
     "phase": "PHASE1",
@@ -2117,11 +1765,9 @@ let points = [{
     "x_real": 142.1,
     "y_real": 210.76,
     "z_real": 39.38,
-    "x_img": 1817.4569460390344,
-    "y_img": 1230.924024640657,
-    "level": "level_37.8",
-    "x_img_old": 1779,
-    "y_img_old": 1080
+    "x_img": 1817.46,
+    "y_img": 1230.92,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_278",
     "phase": "PHASE1",
@@ -2129,11 +1775,9 @@ let points = [{
     "x_real": 142.58,
     "y_real": 203.84,
     "z_real": 39.4,
-    "x_img": 1832.0608495981628,
-    "y_img": 1431.6324435318274,
-    "level": "level_37.8",
-    "x_img_old": 1795,
-    "y_img_old": 1295
+    "x_img": 1832.06,
+    "y_img": 1431.63,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_279",
     "phase": "PHASE1",
@@ -2141,11 +1785,9 @@ let points = [{
     "x_real": 147.14,
     "y_real": 207.22,
     "z_real": 39.58,
-    "x_img": 1970.7979334098723,
-    "y_img": 1333.5985626283364,
-    "level": "level_37.8",
-    "x_img_old": 1936,
-    "y_img_old": 1190
+    "x_img": 1970.8,
+    "y_img": 1333.6,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_280",
     "phase": "PHASE1",
@@ -2153,11 +1795,9 @@ let points = [{
     "x_real": 150.24,
     "y_real": 202.73,
     "z_real": 39.4,
-    "x_img": 2065.114810562571,
-    "y_img": 1463.8270020533882,
-    "level": "level_37.8",
-    "x_img_old": 2032,
-    "y_img_old": 1329
+    "x_img": 2065.11,
+    "y_img": 1463.83,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_281",
     "phase": "PHASE1",
@@ -2165,11 +1805,9 @@ let points = [{
     "x_real": 152.91,
     "y_real": 206.74,
     "z_real": 39.58,
-    "x_img": 2146.3490241102168,
-    "y_img": 1347.5205338809028,
-    "level": "level_37.8",
-    "x_img_old": 2115,
-    "y_img_old": 1205
+    "x_img": 2146.35,
+    "y_img": 1347.52,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_282",
     "phase": "PHASE1",
@@ -2177,11 +1815,9 @@ let points = [{
     "x_real": 158.27,
     "y_real": 202.12,
     "z_real": 39.38,
-    "x_img": 2309.4259471871405,
-    "y_img": 1481.5195071868575,
-    "level": "level_37.8",
-    "x_img_old": 2281,
-    "y_img_old": 1348
+    "x_img": 2309.43,
+    "y_img": 1481.52,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_283",
     "phase": "PHASE1",
@@ -2189,11 +1825,9 @@ let points = [{
     "x_real": 159.74,
     "y_real": 206.52,
     "z_real": 39.57,
-    "x_img": 2354.1504018369683,
-    "y_img": 1353.9014373716627,
-    "level": "level_37.8",
-    "x_img_old": 2327,
-    "y_img_old": 1211
+    "x_img": 2354.15,
+    "y_img": 1353.9,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_284",
     "phase": "PHASE1",
@@ -2201,11 +1835,9 @@ let points = [{
     "x_real": 161.18,
     "y_real": 201.11,
     "z_real": 39.32,
-    "x_img": 2397.96211251435,
-    "y_img": 1510.8136550308,
-    "level": "level_37.8",
-    "x_img_old": 2372,
-    "y_img_old": 1379
+    "x_img": 2397.96,
+    "y_img": 1510.81,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_285",
     "phase": "PHASE1",
@@ -2213,11 +1845,9 @@ let points = [{
     "x_real": 155.88,
     "y_real": 211.57,
     "z_real": 39.59,
-    "x_img": 2236.7106773823175,
-    "y_img": 1207.4306981519503,
-    "level": "level_37.8",
-    "x_img_old": 2207,
-    "y_img_old": 1055
+    "x_img": 2236.71,
+    "y_img": 1207.43,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_286",
     "phase": "PHASE1",
@@ -2225,11 +1855,9 @@ let points = [{
     "x_real": 164.76,
     "y_real": 200.85,
     "z_real": 39.34,
-    "x_img": 2506.8828932261754,
-    "y_img": 1518.3547227926074,
-    "level": "level_37.8",
-    "x_img_old": 2483,
-    "y_img_old": 1387
+    "x_img": 2506.88,
+    "y_img": 1518.35,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_287",
     "phase": "PHASE1",
@@ -2237,11 +1865,9 @@ let points = [{
     "x_real": 160.98,
     "y_real": 214.1,
     "z_real": 39.6,
-    "x_img": 2391.8771526980468,
-    "y_img": 1134.0503080082135,
-    "level": "level_37.8",
-    "x_img_old": 2365,
-    "y_img_old": 976
+    "x_img": 2391.88,
+    "y_img": 1134.05,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_288",
     "phase": "PHASE1",
@@ -2249,11 +1875,9 @@ let points = [{
     "x_real": 151.27,
     "y_real": 215.3,
     "z_real": 39.4,
-    "x_img": 2096.452353616532,
-    "y_img": 1099.2453798767965,
-    "level": "level_37.8",
-    "x_img_old": 2064,
-    "y_img_old": 939
+    "x_img": 2096.45,
+    "y_img": 1099.25,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_289",
     "phase": "PHASE1",
@@ -2261,11 +1885,9 @@ let points = [{
     "x_real": 157.13,
     "y_real": 221.03,
     "z_real": 39.59,
-    "x_img": 2274.7416762342123,
-    "y_img": 933.051848049281,
-    "level": "level_37.8",
-    "x_img_old": 2245,
-    "y_img_old": 761
+    "x_img": 2274.74,
+    "y_img": 933.05,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_291",
     "phase": "PHASE1",
@@ -2273,11 +1895,9 @@ let points = [{
     "x_real": 145.52,
     "y_real": 240.2,
     "z_real": 39.45,
-    "x_img": 1921.5097588978183,
-    "y_img": 377.04312114989716,
-    "level": "level_37.8",
-    "x_img_old": 1884,
-    "y_img_old": 167
+    "x_img": 1921.51,
+    "y_img": 377.04,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_292",
     "phase": "PHASE1",
@@ -2285,11 +1905,9 @@ let points = [{
     "x_real": 148.17,
     "y_real": 229.36,
     "z_real": 39.53,
-    "x_img": 2002.1354764638331,
-    "y_img": 691.4476386036959,
-    "level": "level_37.8",
-    "x_img_old": 1967,
-    "y_img_old": 503
+    "x_img": 2002.14,
+    "y_img": 691.45,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_293",
     "phase": "PHASE1",
@@ -2297,11 +1915,9 @@ let points = [{
     "x_real": 151.36,
     "y_real": 233.89,
     "z_real": 39.44,
-    "x_img": 2099.1905855338687,
-    "y_img": 560.0590349075974,
-    "level": "level_37.8",
-    "x_img_old": 2066,
-    "y_img_old": 362
+    "x_img": 2099.19,
+    "y_img": 560.06,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_294",
     "phase": "PHASE1",
@@ -2309,11 +1925,9 @@ let points = [{
     "x_real": 155.75,
     "y_real": 229.57,
     "z_real": 39.52,
-    "x_img": 2232.755453501721,
-    "y_img": 685.356776180698,
-    "level": "level_37.8",
-    "x_img_old": 2202,
-    "y_img_old": 496
+    "x_img": 2232.76,
+    "y_img": 685.36,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_295",
     "phase": "PHASE1",
@@ -2321,11 +1935,9 @@ let points = [{
     "x_real": 146.55,
     "y_real": 224.65,
     "z_real": 39.43,
-    "x_img": 1952.8473019517792,
-    "y_img": 828.0569815195067,
-    "level": "level_37.8",
-    "x_img_old": 1917,
-    "y_img_old": 649
+    "x_img": 1952.85,
+    "y_img": 828.06,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_296",
     "phase": "PHASE1",
@@ -2333,11 +1945,9 @@ let points = [{
     "x_real": 161.11,
     "y_real": 224.89,
     "z_real": 39.52,
-    "x_img": 2395.832376578644,
-    "y_img": 821.0959958932235,
-    "level": "level_37.8",
-    "x_img_old": 2369,
-    "y_img_old": 641
+    "x_img": 2395.83,
+    "y_img": 821.1,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_297",
     "phase": "PHASE1",
@@ -2345,11 +1955,9 @@ let points = [{
     "x_real": 146.92,
     "y_real": 217.6,
     "z_real": 39.43,
-    "x_img": 1964.1044776119393,
-    "y_img": 1032.5359342915808,
-    "level": "level_37.8",
-    "x_img_old": 1929,
-    "y_img_old": 868
+    "x_img": 1964.1,
+    "y_img": 1032.54,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_298",
     "phase": "PHASE1",
@@ -2357,11 +1965,9 @@ let points = [{
     "x_real": 161.18,
     "y_real": 230.22,
     "z_real": 39.53,
-    "x_img": 2397.96211251435,
-    "y_img": 666.5041067761804,
-    "level": "level_37.8",
-    "x_img_old": 2371,
-    "y_img_old": 476
+    "x_img": 2397.96,
+    "y_img": 666.5,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_299",
     "phase": "PHASE1",
@@ -2369,11 +1975,9 @@ let points = [{
     "x_real": 152.46,
     "y_real": 220.81,
     "z_real": 39.43,
-    "x_img": 2132.6578645235354,
-    "y_img": 939.432751540041,
-    "level": "level_37.8",
-    "x_img_old": 2100,
-    "y_img_old": 768
+    "x_img": 2132.66,
+    "y_img": 939.43,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_300",
     "phase": "PHASE1",
@@ -2381,11 +1985,9 @@ let points = [{
     "x_real": 161.23,
     "y_real": 236.03,
     "z_real": 39.51,
-    "x_img": 2399.483352468426,
-    "y_img": 497.9902464065708,
-    "level": "level_37.8",
-    "x_img_old": 2372,
-    "y_img_old": 295
+    "x_img": 2399.48,
+    "y_img": 497.99,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_301",
     "phase": "PHASE1",
@@ -2393,11 +1995,9 @@ let points = [{
     "x_real": 153.02,
     "y_real": 234.03,
     "z_real": 39.43,
-    "x_img": 2149.695752009184,
-    "y_img": 555.9984599589325,
-    "level": "level_37.8",
-    "x_img_old": 2117,
-    "y_img_old": 358
+    "x_img": 2149.7,
+    "y_img": 556,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_302",
     "phase": "PHASE1",
@@ -2405,11 +2005,9 @@ let points = [{
     "x_real": 155.38,
     "y_real": 240.28,
     "z_real": 39.51,
-    "x_img": 2221.49827784156,
-    "y_img": 374.72279260780306,
-    "level": "level_37.8",
-    "x_img_old": 2190,
-    "y_img_old": 164
+    "x_img": 2221.5,
+    "y_img": 374.72,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_303",
     "phase": "PHASE1",
@@ -2417,11 +2015,9 @@ let points = [{
     "x_real": 164.9,
     "y_real": 205.9,
     "z_real": 41.87,
-    "x_img": 2511.142365097588,
-    "y_img": 1371.883983572895,
-    "level": "level_37.8",
-    "x_img_old": 2487,
-    "y_img_old": 1230
+    "x_img": 2511.14,
+    "y_img": 1371.88,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_304",
     "phase": "PHASE1",
@@ -2429,11 +2025,9 @@ let points = [{
     "x_real": 166.21,
     "y_real": 201.83,
     "z_real": 44.4,
-    "x_img": 2550.9988518943733,
-    "y_img": 1489.9306981519503,
-    "level": "level_37.8",
-    "x_img_old": 2528,
-    "y_img_old": 1357
+    "x_img": 2551,
+    "y_img": 1489.93,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_305",
     "phase": "PHASE1",
@@ -2441,11 +2035,9 @@ let points = [{
     "x_real": 164.93,
     "y_real": 205.81,
     "z_real": 46.91,
-    "x_img": 2512.0551090700333,
-    "y_img": 1374.4943531827512,
-    "level": "level_47.8",
-    "x_img_old": 2503,
-    "y_img_old": 1216
+    "x_img": 2512.06,
+    "y_img": 1374.49,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_306",
     "phase": "PHASE1",
@@ -2453,11 +2045,9 @@ let points = [{
     "x_real": 166.18,
     "y_real": 201.74,
     "z_real": 49.41,
-    "x_img": 2550.086107921928,
-    "y_img": 1492.5410677618065,
-    "level": "level_47.8",
-    "x_img_old": 2535,
-    "y_img_old": 1339
+    "x_img": 2550.09,
+    "y_img": 1492.54,
+    "level": "level_47.8"
 }, {
     "fullname": "PHASE1_307",
     "phase": "PHASE1",
@@ -2465,11 +2055,9 @@ let points = [{
     "x_real": 164.91,
     "y_real": 205.9,
     "z_real": 36.88,
-    "x_img": 2511.4466130884025,
-    "y_img": 1371.883983572895,
-    "level": "level_37.8",
-    "x_img_old": 2487,
-    "y_img_old": 1230
+    "x_img": 2511.45,
+    "y_img": 1371.88,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_308",
     "phase": "PHASE1",
@@ -2477,11 +2065,9 @@ let points = [{
     "x_real": 170.43,
     "y_real": 206.33,
     "z_real": 36.88,
-    "x_img": 2679.391504018369,
-    "y_img": 1359.4122176591372,
-    "level": "level_37.8",
-    "x_img_old": 2659,
-    "y_img_old": 1217
+    "x_img": 2679.39,
+    "y_img": 1359.41,
+    "level": "level_37.8"
 }, {
     "fullname": "PHASE1_309",
     "phase": "PHASE1",
@@ -2489,11 +2075,9 @@ let points = [{
     "x_real": 166.1,
     "y_real": 201.83,
     "z_real": 34.38,
-    "x_img": 2547.652123995406,
-    "y_img": 1489.9306981519503,
-    "level": "level_27.8",
-    "x_img_old": 2606,
-    "y_img_old": 1339
+    "x_img": 2547.65,
+    "y_img": 1489.93,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_310",
     "phase": "PHASE1",
@@ -2501,11 +2085,9 @@ let points = [{
     "x_real": 165.49,
     "y_real": 205.86,
     "z_real": 32.04,
-    "x_img": 2529.092996555682,
-    "y_img": 1373.0441478439416,
-    "level": "level_27.8",
-    "x_img_old": 2588,
-    "y_img_old": 1214
+    "x_img": 2529.09,
+    "y_img": 1373.04,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_311",
     "phase": "PHASE1",
@@ -2513,11 +2095,9 @@ let points = [{
     "x_real": 166.71,
     "y_real": 203.33,
     "z_real": 29.38,
-    "x_img": 2566.2112514351306,
-    "y_img": 1446.4245379876793,
-    "level": "level_27.8",
-    "x_img_old": 2625,
-    "y_img_old": 1293
+    "x_img": 2566.21,
+    "y_img": 1446.42,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_312",
     "phase": "PHASE1",
@@ -2525,11 +2105,9 @@ let points = [{
     "x_real": 164.7,
     "y_real": 205.81,
     "z_real": 29.38,
-    "x_img": 2505.057405281284,
-    "y_img": 1374.4943531827512,
-    "level": "level_27.8",
-    "x_img_old": 2563,
-    "y_img_old": 1216
+    "x_img": 2505.06,
+    "y_img": 1374.49,
+    "level": "level_27.8"
 }, {
     "fullname": "PHASE1_313",
     "phase": "PHASE1",
@@ -2537,11 +2115,9 @@ let points = [{
     "x_real": 166.4,
     "y_real": 201.78,
     "z_real": 26.88,
-    "x_img": 2556.779563719861,
-    "y_img": 1491.380903490759,
-    "level": "level_22.8",
-    "x_img_old": 2463,
-    "y_img_old": 1301
+    "x_img": 2556.78,
+    "y_img": 1491.38,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_314",
     "phase": "PHASE1",
@@ -2549,11 +2125,9 @@ let points = [{
     "x_real": 164.73,
     "y_real": 205.82,
     "z_real": 26.87,
-    "x_img": 2505.9701492537292,
-    "y_img": 1374.20431211499,
-    "level": "level_22.8",
-    "x_img_old": 2417,
-    "y_img_old": 1188
+    "x_img": 2505.97,
+    "y_img": 1374.2,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_315",
     "phase": "PHASE1",
@@ -2561,11 +2135,9 @@ let points = [{
     "x_real": 164.5,
     "y_real": 201.04,
     "z_real": 24.36,
-    "x_img": 2498.972445464982,
-    "y_img": 1512.8439425051329,
-    "level": "level_22.8",
-    "x_img_old": 2410,
-    "y_img_old": 1321
+    "x_img": 2498.97,
+    "y_img": 1512.84,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_316",
     "phase": "PHASE1",
@@ -2573,11 +2145,9 @@ let points = [{
     "x_real": 160.62,
     "y_real": 201.44,
     "z_real": 24.36,
-    "x_img": 2380.924225028701,
-    "y_img": 1501.2422997946605,
-    "level": "level_22.8",
-    "x_img_old": 2302,
-    "y_img_old": 1309
+    "x_img": 2380.92,
+    "y_img": 1501.24,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_317",
     "phase": "PHASE1",
@@ -2585,11 +2155,9 @@ let points = [{
     "x_real": 156.81,
     "y_real": 201.69,
     "z_real": 24.36,
-    "x_img": 2265.0057405281273,
-    "y_img": 1493.9912731006161,
-    "level": "level_22.8",
-    "x_img_old": 2196,
-    "y_img_old": 1302
+    "x_img": 2265.01,
+    "y_img": 1493.99,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_318",
     "phase": "PHASE1",
@@ -2597,11 +2165,9 @@ let points = [{
     "x_real": 153.27,
     "y_real": 200.93,
     "z_real": 24.36,
-    "x_img": 2157.3019517795633,
-    "y_img": 1516.0343942505124,
-    "level": "level_22.8",
-    "x_img_old": 2097,
-    "y_img_old": 1322
+    "x_img": 2157.3,
+    "y_img": 1516.03,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_319",
     "phase": "PHASE1",
@@ -2609,11 +2175,9 @@ let points = [{
     "x_real": 153.07,
     "y_real": 204.16,
     "z_real": 24.36,
-    "x_img": 2151.2169919632593,
-    "y_img": 1422.3511293634492,
-    "level": "level_22.8",
-    "x_img_old": 2092,
-    "y_img_old": 1232
+    "x_img": 2151.22,
+    "y_img": 1422.35,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_320",
     "phase": "PHASE1",
@@ -2621,11 +2185,9 @@ let points = [{
     "x_real": 146.68,
     "y_real": 201.12,
     "z_real": 24.35,
-    "x_img": 1956.8025258323755,
-    "y_img": 1510.5236139630388,
-    "level": "level_22.8",
-    "x_img_old": 1914,
-    "y_img_old": 1316
+    "x_img": 1956.8,
+    "y_img": 1510.52,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_321",
     "phase": "PHASE1",
@@ -2633,11 +2195,9 @@ let points = [{
     "x_real": 140.41,
     "y_real": 201.07,
     "z_real": 24.34,
-    "x_img": 1766.0390355912737,
-    "y_img": 1511.9738193018475,
-    "level": "level_22.8",
-    "x_img_old": 1739,
-    "y_img_old": 1316
+    "x_img": 1766.04,
+    "y_img": 1511.97,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_322",
     "phase": "PHASE1",
@@ -2645,11 +2205,9 @@ let points = [{
     "x_real": 135.79,
     "y_real": 201.78,
     "z_real": 24.35,
-    "x_img": 1625.476463834672,
-    "y_img": 1491.380903490759,
-    "level": "level_22.8",
-    "x_img_old": 1611,
-    "y_img_old": 1296
+    "x_img": 1625.48,
+    "y_img": 1491.38,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_323",
     "phase": "PHASE1",
@@ -2657,11 +2215,9 @@ let points = [{
     "x_real": 131.73,
     "y_real": 201.15,
     "z_real": 24.36,
-    "x_img": 1501.9517795637194,
-    "y_img": 1509.6534907597534,
-    "level": "level_22.8",
-    "x_img_old": 1498,
-    "y_img_old": 1313
+    "x_img": 1501.95,
+    "y_img": 1509.65,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_324",
     "phase": "PHASE1",
@@ -2669,11 +2225,9 @@ let points = [{
     "x_real": 126.95,
     "y_real": 200.06,
     "z_real": 24.35,
-    "x_img": 1356.5212399540756,
-    "y_img": 1541.26796714579,
-    "level": "level_22.8",
-    "x_img_old": 1365,
-    "y_img_old": 1342
+    "x_img": 1356.52,
+    "y_img": 1541.27,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_325",
     "phase": "PHASE1",
@@ -2681,11 +2235,9 @@ let points = [{
     "x_real": 122.67,
     "y_real": 201.64,
     "z_real": 24.35,
-    "x_img": 1226.303099885189,
-    "y_img": 1495.4414784394248,
-    "level": "level_22.8",
-    "x_img_old": 1246,
-    "y_img_old": 1298
+    "x_img": 1226.3,
+    "y_img": 1495.44,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_326",
     "phase": "PHASE1",
@@ -2693,11 +2245,9 @@ let points = [{
     "x_real": 118.47,
     "y_real": 200.88,
     "z_real": 24.35,
-    "x_img": 1098.5189437428244,
-    "y_img": 1517.484599589322,
-    "level": "level_22.8",
-    "x_img_old": 1129,
-    "y_img_old": 1318
+    "x_img": 1098.52,
+    "y_img": 1517.48,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_327",
     "phase": "PHASE1",
@@ -2705,11 +2255,9 @@ let points = [{
     "x_real": 111.58,
     "y_real": 200.93,
     "z_real": 24.36,
-    "x_img": 888.8920780711828,
-    "y_img": 1516.0343942505124,
-    "level": "level_22.8",
-    "x_img_old": 937,
-    "y_img_old": 1316
+    "x_img": 888.89,
+    "y_img": 1516.03,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_328",
     "phase": "PHASE1",
@@ -2717,11 +2265,9 @@ let points = [{
     "x_real": 108.37,
     "y_real": 201.81,
     "z_real": 24.36,
-    "x_img": 791.2284730195183,
-    "y_img": 1490.5107802874736,
-    "level": "level_22.8",
-    "x_img_old": 847,
-    "y_img_old": 1291
+    "x_img": 791.23,
+    "y_img": 1490.51,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_329",
     "phase": "PHASE1",
@@ -2729,11 +2275,9 @@ let points = [{
     "x_real": 104.46,
     "y_real": 200.66,
     "z_real": 24.35,
-    "x_img": 672.2675086107924,
-    "y_img": 1523.865503080082,
-    "level": "level_22.8",
-    "x_img_old": 739,
-    "y_img_old": 1322
+    "x_img": 672.27,
+    "y_img": 1523.87,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_330",
     "phase": "PHASE1",
@@ -2741,11 +2285,9 @@ let points = [{
     "x_real": 100.92,
     "y_real": 200.52,
     "z_real": 24.35,
-    "x_img": 564.563719862228,
-    "y_img": 1527.9260780287468,
-    "level": "level_22.8",
-    "x_img_old": 640,
-    "y_img_old": 1325
+    "x_img": 564.56,
+    "y_img": 1527.93,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_331",
     "phase": "PHASE1",
@@ -2753,11 +2295,9 @@ let points = [{
     "x_real": 99.52,
     "y_real": 201.31,
     "z_real": 24.35,
-    "x_img": 521.9690011481061,
-    "y_img": 1505.0128336755643,
-    "level": "level_22.8",
-    "x_img_old": 601,
-    "y_img_old": 1303
+    "x_img": 521.97,
+    "y_img": 1505.01,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_332",
     "phase": "PHASE1",
@@ -2765,11 +2305,9 @@ let points = [{
     "x_real": 96.79,
     "y_real": 202.26,
     "z_real": 24.36,
-    "x_img": 438.90929965556916,
-    "y_img": 1477.4589322381926,
-    "level": "level_22.8",
-    "x_img_old": 525,
-    "y_img_old": 1276
+    "x_img": 438.91,
+    "y_img": 1477.46,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_333",
     "phase": "PHASE1",
@@ -2777,11 +2315,9 @@ let points = [{
     "x_real": 97.04,
     "y_real": 209.56,
     "z_real": 24.37,
-    "x_img": 446.51549942594784,
-    "y_img": 1265.7289527720732,
-    "level": "level_22.8",
-    "x_img_old": 533,
-    "y_img_old": 1073
+    "x_img": 446.52,
+    "y_img": 1265.73,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_334",
     "phase": "PHASE1",
@@ -2789,11 +2325,9 @@ let points = [{
     "x_real": 96.97,
     "y_real": 217.67,
     "z_real": 24.38,
-    "x_img": 444.3857634902415,
-    "y_img": 1030.5056468172488,
-    "level": "level_22.8",
-    "x_img_old": 533,
-    "y_img_old": 847
+    "x_img": 444.39,
+    "y_img": 1030.51,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_336",
     "phase": "PHASE1",
@@ -2801,11 +2335,9 @@ let points = [{
     "x_real": 97.99,
     "y_real": 233.9,
     "z_real": 24.37,
-    "x_img": 475.41905855338746,
-    "y_img": 559.7689938398353,
-    "level": "level_22.8",
-    "x_img_old": 564,
-    "y_img_old": 395
+    "x_img": 475.42,
+    "y_img": 559.77,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_337",
     "phase": "PHASE1",
@@ -2813,11 +2345,9 @@ let points = [{
     "x_real": 97.38,
     "y_real": 236.01,
     "z_real": 24.35,
-    "x_img": 456.8599311136627,
-    "y_img": 498.5703285420941,
-    "level": "level_22.8",
-    "x_img_old": 547,
-    "y_img_old": 337
+    "x_img": 456.86,
+    "y_img": 498.57,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_338",
     "phase": "PHASE1",
@@ -2825,11 +2355,9 @@ let points = [{
     "x_real": 96.9,
     "y_real": 239.86,
     "z_real": 26.87,
-    "x_img": 442.25602755453565,
-    "y_img": 386.9045174537978,
-    "level": "level_22.8",
-    "x_img_old": 534,
-    "y_img_old": 229
+    "x_img": 442.26,
+    "y_img": 386.9,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_339",
     "phase": "PHASE1",
@@ -2837,11 +2365,9 @@ let points = [{
     "x_real": 96.74,
     "y_real": 235.75,
     "z_real": 29.36,
-    "x_img": 437.38805970149315,
-    "y_img": 506.11139630390153,
-    "level": "level_22.8",
-    "x_img_old": 460,
-    "y_img_old": 291
+    "x_img": 437.39,
+    "y_img": 506.11,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_340",
     "phase": "PHASE1",
@@ -2849,11 +2375,9 @@ let points = [{
     "x_real": 97.35,
     "y_real": 240.29,
     "z_real": 24.36,
-    "x_img": 455.94718714121746,
-    "y_img": 374.43275154004095,
-    "level": "level_22.8",
-    "x_img_old": 547,
-    "y_img_old": 217
+    "x_img": 455.95,
+    "y_img": 374.43,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_341",
     "phase": "PHASE1",
@@ -2861,11 +2385,9 @@ let points = [{
     "x_real": 99.66,
     "y_real": 240.25,
     "z_real": 24.36,
-    "x_img": 526.2284730195183,
-    "y_img": 375.59291581108846,
-    "level": "level_22.8",
-    "x_img_old": 611,
-    "y_img_old": 219
+    "x_img": 526.23,
+    "y_img": 375.59,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_342",
     "phase": "PHASE1",
@@ -2873,11 +2395,9 @@ let points = [{
     "x_real": 104.64,
     "y_real": 241.37,
     "z_real": 24.36,
-    "x_img": 677.7439724454653,
-    "y_img": 343.10831622176556,
-    "level": "level_22.8",
-    "x_img_old": 750,
-    "y_img_old": 189
+    "x_img": 677.74,
+    "y_img": 343.11,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_343",
     "phase": "PHASE1",
@@ -2885,11 +2405,9 @@ let points = [{
     "x_real": 107.72,
     "y_real": 241.07,
     "z_real": 24.37,
-    "x_img": 771.452353616533,
-    "y_img": 351.8095482546205,
-    "level": "level_22.8",
-    "x_img_old": 836,
-    "y_img_old": 197
+    "x_img": 771.45,
+    "y_img": 351.81,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_344",
     "phase": "PHASE1",
@@ -2897,11 +2415,9 @@ let points = [{
     "x_real": 108.69,
     "y_real": 239.81,
     "z_real": 24.37,
-    "x_img": 800.9644087256029,
-    "y_img": 388.3547227926074,
-    "level": "level_22.8",
-    "x_img_old": 862,
-    "y_img_old": 233
+    "x_img": 800.96,
+    "y_img": 388.35,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_345",
     "phase": "PHASE1",
@@ -2909,11 +2425,9 @@ let points = [{
     "x_real": 111.05,
     "y_real": 241.36,
     "z_real": 24.38,
-    "x_img": 872.7669345579793,
-    "y_img": 343.39835728952676,
-    "level": "level_22.8",
-    "x_img_old": 928,
-    "y_img_old": 190
+    "x_img": 872.77,
+    "y_img": 343.4,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_346",
     "phase": "PHASE1",
@@ -2921,11 +2435,9 @@ let points = [{
     "x_real": 114.91,
     "y_real": 241.54,
     "z_real": 24.37,
-    "x_img": 990.2066590126292,
-    "y_img": 338.17761806981525,
-    "level": "level_22.8",
-    "x_img_old": 1036,
-    "y_img_old": 185
+    "x_img": 990.21,
+    "y_img": 338.18,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_347",
     "phase": "PHASE1",
@@ -2933,11 +2445,9 @@ let points = [{
     "x_real": 119.26,
     "y_real": 239.17,
     "z_real": 24.36,
-    "x_img": 1122.5545350172215,
-    "y_img": 406.91735112936385,
-    "level": "level_22.8",
-    "x_img_old": 1157,
-    "y_img_old": 252
+    "x_img": 1122.55,
+    "y_img": 406.92,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_348",
     "phase": "PHASE1",
@@ -2945,11 +2455,9 @@ let points = [{
     "x_real": 119.33,
     "y_real": 241.2,
     "z_real": 24.37,
-    "x_img": 1124.6842709529274,
-    "y_img": 348.0390143737168,
-    "level": "level_22.8",
-    "x_img_old": 1159,
-    "y_img_old": 196
+    "x_img": 1124.68,
+    "y_img": 348.04,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_349",
     "phase": "PHASE1",
@@ -2957,11 +2465,9 @@ let points = [{
     "x_real": 123.34,
     "y_real": 239.43,
     "z_real": 24.35,
-    "x_img": 1246.6877152698048,
-    "y_img": 399.3762833675564,
-    "level": "level_22.8",
-    "x_img_old": 1270,
-    "y_img_old": 245
+    "x_img": 1246.69,
+    "y_img": 399.38,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_350",
     "phase": "PHASE1",
@@ -2969,11 +2475,9 @@ let points = [{
     "x_real": 127.04,
     "y_real": 241.44,
     "z_real": 24.36,
-    "x_img": 1359.2594718714122,
-    "y_img": 341.07802874743356,
-    "level": "level_22.8",
-    "x_img_old": 1374,
-    "y_img_old": 190
+    "x_img": 1359.26,
+    "y_img": 341.08,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_351",
     "phase": "PHASE1",
@@ -2981,11 +2485,9 @@ let points = [{
     "x_real": 130.43,
     "y_real": 240.79,
     "z_real": 24.37,
-    "x_img": 1462.3995407577495,
-    "y_img": 359.9306981519512,
-    "level": "level_22.8",
-    "x_img_old": 1468,
-    "y_img_old": 209
+    "x_img": 1462.4,
+    "y_img": 359.93,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_352",
     "phase": "PHASE1",
@@ -2993,11 +2495,9 @@ let points = [{
     "x_real": 134.55,
     "y_real": 238.81,
     "z_real": 24.38,
-    "x_img": 1587.7497129735934,
-    "y_img": 417.3588295687887,
-    "level": "level_22.8",
-    "x_img_old": 1582,
-    "y_img_old": 265
+    "x_img": 1587.75,
+    "y_img": 417.36,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_353",
     "phase": "PHASE1",
@@ -3005,11 +2505,9 @@ let points = [{
     "x_real": 135.61,
     "y_real": 240.96,
     "z_real": 24.37,
-    "x_img": 1619.9999999999995,
+    "x_img": 1620,
     "y_img": 355,
-    "level": "level_22.8",
-    "x_img_old": 1620,
-    "y_img_old": 355
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_354",
     "phase": "PHASE1",
@@ -3017,11 +2515,9 @@ let points = [{
     "x_real": 141.78,
     "y_real": 240.78,
     "z_real": 24.36,
-    "x_img": 1807.7210103329503,
-    "y_img": 360.2207392197124,
-    "level": "level_22.8",
-    "x_img_old": 1784,
-    "y_img_old": 211
+    "x_img": 1807.72,
+    "y_img": 360.22,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_355",
     "phase": "PHASE1",
@@ -3029,11 +2525,9 @@ let points = [{
     "x_real": 145.33,
     "y_real": 240.91,
     "z_real": 24.37,
-    "x_img": 1915.7290470723306,
-    "y_img": 356.4502053388087,
-    "level": "level_22.8",
-    "x_img_old": 1883,
-    "y_img_old": 208
+    "x_img": 1915.73,
+    "y_img": 356.45,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_356",
     "phase": "PHASE1",
@@ -3041,11 +2535,9 @@ let points = [{
     "x_real": 148,
     "y_real": 240.99,
     "z_real": 24.37,
-    "x_img": 1996.9632606199762,
-    "y_img": 354.1298767967146,
-    "level": "level_22.8",
-    "x_img_old": 1957,
-    "y_img_old": 206
+    "x_img": 1996.96,
+    "y_img": 354.13,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_357",
     "phase": "PHASE1",
@@ -3053,11 +2545,9 @@ let points = [{
     "x_real": 152.15,
     "y_real": 241.1,
     "z_real": 24.38,
-    "x_img": 2123.226176808266,
-    "y_img": 350.9394250513351,
-    "level": "level_22.8",
-    "x_img_old": 2073,
-    "y_img_old": 204
+    "x_img": 2123.23,
+    "y_img": 350.94,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_358",
     "phase": "PHASE1",
@@ -3065,11 +2555,9 @@ let points = [{
     "x_real": 153.51,
     "y_real": 238.94,
     "z_real": 24.37,
-    "x_img": 2164.603903559126,
-    "y_img": 413.58829568788497,
-    "level": "level_22.8",
-    "x_img_old": 2110,
-    "y_img_old": 264
+    "x_img": 2164.6,
+    "y_img": 413.59,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_359",
     "phase": "PHASE1",
@@ -3077,11 +2565,9 @@ let points = [{
     "x_real": 156.11,
     "y_real": 241.49,
     "z_real": 24.37,
-    "x_img": 2243.708381171067,
-    "y_img": 339.62782340862395,
-    "level": "level_22.8",
-    "x_img_old": 2183,
-    "y_img_old": 193
+    "x_img": 2243.71,
+    "y_img": 339.63,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_360",
     "phase": "PHASE1",
@@ -3089,11 +2575,9 @@ let points = [{
     "x_real": 158.17,
     "y_real": 240.28,
     "z_real": 24.37,
-    "x_img": 2306.3834672789885,
-    "y_img": 374.72279260780306,
-    "level": "level_22.8",
-    "x_img_old": 2240,
-    "y_img_old": 227
+    "x_img": 2306.38,
+    "y_img": 374.72,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_361",
     "phase": "PHASE1",
@@ -3101,11 +2585,9 @@ let points = [{
     "x_real": 161.39,
     "y_real": 241.59,
     "z_real": 24.38,
-    "x_img": 2404.3513203214675,
-    "y_img": 336.72741273100564,
-    "level": "level_22.8",
-    "x_img_old": 2330,
-    "y_img_old": 191
+    "x_img": 2404.35,
+    "y_img": 336.73,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_362",
     "phase": "PHASE1",
@@ -3113,11 +2595,9 @@ let points = [{
     "x_real": 152.21,
     "y_real": 235.84,
     "z_real": 24.36,
-    "x_img": 2125.0516647531563,
-    "y_img": 503.5010266940453,
-    "level": "level_22.8",
-    "x_img_old": 2074,
-    "y_img_old": 350
+    "x_img": 2125.05,
+    "y_img": 503.5,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_363",
     "phase": "PHASE1",
@@ -3125,11 +2605,9 @@ let points = [{
     "x_real": 152.45,
     "y_real": 228.43,
     "z_real": 24.37,
-    "x_img": 2132.35361653272,
-    "y_img": 718.4214579055433,
-    "level": "level_22.8",
-    "x_img_old": 2079,
-    "y_img_old": 556
+    "x_img": 2132.35,
+    "y_img": 718.42,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_364",
     "phase": "PHASE1",
@@ -3137,11 +2615,9 @@ let points = [{
     "x_real": 152.5,
     "y_real": 224.06,
     "z_real": 24.35,
-    "x_img": 2133.874856486796,
-    "y_img": 845.1694045174536,
-    "level": "level_22.8",
-    "x_img_old": 2080,
-    "y_img_old": 678
+    "x_img": 2133.87,
+    "y_img": 845.17,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_365",
     "phase": "PHASE1",
@@ -3149,11 +2625,9 @@ let points = [{
     "x_real": 153.07,
     "y_real": 216.77,
     "z_real": 24.35,
-    "x_img": 2151.2169919632593,
-    "y_img": 1056.6093429158109,
-    "level": "level_22.8",
-    "x_img_old": 2094,
-    "y_img_old": 881
+    "x_img": 2151.22,
+    "y_img": 1056.61,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_366",
     "phase": "PHASE1",
@@ -3161,11 +2635,9 @@ let points = [{
     "x_real": 152.98,
     "y_real": 210.36,
     "z_real": 24.35,
-    "x_img": 2148.4787600459226,
-    "y_img": 1242.5256673511285,
-    "level": "level_22.8",
-    "x_img_old": 2091,
-    "y_img_old": 1059
+    "x_img": 2148.48,
+    "y_img": 1242.53,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE1_367",
     "phase": "PHASE1",
@@ -3173,11 +2645,9 @@ let points = [{
     "x_real": 152.6,
     "y_real": 204.11,
     "z_real": 24.35,
-    "x_img": 2136.917336394947,
-    "y_img": 1423.801334702258,
-    "level": "level_22.8",
-    "x_img_old": 2062,
-    "y_img_old": 1230
+    "x_img": 2136.92,
+    "y_img": 1423.8,
+    "level": "level_22.8"
 }, {
     "fullname": "PHASE2_368",
     "phase": "PHASE2",
@@ -3185,12 +2655,10 @@ let points = [{
     "x_real": 100.68,
     "y_real": 201.2,
     "z_real": 24.05,
-    "x_img": 557.2617680826643,
-    "y_img": 1508.2032854209447,
+    "x_img": 557.26,
+    "y_img": 1508.2,
     "level": "level_22.8",
-    "oldName": "PHASE2_001",
-    "x_img_old": 646.49,
-    "y_img_old": 1325.76
+    "oldName": "PHASE2_001"
 }, {
     "fullname": "PHASE2_369",
     "phase": "PHASE2",
@@ -3198,12 +2666,10 @@ let points = [{
     "x_real": 97.97,
     "y_real": 201.27,
     "z_real": 24.07,
-    "x_img": 474.81056257175715,
-    "y_img": 1506.1729979466108,
+    "x_img": 474.81,
+    "y_img": 1506.17,
     "level": "level_22.8",
-    "oldName": "PHASE2_002",
-    "x_img_old": 571.23,
-    "y_img_old": 1323.79
+    "oldName": "PHASE2_002"
 }, {
     "fullname": "PHASE2_370",
     "phase": "PHASE2",
@@ -3211,12 +2677,10 @@ let points = [{
     "x_real": 96.03,
     "y_real": 205.12,
     "z_real": 24.07,
-    "x_img": 415.7864523536173,
-    "y_img": 1394.5071868583154,
+    "x_img": 415.79,
+    "y_img": 1394.51,
     "level": "level_22.8",
-    "oldName": "PHASE2_003",
-    "x_img_old": 517.56,
-    "y_img_old": 1215.55
+    "oldName": "PHASE2_003"
 }, {
     "fullname": "PHASE2_371",
     "phase": "PHASE2",
@@ -3224,12 +2688,10 @@ let points = [{
     "x_real": 97.64,
     "y_real": 208.08,
     "z_real": 24.08,
-    "x_img": 464.7703788748572,
-    "y_img": 1308.655030800821,
+    "x_img": 464.77,
+    "y_img": 1308.66,
     "level": "level_22.8",
-    "oldName": "PHASE2_004",
-    "x_img_old": 562.19,
-    "y_img_old": 1132.19
+    "oldName": "PHASE2_004"
 }, {
     "fullname": "PHASE2_372",
     "phase": "PHASE2",
@@ -3237,12 +2699,10 @@ let points = [{
     "x_real": 97.39,
     "y_real": 213.97,
     "z_real": 24.09,
-    "x_img": 457.1641791044781,
-    "y_img": 1137.8208418891163,
+    "x_img": 457.16,
+    "y_img": 1137.82,
     "level": "level_22.8",
-    "oldName": "PHASE2_005",
-    "x_img_old": 555.24,
-    "y_img_old": 966.69
+    "oldName": "PHASE2_005"
 }, {
     "fullname": "PHASE2_373",
     "phase": "PHASE2",
@@ -3250,12 +2710,10 @@ let points = [{
     "x_real": 97.56,
     "y_real": 220.06,
     "z_real": 24.09,
-    "x_img": 462.33639494833596,
-    "y_img": 961.185831622176,
+    "x_img": 462.34,
+    "y_img": 961.19,
     "level": "level_22.8",
-    "oldName": "PHASE2_006",
-    "x_img_old": 559.83,
-    "y_img_old": 795.23
+    "oldName": "PHASE2_006"
 }, {
     "fullname": "PHASE2_374",
     "phase": "PHASE2",
@@ -3263,12 +2721,10 @@ let points = [{
     "x_real": 97.01,
     "y_real": 226.23,
     "z_real": 24.09,
-    "x_img": 445.6027554535026,
-    "y_img": 782.2304928131416,
+    "x_img": 445.6,
+    "y_img": 782.23,
     "level": "level_22.8",
-    "oldName": "PHASE2_007",
-    "x_img_old": 544.63,
-    "y_img_old": 622.02
+    "oldName": "PHASE2_007"
 }, {
     "fullname": "PHASE2_375",
     "phase": "PHASE2",
@@ -3276,12 +2732,10 @@ let points = [{
     "x_real": 98.26,
     "y_real": 232.73,
     "z_real": 24.09,
-    "x_img": 483.6337543053969,
-    "y_img": 593.7037987679669,
+    "x_img": 483.63,
+    "y_img": 593.7,
     "level": "level_22.8",
-    "oldName": "PHASE2_008",
-    "x_img_old": 579.17,
-    "y_img_old": 439.24
+    "oldName": "PHASE2_008"
 }, {
     "fullname": "PHASE2_376",
     "phase": "PHASE2",
@@ -3289,12 +2743,10 @@ let points = [{
     "x_real": 93.8,
     "y_real": 233.61,
     "z_real": 24.08,
-    "x_img": 347.93915040183765,
-    "y_img": 568.1801848049272,
+    "x_img": 347.94,
+    "y_img": 568.18,
     "level": "level_22.8",
-    "oldName": "PHASE2_009",
-    "x_img_old": 455.57,
-    "y_img_old": 414.44
+    "oldName": "PHASE2_009"
 }, {
     "fullname": "PHASE2_377",
     "phase": "PHASE2",
@@ -3302,12 +2754,10 @@ let points = [{
     "x_real": 92.29,
     "y_real": 236.98,
     "z_real": 24.07,
-    "x_img": 301.9977037887493,
-    "y_img": 470.4363449691991,
+    "x_img": 302,
+    "y_img": 470.44,
     "level": "level_22.8",
-    "oldName": "PHASE2_010",
-    "x_img_old": 413.79,
-    "y_img_old": 319.78
+    "oldName": "PHASE2_010"
 }, {
     "fullname": "PHASE2_378",
     "phase": "PHASE2",
@@ -3315,12 +2765,10 @@ let points = [{
     "x_real": 91.06,
     "y_real": 240.57,
     "z_real": 24.07,
-    "x_img": 264.5752009184853,
-    "y_img": 366.31160164271023,
+    "x_img": 264.58,
+    "y_img": 366.31,
     "level": "level_22.8",
-    "oldName": "PHASE2_011",
-    "x_img_old": 379.68,
-    "y_img_old": 218.81
+    "oldName": "PHASE2_011"
 }, {
     "fullname": "PHASE2_379",
     "phase": "PHASE2",
@@ -3328,12 +2776,10 @@ let points = [{
     "x_real": 90.78,
     "y_real": 244.62,
     "z_real": 24.08,
-    "x_img": 256.0562571756609,
-    "y_img": 248.8449691991782,
+    "x_img": 256.06,
+    "y_img": 248.84,
     "level": "level_22.8",
-    "oldName": "PHASE2_012",
-    "x_img_old": 371.9,
-    "y_img_old": 104.86
+    "oldName": "PHASE2_012"
 }, {
     "fullname": "PHASE2_380",
     "phase": "PHASE2",
@@ -3341,12 +2787,10 @@ let points = [{
     "x_real": 96.23,
     "y_real": 244.6,
     "z_real": 24.09,
-    "x_img": 421.8714121699204,
-    "y_img": 249.4250513347024,
+    "x_img": 421.87,
+    "y_img": 249.43,
     "level": "level_22.8",
-    "oldName": "PHASE2_013",
-    "x_img_old": 523.06,
-    "y_img_old": 105.49
+    "oldName": "PHASE2_013"
 }, {
     "fullname": "PHASE2_381",
     "phase": "PHASE2",
@@ -3354,12 +2798,10 @@ let points = [{
     "x_real": 101.05,
     "y_real": 244.67,
     "z_real": 24.1,
-    "x_img": 568.5189437428248,
-    "y_img": 247.3947638603695,
+    "x_img": 568.52,
+    "y_img": 247.39,
     "level": "level_22.8",
-    "oldName": "PHASE2_014",
-    "x_img_old": 656.61,
-    "y_img_old": 103.38
+    "oldName": "PHASE2_014"
 }, {
     "fullname": "PHASE2_382",
     "phase": "PHASE2",
@@ -3367,12 +2809,10 @@ let points = [{
     "x_real": 106.7,
     "y_real": 244.01,
     "z_real": 24.1,
-    "x_img": 740.4190585533875,
-    "y_img": 266.53747433264925,
+    "x_img": 740.42,
+    "y_img": 266.54,
     "level": "level_22.8",
-    "oldName": "PHASE2_015",
-    "x_img_old": 813.13,
-    "y_img_old": 121.92
+    "oldName": "PHASE2_015"
 }, {
     "fullname": "PHASE2_383",
     "phase": "PHASE2",
@@ -3380,12 +2820,10 @@ let points = [{
     "x_real": 111.34,
     "y_real": 244.32,
     "z_real": 24.11,
-    "x_img": 881.5901262916191,
-    "y_img": 257.5462012320331,
+    "x_img": 881.59,
+    "y_img": 257.55,
     "level": "level_22.8",
-    "oldName": "PHASE2_016",
-    "x_img_old": 941.89,
-    "y_img_old": 113.4
+    "oldName": "PHASE2_016"
 }, {
     "fullname": "PHASE2_384",
     "phase": "PHASE2",
@@ -3393,12 +2831,10 @@ let points = [{
     "x_real": 110.91,
     "y_real": 241.64,
     "z_real": 24.08,
-    "x_img": 868.5074626865671,
-    "y_img": 335.27720739219694,
+    "x_img": 868.51,
+    "y_img": 335.28,
     "level": "level_22.8",
-    "oldName": "PHASE2_017",
-    "x_img_old": 930.04,
-    "y_img_old": 188.55
+    "oldName": "PHASE2_017"
 }, {
     "fullname": "PHASE2_385",
     "phase": "PHASE2",
@@ -3406,12 +2842,10 @@ let points = [{
     "x_real": 147.84,
     "y_real": 241.1,
     "z_real": 24.07,
-    "x_img": 1992.0952927669337,
-    "y_img": 350.9394250513351,
+    "x_img": 1992.1,
+    "y_img": 350.94,
     "level": "level_22.8",
-    "oldName": "PHASE2_018",
-    "x_img_old": 1953.66,
-    "y_img_old": 203.87
+    "oldName": "PHASE2_018"
 }, {
     "fullname": "PHASE2_386",
     "phase": "PHASE2",
@@ -3419,12 +2853,10 @@ let points = [{
     "x_real": 147.45,
     "y_real": 243.6,
     "z_real": 24.07,
-    "x_img": 1980.2296211251419,
-    "y_img": 278.4291581108828,
+    "x_img": 1980.23,
+    "y_img": 278.43,
     "level": "level_22.8",
-    "oldName": "PHASE2_019",
-    "x_img_old": 1942.85,
-    "y_img_old": 133.68
+    "oldName": "PHASE2_019"
 }, {
     "fullname": "PHASE2_387",
     "phase": "PHASE2",
@@ -3432,12 +2864,10 @@ let points = [{
     "x_real": 148.7,
     "y_real": 246.17,
     "z_real": 24.07,
-    "x_img": 2018.2606199770366,
-    "y_img": 203.88860369609847,
+    "x_img": 2018.26,
+    "y_img": 203.89,
     "level": "level_22.8",
-    "oldName": "PHASE2_020",
-    "x_img_old": 1977.5,
-    "y_img_old": 61.3
+    "oldName": "PHASE2_020"
 }, {
     "fullname": "PHASE2_388",
     "phase": "PHASE2",
@@ -3445,12 +2875,10 @@ let points = [{
     "x_real": 151.23,
     "y_real": 243.84,
     "z_real": 24.09,
-    "x_img": 2095.2353616532705,
-    "y_img": 271.46817248459956,
+    "x_img": 2095.24,
+    "y_img": 271.47,
     "level": "level_22.8",
-    "oldName": "PHASE2_021",
-    "x_img_old": 2047.63,
-    "y_img_old": 126.76
+    "oldName": "PHASE2_021"
 }, {
     "fullname": "PHASE2_389",
     "phase": "PHASE2",
@@ -3458,12 +2886,10 @@ let points = [{
     "x_real": 154.73,
     "y_real": 246.11,
     "z_real": 24.06,
-    "x_img": 2201.7221584385748,
-    "y_img": 205.62885010266928,
+    "x_img": 2201.72,
+    "y_img": 205.63,
     "level": "level_22.8",
-    "oldName": "PHASE2_022",
-    "x_img_old": 2144.78,
-    "y_img_old": 62.84
+    "oldName": "PHASE2_022"
 }, {
     "fullname": "PHASE2_390",
     "phase": "PHASE2",
@@ -3471,12 +2897,10 @@ let points = [{
     "x_real": 157.9,
     "y_real": 243.19,
     "z_real": 24.07,
-    "x_img": 2298.1687715269795,
-    "y_img": 290.3208418891172,
+    "x_img": 2298.17,
+    "y_img": 290.32,
     "level": "level_22.8",
-    "oldName": "PHASE2_023",
-    "x_img_old": 2232.57,
-    "y_img_old": 145.17
+    "oldName": "PHASE2_023"
 }, {
     "fullname": "PHASE2_391",
     "phase": "PHASE2",
@@ -3484,12 +2908,10 @@ let points = [{
     "x_real": 161.63,
     "y_real": 243.43,
     "z_real": 24.07,
-    "x_img": 2411.653272101032,
-    "y_img": 283.3598562628331,
+    "x_img": 2411.65,
+    "y_img": 283.36,
     "level": "level_22.8",
-    "oldName": "PHASE2_024",
-    "x_img_old": 2336.04,
-    "y_img_old": 138.43
+    "oldName": "PHASE2_024"
 }, {
     "fullname": "PHASE2_392",
     "phase": "PHASE2",
@@ -3497,12 +2919,10 @@ let points = [{
     "x_real": 165.29,
     "y_real": 244.9,
     "z_real": 24.08,
-    "x_img": 2523.008036739378,
-    "y_img": 240.72381930184747,
+    "x_img": 2523.01,
+    "y_img": 240.72,
     "level": "level_22.8",
-    "oldName": "PHASE2_025",
-    "x_img_old": 2437.42,
-    "y_img_old": 97
+    "oldName": "PHASE2_025"
 }, {
     "fullname": "PHASE2_393",
     "phase": "PHASE2",
@@ -3510,12 +2930,10 @@ let points = [{
     "x_real": 145.65,
     "y_real": 239.18,
     "z_real": 24.06,
-    "x_img": 1925.4649827784147,
-    "y_img": 406.62731006160175,
+    "x_img": 1925.46,
+    "y_img": 406.63,
     "level": "level_22.8",
-    "oldName": "PHASE2_026",
-    "x_img_old": 1892.89,
-    "y_img_old": 257.9
+    "oldName": "PHASE2_026"
 }, {
     "fullname": "PHASE2_394",
     "phase": "PHASE2",
@@ -3523,12 +2941,10 @@ let points = [{
     "x_real": 142.17,
     "y_real": 240.96,
     "z_real": 24.06,
-    "x_img": 1819.5866819747403,
+    "x_img": 1819.59,
     "y_img": 355,
     "level": "level_22.8",
-    "oldName": "PHASE2_027",
-    "x_img_old": 1796.43,
-    "y_img_old": 207.72
+    "oldName": "PHASE2_027"
 }, {
     "fullname": "PHASE2_395",
     "phase": "PHASE2",
@@ -3536,12 +2952,10 @@ let points = [{
     "x_real": 138.63,
     "y_real": 239.55,
     "z_real": 24.07,
-    "x_img": 1711.8828932261763,
-    "y_img": 395.8957905544139,
+    "x_img": 1711.88,
+    "y_img": 395.9,
     "level": "level_22.8",
-    "oldName": "PHASE2_028",
-    "x_img_old": 1698.48,
-    "y_img_old": 247.45
+    "oldName": "PHASE2_028"
 }, {
     "fullname": "PHASE2_396",
     "phase": "PHASE2",
@@ -3549,12 +2963,10 @@ let points = [{
     "x_real": 134.35,
     "y_real": 240.12,
     "z_real": 24.08,
-    "x_img": 1581.6647531572899,
-    "y_img": 379.36344969199126,
+    "x_img": 1581.66,
+    "y_img": 379.36,
     "level": "level_22.8",
-    "oldName": "PHASE2_029",
-    "x_img_old": 1579.6,
-    "y_img_old": 231.42
+    "oldName": "PHASE2_029"
 }, {
     "fullname": "PHASE2_397",
     "phase": "PHASE2",
@@ -3562,12 +2974,10 @@ let points = [{
     "x_real": 131.92,
     "y_real": 239.54,
     "z_real": 24.08,
-    "x_img": 1507.732491389207,
-    "y_img": 396.1858316221769,
+    "x_img": 1507.73,
+    "y_img": 396.19,
     "level": "level_22.8",
-    "oldName": "PHASE2_030",
-    "x_img_old": 1512.45,
-    "y_img_old": 247.68
+    "oldName": "PHASE2_030"
 }, {
     "fullname": "PHASE2_398",
     "phase": "PHASE2",
@@ -3575,12 +2985,10 @@ let points = [{
     "x_real": 129.55,
     "y_real": 239.28,
     "z_real": 24.07,
-    "x_img": 1435.6257175660162,
-    "y_img": 403.72689938398344,
+    "x_img": 1435.63,
+    "y_img": 403.73,
     "level": "level_22.8",
-    "oldName": "PHASE2_031",
-    "x_img_old": 1446.54,
-    "y_img_old": 255.11
+    "oldName": "PHASE2_031"
 }, {
     "fullname": "PHASE2_399",
     "phase": "PHASE2",
@@ -3588,12 +2996,10 @@ let points = [{
     "x_real": 125.5,
     "y_real": 241.05,
     "z_real": 24.06,
-    "x_img": 1312.4052812858781,
-    "y_img": 352.3896303901429,
+    "x_img": 1312.41,
+    "y_img": 352.39,
     "level": "level_22.8",
-    "oldName": "PHASE2_032",
-    "x_img_old": 1334.5,
-    "y_img_old": 205.35
+    "oldName": "PHASE2_032"
 }, {
     "fullname": "PHASE2_400",
     "phase": "PHASE2",
@@ -3601,12 +3007,10 @@ let points = [{
     "x_real": 121.61,
     "y_real": 239.18,
     "z_real": 24.06,
-    "x_img": 1194.052812858783,
-    "y_img": 406.62731006160175,
+    "x_img": 1194.05,
+    "y_img": 406.63,
     "level": "level_22.8",
-    "oldName": "PHASE2_033",
-    "x_img_old": 1226.45,
-    "y_img_old": 257.91
+    "oldName": "PHASE2_033"
 }, {
     "fullname": "PHASE2_401",
     "phase": "PHASE2",
@@ -3614,12 +3018,10 @@ let points = [{
     "x_real": 126.92,
     "y_real": 241.52,
     "z_real": 24.06,
-    "x_img": 1355.6084959816299,
-    "y_img": 338.75770020533855,
+    "x_img": 1355.61,
+    "y_img": 338.76,
     "level": "level_22.8",
-    "oldName": "PHASE2_034",
-    "x_img_old": 1373.72,
-    "y_img_old": 192.09
+    "oldName": "PHASE2_034"
 }, {
     "fullname": "PHASE2_402",
     "phase": "PHASE2",
@@ -3627,12 +3029,10 @@ let points = [{
     "x_real": 119.5,
     "y_real": 240.04,
     "z_real": 24.06,
-    "x_img": 1129.8564867967852,
-    "y_img": 381.6837782340863,
+    "x_img": 1129.86,
+    "y_img": 381.68,
     "level": "level_22.8",
-    "oldName": "PHASE2_035",
-    "x_img_old": 1168.13,
-    "y_img_old": 233.72
+    "oldName": "PHASE2_035"
 }, {
     "fullname": "PHASE2_403",
     "phase": "PHASE2",
@@ -3640,12 +3040,10 @@ let points = [{
     "x_real": 117.06,
     "y_real": 240.01,
     "z_real": 24.06,
-    "x_img": 1055.6199770378876,
-    "y_img": 382.5539014373717,
+    "x_img": 1055.62,
+    "y_img": 382.55,
     "level": "level_22.8",
-    "oldName": "PHASE2_036",
-    "x_img_old": 1100.41,
-    "y_img_old": 234.38
+    "oldName": "PHASE2_036"
 }, {
     "fullname": "PHASE2_404",
     "phase": "PHASE2",
@@ -3653,12 +3051,10 @@ let points = [{
     "x_real": 114.89,
     "y_real": 241.74,
     "z_real": 24.07,
-    "x_img": 989.5981630309989,
-    "y_img": 332.37679671457863,
+    "x_img": 989.6,
+    "y_img": 332.38,
     "level": "level_22.8",
-    "oldName": "PHASE2_037",
-    "x_img_old": 1040.31,
-    "y_img_old": 185.87
+    "oldName": "PHASE2_037"
 }, {
     "fullname": "PHASE2_405",
     "phase": "PHASE2",
@@ -3666,12 +3062,10 @@ let points = [{
     "x_real": 111.32,
     "y_real": 240.05,
     "z_real": 24.07,
-    "x_img": 880.9816303099883,
-    "y_img": 381.3937371663242,
+    "x_img": 880.98,
+    "y_img": 381.39,
     "level": "level_22.8",
-    "oldName": "PHASE2_038",
-    "x_img_old": 941.37,
-    "y_img_old": 233.44
+    "oldName": "PHASE2_038"
 }, {
     "fullname": "PHASE2_406",
     "phase": "PHASE2",
@@ -3679,12 +3073,10 @@ let points = [{
     "x_real": 109.24,
     "y_real": 239.92,
     "z_real": 24.07,
-    "x_img": 817.6980482204362,
-    "y_img": 385.1642710472279,
+    "x_img": 817.7,
+    "y_img": 385.16,
     "level": "level_22.8",
-    "oldName": "PHASE2_039",
-    "x_img_old": 883.58,
-    "y_img_old": 237.04
+    "oldName": "PHASE2_039"
 }, {
     "fullname": "PHASE2_407",
     "phase": "PHASE2",
@@ -3692,12 +3084,10 @@ let points = [{
     "x_real": 107.16,
     "y_real": 240.4,
     "z_real": 24.07,
-    "x_img": 754.4144661308842,
-    "y_img": 371.24229979466054,
+    "x_img": 754.41,
+    "y_img": 371.24,
     "level": "level_22.8",
-    "oldName": "PHASE2_040",
-    "x_img_old": 825.92,
-    "y_img_old": 223.61
+    "oldName": "PHASE2_040"
 }, {
     "fullname": "PHASE2_408",
     "phase": "PHASE2",
@@ -3705,12 +3095,10 @@ let points = [{
     "x_real": 104.64,
     "y_real": 241.72,
     "z_real": 24.07,
-    "x_img": 677.7439724454653,
-    "y_img": 332.95687885010284,
+    "x_img": 677.74,
+    "y_img": 332.96,
     "level": "level_22.8",
-    "oldName": "PHASE2_041",
-    "x_img_old": 756.23,
-    "y_img_old": 186.31
+    "oldName": "PHASE2_041"
 }, {
     "fullname": "PHASE2_409",
     "phase": "PHASE2",
@@ -3718,12 +3106,10 @@ let points = [{
     "x_real": 101.4,
     "y_real": 239.66,
     "z_real": 24.07,
-    "x_img": 579.1676234213555,
-    "y_img": 392.7053388090353,
+    "x_img": 579.17,
+    "y_img": 392.71,
     "level": "level_22.8",
-    "oldName": "PHASE2_042",
-    "x_img_old": 666.36,
-    "y_img_old": 244.25
+    "oldName": "PHASE2_042"
 }, {
     "fullname": "PHASE2_410",
     "phase": "PHASE2",
@@ -3731,12 +3117,10 @@ let points = [{
     "x_real": 98.94,
     "y_real": 240.5,
     "z_real": 24.07,
-    "x_img": 504.3226176808271,
-    "y_img": 368.34188911704314,
+    "x_img": 504.32,
+    "y_img": 368.34,
     "level": "level_22.8",
-    "oldName": "PHASE2_043",
-    "x_img_old": 598.18,
-    "y_img_old": 220.84
+    "oldName": "PHASE2_043"
 }, {
     "fullname": "PHASE2_411",
     "phase": "PHASE2",
@@ -3744,12 +3128,10 @@ let points = [{
     "x_real": 96.44,
     "y_real": 241.21,
     "z_real": 24.07,
-    "x_img": 428.26061997703846,
-    "y_img": 347.7489733059547,
+    "x_img": 428.26,
+    "y_img": 347.75,
     "level": "level_22.8",
-    "oldName": "PHASE2_044",
-    "x_img_old": 528.93,
-    "y_img_old": 200.78
+    "oldName": "PHASE2_044"
 }, {
     "fullname": "PHASE2_412",
     "phase": "PHASE2",
@@ -3757,12 +3139,10 @@ let points = [{
     "x_real": 96.11,
     "y_real": 236.13,
     "z_real": 24.05,
-    "x_img": 418.22043628013853,
-    "y_img": 495.0898357289525,
+    "x_img": 418.22,
+    "y_img": 495.09,
     "level": "level_22.8",
-    "oldName": "PHASE2_045",
-    "x_img_old": 519.64,
-    "y_img_old": 343.5
+    "oldName": "PHASE2_045"
 }, {
     "fullname": "PHASE2_413",
     "phase": "PHASE2",
@@ -3770,12 +3150,10 @@ let points = [{
     "x_real": 98.17,
     "y_real": 235.24,
     "z_real": 24.06,
-    "x_img": 480.8955223880603,
-    "y_img": 520.9034907597534,
+    "x_img": 480.9,
+    "y_img": 520.9,
     "level": "level_22.8",
-    "oldName": "PHASE2_046",
-    "x_img_old": 576.78,
-    "y_img_old": 368.62
+    "oldName": "PHASE2_046"
 }, {
     "fullname": "PHASE2_414",
     "phase": "PHASE2",
@@ -3783,12 +3161,10 @@ let points = [{
     "x_real": 111.39,
     "y_real": 237.01,
     "z_real": 24.07,
-    "x_img": 883.1113662456946,
-    "y_img": 469.5662217659137,
+    "x_img": 883.11,
+    "y_img": 469.57,
     "level": "level_22.8",
-    "oldName": "PHASE2_047",
-    "x_img_old": 943.24,
-    "y_img_old": 318.69
+    "oldName": "PHASE2_047"
 }, {
     "fullname": "PHASE2_415",
     "phase": "PHASE2",
@@ -3796,12 +3172,10 @@ let points = [{
     "x_real": 110.61,
     "y_real": 233.35,
     "z_real": 24.05,
-    "x_img": 859.3800229621129,
-    "y_img": 575.7212525667355,
+    "x_img": 859.38,
+    "y_img": 575.72,
     "level": "level_22.8",
-    "oldName": "PHASE2_048",
-    "x_img_old": 921.72,
-    "y_img_old": 421.85
+    "oldName": "PHASE2_048"
 }, {
     "fullname": "PHASE2_416",
     "phase": "PHASE2",
@@ -3809,12 +3183,10 @@ let points = [{
     "x_real": 111.77,
     "y_real": 229.29,
     "z_real": 24.06,
-    "x_img": 894.6727898966706,
-    "y_img": 693.4779260780288,
+    "x_img": 894.67,
+    "y_img": 693.48,
     "level": "level_22.8",
-    "oldName": "PHASE2_049",
-    "x_img_old": 953.82,
-    "y_img_old": 535.91
+    "oldName": "PHASE2_049"
 }, {
     "fullname": "PHASE2_417",
     "phase": "PHASE2",
@@ -3822,12 +3194,10 @@ let points = [{
     "x_real": 109.32,
     "y_real": 232.9,
     "z_real": 24.07,
-    "x_img": 820.1320321469575,
-    "y_img": 588.7731006160157,
+    "x_img": 820.13,
+    "y_img": 588.77,
     "level": "level_22.8",
-    "oldName": "PHASE2_050",
-    "x_img_old": 885.75,
-    "y_img_old": 434.28
+    "oldName": "PHASE2_050"
 }, {
     "fullname": "PHASE2_418",
     "phase": "PHASE2",
@@ -3835,12 +3205,10 @@ let points = [{
     "x_real": 108.41,
     "y_real": 235.49,
     "z_real": 24.07,
-    "x_img": 792.4454649827785,
-    "y_img": 513.652464065708,
+    "x_img": 792.45,
+    "y_img": 513.65,
     "level": "level_22.8",
-    "oldName": "PHASE2_051",
-    "x_img_old": 860.78,
-    "y_img_old": 361.62
+    "oldName": "PHASE2_051"
 }, {
     "fullname": "PHASE2_419",
     "phase": "PHASE2",
@@ -3848,12 +3216,10 @@ let points = [{
     "x_real": 107.55,
     "y_real": 238.68,
     "z_real": 24.07,
-    "x_img": 766.2801377726751,
-    "y_img": 421.1293634496915,
+    "x_img": 766.28,
+    "y_img": 421.13,
     "level": "level_22.8",
-    "oldName": "PHASE2_052",
-    "x_img_old": 836.83,
-    "y_img_old": 271.9
+    "oldName": "PHASE2_052"
 }, {
     "fullname": "PHASE2_420",
     "phase": "PHASE2",
@@ -3861,12 +3227,10 @@ let points = [{
     "x_real": 104.11,
     "y_real": 237.68,
     "z_real": 24.06,
-    "x_img": 661.6188289322622,
-    "y_img": 450.13347022587277,
+    "x_img": 661.62,
+    "y_img": 450.13,
     "level": "level_22.8",
-    "oldName": "PHASE2_053",
-    "x_img_old": 741.55,
-    "y_img_old": 299.85
+    "oldName": "PHASE2_053"
 }, {
     "fullname": "PHASE2_421",
     "phase": "PHASE2",
@@ -3874,12 +3238,10 @@ let points = [{
     "x_real": 101.48,
     "y_real": 237.77,
     "z_real": 24.07,
-    "x_img": 581.6016073478768,
-    "y_img": 447.52310061601565,
+    "x_img": 581.6,
+    "y_img": 447.52,
     "level": "level_22.8",
-    "oldName": "PHASE2_054",
-    "x_img_old": 668.49,
-    "y_img_old": 297.57
+    "oldName": "PHASE2_054"
 }, {
     "fullname": "PHASE2_422",
     "phase": "PHASE2",
@@ -3887,12 +3249,10 @@ let points = [{
     "x_real": 101.3,
     "y_real": 235.05,
     "z_real": 24.07,
-    "x_img": 576.1251435132035,
-    "y_img": 526.414271047227,
+    "x_img": 576.13,
+    "y_img": 526.41,
     "level": "level_22.8",
-    "oldName": "PHASE2_055",
-    "x_img_old": 663.64,
-    "y_img_old": 373.85
+    "oldName": "PHASE2_055"
 }, {
     "fullname": "PHASE2_423",
     "phase": "PHASE2",
@@ -3900,12 +3260,10 @@ let points = [{
     "x_real": 101.37,
     "y_real": 231.15,
     "z_real": 24.07,
-    "x_img": 578.2548794489098,
-    "y_img": 639.530287474332,
+    "x_img": 578.25,
+    "y_img": 639.53,
     "level": "level_22.8",
-    "oldName": "PHASE2_056",
-    "x_img_old": 665.56,
-    "y_img_old": 483.44
+    "oldName": "PHASE2_056"
 }, {
     "fullname": "PHASE2_424",
     "phase": "PHASE2",
@@ -3913,12 +3271,10 @@ let points = [{
     "x_real": 101.34,
     "y_real": 229.65,
     "z_real": 24.07,
-    "x_img": 577.3421354764646,
-    "y_img": 683.036447638603,
+    "x_img": 577.34,
+    "y_img": 683.04,
     "level": "level_22.8",
-    "oldName": "PHASE2_057",
-    "x_img_old": 664.71,
-    "y_img_old": 525.7
+    "oldName": "PHASE2_057"
 }, {
     "fullname": "PHASE2_425",
     "phase": "PHASE2",
@@ -3926,12 +3282,10 @@ let points = [{
     "x_real": 100.2,
     "y_real": 226.92,
     "z_real": 24.08,
-    "x_img": 542.6578645235368,
-    "y_img": 762.2176591375774,
+    "x_img": 542.66,
+    "y_img": 762.22,
     "level": "level_22.8",
-    "oldName": "PHASE2_058",
-    "x_img_old": 633.1,
-    "y_img_old": 602.36
+    "oldName": "PHASE2_058"
 }, {
     "fullname": "PHASE2_426",
     "phase": "PHASE2",
@@ -3939,12 +3293,10 @@ let points = [{
     "x_real": 102.86,
     "y_real": 226.93,
     "z_real": 24.07,
-    "x_img": 623.5878300803679,
-    "y_img": 761.9276180698143,
+    "x_img": 623.59,
+    "y_img": 761.93,
     "level": "level_22.8",
-    "oldName": "PHASE2_059",
-    "x_img_old": 706.78,
-    "y_img_old": 602.22
+    "oldName": "PHASE2_059"
 }, {
     "fullname": "PHASE2_427",
     "phase": "PHASE2",
@@ -3952,12 +3304,10 @@ let points = [{
     "x_real": 103.64,
     "y_real": 232.2,
     "z_real": 24.06,
-    "x_img": 647.3191733639501,
-    "y_img": 609.0759753593429,
+    "x_img": 647.32,
+    "y_img": 609.08,
     "level": "level_22.8",
-    "oldName": "PHASE2_060",
-    "x_img_old": 728.51,
-    "y_img_old": 454.16
+    "oldName": "PHASE2_060"
 }, {
     "fullname": "PHASE2_428",
     "phase": "PHASE2",
@@ -3965,12 +3315,10 @@ let points = [{
     "x_real": 105.59,
     "y_real": 231.1,
     "z_real": 24.06,
-    "x_img": 706.6475315729053,
-    "y_img": 640.9804928131416,
+    "x_img": 706.65,
+    "y_img": 640.98,
     "level": "level_22.8",
-    "oldName": "PHASE2_061",
-    "x_img_old": 782.35,
-    "y_img_old": 484.89
+    "oldName": "PHASE2_061"
 }, {
     "fullname": "PHASE2_429",
     "phase": "PHASE2",
@@ -3978,12 +3326,10 @@ let points = [{
     "x_real": 105.83,
     "y_real": 230,
     "z_real": 24.07,
-    "x_img": 713.9494833524686,
-    "y_img": 672.8850102669403,
+    "x_img": 713.95,
+    "y_img": 672.89,
     "level": "level_22.8",
-    "oldName": "PHASE2_062",
-    "x_img_old": 789.04,
-    "y_img_old": 515.95
+    "oldName": "PHASE2_062"
 }, {
     "fullname": "PHASE2_430",
     "phase": "PHASE2",
@@ -3991,12 +3337,10 @@ let points = [{
     "x_real": 105.4,
     "y_real": 227.67,
     "z_real": 24.07,
-    "x_img": 700.8668197474171,
-    "y_img": 740.4645790554414,
+    "x_img": 700.87,
+    "y_img": 740.46,
     "level": "level_22.8",
-    "oldName": "PHASE2_063",
-    "x_img_old": 777.18,
-    "y_img_old": 581.55
+    "oldName": "PHASE2_063"
 }, {
     "fullname": "PHASE2_431",
     "phase": "PHASE2",
@@ -4004,12 +3348,10 @@ let points = [{
     "x_real": 106.72,
     "y_real": 226.15,
     "z_real": 24.06,
-    "x_img": 741.0275545350173,
-    "y_img": 784.5508213552357,
+    "x_img": 741.03,
+    "y_img": 784.55,
     "level": "level_22.8",
-    "oldName": "PHASE2_064",
-    "x_img_old": 813.7,
-    "y_img_old": 624.06
+    "oldName": "PHASE2_064"
 }, {
     "fullname": "PHASE2_432",
     "phase": "PHASE2",
@@ -4017,12 +3359,10 @@ let points = [{
     "x_real": 108.2,
     "y_real": 226.43,
     "z_real": 24.06,
-    "x_img": 786.0562571756604,
-    "y_img": 776.429671457905,
+    "x_img": 786.06,
+    "y_img": 776.43,
     "level": "level_22.8",
-    "oldName": "PHASE2_065",
-    "x_img_old": 854.8,
-    "y_img_old": 616.24
+    "oldName": "PHASE2_065"
 }, {
     "fullname": "PHASE2_433",
     "phase": "PHASE2",
@@ -4030,12 +3370,10 @@ let points = [{
     "x_real": 107.91,
     "y_real": 228.75,
     "z_real": 24.07,
-    "x_img": 777.2330654420207,
-    "y_img": 709.140143737166,
+    "x_img": 777.23,
+    "y_img": 709.14,
     "level": "level_22.8",
-    "oldName": "PHASE2_066",
-    "x_img_old": 846.88,
-    "y_img_old": 551.19
+    "oldName": "PHASE2_066"
 }, {
     "fullname": "PHASE2_434",
     "phase": "PHASE2",
@@ -4043,12 +3381,10 @@ let points = [{
     "x_real": 109.6,
     "y_real": 226.11,
     "z_real": 24.06,
-    "x_img": 828.6509758897819,
-    "y_img": 785.7109856262823,
+    "x_img": 828.65,
+    "y_img": 785.71,
     "level": "level_22.8",
-    "oldName": "PHASE2_067",
-    "x_img_old": 893.61,
-    "y_img_old": 625.19
+    "oldName": "PHASE2_067"
 }, {
     "fullname": "PHASE2_435",
     "phase": "PHASE2",
@@ -4056,12 +3392,10 @@ let points = [{
     "x_real": 111.45,
     "y_real": 226.6,
     "z_real": 24.06,
-    "x_img": 884.936854190586,
-    "y_img": 771.4989733059547,
+    "x_img": 884.94,
+    "y_img": 771.5,
     "level": "level_22.8",
-    "oldName": "PHASE2_068",
-    "x_img_old": 944.98,
-    "y_img_old": 611.59
+    "oldName": "PHASE2_068"
 }, {
     "fullname": "PHASE2_436",
     "phase": "PHASE2",
@@ -4069,12 +3403,10 @@ let points = [{
     "x_real": 100.71,
     "y_real": 210.31,
     "z_real": 24.07,
-    "x_img": 558.1745120551095,
-    "y_img": 1243.9758726899381,
+    "x_img": 558.17,
+    "y_img": 1243.98,
     "level": "level_22.8",
-    "oldName": "PHASE2_069",
-    "x_img_old": 647.14,
-    "y_img_old": 1069.5
+    "oldName": "PHASE2_069"
 }, {
     "fullname": "PHASE2_437",
     "phase": "PHASE2",
@@ -4082,12 +3414,10 @@ let points = [{
     "x_real": 100.28,
     "y_real": 213.11,
     "z_real": 24.07,
-    "x_img": 545.091848450058,
-    "y_img": 1162.7643737166318,
+    "x_img": 545.09,
+    "y_img": 1162.76,
     "level": "level_22.8",
-    "oldName": "PHASE2_070",
-    "x_img_old": 635.16,
-    "y_img_old": 990.82
+    "oldName": "PHASE2_070"
 }, {
     "fullname": "PHASE2_438",
     "phase": "PHASE2",
@@ -4095,12 +3425,10 @@ let points = [{
     "x_real": 103.67,
     "y_real": 212.45,
     "z_real": 24.07,
-    "x_img": 648.2319173363953,
-    "y_img": 1181.9070841889115,
+    "x_img": 648.23,
+    "y_img": 1181.91,
     "level": "level_22.8",
-    "oldName": "PHASE2_071",
-    "x_img_old": 729.3,
-    "y_img_old": 1009.38
+    "oldName": "PHASE2_071"
 }, {
     "fullname": "PHASE2_439",
     "phase": "PHASE2",
@@ -4108,12 +3436,10 @@ let points = [{
     "x_real": 104.82,
     "y_real": 211.6,
     "z_real": 24.07,
-    "x_img": 683.2204362801381,
-    "y_img": 1206.560574948665,
+    "x_img": 683.22,
+    "y_img": 1206.56,
     "level": "level_22.8",
-    "oldName": "PHASE2_072",
-    "x_img_old": 761.07,
-    "y_img_old": 1033.23
+    "oldName": "PHASE2_072"
 }, {
     "fullname": "PHASE2_440",
     "phase": "PHASE2",
@@ -4121,12 +3447,10 @@ let points = [{
     "x_real": 106.97,
     "y_real": 212.37,
     "z_real": 24.06,
-    "x_img": 748.6337543053965,
-    "y_img": 1184.2274127310056,
+    "x_img": 748.63,
+    "y_img": 1184.23,
     "level": "level_22.8",
-    "oldName": "PHASE2_073",
-    "x_img_old": 820.71,
-    "y_img_old": 1011.59
+    "oldName": "PHASE2_073"
 }, {
     "fullname": "PHASE2_441",
     "phase": "PHASE2",
@@ -4134,12 +3458,10 @@ let points = [{
     "x_real": 108.54,
     "y_real": 211.6,
     "z_real": 24.05,
-    "x_img": 796.4006888633758,
-    "y_img": 1206.560574948665,
+    "x_img": 796.4,
+    "y_img": 1206.56,
     "level": "level_22.8",
-    "oldName": "PHASE2_074",
-    "x_img_old": 864.14,
-    "y_img_old": 1033.34
+    "oldName": "PHASE2_074"
 }, {
     "fullname": "PHASE2_442",
     "phase": "PHASE2",
@@ -4147,12 +3469,10 @@ let points = [{
     "x_real": 108.33,
     "y_real": 210.53,
     "z_real": 24.05,
-    "x_img": 790.0114810562573,
-    "y_img": 1237.5949691991782,
+    "x_img": 790.01,
+    "y_img": 1237.59,
     "level": "level_22.8",
-    "oldName": "PHASE2_075",
-    "x_img_old": 858.5,
-    "y_img_old": 1063.34
+    "oldName": "PHASE2_075"
 }, {
     "fullname": "PHASE2_443",
     "phase": "PHASE2",
@@ -4160,12 +3480,10 @@ let points = [{
     "x_real": 104.97,
     "y_real": 210.39,
     "z_real": 24.05,
-    "x_img": 687.7841561423656,
-    "y_img": 1241.655544147844,
+    "x_img": 687.78,
+    "y_img": 1241.66,
     "level": "level_22.8",
-    "oldName": "PHASE2_076",
-    "x_img_old": 765.25,
-    "y_img_old": 1067.19
+    "oldName": "PHASE2_076"
 }, {
     "fullname": "PHASE2_444",
     "phase": "PHASE2",
@@ -4173,12 +3491,10 @@ let points = [{
     "x_real": 105,
     "y_real": 208.32,
     "z_real": 24.05,
-    "x_img": 688.6969001148109,
-    "y_img": 1301.6940451745377,
+    "x_img": 688.7,
+    "y_img": 1301.69,
     "level": "level_22.8",
-    "oldName": "PHASE2_077",
-    "x_img_old": 766.18,
-    "y_img_old": 1125.52
+    "oldName": "PHASE2_077"
 }, {
     "fullname": "PHASE2_445",
     "phase": "PHASE2",
@@ -4186,12 +3502,10 @@ let points = [{
     "x_real": 103.57,
     "y_real": 208.9,
     "z_real": 24.06,
-    "x_img": 645.1894374282438,
-    "y_img": 1284.871663244353,
+    "x_img": 645.19,
+    "y_img": 1284.87,
     "level": "level_22.8",
-    "oldName": "PHASE2_078",
-    "x_img_old": 726.36,
-    "y_img_old": 1109.24
+    "oldName": "PHASE2_078"
 }, {
     "fullname": "PHASE2_446",
     "phase": "PHASE2",
@@ -4199,12 +3513,10 @@ let points = [{
     "x_real": 100.9,
     "y_real": 208.2,
     "z_real": 24.06,
-    "x_img": 563.9552238805977,
-    "y_img": 1305.1745379876793,
+    "x_img": 563.96,
+    "y_img": 1305.17,
     "level": "level_22.8",
-    "oldName": "PHASE2_079",
-    "x_img_old": 652.56,
-    "y_img_old": 1128.73
+    "oldName": "PHASE2_079"
 }, {
     "fullname": "PHASE2_447",
     "phase": "PHASE2",
@@ -4212,12 +3524,10 @@ let points = [{
     "x_real": 101.83,
     "y_real": 204.94,
     "z_real": 24.05,
-    "x_img": 592.250287026407,
-    "y_img": 1399.7279260780288,
+    "x_img": 592.25,
+    "y_img": 1399.73,
     "level": "level_22.8",
-    "oldName": "PHASE2_080",
-    "x_img_old": 678.16,
-    "y_img_old": 1220.6
+    "oldName": "PHASE2_080"
 }, {
     "fullname": "PHASE2_448",
     "phase": "PHASE2",
@@ -4225,12 +3535,10 @@ let points = [{
     "x_real": 102.73,
     "y_real": 202.53,
     "z_real": 24.05,
-    "x_img": 619.6326061997711,
-    "y_img": 1469.627823408624,
+    "x_img": 619.63,
+    "y_img": 1469.63,
     "level": "level_22.8",
-    "oldName": "PHASE2_081",
-    "x_img_old": 703.14,
-    "y_img_old": 1288.36
+    "oldName": "PHASE2_081"
 }, {
     "fullname": "PHASE2_449",
     "phase": "PHASE2",
@@ -4238,12 +3546,10 @@ let points = [{
     "x_real": 103.44,
     "y_real": 200.48,
     "z_real": 24.06,
-    "x_img": 641.2342135476465,
-    "y_img": 1529.0862422997943,
+    "x_img": 641.23,
+    "y_img": 1529.09,
     "level": "level_22.8",
-    "oldName": "PHASE2_082",
-    "x_img_old": 722.88,
-    "y_img_old": 1345.83
+    "oldName": "PHASE2_082"
 }, {
     "fullname": "PHASE2_450",
     "phase": "PHASE2",
@@ -4251,12 +3557,10 @@ let points = [{
     "x_real": 105.99,
     "y_real": 200.5,
     "z_real": 24.06,
-    "x_img": 718.8174512055111,
-    "y_img": 1528.506160164271,
+    "x_img": 718.82,
+    "y_img": 1528.51,
     "level": "level_22.8",
-    "oldName": "PHASE2_083",
-    "x_img_old": 793.51,
-    "y_img_old": 1345.29
+    "oldName": "PHASE2_083"
 }, {
     "fullname": "PHASE2_451",
     "phase": "PHASE2",
@@ -4264,12 +3568,10 @@ let points = [{
     "x_real": 107.59,
     "y_real": 202.16,
     "z_real": 24.06,
-    "x_img": 767.4971297359361,
-    "y_img": 1480.3593429158109,
+    "x_img": 767.5,
+    "y_img": 1480.36,
     "level": "level_22.8",
-    "oldName": "PHASE2_084",
-    "x_img_old": 838,
-    "y_img_old": 1298.55
+    "oldName": "PHASE2_084"
 }, {
     "fullname": "PHASE2_452",
     "phase": "PHASE2",
@@ -4277,12 +3579,10 @@ let points = [{
     "x_real": 108.29,
     "y_real": 203.97,
     "z_real": 24.06,
-    "x_img": 788.7944890929971,
-    "y_img": 1427.8619096509237,
+    "x_img": 788.79,
+    "y_img": 1427.86,
     "level": "level_22.8",
-    "oldName": "PHASE2_085",
-    "x_img_old": 857.28,
-    "y_img_old": 1247.77
+    "oldName": "PHASE2_085"
 }, {
     "fullname": "PHASE2_453",
     "phase": "PHASE2",
@@ -4290,12 +3590,10 @@ let points = [{
     "x_real": 105.02,
     "y_real": 205.4,
     "z_real": 24.05,
-    "x_img": 689.3053960964412,
-    "y_img": 1386.3860369609847,
+    "x_img": 689.31,
+    "y_img": 1386.39,
     "level": "level_22.8",
-    "oldName": "PHASE2_086",
-    "x_img_old": 766.8,
-    "y_img_old": 1207.41
+    "oldName": "PHASE2_086"
 }, {
     "fullname": "PHASE2_454",
     "phase": "PHASE2",
@@ -4303,12 +3601,10 @@ let points = [{
     "x_real": 107.9,
     "y_real": 207.97,
     "z_real": 24.05,
-    "x_img": 776.9288174512058,
-    "y_img": 1311.8454825462013,
+    "x_img": 776.93,
+    "y_img": 1311.85,
     "level": "level_22.8",
-    "oldName": "PHASE2_087",
-    "x_img_old": 846.4,
-    "y_img_old": 1135.21
+    "oldName": "PHASE2_087"
 }, {
     "fullname": "PHASE2_455",
     "phase": "PHASE2",
@@ -4316,12 +3612,10 @@ let points = [{
     "x_real": 109.76,
     "y_real": 201.52,
     "z_real": 24.07,
-    "x_img": 833.5189437428248,
-    "y_img": 1498.9219712525664,
+    "x_img": 833.52,
+    "y_img": 1498.92,
     "level": "level_22.8",
-    "oldName": "PHASE2_088",
-    "x_img_old": 898,
-    "y_img_old": 1316.53
+    "oldName": "PHASE2_088"
 }, {
     "fullname": "PHASE2_456",
     "phase": "PHASE2",
@@ -4329,12 +3623,10 @@ let points = [{
     "x_real": 112.1,
     "y_real": 201.07,
     "z_real": 24.07,
-    "x_img": 904.7129735935705,
-    "y_img": 1511.9738193018475,
+    "x_img": 904.71,
+    "y_img": 1511.97,
     "level": "level_22.8",
-    "oldName": "PHASE2_089",
-    "x_img_old": 962.95,
-    "y_img_old": 1329.27
+    "oldName": "PHASE2_089"
 }, {
     "fullname": "PHASE2_457",
     "phase": "PHASE2",
@@ -4342,12 +3634,10 @@ let points = [{
     "x_real": 111.61,
     "y_real": 204.19,
     "z_real": 24.06,
-    "x_img": 889.8048220436281,
-    "y_img": 1421.4810061601638,
+    "x_img": 889.8,
+    "y_img": 1421.48,
     "level": "level_22.8",
-    "oldName": "PHASE2_090",
-    "x_img_old": 949.31,
-    "y_img_old": 1241.6
+    "oldName": "PHASE2_090"
 }, {
     "fullname": "PHASE2_458",
     "phase": "PHASE2",
@@ -4355,12 +3645,10 @@ let points = [{
     "x_real": 111.21,
     "y_real": 206.43,
     "z_real": 24.06,
-    "x_img": 877.6349024110218,
-    "y_img": 1356.511806981519,
+    "x_img": 877.63,
+    "y_img": 1356.51,
     "level": "level_22.8",
-    "oldName": "PHASE2_091",
-    "x_img_old": 938.25,
-    "y_img_old": 1178.54
+    "oldName": "PHASE2_091"
 }, {
     "fullname": "PHASE2_459",
     "phase": "PHASE2",
@@ -4368,12 +3656,10 @@ let points = [{
     "x_real": 111.97,
     "y_real": 209.21,
     "z_real": 24.05,
-    "x_img": 900.7577497129737,
-    "y_img": 1275.8803901437368,
+    "x_img": 900.76,
+    "y_img": 1275.88,
     "level": "level_22.8",
-    "oldName": "PHASE2_092",
-    "x_img_old": 959.39,
-    "y_img_old": 1100.49
+    "oldName": "PHASE2_092"
 }, {
     "fullname": "PHASE2_460",
     "phase": "PHASE2",
@@ -4381,12 +3667,10 @@ let points = [{
     "x_real": 111.17,
     "y_real": 213.03,
     "z_real": 24.05,
-    "x_img": 876.4179104477616,
-    "y_img": 1165.0847022587268,
+    "x_img": 876.42,
+    "y_img": 1165.08,
     "level": "level_22.8",
-    "oldName": "PHASE2_093",
-    "x_img_old": 937.07,
-    "y_img_old": 992.91
+    "oldName": "PHASE2_093"
 }, {
     "fullname": "PHASE2_461",
     "phase": "PHASE2",
@@ -4394,12 +3678,10 @@ let points = [{
     "x_real": 100.56,
     "y_real": 215.27,
     "z_real": 24.06,
-    "x_img": 553.6107921928824,
-    "y_img": 1100.115503080082,
+    "x_img": 553.61,
+    "y_img": 1100.12,
     "level": "level_22.8",
-    "oldName": "PHASE2_094",
-    "x_img_old": 643.09,
-    "y_img_old": 930.15
+    "oldName": "PHASE2_094"
 }, {
     "fullname": "PHASE2_462",
     "phase": "PHASE2",
@@ -4407,12 +3689,10 @@ let points = [{
     "x_real": 101.6,
     "y_real": 218.17,
     "z_real": 24.07,
-    "x_img": 585.2525832376582,
-    "y_img": 1016.0035934291582,
+    "x_img": 585.25,
+    "y_img": 1016,
     "level": "level_22.8",
-    "oldName": "PHASE2_095",
-    "x_img_old": 671.99,
-    "y_img_old": 848.53
+    "oldName": "PHASE2_095"
 }, {
     "fullname": "PHASE2_463",
     "phase": "PHASE2",
@@ -4420,12 +3700,10 @@ let points = [{
     "x_real": 100.21,
     "y_real": 219.84,
     "z_real": 24.07,
-    "x_img": 542.9621125143517,
-    "y_img": 967.5667351129359,
+    "x_img": 542.96,
+    "y_img": 967.57,
     "level": "level_22.8",
-    "oldName": "PHASE2_096",
-    "x_img_old": 633.47,
-    "y_img_old": 801.6
+    "oldName": "PHASE2_096"
 }, {
     "fullname": "PHASE2_464",
     "phase": "PHASE2",
@@ -4433,12 +3711,10 @@ let points = [{
     "x_real": 104.06,
     "y_real": 218.51,
     "z_real": 24.06,
-    "x_img": 660.0975889781866,
-    "y_img": 1006.1421971252566,
+    "x_img": 660.1,
+    "y_img": 1006.14,
     "level": "level_22.8",
-    "oldName": "PHASE2_097",
-    "x_img_old": 739.99,
-    "y_img_old": 838.92
+    "oldName": "PHASE2_097"
 }, {
     "fullname": "PHASE2_465",
     "phase": "PHASE2",
@@ -4446,12 +3722,10 @@ let points = [{
     "x_real": 104.24,
     "y_real": 215.6,
     "z_real": 24.06,
-    "x_img": 665.574052812859,
-    "y_img": 1090.5441478439425,
+    "x_img": 665.57,
+    "y_img": 1090.54,
     "level": "level_22.8",
-    "oldName": "PHASE2_098",
-    "x_img_old": 745.07,
-    "y_img_old": 920.77
+    "oldName": "PHASE2_098"
 }, {
     "fullname": "PHASE2_466",
     "phase": "PHASE2",
@@ -4459,12 +3733,10 @@ let points = [{
     "x_real": 108.12,
     "y_real": 215.78,
     "z_real": 24.06,
-    "x_img": 783.6222732491392,
-    "y_img": 1085.32340862423,
+    "x_img": 783.62,
+    "y_img": 1085.32,
     "level": "level_22.8",
-    "oldName": "PHASE2_099",
-    "x_img_old": 852.72,
-    "y_img_old": 915.68
+    "oldName": "PHASE2_099"
 }, {
     "fullname": "PHASE2_467",
     "phase": "PHASE2",
@@ -4472,12 +3744,10 @@ let points = [{
     "x_real": 107.26,
     "y_real": 219.28,
     "z_real": 24.05,
-    "x_img": 757.4569460390362,
-    "y_img": 983.8090349075974,
+    "x_img": 757.46,
+    "y_img": 983.81,
     "level": "level_22.8",
-    "oldName": "PHASE2_100",
-    "x_img_old": 828.81,
-    "y_img_old": 817.35
+    "oldName": "PHASE2_100"
 }, {
     "fullname": "PHASE2_468",
     "phase": "PHASE2",
@@ -4485,12 +3755,10 @@ let points = [{
     "x_real": 109.6,
     "y_real": 219.79,
     "z_real": 24.07,
-    "x_img": 828.6509758897819,
-    "y_img": 969.0169404517455,
+    "x_img": 828.65,
+    "y_img": 969.02,
     "level": "level_22.8",
-    "oldName": "PHASE2_101",
-    "x_img_old": 893.71,
-    "y_img_old": 803.04
+    "oldName": "PHASE2_101"
 }, {
     "fullname": "PHASE2_469",
     "phase": "PHASE2",
@@ -4498,12 +3766,10 @@ let points = [{
     "x_real": 111.56,
     "y_real": 219.81,
     "z_real": 24.05,
-    "x_img": 888.2835820895525,
-    "y_img": 968.4368583162213,
+    "x_img": 888.28,
+    "y_img": 968.44,
     "level": "level_22.8",
-    "oldName": "PHASE2_102",
-    "x_img_old": 947.92,
-    "y_img_old": 802.36
+    "oldName": "PHASE2_102"
 }, {
     "fullname": "PHASE2_470",
     "phase": "PHASE2",
@@ -4511,12 +3777,10 @@ let points = [{
     "x_real": 111.53,
     "y_real": 216.45,
     "z_real": 24.05,
-    "x_img": 887.3708381171068,
-    "y_img": 1065.8906570841891,
+    "x_img": 887.37,
+    "y_img": 1065.89,
     "level": "level_22.8",
-    "oldName": "PHASE2_103",
-    "x_img_old": 947.22,
-    "y_img_old": 897
+    "oldName": "PHASE2_103"
 }, {
     "fullname": "PHASE2_471",
     "phase": "PHASE2",
@@ -4524,12 +3788,10 @@ let points = [{
     "x_real": 113.47,
     "y_real": 216.32,
     "z_real": 24.05,
-    "x_img": 946.3949483352471,
-    "y_img": 1069.661190965092,
+    "x_img": 946.39,
+    "y_img": 1069.66,
     "level": "level_22.8",
-    "oldName": "PHASE2_104",
-    "x_img_old": 1000.82,
-    "y_img_old": 900.59
+    "oldName": "PHASE2_104"
 }, {
     "fullname": "PHASE2_472",
     "phase": "PHASE2",
@@ -4537,12 +3799,10 @@ let points = [{
     "x_real": 113.47,
     "y_real": 213.04,
     "z_real": 24.06,
-    "x_img": 946.3949483352471,
-    "y_img": 1164.7946611909647,
+    "x_img": 946.39,
+    "y_img": 1164.79,
     "level": "level_22.8",
-    "oldName": "PHASE2_105",
-    "x_img_old": 1000.8,
-    "y_img_old": 992.72
+    "oldName": "PHASE2_105"
 }, {
     "fullname": "PHASE2_473",
     "phase": "PHASE2",
@@ -4550,12 +3810,10 @@ let points = [{
     "x_real": 116.41,
     "y_real": 212.61,
     "z_real": 24.05,
-    "x_img": 1035.8438576349022,
-    "y_img": 1177.2664271047224,
+    "x_img": 1035.84,
+    "y_img": 1177.27,
     "level": "level_22.8",
-    "oldName": "PHASE2_106",
-    "x_img_old": 1082.32,
-    "y_img_old": 1004.87
+    "oldName": "PHASE2_106"
 }, {
     "fullname": "PHASE2_474",
     "phase": "PHASE2",
@@ -4563,12 +3821,10 @@ let points = [{
     "x_real": 117.81,
     "y_real": 209.84,
     "z_real": 24.04,
-    "x_img": 1078.438576349024,
-    "y_img": 1257.6078028747424,
+    "x_img": 1078.44,
+    "y_img": 1257.61,
     "level": "level_22.8",
-    "oldName": "PHASE2_107",
-    "x_img_old": 1121.36,
-    "y_img_old": 1082.75
+    "oldName": "PHASE2_107"
 }, {
     "fullname": "PHASE2_475",
     "phase": "PHASE2",
@@ -4576,12 +3832,10 @@ let points = [{
     "x_real": 115.84,
     "y_real": 208.14,
     "z_real": 24.04,
-    "x_img": 1018.501722158439,
-    "y_img": 1306.914784394251,
+    "x_img": 1018.5,
+    "y_img": 1306.91,
     "level": "level_22.8",
-    "oldName": "PHASE2_108",
-    "x_img_old": 1066.62,
-    "y_img_old": 1130.6
+    "oldName": "PHASE2_108"
 }, {
     "fullname": "PHASE2_476",
     "phase": "PHASE2",
@@ -4589,12 +3843,10 @@ let points = [{
     "x_real": 118.32,
     "y_real": 205.22,
     "z_real": 24.05,
-    "x_img": 1093.9552238805968,
-    "y_img": 1391.606776180698,
+    "x_img": 1093.96,
+    "y_img": 1391.61,
     "level": "level_22.8",
-    "oldName": "PHASE2_109",
-    "x_img_old": 1135.34,
-    "y_img_old": 1212.56
+    "oldName": "PHASE2_109"
 }, {
     "fullname": "PHASE2_477",
     "phase": "PHASE2",
@@ -4602,12 +3854,10 @@ let points = [{
     "x_real": 114.57,
     "y_real": 205.74,
     "z_real": 24.05,
-    "x_img": 979.8622273249139,
-    "y_img": 1376.5246406570832,
+    "x_img": 979.86,
+    "y_img": 1376.52,
     "level": "level_22.8",
-    "oldName": "PHASE2_110",
-    "x_img_old": 1031.29,
-    "y_img_old": 1198
+    "oldName": "PHASE2_110"
 }, {
     "fullname": "PHASE2_478",
     "phase": "PHASE2",
@@ -4615,12 +3865,10 @@ let points = [{
     "x_real": 114.85,
     "y_real": 209.52,
     "z_real": 25.34,
-    "x_img": 988.3811710677383,
-    "y_img": 1266.8891170431207,
+    "x_img": 988.38,
+    "y_img": 1266.89,
     "level": "level_22.8",
-    "oldName": "PHASE2_111",
-    "x_img_old": 1039.09,
-    "y_img_old": 1091.7
+    "oldName": "PHASE2_111"
 }, {
     "fullname": "PHASE2_479",
     "phase": "PHASE2",
@@ -4628,12 +3876,10 @@ let points = [{
     "x_real": 113.61,
     "y_real": 210.16,
     "z_real": 24.05,
-    "x_img": 950.6544202066593,
-    "y_img": 1248.3264887063651,
+    "x_img": 950.65,
+    "y_img": 1248.33,
     "level": "level_22.8",
-    "oldName": "PHASE2_112",
-    "x_img_old": 1004.88,
-    "y_img_old": 1073.66
+    "oldName": "PHASE2_112"
 }, {
     "fullname": "PHASE2_480",
     "phase": "PHASE2",
@@ -4641,12 +3887,10 @@ let points = [{
     "x_real": 115.21,
     "y_real": 215.74,
     "z_real": 24.06,
-    "x_img": 999.3340987370839,
-    "y_img": 1086.4835728952767,
+    "x_img": 999.33,
+    "y_img": 1086.48,
     "level": "level_22.8",
-    "oldName": "PHASE2_113",
-    "x_img_old": 1049.11,
-    "y_img_old": 916.92
+    "oldName": "PHASE2_113"
 }, {
     "fullname": "PHASE2_481",
     "phase": "PHASE2",
@@ -4654,12 +3898,10 @@ let points = [{
     "x_real": 116.09,
     "y_real": 203.91,
     "z_real": 24.05,
-    "x_img": 1026.1079219288176,
-    "y_img": 1429.6021560574945,
+    "x_img": 1026.11,
+    "y_img": 1429.6,
     "level": "level_22.8",
-    "oldName": "PHASE2_114",
-    "x_img_old": 1073.45,
-    "y_img_old": 1249.57
+    "oldName": "PHASE2_114"
 }, {
     "fullname": "PHASE2_482",
     "phase": "PHASE2",
@@ -4667,12 +3909,10 @@ let points = [{
     "x_real": 115.86,
     "y_real": 200.58,
     "z_real": 24.06,
-    "x_img": 1019.1102181400688,
-    "y_img": 1526.185831622176,
+    "x_img": 1019.11,
+    "y_img": 1526.19,
     "level": "level_22.8",
-    "oldName": "PHASE2_115",
-    "x_img_old": 1067.2,
-    "y_img_old": 1343.16
+    "oldName": "PHASE2_115"
 }, {
     "fullname": "PHASE2_483",
     "phase": "PHASE2",
@@ -4680,12 +3920,10 @@ let points = [{
     "x_real": 113.48,
     "y_real": 219.81,
     "z_real": 24.04,
-    "x_img": 946.6991963260621,
-    "y_img": 968.4368583162213,
+    "x_img": 946.7,
+    "y_img": 968.44,
     "level": "level_22.8",
-    "oldName": "PHASE2_116",
-    "x_img_old": 1001.27,
-    "y_img_old": 802.29
+    "oldName": "PHASE2_116"
 }, {
     "fullname": "PHASE2_484",
     "phase": "PHASE2",
@@ -4693,12 +3931,10 @@ let points = [{
     "x_real": 116.2,
     "y_real": 219.29,
     "z_real": 24.04,
-    "x_img": 1029.4546498277841,
-    "y_img": 983.5189938398353,
+    "x_img": 1029.45,
+    "y_img": 983.52,
     "level": "level_22.8",
-    "oldName": "PHASE2_117",
-    "x_img_old": 1076.55,
-    "y_img_old": 817.08
+    "oldName": "PHASE2_117"
 }, {
     "fullname": "PHASE2_485",
     "phase": "PHASE2",
@@ -4706,12 +3942,10 @@ let points = [{
     "x_real": 119,
     "y_real": 220.14,
     "z_real": 24.04,
-    "x_img": 1114.6440872560274,
-    "y_img": 958.8655030800819,
+    "x_img": 1114.64,
+    "y_img": 958.87,
     "level": "level_22.8",
-    "oldName": "PHASE2_118",
-    "x_img_old": 1154.2,
-    "y_img_old": 793.16
+    "oldName": "PHASE2_118"
 }, {
     "fullname": "PHASE2_486",
     "phase": "PHASE2",
@@ -4719,12 +3953,10 @@ let points = [{
     "x_real": 118.78,
     "y_real": 222.68,
     "z_real": 24.03,
-    "x_img": 1107.950631458094,
-    "y_img": 885.195071868583,
+    "x_img": 1107.95,
+    "y_img": 885.2,
     "level": "level_22.8",
-    "oldName": "PHASE2_119",
-    "x_img_old": 1148.16,
-    "y_img_old": 721.76
+    "oldName": "PHASE2_119"
 }, {
     "fullname": "PHASE2_487",
     "phase": "PHASE2",
@@ -4732,12 +3964,10 @@ let points = [{
     "x_real": 118.83,
     "y_real": 224.97,
     "z_real": 24.04,
-    "x_img": 1109.47187141217,
-    "y_img": 818.7756673511294,
+    "x_img": 1109.47,
+    "y_img": 818.78,
     "level": "level_22.8",
-    "oldName": "PHASE2_120",
-    "x_img_old": 1149.43,
-    "y_img_old": 657.42
+    "oldName": "PHASE2_120"
 }, {
     "fullname": "PHASE2_488",
     "phase": "PHASE2",
@@ -4745,12 +3975,10 @@ let points = [{
     "x_real": 116.19,
     "y_real": 224.83,
     "z_real": 24.04,
-    "x_img": 1029.1504018369687,
-    "y_img": 822.8362422997943,
+    "x_img": 1029.15,
+    "y_img": 822.84,
     "level": "level_22.8",
-    "oldName": "PHASE2_121",
-    "x_img_old": 1076.3,
-    "y_img_old": 661.29
+    "oldName": "PHASE2_121"
 }, {
     "fullname": "PHASE2_489",
     "phase": "PHASE2",
@@ -4758,12 +3986,10 @@ let points = [{
     "x_real": 113.79,
     "y_real": 224.72,
     "z_real": 24.05,
-    "x_img": 956.1308840413321,
-    "y_img": 826.0266940451747,
+    "x_img": 956.13,
+    "y_img": 826.03,
     "level": "level_22.8",
-    "oldName": "PHASE2_122",
-    "x_img_old": 1009.66,
-    "y_img_old": 664.31
+    "oldName": "PHASE2_122"
 }, {
     "fullname": "PHASE2_490",
     "phase": "PHASE2",
@@ -4771,12 +3997,10 @@ let points = [{
     "x_real": 115.06,
     "y_real": 222.15,
     "z_real": 24.78,
-    "x_img": 994.7703788748568,
-    "y_img": 900.5672484599581,
+    "x_img": 994.77,
+    "y_img": 900.57,
     "level": "level_22.8",
-    "oldName": "PHASE2_123",
-    "x_img_old": 1044.95,
-    "y_img_old": 736.49
+    "oldName": "PHASE2_123"
 }, {
     "fullname": "PHASE2_491",
     "phase": "PHASE2",
@@ -4784,12 +4008,10 @@ let points = [{
     "x_real": 113.96,
     "y_real": 223.07,
     "z_real": 24.04,
-    "x_img": 961.3030998851896,
-    "y_img": 873.8834702258728,
+    "x_img": 961.3,
+    "y_img": 873.88,
     "level": "level_22.8",
-    "oldName": "PHASE2_124",
-    "x_img_old": 1014.61,
-    "y_img_old": 710.65
+    "oldName": "PHASE2_124"
 }, {
     "fullname": "PHASE2_492",
     "phase": "PHASE2",
@@ -4797,12 +4019,10 @@ let points = [{
     "x_real": 111.7,
     "y_real": 223.97,
     "z_real": 24.05,
-    "x_img": 892.5430539609647,
-    "y_img": 847.7797741273098,
+    "x_img": 892.54,
+    "y_img": 847.78,
     "level": "level_22.8",
-    "oldName": "PHASE2_125",
-    "x_img_old": 951.86,
-    "y_img_old": 685.51
+    "oldName": "PHASE2_125"
 }, {
     "fullname": "PHASE2_493",
     "phase": "PHASE2",
@@ -4810,12 +4030,10 @@ let points = [{
     "x_real": 109.52,
     "y_real": 224.04,
     "z_real": 24.06,
-    "x_img": 826.2169919632606,
-    "y_img": 845.7494866529778,
+    "x_img": 826.22,
+    "y_img": 845.75,
     "level": "level_22.8",
-    "oldName": "PHASE2_126",
-    "x_img_old": 891.32,
-    "y_img_old": 683.38
+    "oldName": "PHASE2_126"
 }, {
     "fullname": "PHASE2_494",
     "phase": "PHASE2",
@@ -4823,12 +4041,10 @@ let points = [{
     "x_real": 106.49,
     "y_real": 222.29,
     "z_real": 24.05,
-    "x_img": 734.029850746269,
-    "y_img": 896.5066735112932,
+    "x_img": 734.03,
+    "y_img": 896.51,
     "level": "level_22.8",
-    "oldName": "PHASE2_127",
-    "x_img_old": 807.32,
-    "y_img_old": 732.64
+    "oldName": "PHASE2_127"
 }, {
     "fullname": "PHASE2_495",
     "phase": "PHASE2",
@@ -4836,12 +4052,10 @@ let points = [{
     "x_real": 103.93,
     "y_real": 223.77,
     "z_real": 24.06,
-    "x_img": 656.1423650975894,
-    "y_img": 853.5805954825455,
+    "x_img": 656.14,
+    "y_img": 853.58,
     "level": "level_22.8",
-    "oldName": "PHASE2_128",
-    "x_img_old": 736.41,
-    "y_img_old": 691.03
+    "oldName": "PHASE2_128"
 }, {
     "fullname": "PHASE2_496",
     "phase": "PHASE2",
@@ -4849,12 +4063,10 @@ let points = [{
     "x_real": 101.18,
     "y_real": 221.27,
     "z_real": 24.06,
-    "x_img": 572.4741676234221,
-    "y_img": 926.0908624229978,
+    "x_img": 572.47,
+    "y_img": 926.09,
     "level": "level_22.8",
-    "oldName": "PHASE2_129",
-    "x_img_old": 660.19,
-    "y_img_old": 761.28
+    "oldName": "PHASE2_129"
 }, {
     "fullname": "PHASE2_497",
     "phase": "PHASE2",
@@ -4862,12 +4074,10 @@ let points = [{
     "x_real": 100.63,
     "y_real": 224.29,
     "z_real": 24.07,
-    "x_img": 555.7405281285883,
-    "y_img": 838.4984599589325,
+    "x_img": 555.74,
+    "y_img": 838.5,
     "level": "level_22.8",
-    "oldName": "PHASE2_130",
-    "x_img_old": 645,
-    "y_img_old": 676.38
+    "oldName": "PHASE2_130"
 }, {
     "fullname": "PHASE2_498",
     "phase": "PHASE2",
@@ -4875,12 +4085,10 @@ let points = [{
     "x_real": 111.73,
     "y_real": 225.71,
     "z_real": 24.06,
-    "x_img": 893.4557979334099,
-    "y_img": 797.3126283367556,
+    "x_img": 893.46,
+    "y_img": 797.31,
     "level": "level_22.8",
-    "oldName": "PHASE2_131",
-    "x_img_old": 952.6,
-    "y_img_old": 636.56
+    "oldName": "PHASE2_131"
 }, {
     "fullname": "PHASE2_499",
     "phase": "PHASE2",
@@ -4888,12 +4096,10 @@ let points = [{
     "x_real": 113.22,
     "y_real": 226.91,
     "z_real": 24.06,
-    "x_img": 938.788748564868,
-    "y_img": 762.5077002053386,
+    "x_img": 938.79,
+    "y_img": 762.51,
     "level": "level_22.8",
-    "oldName": "PHASE2_132",
-    "x_img_old": 993.94,
-    "y_img_old": 602.71
+    "oldName": "PHASE2_132"
 }, {
     "fullname": "PHASE2_500",
     "phase": "PHASE2",
@@ -4901,12 +4107,10 @@ let points = [{
     "x_real": 115.05,
     "y_real": 226.46,
     "z_real": 24.05,
-    "x_img": 994.4661308840414,
-    "y_img": 775.5595482546196,
+    "x_img": 994.47,
+    "y_img": 775.56,
     "level": "level_22.8",
-    "oldName": "PHASE2_133",
-    "x_img_old": 1044.69,
-    "y_img_old": 615.57
+    "oldName": "PHASE2_133"
 }, {
     "fullname": "PHASE2_501",
     "phase": "PHASE2",
@@ -4914,12 +4118,10 @@ let points = [{
     "x_real": 118.49,
     "y_real": 226.38,
     "z_real": 24.04,
-    "x_img": 1099.1274397244547,
-    "y_img": 777.8798767967146,
+    "x_img": 1099.13,
+    "y_img": 777.88,
     "level": "level_22.8",
-    "oldName": "PHASE2_134",
-    "x_img_old": 1140.18,
-    "y_img_old": 617.79
+    "oldName": "PHASE2_134"
 }, {
     "fullname": "PHASE2_502",
     "phase": "PHASE2",
@@ -4927,12 +4129,10 @@ let points = [{
     "x_real": 119.72,
     "y_real": 229.09,
     "z_real": 24.05,
-    "x_img": 1136.5499425947187,
-    "y_img": 699.2787474332645,
+    "x_img": 1136.55,
+    "y_img": 699.28,
     "level": "level_22.8",
-    "oldName": "PHASE2_135",
-    "x_img_old": 1174.14,
-    "y_img_old": 541.54
+    "oldName": "PHASE2_135"
 }, {
     "fullname": "PHASE2_503",
     "phase": "PHASE2",
@@ -4940,12 +4140,10 @@ let points = [{
     "x_real": 116.52,
     "y_real": 228.78,
     "z_real": 24.05,
-    "x_img": 1039.1905855338691,
-    "y_img": 708.2700205338806,
+    "x_img": 1039.19,
+    "y_img": 708.27,
     "level": "level_22.8",
-    "oldName": "PHASE2_136",
-    "x_img_old": 1085.49,
-    "y_img_old": 550.1
+    "oldName": "PHASE2_136"
 }, {
     "fullname": "PHASE2_504",
     "phase": "PHASE2",
@@ -4953,12 +4151,10 @@ let points = [{
     "x_real": 113.81,
     "y_real": 229.83,
     "z_real": 24.05,
-    "x_img": 956.7393800229625,
-    "y_img": 677.8157084188906,
+    "x_img": 956.74,
+    "y_img": 677.82,
     "level": "level_22.8",
-    "oldName": "PHASE2_137",
-    "x_img_old": 1010.41,
-    "y_img_old": 520.58
+    "oldName": "PHASE2_137"
 }, {
     "fullname": "PHASE2_505",
     "phase": "PHASE2",
@@ -4966,12 +4162,10 @@ let points = [{
     "x_real": 115.49,
     "y_real": 231.08,
     "z_real": 24.05,
-    "x_img": 1007.8530424799083,
-    "y_img": 641.5605749486649,
+    "x_img": 1007.85,
+    "y_img": 641.56,
     "level": "level_22.8",
-    "oldName": "PHASE2_138",
-    "x_img_old": 1056.88,
-    "y_img_old": 485.54
+    "oldName": "PHASE2_138"
 }, {
     "fullname": "PHASE2_506",
     "phase": "PHASE2",
@@ -4979,12 +4173,10 @@ let points = [{
     "x_real": 118.4,
     "y_real": 230.92,
     "z_real": 24.05,
-    "x_img": 1096.3892078071185,
-    "y_img": 646.201232032854,
+    "x_img": 1096.39,
+    "y_img": 646.2,
     "level": "level_22.8",
-    "oldName": "PHASE2_139",
-    "x_img_old": 1137.71,
-    "y_img_old": 490.13
+    "oldName": "PHASE2_139"
 }, {
     "fullname": "PHASE2_507",
     "phase": "PHASE2",
@@ -4992,12 +4184,10 @@ let points = [{
     "x_real": 119.66,
     "y_real": 233.01,
     "z_real": 24.04,
-    "x_img": 1134.7244546498277,
-    "y_img": 585.5826488706371,
+    "x_img": 1134.72,
+    "y_img": 585.58,
     "level": "level_22.8",
-    "oldName": "PHASE2_140",
-    "x_img_old": 1172.54,
-    "y_img_old": 431.35
+    "oldName": "PHASE2_140"
 }, {
     "fullname": "PHASE2_508",
     "phase": "PHASE2",
@@ -5005,12 +4195,10 @@ let points = [{
     "x_real": 116.79,
     "y_real": 233.62,
     "z_real": 24.04,
-    "x_img": 1047.4052812858786,
-    "y_img": 567.890143737166,
+    "x_img": 1047.41,
+    "y_img": 567.89,
     "level": "level_22.8",
-    "oldName": "PHASE2_141",
-    "x_img_old": 1092.96,
-    "y_img_old": 414.02
+    "oldName": "PHASE2_141"
 }, {
     "fullname": "PHASE2_509",
     "phase": "PHASE2",
@@ -5018,12 +4206,10 @@ let points = [{
     "x_real": 114.56,
     "y_real": 233.92,
     "z_real": 24.05,
-    "x_img": 979.557979334099,
-    "y_img": 559.188911704312,
+    "x_img": 979.56,
+    "y_img": 559.19,
     "level": "level_22.8",
-    "oldName": "PHASE2_142",
-    "x_img_old": 1031.07,
-    "y_img_old": 405.58
+    "oldName": "PHASE2_142"
 }, {
     "fullname": "PHASE2_510",
     "phase": "PHASE2",
@@ -5031,12 +4217,10 @@ let points = [{
     "x_real": 113.55,
     "y_real": 235.58,
     "z_real": 24.06,
-    "x_img": 948.8289322617679,
-    "y_img": 511.04209445585184,
+    "x_img": 948.83,
+    "y_img": 511.04,
     "level": "level_22.8",
-    "oldName": "PHASE2_143",
-    "x_img_old": 1003.21,
-    "y_img_old": 359.12
+    "oldName": "PHASE2_143"
 }, {
     "fullname": "PHASE2_511",
     "phase": "PHASE2",
@@ -5044,12 +4228,10 @@ let points = [{
     "x_real": 113.53,
     "y_real": 237.45,
     "z_real": 24.06,
-    "x_img": 948.2204362801381,
-    "y_img": 456.8044147843948,
+    "x_img": 948.22,
+    "y_img": 456.8,
     "level": "level_22.8",
-    "oldName": "PHASE2_144",
-    "x_img_old": 1002.62,
-    "y_img_old": 306.32
+    "oldName": "PHASE2_144"
 }, {
     "fullname": "PHASE2_512",
     "phase": "PHASE2",
@@ -5057,12 +4239,10 @@ let points = [{
     "x_real": 118.91,
     "y_real": 236.1,
     "z_real": 24.05,
-    "x_img": 1111.9058553386908,
-    "y_img": 495.9599589322379,
+    "x_img": 1111.91,
+    "y_img": 495.96,
     "level": "level_22.8",
-    "oldName": "PHASE2_145",
-    "x_img_old": 1151.62,
-    "y_img_old": 344.53
+    "oldName": "PHASE2_145"
 }, {
     "fullname": "PHASE2_513",
     "phase": "PHASE2",
@@ -5070,12 +4250,10 @@ let points = [{
     "x_real": 116.25,
     "y_real": 236.78,
     "z_real": 24.05,
-    "x_img": 1030.9758897818601,
-    "y_img": 476.23716632443484,
+    "x_img": 1030.98,
+    "y_img": 476.24,
     "level": "level_22.8",
-    "oldName": "PHASE2_146",
-    "x_img_old": 1077.9,
-    "y_img_old": 325.25
+    "oldName": "PHASE2_146"
 }, {
     "fullname": "PHASE2_514",
     "phase": "PHASE2",
@@ -5083,12 +4261,10 @@ let points = [{
     "x_real": 117.91,
     "y_real": 237.76,
     "z_real": 24.05,
-    "x_img": 1081.4810562571756,
-    "y_img": 447.81314168377867,
+    "x_img": 1081.48,
+    "y_img": 447.81,
     "level": "level_22.8",
-    "oldName": "PHASE2_147",
-    "x_img_old": 1124.05,
-    "y_img_old": 297.79
+    "oldName": "PHASE2_147"
 }, {
     "fullname": "PHASE2_515",
     "phase": "PHASE2",
@@ -5096,12 +4272,10 @@ let points = [{
     "x_real": 109.64,
     "y_real": 233.19,
     "z_real": 24.07,
-    "x_img": 829.8679678530425,
-    "y_img": 580.3619096509237,
+    "x_img": 829.87,
+    "y_img": 580.36,
     "level": "level_22.8",
-    "oldName": "PHASE2_148",
-    "x_img_old": 894.65,
-    "y_img_old": 426.32
+    "oldName": "PHASE2_148"
 }, {
     "fullname": "PHASE2_516",
     "phase": "PHASE2",
@@ -5109,12 +4283,10 @@ let points = [{
     "x_real": 107.02,
     "y_real": 232.41,
     "z_real": 24.06,
-    "x_img": 750.154994259472,
-    "y_img": 602.9851129363451,
+    "x_img": 750.15,
+    "y_img": 602.99,
     "level": "level_22.8",
-    "oldName": "PHASE2_149",
-    "x_img_old": 822.08,
-    "y_img_old": 448.06
+    "oldName": "PHASE2_149"
 }, {
     "fullname": "PHASE2_517",
     "phase": "PHASE2",
@@ -5122,12 +4294,10 @@ let points = [{
     "x_real": 104.76,
     "y_real": 235.04,
     "z_real": 24.07,
-    "x_img": 681.3949483352476,
-    "y_img": 526.70431211499,
+    "x_img": 681.39,
+    "y_img": 526.7,
     "level": "level_22.8",
-    "oldName": "PHASE2_150",
-    "x_img_old": 759.57,
-    "y_img_old": 374.26
+    "oldName": "PHASE2_150"
 }, {
     "fullname": "PHASE2_518",
     "phase": "PHASE2",
@@ -5135,12 +4305,10 @@ let points = [{
     "x_real": 129.3,
     "y_real": 237.75,
     "z_real": 24.07,
-    "x_img": 1428.019517795637,
-    "y_img": 448.10318275153986,
+    "x_img": 1428.02,
+    "y_img": 448.1,
     "level": "level_22.8",
-    "oldName": "PHASE2_151",
-    "x_img_old": 1439.81,
-    "y_img_old": 298.06
+    "oldName": "PHASE2_151"
 }, {
     "fullname": "PHASE2_519",
     "phase": "PHASE2",
@@ -5148,12 +4316,10 @@ let points = [{
     "x_real": 128.56,
     "y_real": 235.67,
     "z_real": 24.06,
-    "x_img": 1405.5051664753155,
-    "y_img": 508.43172484599563,
+    "x_img": 1405.51,
+    "y_img": 508.43,
     "level": "level_22.8",
-    "oldName": "PHASE2_152",
-    "x_img_old": 1419.25,
-    "y_img_old": 356.57
+    "oldName": "PHASE2_152"
 }, {
     "fullname": "PHASE2_520",
     "phase": "PHASE2",
@@ -5161,12 +4327,10 @@ let points = [{
     "x_real": 131.8,
     "y_real": 237.31,
     "z_real": 24.07,
-    "x_img": 1504.0815154994257,
-    "y_img": 460.8649897330597,
+    "x_img": 1504.08,
+    "y_img": 460.86,
     "level": "level_22.8",
-    "oldName": "PHASE2_153",
-    "x_img_old": 1509.11,
-    "y_img_old": 310.39
+    "oldName": "PHASE2_153"
 }, {
     "fullname": "PHASE2_521",
     "phase": "PHASE2",
@@ -5174,12 +4338,10 @@ let points = [{
     "x_real": 129.71,
     "y_real": 231.22,
     "z_real": 24.06,
-    "x_img": 1440.4936854190582,
+    "x_img": 1440.49,
     "y_img": 637.5,
     "level": "level_22.8",
-    "oldName": "PHASE2_154",
-    "x_img_old": 1451.08,
-    "y_img_old": 481.6
+    "oldName": "PHASE2_154"
 }, {
     "fullname": "PHASE2_522",
     "phase": "PHASE2",
@@ -5187,12 +4349,10 @@ let points = [{
     "x_real": 131.07,
     "y_real": 229.61,
     "z_real": 24.05,
-    "x_img": 1481.871412169919,
-    "y_img": 684.1966119096505,
+    "x_img": 1481.87,
+    "y_img": 684.2,
     "level": "level_22.8",
-    "oldName": "PHASE2_155",
-    "x_img_old": 1488.86,
-    "y_img_old": 526.91
+    "oldName": "PHASE2_155"
 }, {
     "fullname": "PHASE2_523",
     "phase": "PHASE2",
@@ -5200,12 +4360,10 @@ let points = [{
     "x_real": 133.13,
     "y_real": 228.55,
     "z_real": 24.06,
-    "x_img": 1544.5464982778408,
-    "y_img": 714.9409650924017,
+    "x_img": 1544.55,
+    "y_img": 714.94,
     "level": "level_22.8",
-    "oldName": "PHASE2_156",
-    "x_img_old": 1545.92,
-    "y_img_old": 556.71
+    "oldName": "PHASE2_156"
 }, {
     "fullname": "PHASE2_524",
     "phase": "PHASE2",
@@ -5213,12 +4371,10 @@ let points = [{
     "x_real": 128.11,
     "y_real": 229.59,
     "z_real": 24.05,
-    "x_img": 1391.8140068886337,
-    "y_img": 684.7766940451738,
+    "x_img": 1391.81,
+    "y_img": 684.78,
     "level": "level_22.8",
-    "oldName": "PHASE2_157",
-    "x_img_old": 1406.65,
-    "y_img_old": 527.46
+    "oldName": "PHASE2_157"
 }, {
     "fullname": "PHASE2_525",
     "phase": "PHASE2",
@@ -5226,12 +4382,10 @@ let points = [{
     "x_real": 127.69,
     "y_real": 232.64,
     "z_real": 24.05,
-    "x_img": 1379.0355912743967,
-    "y_img": 596.314168377824,
+    "x_img": 1379.04,
+    "y_img": 596.31,
     "level": "level_22.8",
-    "oldName": "PHASE2_158",
-    "x_img_old": 1395.16,
-    "y_img_old": 441.69
+    "oldName": "PHASE2_158"
 }, {
     "fullname": "PHASE2_526",
     "phase": "PHASE2",
@@ -5239,12 +4393,10 @@ let points = [{
     "x_real": 127.39,
     "y_real": 236.58,
     "z_real": 24.06,
-    "x_img": 1369.9081515499424,
-    "y_img": 482.03798767967055,
+    "x_img": 1369.91,
+    "y_img": 482.04,
     "level": "level_22.8",
-    "oldName": "PHASE2_159",
-    "x_img_old": 1386.83,
-    "y_img_old": 330.89
+    "oldName": "PHASE2_159"
 }, {
     "fullname": "PHASE2_527",
     "phase": "PHASE2",
@@ -5252,12 +4404,10 @@ let points = [{
     "x_real": 123.44,
     "y_real": 236.78,
     "z_real": 24.05,
-    "x_img": 1249.730195177956,
-    "y_img": 476.23716632443484,
+    "x_img": 1249.73,
+    "y_img": 476.24,
     "level": "level_22.8",
-    "oldName": "PHASE2_160",
-    "x_img_old": 1277.39,
-    "y_img_old": 325.27
+    "oldName": "PHASE2_160"
 }, {
     "fullname": "PHASE2_528",
     "phase": "PHASE2",
@@ -5265,12 +4415,10 @@ let points = [{
     "x_real": 121.18,
     "y_real": 236.61,
     "z_real": 24.05,
-    "x_img": 1180.9701492537315,
-    "y_img": 481.16786447638515,
+    "x_img": 1180.97,
+    "y_img": 481.17,
     "level": "level_22.8",
-    "oldName": "PHASE2_161",
-    "x_img_old": 1214.72,
-    "y_img_old": 330.08
+    "oldName": "PHASE2_161"
 }, {
     "fullname": "PHASE2_529",
     "phase": "PHASE2",
@@ -5278,12 +4426,10 @@ let points = [{
     "x_real": 120.87,
     "y_real": 232.71,
     "z_real": 24.03,
-    "x_img": 1171.5384615384614,
-    "y_img": 594.2838809034902,
+    "x_img": 1171.54,
+    "y_img": 594.28,
     "level": "level_22.8",
-    "oldName": "PHASE2_162",
-    "x_img_old": 1206.09,
-    "y_img_old": 439.7
+    "oldName": "PHASE2_162"
 }, {
     "fullname": "PHASE2_530",
     "phase": "PHASE2",
@@ -5291,12 +4437,10 @@ let points = [{
     "x_real": 122.82,
     "y_real": 234.79,
     "z_real": 24.04,
-    "x_img": 1230.8668197474162,
-    "y_img": 533.9553388090353,
+    "x_img": 1230.87,
+    "y_img": 533.96,
     "level": "level_22.8",
-    "oldName": "PHASE2_163",
-    "x_img_old": 1260.19,
-    "y_img_old": 381.31
+    "oldName": "PHASE2_163"
 }, {
     "fullname": "PHASE2_531",
     "phase": "PHASE2",
@@ -5304,12 +4448,10 @@ let points = [{
     "x_real": 125.75,
     "y_real": 234.65,
     "z_real": 24.04,
-    "x_img": 1320.0114810562568,
-    "y_img": 538.0159137577002,
+    "x_img": 1320.01,
+    "y_img": 538.02,
     "level": "level_22.8",
-    "oldName": "PHASE2_164",
-    "x_img_old": 1341.23,
-    "y_img_old": 385.09
+    "oldName": "PHASE2_164"
 }, {
     "fullname": "PHASE2_532",
     "phase": "PHASE2",
@@ -5317,12 +4459,10 @@ let points = [{
     "x_real": 125.22,
     "y_real": 232.01,
     "z_real": 24.04,
-    "x_img": 1303.8863375430537,
-    "y_img": 614.5867556468174,
+    "x_img": 1303.89,
+    "y_img": 614.59,
     "level": "level_22.8",
-    "oldName": "PHASE2_165",
-    "x_img_old": 1326.69,
-    "y_img_old": 459.34
+    "oldName": "PHASE2_165"
 }, {
     "fullname": "PHASE2_533",
     "phase": "PHASE2",
@@ -5330,12 +4470,10 @@ let points = [{
     "x_real": 122.86,
     "y_real": 230.66,
     "z_real": 24.04,
-    "x_img": 1232.0838117106773,
-    "y_img": 653.7422997946614,
+    "x_img": 1232.08,
+    "y_img": 653.74,
     "level": "level_22.8",
-    "oldName": "PHASE2_166",
-    "x_img_old": 1261.2,
-    "y_img_old": 497.29
+    "oldName": "PHASE2_166"
 }, {
     "fullname": "PHASE2_534",
     "phase": "PHASE2",
@@ -5343,12 +4481,10 @@ let points = [{
     "x_real": 126.26,
     "y_real": 229.61,
     "z_real": 26.63,
-    "x_img": 1335.52812858783,
-    "y_img": 684.1966119096505,
+    "x_img": 1335.53,
+    "y_img": 684.2,
     "level": "level_22.8",
-    "oldName": "PHASE2_167",
-    "x_img_old": 1355.34,
-    "y_img_old": 526.76
+    "oldName": "PHASE2_167"
 }, {
     "fullname": "PHASE2_535",
     "phase": "PHASE2",
@@ -5356,12 +4492,10 @@ let points = [{
     "x_real": 122.62,
     "y_real": 230.88,
     "z_real": 26.62,
-    "x_img": 1224.7818599311136,
-    "y_img": 647.3613963039015,
+    "x_img": 1224.78,
+    "y_img": 647.36,
     "level": "level_22.8",
-    "oldName": "PHASE2_168",
-    "x_img_old": 1254.51,
-    "y_img_old": 491.28
+    "oldName": "PHASE2_168"
 }, {
     "fullname": "PHASE2_536",
     "phase": "PHASE2",
@@ -5369,12 +4503,10 @@ let points = [{
     "x_real": 123.56,
     "y_real": 229.48,
     "z_real": 26.3,
-    "x_img": 1253.3811710677383,
-    "y_img": 687.9671457905542,
+    "x_img": 1253.38,
+    "y_img": 687.97,
     "level": "level_22.8",
-    "oldName": "PHASE2_169",
-    "x_img_old": 1280.63,
-    "y_img_old": 530.54
+    "oldName": "PHASE2_169"
 }, {
     "fullname": "PHASE2_537",
     "phase": "PHASE2",
@@ -5382,12 +4514,10 @@ let points = [{
     "x_real": 123.27,
     "y_real": 228.23,
     "z_real": 24.04,
-    "x_img": 1244.5579793340985,
-    "y_img": 724.2222792607799,
+    "x_img": 1244.56,
+    "y_img": 724.22,
     "level": "level_22.8",
-    "oldName": "PHASE2_170",
-    "x_img_old": 1272.65,
-    "y_img_old": 565.67
+    "oldName": "PHASE2_170"
 }, {
     "fullname": "PHASE2_538",
     "phase": "PHASE2",
@@ -5395,12 +4525,10 @@ let points = [{
     "x_real": 122.86,
     "y_real": 227.05,
     "z_real": 24.04,
-    "x_img": 1232.0838117106773,
-    "y_img": 758.4471252566727,
+    "x_img": 1232.08,
+    "y_img": 758.45,
     "level": "level_22.8",
-    "oldName": "PHASE2_171",
-    "x_img_old": 1261.2,
-    "y_img_old": 598.83
+    "oldName": "PHASE2_171"
 }, {
     "fullname": "PHASE2_539",
     "phase": "PHASE2",
@@ -5408,12 +4536,10 @@ let points = [{
     "x_real": 120.84,
     "y_real": 226.85,
     "z_real": 24.04,
-    "x_img": 1170.6257175660162,
-    "y_img": 764.2479466119094,
+    "x_img": 1170.63,
+    "y_img": 764.25,
     "level": "level_22.8",
-    "oldName": "PHASE2_172",
-    "x_img_old": 1205.36,
-    "y_img_old": 604.51
+    "oldName": "PHASE2_172"
 }, {
     "fullname": "PHASE2_540",
     "phase": "PHASE2",
@@ -5421,12 +4547,10 @@ let points = [{
     "x_real": 123.97,
     "y_real": 224.84,
     "z_real": 24.03,
-    "x_img": 1265.8553386911594,
-    "y_img": 822.5462012320322,
+    "x_img": 1265.86,
+    "y_img": 822.55,
     "level": "level_22.8",
-    "oldName": "PHASE2_173",
-    "x_img_old": 1292.1,
-    "y_img_old": 661.02
+    "oldName": "PHASE2_173"
 }, {
     "fullname": "PHASE2_541",
     "phase": "PHASE2",
@@ -5434,12 +4558,10 @@ let points = [{
     "x_real": 121.93,
     "y_real": 223.62,
     "z_real": 24.03,
-    "x_img": 1203.788748564868,
-    "y_img": 857.9312114989725,
+    "x_img": 1203.79,
+    "y_img": 857.93,
     "level": "level_22.8",
-    "oldName": "PHASE2_174",
-    "x_img_old": 1235.31,
-    "y_img_old": 695.39
+    "oldName": "PHASE2_174"
 }, {
     "fullname": "PHASE2_542",
     "phase": "PHASE2",
@@ -5447,12 +4569,10 @@ let points = [{
     "x_real": 120.96,
     "y_real": 221.61,
     "z_real": 24.03,
-    "x_img": 1174.2766934557976,
-    "y_img": 916.2294661190963,
+    "x_img": 1174.28,
+    "y_img": 916.23,
     "level": "level_22.8",
-    "oldName": "PHASE2_175",
-    "x_img_old": 1208.62,
-    "y_img_old": 751.72
+    "oldName": "PHASE2_175"
 }, {
     "fullname": "PHASE2_543",
     "phase": "PHASE2",
@@ -5460,12 +4580,10 @@ let points = [{
     "x_real": 125.78,
     "y_real": 227.12,
     "z_real": 24.05,
-    "x_img": 1320.9242250287025,
-    "y_img": 756.4168377823407,
+    "x_img": 1320.92,
+    "y_img": 756.42,
     "level": "level_22.8",
-    "oldName": "PHASE2_176",
-    "x_img_old": 1342.29,
-    "y_img_old": 596.77
+    "oldName": "PHASE2_176"
 }, {
     "fullname": "PHASE2_544",
     "phase": "PHASE2",
@@ -5473,12 +4591,10 @@ let points = [{
     "x_real": 127.03,
     "y_real": 227.47,
     "z_real": 24.1,
-    "x_img": 1358.9552238805968,
-    "y_img": 746.2654004106771,
+    "x_img": 1358.96,
+    "y_img": 746.27,
     "level": "level_22.8",
-    "oldName": "PHASE2_177",
-    "x_img_old": 1376.96,
-    "y_img_old": 587.05
+    "oldName": "PHASE2_177"
 }, {
     "fullname": "PHASE2_545",
     "phase": "PHASE2",
@@ -5486,12 +4602,10 @@ let points = [{
     "x_real": 124.58,
     "y_real": 223.62,
     "z_real": 24.03,
-    "x_img": 1284.4144661308837,
-    "y_img": 857.9312114989725,
+    "x_img": 1284.41,
+    "y_img": 857.93,
     "level": "level_22.8",
-    "oldName": "PHASE2_178",
-    "x_img_old": 1308.89,
-    "y_img_old": 695.32
+    "oldName": "PHASE2_178"
 }, {
     "fullname": "PHASE2_546",
     "phase": "PHASE2",
@@ -5499,12 +4613,10 @@ let points = [{
     "x_real": 124.71,
     "y_real": 221.03,
     "z_real": 24.03,
-    "x_img": 1288.3696900114805,
-    "y_img": 933.051848049281,
+    "x_img": 1288.37,
+    "y_img": 933.05,
     "level": "level_22.8",
-    "oldName": "PHASE2_179",
-    "x_img_old": 1312.4,
-    "y_img_old": 768.11
+    "oldName": "PHASE2_179"
 }, {
     "fullname": "PHASE2_547",
     "phase": "PHASE2",
@@ -5512,12 +4624,10 @@ let points = [{
     "x_real": 123.65,
     "y_real": 217.93,
     "z_real": 24.03,
-    "x_img": 1256.1194029850744,
-    "y_img": 1022.9645790554414,
+    "x_img": 1256.12,
+    "y_img": 1022.96,
     "level": "level_22.8",
-    "oldName": "PHASE2_180",
-    "x_img_old": 1283.17,
-    "y_img_old": 855.39
+    "oldName": "PHASE2_180"
 }, {
     "fullname": "PHASE2_548",
     "phase": "PHASE2",
@@ -5525,12 +4635,10 @@ let points = [{
     "x_real": 123.82,
     "y_real": 214.68,
     "z_real": 24.04,
-    "x_img": 1261.2916188289319,
-    "y_img": 1117.2279260780278,
+    "x_img": 1261.29,
+    "y_img": 1117.23,
     "level": "level_22.8",
-    "oldName": "PHASE2_181",
-    "x_img_old": 1287.87,
-    "y_img_old": 946.56
+    "oldName": "PHASE2_181"
 }, {
     "fullname": "PHASE2_549",
     "phase": "PHASE2",
@@ -5538,12 +4646,10 @@ let points = [{
     "x_real": 120.76,
     "y_real": 214.58,
     "z_real": 24.05,
-    "x_img": 1168.191733639495,
-    "y_img": 1120.1283367556462,
+    "x_img": 1168.19,
+    "y_img": 1120.13,
     "level": "level_22.8",
-    "oldName": "PHASE2_182",
-    "x_img_old": 1203.01,
-    "y_img_old": 949.42
+    "oldName": "PHASE2_182"
 }, {
     "fullname": "PHASE2_550",
     "phase": "PHASE2",
@@ -5551,12 +4657,10 @@ let points = [{
     "x_real": 126.84,
     "y_real": 214.46,
     "z_real": 24.05,
-    "x_img": 1353.174512055109,
-    "y_img": 1123.6088295687878,
+    "x_img": 1353.17,
+    "y_img": 1123.61,
     "level": "level_22.8",
-    "oldName": "PHASE2_183",
-    "x_img_old": 1371.54,
-    "y_img_old": 952.73
+    "oldName": "PHASE2_183"
 }, {
     "fullname": "PHASE2_551",
     "phase": "PHASE2",
@@ -5564,12 +4668,10 @@ let points = [{
     "x_real": 130.25,
     "y_real": 214.54,
     "z_real": 24.05,
-    "x_img": 1456.9230769230767,
-    "y_img": 1121.2885010266937,
+    "x_img": 1456.92,
+    "y_img": 1121.29,
     "level": "level_22.8",
-    "oldName": "PHASE2_184",
-    "x_img_old": 1466.05,
-    "y_img_old": 950.68
+    "oldName": "PHASE2_184"
 }, {
     "fullname": "PHASE2_552",
     "phase": "PHASE2",
@@ -5577,12 +4679,10 @@ let points = [{
     "x_real": 133.26,
     "y_real": 214.65,
     "z_real": 24.05,
-    "x_img": 1548.501722158438,
-    "y_img": 1118.0980492813133,
+    "x_img": 1548.5,
+    "y_img": 1118.1,
     "level": "level_22.8",
-    "oldName": "PHASE2_185",
-    "x_img_old": 1549.44,
-    "y_img_old": 947.61
+    "oldName": "PHASE2_185"
 }, {
     "fullname": "PHASE2_553",
     "phase": "PHASE2",
@@ -5590,12 +4690,10 @@ let points = [{
     "x_real": 125.55,
     "y_real": 213.9,
     "z_real": 24.04,
-    "x_img": 1313.9265212399537,
-    "y_img": 1139.8511293634492,
+    "x_img": 1313.93,
+    "y_img": 1139.85,
     "level": "level_22.8",
-    "oldName": "PHASE2_186",
-    "x_img_old": 1335.83,
-    "y_img_old": 968.45
+    "oldName": "PHASE2_186"
 }, {
     "fullname": "PHASE2_554",
     "phase": "PHASE2",
@@ -5603,12 +4701,10 @@ let points = [{
     "x_real": 125.87,
     "y_real": 212.05,
     "z_real": 24.04,
-    "x_img": 1323.6624569460391,
-    "y_img": 1193.508726899383,
+    "x_img": 1323.66,
+    "y_img": 1193.51,
     "level": "level_22.8",
-    "oldName": "PHASE2_187",
-    "x_img_old": 1344.71,
-    "y_img_old": 1020.5
+    "oldName": "PHASE2_187"
 }, {
     "fullname": "PHASE2_555",
     "phase": "PHASE2",
@@ -5616,12 +4712,10 @@ let points = [{
     "x_real": 125.59,
     "y_real": 214.27,
     "z_real": 24.05,
-    "x_img": 1315.1435132032148,
-    "y_img": 1129.1196098562623,
+    "x_img": 1315.14,
+    "y_img": 1129.12,
     "level": "level_22.8",
-    "oldName": "PHASE2_188",
-    "x_img_old": 1336.81,
-    "y_img_old": 958.2
+    "oldName": "PHASE2_188"
 }, {
     "fullname": "PHASE2_556",
     "phase": "PHASE2",
@@ -5629,12 +4723,10 @@ let points = [{
     "x_real": 122.55,
     "y_real": 212.38,
     "z_real": 24.04,
-    "x_img": 1222.6521239954072,
-    "y_img": 1183.9373716632444,
+    "x_img": 1222.65,
+    "y_img": 1183.94,
     "level": "level_22.8",
-    "oldName": "PHASE2_189",
-    "x_img_old": 1252.49,
-    "y_img_old": 1011.18
+    "oldName": "PHASE2_189"
 }, {
     "fullname": "PHASE2_557",
     "phase": "PHASE2",
@@ -5642,12 +4734,10 @@ let points = [{
     "x_real": 124.67,
     "y_real": 210.67,
     "z_real": 24.05,
-    "x_img": 1287.1526980482204,
-    "y_img": 1233.5343942505133,
+    "x_img": 1287.15,
+    "y_img": 1233.53,
     "level": "level_22.8",
-    "oldName": "PHASE2_190",
-    "x_img_old": 1311.35,
-    "y_img_old": 1059.38
+    "oldName": "PHASE2_190"
 }, {
     "fullname": "PHASE2_558",
     "phase": "PHASE2",
@@ -5655,12 +4745,10 @@ let points = [{
     "x_real": 124.34,
     "y_real": 208.15,
     "z_real": 24.03,
-    "x_img": 1277.1125143513204,
-    "y_img": 1306.624743326488,
+    "x_img": 1277.11,
+    "y_img": 1306.62,
     "level": "level_22.8",
-    "oldName": "PHASE2_191",
-    "x_img_old": 1302.34,
-    "y_img_old": 1130.25
+    "oldName": "PHASE2_191"
 }, {
     "fullname": "PHASE2_559",
     "phase": "PHASE2",
@@ -5668,12 +4756,10 @@ let points = [{
     "x_real": 127.04,
     "y_real": 208.65,
     "z_real": 24.03,
-    "x_img": 1359.2594718714122,
-    "y_img": 1292.1226899383983,
+    "x_img": 1359.26,
+    "y_img": 1292.12,
     "level": "level_22.8",
-    "oldName": "PHASE2_192",
-    "x_img_old": 1377.04,
-    "y_img_old": 1116.08
+    "oldName": "PHASE2_192"
 }, {
     "fullname": "PHASE2_560",
     "phase": "PHASE2",
@@ -5681,12 +4767,10 @@ let points = [{
     "x_real": 129.13,
     "y_real": 211.44,
     "z_real": 24.03,
-    "x_img": 1422.8473019517792,
-    "y_img": 1211.201232032854,
+    "x_img": 1422.85,
+    "y_img": 1211.2,
     "level": "level_22.8",
-    "oldName": "PHASE2_193",
-    "x_img_old": 1434.9,
-    "y_img_old": 1037.72
+    "oldName": "PHASE2_193"
 }, {
     "fullname": "PHASE2_561",
     "phase": "PHASE2",
@@ -5694,12 +4778,10 @@ let points = [{
     "x_real": 132.69,
     "y_real": 212.79,
     "z_real": 24.05,
-    "x_img": 1531.1595866819744,
-    "y_img": 1172.04568788501,
+    "x_img": 1531.16,
+    "y_img": 1172.05,
     "level": "level_22.8",
-    "oldName": "PHASE2_194",
-    "x_img_old": 1533.66,
-    "y_img_old": 999.75
+    "oldName": "PHASE2_194"
 }, {
     "fullname": "PHASE2_562",
     "phase": "PHASE2",
@@ -5707,12 +4789,10 @@ let points = [{
     "x_real": 129.7,
     "y_real": 209.76,
     "z_real": 24.03,
-    "x_img": 1440.1894374282429,
-    "y_img": 1259.9281314168375,
+    "x_img": 1440.19,
+    "y_img": 1259.93,
     "level": "level_22.8",
-    "oldName": "PHASE2_195",
-    "x_img_old": 1450.78,
-    "y_img_old": 1084.93
+    "oldName": "PHASE2_195"
 }, {
     "fullname": "PHASE2_563",
     "phase": "PHASE2",
@@ -5720,12 +4800,10 @@ let points = [{
     "x_real": 132.68,
     "y_real": 209.61,
     "z_real": 24.04,
-    "x_img": 1530.8553386911594,
-    "y_img": 1264.2787474332645,
+    "x_img": 1530.86,
+    "y_img": 1264.28,
     "level": "level_22.8",
-    "oldName": "PHASE2_196",
-    "x_img_old": 1533.45,
-    "y_img_old": 1089.32
+    "oldName": "PHASE2_196"
 }, {
     "fullname": "PHASE2_564",
     "phase": "PHASE2",
@@ -5733,12 +4811,10 @@ let points = [{
     "x_real": 132.9,
     "y_real": 207.33,
     "z_real": 24.04,
-    "x_img": 1537.5487944890929,
-    "y_img": 1330.408110882956,
+    "x_img": 1537.55,
+    "y_img": 1330.41,
     "level": "level_22.8",
-    "oldName": "PHASE2_197",
-    "x_img_old": 1539.5,
-    "y_img_old": 1153.16
+    "oldName": "PHASE2_197"
 }, {
     "fullname": "PHASE2_565",
     "phase": "PHASE2",
@@ -5746,12 +4822,10 @@ let points = [{
     "x_real": 132.8,
     "y_real": 204.35,
     "z_real": 24.05,
-    "x_img": 1534.5063145809413,
-    "y_img": 1416.8403490759747,
+    "x_img": 1534.51,
+    "y_img": 1416.84,
     "level": "level_22.8",
-    "oldName": "PHASE2_198",
-    "x_img_old": 1536.9,
-    "y_img_old": 1237.04
+    "oldName": "PHASE2_198"
 }, {
     "fullname": "PHASE2_566",
     "phase": "PHASE2",
@@ -5759,12 +4833,10 @@ let points = [{
     "x_real": 130.85,
     "y_real": 204.39,
     "z_real": 24.05,
-    "x_img": 1475.1779563719856,
-    "y_img": 1415.680184804928,
+    "x_img": 1475.18,
+    "y_img": 1415.68,
     "level": "level_22.8",
-    "oldName": "PHASE2_199",
-    "x_img_old": 1482.71,
-    "y_img_old": 1235.9
+    "oldName": "PHASE2_199"
 }, {
     "fullname": "PHASE2_567",
     "phase": "PHASE2",
@@ -5772,12 +4844,10 @@ let points = [{
     "x_real": 130.63,
     "y_real": 206.65,
     "z_real": 24.05,
-    "x_img": 1468.4845005740522,
-    "y_img": 1350.130903490759,
+    "x_img": 1468.48,
+    "y_img": 1350.13,
     "level": "level_22.8",
-    "oldName": "PHASE2_200",
-    "x_img_old": 1476.53,
-    "y_img_old": 1172.32
+    "oldName": "PHASE2_200"
 }, {
     "fullname": "PHASE2_568",
     "phase": "PHASE2",
@@ -5785,12 +4855,10 @@ let points = [{
     "x_real": 130.84,
     "y_real": 208.82,
     "z_real": 24.03,
-    "x_img": 1474.8737083811707,
-    "y_img": 1287.191991786447,
+    "x_img": 1474.87,
+    "y_img": 1287.19,
     "level": "level_22.8",
-    "oldName": "PHASE2_201",
-    "x_img_old": 1482.33,
-    "y_img_old": 1111.5
+    "oldName": "PHASE2_201"
 }, {
     "fullname": "PHASE2_569",
     "phase": "PHASE2",
@@ -5798,12 +4866,10 @@ let points = [{
     "x_real": 128.19,
     "y_real": 208.45,
     "z_real": 26.29,
-    "x_img": 1394.2479908151545,
-    "y_img": 1297.9235112936349,
+    "x_img": 1394.25,
+    "y_img": 1297.92,
     "level": "level_22.8",
-    "oldName": "PHASE2_202",
-    "x_img_old": 1408.95,
-    "y_img_old": 1121.88
+    "oldName": "PHASE2_202"
 }, {
     "fullname": "PHASE2_570",
     "phase": "PHASE2",
@@ -5811,12 +4877,10 @@ let points = [{
     "x_real": 128.17,
     "y_real": 206.17,
     "z_real": 26.3,
-    "x_img": 1393.6394948335242,
-    "y_img": 1364.0528747433264,
+    "x_img": 1393.64,
+    "y_img": 1364.05,
     "level": "level_22.8",
-    "oldName": "PHASE2_203",
-    "x_img_old": 1408.3,
-    "y_img_old": 1185.99
+    "oldName": "PHASE2_203"
 }, {
     "fullname": "PHASE2_571",
     "phase": "PHASE2",
@@ -5824,12 +4888,10 @@ let points = [{
     "x_real": 122.67,
     "y_real": 216.41,
     "z_real": 26.18,
-    "x_img": 1226.303099885189,
-    "y_img": 1067.0508213552357,
+    "x_img": 1226.3,
+    "y_img": 1067.05,
     "level": "level_22.8",
-    "oldName": "PHASE2_204",
-    "x_img_old": 1255.84,
-    "y_img_old": 897.87
+    "oldName": "PHASE2_204"
 }, {
     "fullname": "PHASE2_572",
     "phase": "PHASE2",
@@ -5837,12 +4899,10 @@ let points = [{
     "x_real": 122.69,
     "y_real": 218.71,
     "z_real": 26.18,
-    "x_img": 1226.9115958668194,
-    "y_img": 1000.34137577002,
+    "x_img": 1226.91,
+    "y_img": 1000.34,
     "level": "level_22.8",
-    "oldName": "PHASE2_205",
-    "x_img_old": 1256.52,
-    "y_img_old": 833.25
+    "oldName": "PHASE2_205"
 }, {
     "fullname": "PHASE2_573",
     "phase": "PHASE2",
@@ -5850,12 +4910,10 @@ let points = [{
     "x_real": 124.08,
     "y_real": 209.37,
     "z_real": 23.44,
-    "x_img": 1269.202066590126,
-    "y_img": 1271.2397330595477,
+    "x_img": 1269.2,
+    "y_img": 1271.24,
     "level": "level_22.8",
-    "oldName": "PHASE2_206",
-    "x_img_old": 1295.09,
-    "y_img_old": 1096.05
+    "oldName": "PHASE2_206"
 }, {
     "fullname": "PHASE2_574",
     "phase": "PHASE2",
@@ -5863,12 +4921,10 @@ let points = [{
     "x_real": 123.95,
     "y_real": 204.36,
     "z_real": 23.45,
-    "x_img": 1265.2468427095291,
-    "y_img": 1416.5503080082126,
+    "x_img": 1265.25,
+    "y_img": 1416.55,
     "level": "level_22.8",
-    "oldName": "PHASE2_207",
-    "x_img_old": 1291.34,
-    "y_img_old": 1236.92
+    "oldName": "PHASE2_207"
 }, {
     "fullname": "PHASE2_575",
     "phase": "PHASE2",
@@ -5876,12 +4932,10 @@ let points = [{
     "x_real": 120.39,
     "y_real": 209.09,
     "z_real": 23.44,
-    "x_img": 1156.934557979334,
-    "y_img": 1279.3608829568784,
+    "x_img": 1156.93,
+    "y_img": 1279.36,
     "level": "level_22.8",
-    "oldName": "PHASE2_208",
-    "x_img_old": 1192.68,
-    "y_img_old": 1103.82
+    "oldName": "PHASE2_208"
 }, {
     "fullname": "PHASE2_576",
     "phase": "PHASE2",
@@ -5889,12 +4943,10 @@ let points = [{
     "x_real": 123.11,
     "y_real": 207.7,
     "z_real": 22.93,
-    "x_img": 1239.690011481056,
-    "y_img": 1319.67659137577,
+    "x_img": 1239.69,
+    "y_img": 1319.68,
     "level": "level_22.8",
-    "oldName": "PHASE2_209",
-    "x_img_old": 1268.03,
-    "y_img_old": 1142.77
+    "oldName": "PHASE2_209"
 }, {
     "fullname": "PHASE2_577",
     "phase": "PHASE2",
@@ -5902,12 +4954,10 @@ let points = [{
     "x_real": 127.16,
     "y_real": 205.82,
     "z_real": 24.38,
-    "x_img": 1362.9104477611936,
-    "y_img": 1374.20431211499,
+    "x_img": 1362.91,
+    "y_img": 1374.2,
     "level": "level_22.8",
-    "oldName": "PHASE2_210",
-    "x_img_old": 1380.33,
-    "y_img_old": 1195.62
+    "oldName": "PHASE2_210"
 }, {
     "fullname": "PHASE2_578",
     "phase": "PHASE2",
@@ -5918,9 +4968,7 @@ let points = [{
     "x_img": 1355,
     "y_img": 1485,
     "level": "level_22.8",
-    "oldName": "PHASE2_211",
-    "x_img_old": 1355,
-    "y_img_old": 1485
+    "oldName": "PHASE2_211"
 }, {
     "fullname": "PHASE2_579",
     "phase": "PHASE2",
@@ -5928,12 +4976,10 @@ let points = [{
     "x_real": 123.26,
     "y_real": 202.05,
     "z_real": 24.39,
-    "x_img": 1244.2537313432836,
-    "y_img": 1483.5497946611904,
+    "x_img": 1244.25,
+    "y_img": 1483.55,
     "level": "level_22.8",
-    "oldName": "PHASE2_212",
-    "x_img_old": 1272.32,
-    "y_img_old": 1301.6
+    "oldName": "PHASE2_212"
 }, {
     "fullname": "PHASE2_580",
     "phase": "PHASE2",
@@ -5941,12 +4987,10 @@ let points = [{
     "x_real": 119.49,
     "y_real": 201.34,
     "z_real": 24.39,
-    "x_img": 1129.5522388059699,
-    "y_img": 1504.1427104722788,
+    "x_img": 1129.55,
+    "y_img": 1504.14,
     "level": "level_22.8",
-    "oldName": "PHASE2_213",
-    "x_img_old": 1167.91,
-    "y_img_old": 1321.62
+    "oldName": "PHASE2_213"
 }, {
     "fullname": "PHASE2_581",
     "phase": "PHASE2",
@@ -5954,12 +4998,10 @@ let points = [{
     "x_real": 123.19,
     "y_real": 205.5,
     "z_real": 26.95,
-    "x_img": 1242.1239954075772,
-    "y_img": 1383.4856262833673,
+    "x_img": 1242.12,
+    "y_img": 1383.49,
     "level": "level_22.8",
-    "oldName": "PHASE2_214",
-    "x_img_old": 1270.27,
-    "y_img_old": 1204.75
+    "oldName": "PHASE2_214"
 }, {
     "fullname": "PHASE2_582",
     "phase": "PHASE2",
@@ -5967,12 +5009,10 @@ let points = [{
     "x_real": 123.15,
     "y_real": 208.49,
     "z_real": 26.96,
-    "x_img": 1240.907003444317,
-    "y_img": 1296.7633470225865,
+    "x_img": 1240.91,
+    "y_img": 1296.76,
     "level": "level_22.8",
-    "oldName": "PHASE2_215",
-    "x_img_old": 1269.32,
-    "y_img_old": 1120.63
+    "oldName": "PHASE2_215"
 }, {
     "fullname": "PHASE2_583",
     "phase": "PHASE2",
@@ -5980,12 +5020,10 @@ let points = [{
     "x_real": 135.8,
     "y_real": 238.13,
     "z_real": 24.08,
-    "x_img": 1625.7807118254882,
-    "y_img": 437.08162217659174,
+    "x_img": 1625.78,
+    "y_img": 437.08,
     "level": "level_22.8",
-    "oldName": "PHASE2_216",
-    "x_img_old": 1619.87,
-    "y_img_old": 287.21
+    "oldName": "PHASE2_216"
 }, {
     "fullname": "PHASE2_584",
     "phase": "PHASE2",
@@ -5993,12 +5031,10 @@ let points = [{
     "x_real": 136.22,
     "y_real": 236.07,
     "z_real": 24.06,
-    "x_img": 1638.5591274397243,
-    "y_img": 496.8300821355233,
+    "x_img": 1638.56,
+    "y_img": 496.83,
     "level": "level_22.8",
-    "oldName": "PHASE2_217",
-    "x_img_old": 1631.68,
-    "y_img_old": 345.23
+    "oldName": "PHASE2_217"
 }, {
     "fullname": "PHASE2_585",
     "phase": "PHASE2",
@@ -6006,12 +5042,10 @@ let points = [{
     "x_real": 135.37,
     "y_real": 232.76,
     "z_real": 24.06,
-    "x_img": 1612.6980482204358,
-    "y_img": 592.8336755646815,
+    "x_img": 1612.7,
+    "y_img": 592.83,
     "level": "level_22.8",
-    "oldName": "PHASE2_218",
-    "x_img_old": 1608.04,
-    "y_img_old": 438.35
+    "oldName": "PHASE2_218"
 }, {
     "fullname": "PHASE2_586",
     "phase": "PHASE2",
@@ -6019,12 +5053,10 @@ let points = [{
     "x_real": 135.82,
     "y_real": 231.57,
     "z_real": 24.06,
-    "x_img": 1626.3892078071171,
-    "y_img": 627.3485626283364,
+    "x_img": 1626.39,
+    "y_img": 627.35,
     "level": "level_22.8",
-    "oldName": "PHASE2_219",
-    "x_img_old": 1620.45,
-    "y_img_old": 471.65
+    "oldName": "PHASE2_219"
 }, {
     "fullname": "PHASE2_587",
     "phase": "PHASE2",
@@ -6032,12 +5064,10 @@ let points = [{
     "x_real": 135.88,
     "y_real": 229.43,
     "z_real": 24.06,
-    "x_img": 1628.2146957520085,
-    "y_img": 689.4173511293629,
+    "x_img": 1628.21,
+    "y_img": 689.42,
     "level": "level_22.8",
-    "oldName": "PHASE2_220",
-    "x_img_old": 1622.1,
-    "y_img_old": 531.83
+    "oldName": "PHASE2_220"
 }, {
     "fullname": "PHASE2_588",
     "phase": "PHASE2",
@@ -6045,12 +5075,10 @@ let points = [{
     "x_real": 134.85,
     "y_real": 228.22,
     "z_real": 24.06,
-    "x_img": 1596.8771526980477,
-    "y_img": 724.512320328542,
+    "x_img": 1596.88,
+    "y_img": 724.51,
     "level": "level_22.8",
-    "oldName": "PHASE2_221",
-    "x_img_old": 1593.51,
-    "y_img_old": 565.84
+    "oldName": "PHASE2_221"
 }, {
     "fullname": "PHASE2_589",
     "phase": "PHASE2",
@@ -6058,12 +5086,10 @@ let points = [{
     "x_real": 138.44,
     "y_real": 229.33,
     "z_real": 24.05,
-    "x_img": 1706.1021814006886,
-    "y_img": 692.3177618069813,
+    "x_img": 1706.1,
+    "y_img": 692.32,
     "level": "level_22.8",
-    "oldName": "PHASE2_222",
-    "x_img_old": 1693.04,
-    "y_img_old": 534.85
+    "oldName": "PHASE2_222"
 }, {
     "fullname": "PHASE2_590",
     "phase": "PHASE2",
@@ -6071,12 +5097,10 @@ let points = [{
     "x_real": 138.92,
     "y_real": 233.61,
     "z_real": 24.05,
-    "x_img": 1720.7060849598151,
-    "y_img": 568.1801848049272,
+    "x_img": 1720.71,
+    "y_img": 568.18,
     "level": "level_22.8",
-    "oldName": "PHASE2_223",
-    "x_img_old": 1706.55,
-    "y_img_old": 414.29
+    "oldName": "PHASE2_223"
 }, {
     "fullname": "PHASE2_591",
     "phase": "PHASE2",
@@ -6084,12 +5108,10 @@ let points = [{
     "x_real": 138.73,
     "y_real": 237.31,
     "z_real": 24.07,
-    "x_img": 1714.9253731343274,
-    "y_img": 460.8649897330597,
+    "x_img": 1714.93,
+    "y_img": 460.86,
     "level": "level_22.8",
-    "oldName": "PHASE2_224",
-    "x_img_old": 1701.14,
-    "y_img_old": 310.36
+    "oldName": "PHASE2_224"
 }, {
     "fullname": "PHASE2_592",
     "phase": "PHASE2",
@@ -6097,12 +5119,10 @@ let points = [{
     "x_real": 142,
     "y_real": 237.74,
     "z_real": 24.07,
-    "x_img": 1814.4144661308833,
-    "y_img": 448.39322381930106,
+    "x_img": 1814.41,
+    "y_img": 448.39,
     "level": "level_22.8",
-    "oldName": "PHASE2_225",
-    "x_img_old": 1791.94,
-    "y_img_old": 298.23
+    "oldName": "PHASE2_225"
 }, {
     "fullname": "PHASE2_593",
     "phase": "PHASE2",
@@ -6110,12 +5130,10 @@ let points = [{
     "x_real": 141.97,
     "y_real": 234.32,
     "z_real": 24.06,
-    "x_img": 1813.501722158438,
-    "y_img": 547.5872689938396,
+    "x_img": 1813.5,
+    "y_img": 547.59,
     "level": "level_22.8",
-    "oldName": "PHASE2_226",
-    "x_img_old": 1791.03,
-    "y_img_old": 394.53
+    "oldName": "PHASE2_226"
 }, {
     "fullname": "PHASE2_594",
     "phase": "PHASE2",
@@ -6123,12 +5141,10 @@ let points = [{
     "x_real": 141.9,
     "y_real": 230.76,
     "z_real": 24.05,
-    "x_img": 1811.3719862227322,
-    "y_img": 650.8418891170431,
+    "x_img": 1811.37,
+    "y_img": 650.84,
     "level": "level_22.8",
-    "oldName": "PHASE2_227",
-    "x_img_old": 1789.06,
-    "y_img_old": 494.56
+    "oldName": "PHASE2_227"
 }, {
     "fullname": "PHASE2_595",
     "phase": "PHASE2",
@@ -6136,12 +5152,10 @@ let points = [{
     "x_real": 141.98,
     "y_real": 228.67,
     "z_real": 24.05,
-    "x_img": 1813.8059701492525,
-    "y_img": 711.460472279261,
+    "x_img": 1813.81,
+    "y_img": 711.46,
     "level": "level_22.8",
-    "oldName": "PHASE2_228",
-    "x_img_old": 1791.14,
-    "y_img_old": 553.21
+    "oldName": "PHASE2_228"
 }, {
     "fullname": "PHASE2_596",
     "phase": "PHASE2",
@@ -6149,12 +5163,10 @@ let points = [{
     "x_real": 140.28,
     "y_real": 228.74,
     "z_real": 24.05,
-    "x_img": 1762.0838117106764,
-    "y_img": 709.4301848049281,
+    "x_img": 1762.08,
+    "y_img": 709.43,
     "level": "level_22.8",
-    "oldName": "PHASE2_229",
-    "x_img_old": 1744.05,
-    "y_img_old": 551.3
+    "oldName": "PHASE2_229"
 }, {
     "fullname": "PHASE2_597",
     "phase": "PHASE2",
@@ -6162,12 +5174,10 @@ let points = [{
     "x_real": 143.63,
     "y_real": 228.51,
     "z_real": 24.05,
-    "x_img": 1864.0068886337535,
-    "y_img": 716.1011293634501,
+    "x_img": 1864.01,
+    "y_img": 716.1,
     "level": "level_22.8",
-    "oldName": "PHASE2_230",
-    "x_img_old": 1836.94,
-    "y_img_old": 557.68
+    "oldName": "PHASE2_230"
 }, {
     "fullname": "PHASE2_598",
     "phase": "PHASE2",
@@ -6175,12 +5185,10 @@ let points = [{
     "x_real": 145.54,
     "y_real": 228.75,
     "z_real": 24.05,
-    "x_img": 1922.1182548794482,
-    "y_img": 709.140143737166,
+    "x_img": 1922.12,
+    "y_img": 709.14,
     "level": "level_22.8",
-    "oldName": "PHASE2_231",
-    "x_img_old": 1889.87,
-    "y_img_old": 551.18
+    "oldName": "PHASE2_231"
 }, {
     "fullname": "PHASE2_599",
     "phase": "PHASE2",
@@ -6188,12 +5196,10 @@ let points = [{
     "x_real": 145.32,
     "y_real": 231.79,
     "z_real": 24.05,
-    "x_img": 1915.4247990815143,
-    "y_img": 620.9676591375774,
+    "x_img": 1915.42,
+    "y_img": 620.97,
     "level": "level_22.8",
-    "oldName": "PHASE2_232",
-    "x_img_old": 1883.79,
-    "y_img_old": 465.68
+    "oldName": "PHASE2_232"
 }, {
     "fullname": "PHASE2_600",
     "phase": "PHASE2",
@@ -6201,12 +5207,10 @@ let points = [{
     "x_real": 144.9,
     "y_real": 234.98,
     "z_real": 24.05,
-    "x_img": 1902.6463834672782,
-    "y_img": 528.4445585215608,
+    "x_img": 1902.65,
+    "y_img": 528.44,
     "level": "level_22.8",
-    "oldName": "PHASE2_233",
-    "x_img_old": 1872.31,
-    "y_img_old": 375.79
+    "oldName": "PHASE2_233"
 }, {
     "fullname": "PHASE2_601",
     "phase": "PHASE2",
@@ -6214,12 +5218,10 @@ let points = [{
     "x_real": 145.02,
     "y_real": 237.66,
     "z_real": 24.06,
-    "x_img": 1906.29735935706,
-    "y_img": 450.71355236139607,
+    "x_img": 1906.3,
+    "y_img": 450.71,
     "level": "level_22.8",
-    "oldName": "PHASE2_234",
-    "x_img_old": 1875.62,
-    "y_img_old": 300.57
+    "oldName": "PHASE2_234"
 }, {
     "fullname": "PHASE2_602",
     "phase": "PHASE2",
@@ -6227,12 +5229,10 @@ let points = [{
     "x_real": 142.05,
     "y_real": 226.05,
     "z_real": 24.96,
-    "x_img": 1815.9357060849593,
-    "y_img": 787.451232032854,
+    "x_img": 1815.94,
+    "y_img": 787.45,
     "level": "level_22.8",
-    "oldName": "PHASE2_235",
-    "x_img_old": 1793.11,
-    "y_img_old": 627.05
+    "oldName": "PHASE2_235"
 }, {
     "fullname": "PHASE2_603",
     "phase": "PHASE2",
@@ -6240,12 +5240,10 @@ let points = [{
     "x_real": 143.79,
     "y_real": 225.14,
     "z_real": 24.96,
-    "x_img": 1868.874856486796,
-    "y_img": 813.8449691991791,
+    "x_img": 1868.87,
+    "y_img": 813.84,
     "level": "level_22.8",
-    "oldName": "PHASE2_236",
-    "x_img_old": 1841.31,
-    "y_img_old": 652.52
+    "oldName": "PHASE2_236"
 }, {
     "fullname": "PHASE2_604",
     "phase": "PHASE2",
@@ -6253,12 +5251,10 @@ let points = [{
     "x_real": 145.39,
     "y_real": 226.11,
     "z_real": 24.97,
-    "x_img": 1917.5545350172201,
-    "y_img": 785.7109856262823,
+    "x_img": 1917.55,
+    "y_img": 785.71,
     "level": "level_22.8",
-    "oldName": "PHASE2_237",
-    "x_img_old": 1885.81,
-    "y_img_old": 625.14
+    "oldName": "PHASE2_237"
 }, {
     "fullname": "PHASE2_605",
     "phase": "PHASE2",
@@ -6266,12 +5262,10 @@ let points = [{
     "x_real": 144.24,
     "y_real": 223.14,
     "z_real": 24.97,
-    "x_img": 1882.5660160734783,
-    "y_img": 871.8531827515399,
+    "x_img": 1882.57,
+    "y_img": 871.85,
     "level": "level_22.8",
-    "oldName": "PHASE2_238",
-    "x_img_old": 1853.82,
-    "y_img_old": 708.79
+    "oldName": "PHASE2_238"
 }, {
     "fullname": "PHASE2_606",
     "phase": "PHASE2",
@@ -6279,12 +5273,10 @@ let points = [{
     "x_real": 143.65,
     "y_real": 221.27,
     "z_real": 24.96,
-    "x_img": 1864.6153846153843,
-    "y_img": 926.0908624229978,
+    "x_img": 1864.62,
+    "y_img": 926.09,
     "level": "level_22.8",
-    "oldName": "PHASE2_239",
-    "x_img_old": 1837.62,
-    "y_img_old": 761.4
+    "oldName": "PHASE2_239"
 }, {
     "fullname": "PHASE2_607",
     "phase": "PHASE2",
@@ -6292,12 +5284,10 @@ let points = [{
     "x_real": 143.6,
     "y_real": 220.36,
     "z_real": 24.96,
-    "x_img": 1863.0941446613083,
-    "y_img": 952.484599589322,
+    "x_img": 1863.09,
+    "y_img": 952.48,
     "level": "level_22.8",
-    "oldName": "PHASE2_240",
-    "x_img_old": 1836.24,
-    "y_img_old": 786.97
+    "oldName": "PHASE2_240"
 }, {
     "fullname": "PHASE2_608",
     "phase": "PHASE2",
@@ -6305,12 +5295,10 @@ let points = [{
     "x_real": 143.31,
     "y_real": 217.13,
     "z_real": 24.96,
-    "x_img": 1854.2709529276685,
-    "y_img": 1046.167864476386,
+    "x_img": 1854.27,
+    "y_img": 1046.17,
     "level": "level_22.8",
-    "oldName": "PHASE2_241",
-    "x_img_old": 1828.12,
-    "y_img_old": 877.67
+    "oldName": "PHASE2_241"
 }, {
     "fullname": "PHASE2_609",
     "phase": "PHASE2",
@@ -6318,12 +5306,10 @@ let points = [{
     "x_real": 145.07,
     "y_real": 215.46,
     "z_real": 24.96,
-    "x_img": 1907.818599311136,
-    "y_img": 1094.6047227926074,
+    "x_img": 1907.82,
+    "y_img": 1094.6,
     "level": "level_22.8",
-    "oldName": "PHASE2_242",
-    "x_img_old": 1877.02,
-    "y_img_old": 924.65
+    "oldName": "PHASE2_242"
 }, {
     "fullname": "PHASE2_610",
     "phase": "PHASE2",
@@ -6331,12 +5317,10 @@ let points = [{
     "x_real": 142.24,
     "y_real": 215.99,
     "z_real": 24.96,
-    "x_img": 1821.716417910447,
-    "y_img": 1079.2325462012313,
+    "x_img": 1821.72,
+    "y_img": 1079.23,
     "level": "level_22.8",
-    "oldName": "PHASE2_243",
-    "x_img_old": 1798.55,
-    "y_img_old": 909.88
+    "oldName": "PHASE2_243"
 }, {
     "fullname": "PHASE2_611",
     "phase": "PHASE2",
@@ -6344,12 +5328,10 @@ let points = [{
     "x_real": 141.02,
     "y_real": 224.35,
     "z_real": 24.03,
-    "x_img": 1784.5981630309984,
-    "y_img": 836.7582135523617,
+    "x_img": 1784.6,
+    "y_img": 836.76,
     "level": "level_22.8",
-    "oldName": "PHASE2_244",
-    "x_img_old": 1764.59,
-    "y_img_old": 674.75
+    "oldName": "PHASE2_244"
 }, {
     "fullname": "PHASE2_612",
     "phase": "PHASE2",
@@ -6357,12 +5339,10 @@ let points = [{
     "x_real": 142.24,
     "y_real": 221.19,
     "z_real": 24.03,
-    "x_img": 1821.716417910447,
-    "y_img": 928.4111909650919,
+    "x_img": 1821.72,
+    "y_img": 928.41,
     "level": "level_22.8",
-    "oldName": "PHASE2_245",
-    "x_img_old": 1798.34,
-    "y_img_old": 763.68
+    "oldName": "PHASE2_245"
 }, {
     "fullname": "PHASE2_613",
     "phase": "PHASE2",
@@ -6370,12 +5350,10 @@ let points = [{
     "x_real": 141.88,
     "y_real": 219.98,
     "z_real": 24.02,
-    "x_img": 1810.7634902411014,
-    "y_img": 963.506160164271,
+    "x_img": 1810.76,
+    "y_img": 963.51,
     "level": "level_22.8",
-    "oldName": "PHASE2_246",
-    "x_img_old": 1788.44,
-    "y_img_old": 797.74
+    "oldName": "PHASE2_246"
 }, {
     "fullname": "PHASE2_614",
     "phase": "PHASE2",
@@ -6383,12 +5361,10 @@ let points = [{
     "x_real": 141.25,
     "y_real": 217.63,
     "z_real": 24.02,
-    "x_img": 1791.5958668197468,
-    "y_img": 1031.6658110882954,
+    "x_img": 1791.6,
+    "y_img": 1031.67,
     "level": "level_22.8",
-    "oldName": "PHASE2_247",
-    "x_img_old": 1770.98,
-    "y_img_old": 863.71
+    "oldName": "PHASE2_247"
 }, {
     "fullname": "PHASE2_615",
     "phase": "PHASE2",
@@ -6396,12 +5372,10 @@ let points = [{
     "x_real": 141,
     "y_real": 213.7,
     "z_real": 24.05,
-    "x_img": 1783.9896670493677,
-    "y_img": 1145.6519507186858,
+    "x_img": 1783.99,
+    "y_img": 1145.65,
     "level": "level_22.8",
-    "oldName": "PHASE2_248",
-    "x_img_old": 1764.16,
-    "y_img_old": 974.16
+    "oldName": "PHASE2_248"
 }, {
     "fullname": "PHASE2_616",
     "phase": "PHASE2",
@@ -6409,12 +5383,10 @@ let points = [{
     "x_real": 134.65,
     "y_real": 227.07,
     "z_real": 24.06,
-    "x_img": 1590.7921928817445,
-    "y_img": 757.8670431211494,
+    "x_img": 1590.79,
+    "y_img": 757.87,
     "level": "level_22.8",
-    "oldName": "PHASE2_249",
-    "x_img_old": 1587.94,
-    "y_img_old": 598.29
+    "oldName": "PHASE2_249"
 }, {
     "fullname": "PHASE2_617",
     "phase": "PHASE2",
@@ -6422,12 +5394,10 @@ let points = [{
     "x_real": 134.61,
     "y_real": 223.27,
     "z_real": 24.04,
-    "x_img": 1589.5752009184844,
-    "y_img": 868.0826488706361,
+    "x_img": 1589.58,
+    "y_img": 868.08,
     "level": "level_22.8",
-    "oldName": "PHASE2_250",
-    "x_img_old": 1586.97,
-    "y_img_old": 705.04
+    "oldName": "PHASE2_250"
 }, {
     "fullname": "PHASE2_618",
     "phase": "PHASE2",
@@ -6435,12 +5405,10 @@ let points = [{
     "x_real": 136.33,
     "y_real": 226.38,
     "z_real": 24.06,
-    "x_img": 1641.9058553386908,
-    "y_img": 777.8798767967146,
+    "x_img": 1641.91,
+    "y_img": 777.88,
     "level": "level_22.8",
-    "oldName": "PHASE2_251",
-    "x_img_old": 1634.7,
-    "y_img_old": 617.63
+    "oldName": "PHASE2_251"
 }, {
     "fullname": "PHASE2_619",
     "phase": "PHASE2",
@@ -6448,12 +5416,10 @@ let points = [{
     "x_real": 138.51,
     "y_real": 226.31,
     "z_real": 24.06,
-    "x_img": 1708.2319173363944,
-    "y_img": 779.9101642710466,
+    "x_img": 1708.23,
+    "y_img": 779.91,
     "level": "level_22.8",
-    "oldName": "PHASE2_252",
-    "x_img_old": 1695.02,
-    "y_img_old": 619.66
+    "oldName": "PHASE2_252"
 }, {
     "fullname": "PHASE2_620",
     "phase": "PHASE2",
@@ -6461,12 +5427,10 @@ let points = [{
     "x_real": 139.33,
     "y_real": 223.25,
     "z_real": 24.03,
-    "x_img": 1733.1802525832377,
-    "y_img": 868.6627310061604,
+    "x_img": 1733.18,
+    "y_img": 868.66,
     "level": "level_22.8",
-    "oldName": "PHASE2_253",
-    "x_img_old": 1717.82,
-    "y_img_old": 705.68
+    "oldName": "PHASE2_253"
 }, {
     "fullname": "PHASE2_621",
     "phase": "PHASE2",
@@ -6474,12 +5438,10 @@ let points = [{
     "x_real": 139.13,
     "y_real": 219.88,
     "z_real": 24.02,
-    "x_img": 1727.0952927669337,
-    "y_img": 966.4065708418893,
+    "x_img": 1727.1,
+    "y_img": 966.41,
     "level": "level_22.8",
-    "oldName": "PHASE2_254",
-    "x_img_old": 1712.13,
-    "y_img_old": 800.44
+    "oldName": "PHASE2_254"
 }, {
     "fullname": "PHASE2_622",
     "phase": "PHASE2",
@@ -6487,12 +5449,10 @@ let points = [{
     "x_real": 135.44,
     "y_real": 220.1,
     "z_real": 24.03,
-    "x_img": 1614.8277841561417,
-    "y_img": 960.0256673511294,
+    "x_img": 1614.83,
+    "y_img": 960.03,
     "level": "level_22.8",
-    "oldName": "PHASE2_255",
-    "x_img_old": 1609.94,
-    "y_img_old": 794.28
+    "oldName": "PHASE2_255"
 }, {
     "fullname": "PHASE2_623",
     "phase": "PHASE2",
@@ -6500,12 +5460,10 @@ let points = [{
     "x_real": 135.04,
     "y_real": 217.06,
     "z_real": 24.04,
-    "x_img": 1602.6578645235354,
-    "y_img": 1048.198151950718,
+    "x_img": 1602.66,
+    "y_img": 1048.2,
     "level": "level_22.8",
-    "oldName": "PHASE2_256",
-    "x_img_old": 1598.96,
-    "y_img_old": 879.73
+    "oldName": "PHASE2_256"
 }, {
     "fullname": "PHASE2_624",
     "phase": "PHASE2",
@@ -6513,12 +5471,10 @@ let points = [{
     "x_real": 136.3,
     "y_real": 215.32,
     "z_real": 24.06,
-    "x_img": 1640.9931113662456,
-    "y_img": 1098.6652977412732,
+    "x_img": 1640.99,
+    "y_img": 1098.67,
     "level": "level_22.8",
-    "oldName": "PHASE2_257",
-    "x_img_old": 1633.91,
-    "y_img_old": 928.78
+    "oldName": "PHASE2_257"
 }, {
     "fullname": "PHASE2_625",
     "phase": "PHASE2",
@@ -6526,12 +5482,10 @@ let points = [{
     "x_real": 139.31,
     "y_real": 215.59,
     "z_real": 24.06,
-    "x_img": 1732.571756601607,
-    "y_img": 1090.8341889117037,
+    "x_img": 1732.57,
+    "y_img": 1090.83,
     "level": "level_22.8",
-    "oldName": "PHASE2_258",
-    "x_img_old": 1717.21,
-    "y_img_old": 921.09
+    "oldName": "PHASE2_258"
 }, {
     "fullname": "PHASE2_626",
     "phase": "PHASE2",
@@ -6539,12 +5493,10 @@ let points = [{
     "x_real": 134.87,
     "y_real": 214.24,
     "z_real": 24.05,
-    "x_img": 1597.4856486796784,
-    "y_img": 1129.9897330595477,
+    "x_img": 1597.49,
+    "y_img": 1129.99,
     "level": "level_22.8",
-    "oldName": "PHASE2_259",
-    "x_img_old": 1594.04,
-    "y_img_old": 958.96
+    "oldName": "PHASE2_259"
 }, {
     "fullname": "PHASE2_627",
     "phase": "PHASE2",
@@ -6552,12 +5504,10 @@ let points = [{
     "x_real": 134.89,
     "y_real": 212.64,
     "z_real": 24.05,
-    "x_img": 1598.0941446613083,
-    "y_img": 1176.396303901437,
+    "x_img": 1598.09,
+    "y_img": 1176.4,
     "level": "level_22.8",
-    "oldName": "PHASE2_260",
-    "x_img_old": 1594.58,
-    "y_img_old": 1004.05
+    "oldName": "PHASE2_260"
 }, {
     "fullname": "PHASE2_628",
     "phase": "PHASE2",
@@ -6565,12 +5515,10 @@ let points = [{
     "x_real": 137.79,
     "y_real": 211.88,
     "z_real": 24.04,
-    "x_img": 1686.3260619977032,
-    "y_img": 1198.4394250513342,
+    "x_img": 1686.33,
+    "y_img": 1198.44,
     "level": "level_22.8",
-    "oldName": "PHASE2_261",
-    "x_img_old": 1674.99,
-    "y_img_old": 1025.29
+    "oldName": "PHASE2_261"
 }, {
     "fullname": "PHASE2_629",
     "phase": "PHASE2",
@@ -6578,12 +5526,10 @@ let points = [{
     "x_real": 140.49,
     "y_real": 212.77,
     "z_real": 24.04,
-    "x_img": 1768.473019517795,
-    "y_img": 1172.6257700205333,
+    "x_img": 1768.47,
+    "y_img": 1172.63,
     "level": "level_22.8",
-    "oldName": "PHASE2_262",
-    "x_img_old": 1750.04,
-    "y_img_old": 1000.34
+    "oldName": "PHASE2_262"
 }, {
     "fullname": "PHASE2_630",
     "phase": "PHASE2",
@@ -6591,12 +5537,10 @@ let points = [{
     "x_real": 141.86,
     "y_real": 211.62,
     "z_real": 24.05,
-    "x_img": 1810.1549942594716,
-    "y_img": 1205.9804928131416,
+    "x_img": 1810.15,
+    "y_img": 1205.98,
     "level": "level_22.8",
-    "oldName": "PHASE2_263",
-    "x_img_old": 1787.82,
-    "y_img_old": 1032.8
+    "oldName": "PHASE2_263"
 }, {
     "fullname": "PHASE2_631",
     "phase": "PHASE2",
@@ -6604,12 +5548,10 @@ let points = [{
     "x_real": 144.85,
     "y_real": 212.5,
     "z_real": 24.04,
-    "x_img": 1901.1251435132021,
-    "y_img": 1180.456878850102,
+    "x_img": 1901.13,
+    "y_img": 1180.46,
     "level": "level_22.8",
-    "oldName": "PHASE2_264",
-    "x_img_old": 1870.92,
-    "y_img_old": 1007.84
+    "oldName": "PHASE2_264"
 }, {
     "fullname": "PHASE2_632",
     "phase": "PHASE2",
@@ -6617,12 +5559,10 @@ let points = [{
     "x_real": 144.86,
     "y_real": 209.03,
     "z_real": 24.04,
-    "x_img": 1901.4293915040175,
-    "y_img": 1281.1011293634492,
+    "x_img": 1901.43,
+    "y_img": 1281.1,
     "level": "level_22.8",
-    "oldName": "PHASE2_265",
-    "x_img_old": 1871.05,
-    "y_img_old": 1105.39
+    "oldName": "PHASE2_265"
 }, {
     "fullname": "PHASE2_633",
     "phase": "PHASE2",
@@ -6630,12 +5570,10 @@ let points = [{
     "x_real": 145.55,
     "y_real": 204.49,
     "z_real": 24.04,
-    "x_img": 1922.4225028702635,
-    "y_img": 1412.7797741273098,
+    "x_img": 1922.42,
+    "y_img": 1412.78,
     "level": "level_22.8",
-    "oldName": "PHASE2_266",
-    "x_img_old": 1890.2,
-    "y_img_old": 1233
+    "oldName": "PHASE2_266"
 }, {
     "fullname": "PHASE2_634",
     "phase": "PHASE2",
@@ -6643,12 +5581,10 @@ let points = [{
     "x_real": 142.76,
     "y_real": 204.02,
     "z_real": 24.05,
-    "x_img": 1837.5373134328352,
-    "y_img": 1426.4117043121141,
+    "x_img": 1837.54,
+    "y_img": 1426.41,
     "level": "level_22.8",
-    "oldName": "PHASE2_267",
-    "x_img_old": 1812.79,
-    "y_img_old": 1246.41
+    "oldName": "PHASE2_267"
 }, {
     "fullname": "PHASE2_635",
     "phase": "PHASE2",
@@ -6656,12 +5592,10 @@ let points = [{
     "x_real": 141.68,
     "y_real": 207.27,
     "z_real": 24.04,
-    "x_img": 1804.6785304247983,
-    "y_img": 1332.1483572895268,
+    "x_img": 1804.68,
+    "y_img": 1332.15,
     "level": "level_22.8",
-    "oldName": "PHASE2_268",
-    "x_img_old": 1782.85,
-    "y_img_old": 1155
+    "oldName": "PHASE2_268"
 }, {
     "fullname": "PHASE2_636",
     "phase": "PHASE2",
@@ -6669,12 +5603,10 @@ let points = [{
     "x_real": 142.27,
     "y_real": 210.22,
     "z_real": 24.04,
-    "x_img": 1822.6291618828932,
-    "y_img": 1246.5862422997943,
+    "x_img": 1822.63,
+    "y_img": 1246.59,
     "level": "level_22.8",
-    "oldName": "PHASE2_269",
-    "x_img_old": 1799.37,
-    "y_img_old": 1071.98
+    "oldName": "PHASE2_269"
 }, {
     "fullname": "PHASE2_637",
     "phase": "PHASE2",
@@ -6682,12 +5614,10 @@ let points = [{
     "x_real": 138.82,
     "y_real": 210.03,
     "z_real": 24.04,
-    "x_img": 1717.663605051664,
-    "y_img": 1252.0970225872688,
+    "x_img": 1717.66,
+    "y_img": 1252.1,
     "level": "level_22.8",
-    "oldName": "PHASE2_270",
-    "x_img_old": 1703.71,
-    "y_img_old": 1077.41
+    "oldName": "PHASE2_270"
 }, {
     "fullname": "PHASE2_638",
     "phase": "PHASE2",
@@ -6695,12 +5625,10 @@ let points = [{
     "x_real": 138.12,
     "y_real": 206.89,
     "z_real": 24.04,
-    "x_img": 1696.3662456946035,
-    "y_img": 1343.1699178644767,
+    "x_img": 1696.37,
+    "y_img": 1343.17,
     "level": "level_22.8",
-    "oldName": "PHASE2_271",
-    "x_img_old": 1684.33,
-    "y_img_old": 1165.71
+    "oldName": "PHASE2_271"
 }, {
     "fullname": "PHASE2_639",
     "phase": "PHASE2",
@@ -6708,12 +5636,10 @@ let points = [{
     "x_real": 139.12,
     "y_real": 204.33,
     "z_real": 24.05,
-    "x_img": 1726.7910447761192,
-    "y_img": 1417.420431211498,
+    "x_img": 1726.79,
+    "y_img": 1417.42,
     "level": "level_22.8",
-    "oldName": "PHASE2_272",
-    "x_img_old": 1711.97,
-    "y_img_old": 1237.72
+    "oldName": "PHASE2_272"
 }, {
     "fullname": "PHASE2_640",
     "phase": "PHASE2",
@@ -6721,12 +5647,10 @@ let points = [{
     "x_real": 135.73,
     "y_real": 210.4,
     "z_real": 24.05,
-    "x_img": 1623.6509758897814,
-    "y_img": 1241.365503080082,
+    "x_img": 1623.65,
+    "y_img": 1241.37,
     "level": "level_22.8",
-    "oldName": "PHASE2_273",
-    "x_img_old": 1618.04,
-    "y_img_old": 1067.07
+    "oldName": "PHASE2_273"
 }, {
     "fullname": "PHASE2_641",
     "phase": "PHASE2",
@@ -6734,12 +5658,10 @@ let points = [{
     "x_real": 135.91,
     "y_real": 209.21,
     "z_real": 24.04,
-    "x_img": 1629.1274397244538,
-    "y_img": 1275.8803901437368,
+    "x_img": 1629.13,
+    "y_img": 1275.88,
     "level": "level_22.8",
-    "oldName": "PHASE2_274",
-    "x_img_old": 1623.02,
-    "y_img_old": 1100.54
+    "oldName": "PHASE2_274"
 }, {
     "fullname": "PHASE2_642",
     "phase": "PHASE2",
@@ -6747,12 +5669,10 @@ let points = [{
     "x_real": 135.72,
     "y_real": 206.7,
     "z_real": 24.04,
-    "x_img": 1623.346727898966,
-    "y_img": 1348.6806981519503,
+    "x_img": 1623.35,
+    "y_img": 1348.68,
     "level": "level_22.8",
-    "oldName": "PHASE2_275",
-    "x_img_old": 1617.77,
-    "y_img_old": 1171.01
+    "oldName": "PHASE2_275"
 }, {
     "fullname": "PHASE2_643",
     "phase": "PHASE2",
@@ -6760,12 +5680,10 @@ let points = [{
     "x_real": 136.06,
     "y_real": 204.28,
     "z_real": 24.05,
-    "x_img": 1633.6911595866818,
-    "y_img": 1418.8706365503076,
+    "x_img": 1633.69,
+    "y_img": 1418.87,
     "level": "level_22.8",
-    "oldName": "PHASE2_276",
-    "x_img_old": 1627.17,
-    "y_img_old": 1239.09
+    "oldName": "PHASE2_276"
 }, {
     "fullname": "PHASE2_644",
     "phase": "PHASE2",
@@ -6773,12 +5691,10 @@ let points = [{
     "x_real": 135.61,
     "y_real": 203.19,
     "z_real": 24.05,
-    "x_img": 1619.9999999999995,
-    "y_img": 1450.4851129363442,
+    "x_img": 1620,
+    "y_img": 1450.49,
     "level": "level_22.8",
-    "oldName": "PHASE2_277",
-    "x_img_old": 1614.58,
-    "y_img_old": 1269.74
+    "oldName": "PHASE2_277"
 }, {
     "fullname": "PHASE2_645",
     "phase": "PHASE2",
@@ -6786,12 +5702,10 @@ let points = [{
     "x_real": 138.64,
     "y_real": 201.12,
     "z_real": 24.04,
-    "x_img": 1712.1871412169908,
-    "y_img": 1510.5236139630388,
+    "x_img": 1712.19,
+    "y_img": 1510.52,
     "level": "level_22.8",
-    "oldName": "PHASE2_278",
-    "x_img_old": 1698.61,
-    "y_img_old": 1327.77
+    "oldName": "PHASE2_278"
 }, {
     "fullname": "PHASE2_646",
     "phase": "PHASE2",
@@ -6799,12 +5713,10 @@ let points = [{
     "x_real": 141.7,
     "y_real": 203.18,
     "z_real": 24.04,
-    "x_img": 1805.2870264064281,
-    "y_img": 1450.7751540041063,
+    "x_img": 1805.29,
+    "y_img": 1450.78,
     "level": "level_22.8",
-    "oldName": "PHASE2_279",
-    "x_img_old": 1783.59,
-    "y_img_old": 1269.99
+    "oldName": "PHASE2_279"
 }, {
     "fullname": "PHASE2_647",
     "phase": "PHASE2",
@@ -6812,12 +5724,10 @@ let points = [{
     "x_real": 133.73,
     "y_real": 201.98,
     "z_real": 24.05,
-    "x_img": 1562.8013777267502,
-    "y_img": 1485.5800821355233,
+    "x_img": 1562.8,
+    "y_img": 1485.58,
     "level": "level_22.8",
-    "oldName": "PHASE2_280",
-    "x_img_old": 1562.64,
-    "y_img_old": 1303.61
+    "oldName": "PHASE2_280"
 }, {
     "fullname": "PHASE2_648",
     "phase": "PHASE2",
@@ -6825,12 +5735,10 @@ let points = [{
     "x_real": 129.77,
     "y_real": 201.68,
     "z_real": 24.05,
-    "x_img": 1442.3191733639496,
-    "y_img": 1494.2813141683773,
+    "x_img": 1442.32,
+    "y_img": 1494.28,
     "level": "level_22.8",
-    "oldName": "PHASE2_281",
-    "x_img_old": 1452.89,
-    "y_img_old": 1312.11
+    "oldName": "PHASE2_281"
 }, {
     "fullname": "PHASE2_649",
     "phase": "PHASE2",
@@ -6838,12 +5746,10 @@ let points = [{
     "x_real": 140.1,
     "y_real": 199.93,
     "z_real": 24.04,
-    "x_img": 1756.607347876004,
-    "y_img": 1545.0385010266937,
+    "x_img": 1756.61,
+    "y_img": 1545.04,
     "level": "level_22.8",
-    "oldName": "PHASE2_282",
-    "x_img_old": 1739.18,
-    "y_img_old": 1361.31
+    "oldName": "PHASE2_282"
 }, {
     "fullname": "PHASE2_650",
     "phase": "PHASE2",
@@ -6851,12 +5757,10 @@ let points = [{
     "x_real": 146.51,
     "y_real": 201.58,
     "z_real": 24.05,
-    "x_img": 1951.6303099885176,
-    "y_img": 1497.1817248459947,
+    "x_img": 1951.63,
+    "y_img": 1497.18,
     "level": "level_22.8",
-    "oldName": "PHASE2_283",
-    "x_img_old": 1916.84,
-    "y_img_old": 1314.96
+    "oldName": "PHASE2_283"
 }, {
     "fullname": "PHASE2_651",
     "phase": "PHASE2",
@@ -6864,12 +5768,10 @@ let points = [{
     "x_real": 147.68,
     "y_real": 199.45,
     "z_real": 24.05,
-    "x_img": 1987.2273249138912,
-    "y_img": 1558.960472279261,
+    "x_img": 1987.23,
+    "y_img": 1558.96,
     "level": "level_22.8",
-    "oldName": "PHASE2_284",
-    "x_img_old": 1949.4,
-    "y_img_old": 1374.8
+    "oldName": "PHASE2_284"
 }, {
     "fullname": "PHASE2_652",
     "phase": "PHASE2",
@@ -6877,12 +5779,10 @@ let points = [{
     "x_real": 147.48,
     "y_real": 197.65,
     "z_real": 24.07,
-    "x_img": 1981.142365097588,
-    "y_img": 1611.1678644763851,
+    "x_img": 1981.14,
+    "y_img": 1611.17,
     "level": "level_22.8",
-    "oldName": "PHASE2_285",
-    "x_img_old": 1943.7,
-    "y_img_old": 1425.36
+    "oldName": "PHASE2_285"
 }, {
     "fullname": "PHASE2_653",
     "phase": "PHASE2",
@@ -6890,12 +5790,10 @@ let points = [{
     "x_real": 149.13,
     "y_real": 194.33,
     "z_real": 24.07,
-    "x_img": 2031.3432835820881,
-    "y_img": 1707.4614989733054,
+    "x_img": 2031.34,
+    "y_img": 1707.46,
     "level": "level_22.8",
-    "oldName": "PHASE2_286",
-    "x_img_old": 1989.51,
-    "y_img_old": 1518.92
+    "oldName": "PHASE2_286"
 }, {
     "fullname": "PHASE2_654",
     "phase": "PHASE2",
@@ -6903,12 +5801,10 @@ let points = [{
     "x_real": 153.98,
     "y_real": 195.69,
     "z_real": 24.07,
-    "x_img": 2178.9035591274383,
-    "y_img": 1668.0159137577002,
+    "x_img": 2178.9,
+    "y_img": 1668.02,
     "level": "level_22.8",
-    "oldName": "PHASE2_287",
-    "x_img_old": 2123.96,
-    "y_img_old": 1480.41
+    "oldName": "PHASE2_287"
 }, {
     "fullname": "PHASE2_655",
     "phase": "PHASE2",
@@ -6916,12 +5812,10 @@ let points = [{
     "x_real": 152.21,
     "y_real": 201.05,
     "z_real": 24.06,
-    "x_img": 2125.0516647531563,
-    "y_img": 1512.5539014373708,
+    "x_img": 2125.05,
+    "y_img": 1512.55,
     "level": "level_22.8",
-    "oldName": "PHASE2_288",
-    "x_img_old": 2074.77,
-    "y_img_old": 1329.82
+    "oldName": "PHASE2_288"
 }, {
     "fullname": "PHASE2_656",
     "phase": "PHASE2",
@@ -6929,12 +5823,10 @@ let points = [{
     "x_real": 152.61,
     "y_real": 203.78,
     "z_real": 24.05,
-    "x_img": 2137.2215843857625,
-    "y_img": 1433.3726899383983,
+    "x_img": 2137.22,
+    "y_img": 1433.37,
     "level": "level_22.8",
-    "oldName": "PHASE2_289",
-    "x_img_old": 2085.96,
-    "y_img_old": 1253.03
+    "oldName": "PHASE2_289"
 }, {
     "fullname": "PHASE2_657",
     "phase": "PHASE2",
@@ -6942,12 +5834,10 @@ let points = [{
     "x_real": 157.31,
     "y_real": 201.45,
     "z_real": 24.06,
-    "x_img": 2280.2181400688855,
-    "y_img": 1500.9522587268993,
+    "x_img": 2280.22,
+    "y_img": 1500.95,
     "level": "level_22.8",
-    "oldName": "PHASE2_290",
-    "x_img_old": 2216.15,
-    "y_img_old": 1318.72
+    "oldName": "PHASE2_290"
 }, {
     "fullname": "PHASE2_658",
     "phase": "PHASE2",
@@ -6955,12 +5845,10 @@ let points = [{
     "x_real": 160.3,
     "y_real": 200.67,
     "z_real": 24.05,
-    "x_img": 2371.188289322617,
-    "y_img": 1523.5754620123207,
+    "x_img": 2371.19,
+    "y_img": 1523.58,
     "level": "level_22.8",
-    "oldName": "PHASE2_291",
-    "x_img_old": 2299.24,
-    "y_img_old": 1340.44
+    "oldName": "PHASE2_291"
 }, {
     "fullname": "PHASE2_659",
     "phase": "PHASE2",
@@ -6968,12 +5856,10 @@ let points = [{
     "x_real": 162.85,
     "y_real": 201.13,
     "z_real": 24.05,
-    "x_img": 2448.7715269804808,
-    "y_img": 1510.2335728952767,
+    "x_img": 2448.77,
+    "y_img": 1510.23,
     "level": "level_22.8",
-    "oldName": "PHASE2_292",
-    "x_img_old": 2369.73,
-    "y_img_old": 1327.47
+    "oldName": "PHASE2_292"
 }, {
     "fullname": "PHASE2_660",
     "phase": "PHASE2",
@@ -6981,12 +5867,10 @@ let points = [{
     "x_real": 164.54,
     "y_real": 201.81,
     "z_real": 24.07,
-    "x_img": 2500.1894374282415,
-    "y_img": 1490.5107802874736,
+    "x_img": 2500.19,
+    "y_img": 1490.51,
     "level": "level_22.8",
-    "oldName": "PHASE2_293",
-    "x_img_old": 2416.77,
-    "y_img_old": 1308.52
+    "oldName": "PHASE2_293"
 }, {
     "fullname": "PHASE2_661",
     "phase": "PHASE2",
@@ -6994,12 +5878,10 @@ let points = [{
     "x_real": 168.02,
     "y_real": 202.61,
     "z_real": 24.07,
-    "x_img": 2606.067738231916,
-    "y_img": 1467.307494866529,
+    "x_img": 2606.07,
+    "y_img": 1467.31,
     "level": "level_22.8",
-    "oldName": "PHASE2_294",
-    "x_img_old": 2513.02,
-    "y_img_old": 1286.11
+    "oldName": "PHASE2_294"
 }, {
     "fullname": "PHASE2_662",
     "phase": "PHASE2",
@@ -7007,12 +5889,10 @@ let points = [{
     "x_real": 168.03,
     "y_real": 207.28,
     "z_real": 24.06,
-    "x_img": 2606.3719862227313,
-    "y_img": 1331.8583162217656,
+    "x_img": 2606.37,
+    "y_img": 1331.86,
     "level": "level_22.8",
-    "oldName": "PHASE2_295",
-    "x_img_old": 2513.52,
-    "y_img_old": 1154.8
+    "oldName": "PHASE2_295"
 }, {
     "fullname": "PHASE2_663",
     "phase": "PHASE2",
@@ -7020,12 +5900,10 @@ let points = [{
     "x_real": 167.32,
     "y_real": 212.06,
     "z_real": 24.06,
-    "x_img": 2584.7703788748545,
-    "y_img": 1193.2186858316218,
+    "x_img": 2584.77,
+    "y_img": 1193.22,
     "level": "level_22.8",
-    "oldName": "PHASE2_296",
-    "x_img_old": 2493.6,
-    "y_img_old": 1020.29
+    "oldName": "PHASE2_296"
 }, {
     "fullname": "PHASE2_664",
     "phase": "PHASE2",
@@ -7033,12 +5911,10 @@ let points = [{
     "x_real": 169.27,
     "y_real": 214.72,
     "z_real": 24.6,
-    "x_img": 2644.0987370838106,
-    "y_img": 1116.0677618069813,
+    "x_img": 2644.1,
+    "y_img": 1116.07,
     "level": "level_22.8",
-    "oldName": "PHASE2_297",
-    "x_img_old": 2547.83,
-    "y_img_old": 945.6
+    "oldName": "PHASE2_297"
 }, {
     "fullname": "PHASE2_665",
     "phase": "PHASE2",
@@ -7046,12 +5922,10 @@ let points = [{
     "x_real": 169.66,
     "y_real": 219.07,
     "z_real": 24.59,
-    "x_img": 2655.9644087256015,
-    "y_img": 989.8998973305952,
+    "x_img": 2655.96,
+    "y_img": 989.9,
     "level": "level_22.8",
-    "oldName": "PHASE2_298",
-    "x_img_old": 2558.57,
-    "y_img_old": 823.1
+    "oldName": "PHASE2_298"
 }, {
     "fullname": "PHASE2_666",
     "phase": "PHASE2",
@@ -7059,12 +5933,10 @@ let points = [{
     "x_real": 165.88,
     "y_real": 219.68,
     "z_real": 24.08,
-    "x_img": 2540.958668197473,
-    "y_img": 972.207392197125,
+    "x_img": 2540.96,
+    "y_img": 972.21,
     "level": "level_22.8",
-    "oldName": "PHASE2_299",
-    "x_img_old": 2453.91,
-    "y_img_old": 806.17
+    "oldName": "PHASE2_299"
 }, {
     "fullname": "PHASE2_667",
     "phase": "PHASE2",
@@ -7072,12 +5944,10 @@ let points = [{
     "x_real": 166.41,
     "y_real": 224.95,
     "z_real": 24.08,
-    "x_img": 2557.0838117106755,
-    "y_img": 819.3557494866527,
+    "x_img": 2557.08,
+    "y_img": 819.36,
     "level": "level_22.8",
-    "oldName": "PHASE2_300",
-    "x_img_old": 2468.5,
-    "y_img_old": 657.87
+    "oldName": "PHASE2_300"
 }, {
     "fullname": "PHASE2_668",
     "phase": "PHASE2",
@@ -7085,12 +5955,10 @@ let points = [{
     "x_real": 165.65,
     "y_real": 229.34,
     "z_real": 24.09,
-    "x_img": 2533.9609644087245,
-    "y_img": 692.0277207392191,
+    "x_img": 2533.96,
+    "y_img": 692.03,
     "level": "level_22.8",
-    "oldName": "PHASE2_301",
-    "x_img_old": 2447.46,
-    "y_img_old": 534.48
+    "oldName": "PHASE2_301"
 }, {
     "fullname": "PHASE2_669",
     "phase": "PHASE2",
@@ -7098,12 +5966,10 @@ let points = [{
     "x_real": 168.65,
     "y_real": 230.85,
     "z_real": 24.09,
-    "x_img": 2625.2353616532705,
-    "y_img": 648.2315195071869,
+    "x_img": 2625.24,
+    "y_img": 648.23,
     "level": "level_22.8",
-    "oldName": "PHASE2_302",
-    "x_img_old": 2530.47,
-    "y_img_old": 492.14
+    "oldName": "PHASE2_302"
 }, {
     "fullname": "PHASE2_670",
     "phase": "PHASE2",
@@ -7111,12 +5977,10 @@ let points = [{
     "x_real": 165.76,
     "y_real": 234.33,
     "z_real": 24.08,
-    "x_img": 2537.307692307691,
-    "y_img": 547.2972279260775,
+    "x_img": 2537.31,
+    "y_img": 547.3,
     "level": "level_22.8",
-    "oldName": "PHASE2_303",
-    "x_img_old": 2450.56,
-    "y_img_old": 394.23
+    "oldName": "PHASE2_303"
 }, {
     "fullname": "PHASE2_671",
     "phase": "PHASE2",
@@ -7124,12 +5988,10 @@ let points = [{
     "x_real": 165.58,
     "y_real": 240.25,
     "z_real": 24.08,
-    "x_img": 2531.8312284730187,
-    "y_img": 375.59291581108846,
+    "x_img": 2531.83,
+    "y_img": 375.59,
     "level": "level_22.8",
-    "oldName": "PHASE2_304",
-    "x_img_old": 2445.52,
-    "y_img_old": 227.72
+    "oldName": "PHASE2_304"
 }, {
     "fullname": "PHASE2_672",
     "phase": "PHASE2",
@@ -7137,12 +5999,10 @@ let points = [{
     "x_real": 164.68,
     "y_real": 205.71,
     "z_real": 26.58,
-    "x_img": 2504.448909299654,
-    "y_img": 1377.3947638603686,
+    "x_img": 2504.45,
+    "y_img": 1377.39,
     "level": "level_22.8",
-    "oldName": "PHASE2_305",
-    "x_img_old": 2420.58,
-    "y_img_old": 1198.85
+    "oldName": "PHASE2_305"
 }, {
     "fullname": "PHASE2_673",
     "phase": "PHASE2",
@@ -7150,12 +6010,10 @@ let points = [{
     "x_real": 166.76,
     "y_real": 201.4,
     "z_real": 26.58,
-    "x_img": 2567.7324913892057,
-    "y_img": 1502.402464065708,
+    "x_img": 2567.73,
+    "y_img": 1502.4,
     "level": "level_22.8",
-    "oldName": "PHASE2_306",
-    "x_img_old": 2478.25,
-    "y_img_old": 1319.91
+    "oldName": "PHASE2_306"
 }, {
     "fullname": "PHASE2_674",
     "phase": "PHASE2",
@@ -7163,12 +6021,10 @@ let points = [{
     "x_real": 164.39,
     "y_real": 202.03,
     "z_real": 26.58,
-    "x_img": 2495.6257175660144,
-    "y_img": 1484.1298767967146,
+    "x_img": 2495.63,
+    "y_img": 1484.13,
     "level": "level_22.8",
-    "oldName": "PHASE2_307",
-    "x_img_old": 2412.54,
-    "y_img_old": 1302.2
+    "oldName": "PHASE2_307"
 }, {
     "fullname": "PHASE2_675",
     "phase": "PHASE2",
@@ -7176,12 +6032,10 @@ let points = [{
     "x_real": 164.66,
     "y_real": 205.82,
     "z_real": 29.09,
-    "x_img": 2503.8404133180234,
-    "y_img": 1374.20431211499,
+    "x_img": 2503.84,
+    "y_img": 1374.2,
     "level": "level_27.8",
-    "oldName": "PHASE2_308",
-    "x_img_old": 2559.43,
-    "y_img_old": 1215.91
+    "oldName": "PHASE2_308"
 }, {
     "fullname": "PHASE2_676",
     "phase": "PHASE2",
@@ -7189,12 +6043,10 @@ let points = [{
     "x_real": 166.57,
     "y_real": 201.21,
     "z_real": 29.09,
-    "x_img": 2561.951779563718,
-    "y_img": 1507.9132443531826,
+    "x_img": 2561.95,
+    "y_img": 1507.91,
     "level": "level_27.8",
-    "oldName": "PHASE2_309",
-    "x_img_old": 2618.49,
-    "y_img_old": 1358.49
+    "oldName": "PHASE2_309"
 }, {
     "fullname": "PHASE2_677",
     "phase": "PHASE2",
@@ -7202,12 +6054,10 @@ let points = [{
     "x_real": 164.28,
     "y_real": 202.05,
     "z_real": 29.08,
-    "x_img": 2492.278989667048,
-    "y_img": 1483.5497946611904,
+    "x_img": 2492.28,
+    "y_img": 1483.55,
     "level": "level_27.8",
-    "oldName": "PHASE2_310",
-    "x_img_old": 2547.79,
-    "y_img_old": 1332.55
+    "oldName": "PHASE2_310"
 }, {
     "fullname": "PHASE2_678",
     "phase": "PHASE2",
@@ -7215,12 +6065,10 @@ let points = [{
     "x_real": 165.72,
     "y_real": 206.9,
     "z_real": 31.67,
-    "x_img": 2536.0907003444304,
-    "y_img": 1342.8798767967137,
+    "x_img": 2536.09,
+    "y_img": 1342.88,
     "level": "level_27.8",
-    "oldName": "PHASE2_311",
-    "x_img_old": 2592.2,
-    "y_img_old": 1182.52
+    "oldName": "PHASE2_311"
 }, {
     "fullname": "PHASE2_679",
     "phase": "PHASE2",
@@ -7228,12 +6076,10 @@ let points = [{
     "x_real": 166.75,
     "y_real": 201.67,
     "z_real": 34.08,
-    "x_img": 2567.4282433983913,
-    "y_img": 1494.5713552361394,
+    "x_img": 2567.43,
+    "y_img": 1494.57,
     "level": "level_27.8",
-    "oldName": "PHASE2_312",
-    "x_img_old": 2624.12,
-    "y_img_old": 1344.27
+    "oldName": "PHASE2_312"
 }, {
     "fullname": "PHASE2_680",
     "phase": "PHASE2",
@@ -7241,12 +6087,10 @@ let points = [{
     "x_real": 164.21,
     "y_real": 201.92,
     "z_real": 34.08,
-    "x_img": 2490.149253731342,
-    "y_img": 1487.320328542094,
+    "x_img": 2490.15,
+    "y_img": 1487.32,
     "level": "level_27.8",
-    "oldName": "PHASE2_313",
-    "x_img_old": 2545.68,
-    "y_img_old": 1336.38
+    "oldName": "PHASE2_313"
 }, {
     "fullname": "PHASE2_681",
     "phase": "PHASE2",
@@ -7254,12 +6098,10 @@ let points = [{
     "x_real": 165.3,
     "y_real": 206.23,
     "z_real": 36.58,
-    "x_img": 2523.3122847301943,
-    "y_img": 1362.3126283367556,
+    "x_img": 2523.31,
+    "y_img": 1362.31,
     "level": "level_37.8",
-    "oldName": "PHASE2_314",
-    "x_img_old": 2500.64,
-    "y_img_old": 1217.54
+    "oldName": "PHASE2_314"
 }, {
     "fullname": "PHASE2_682",
     "phase": "PHASE2",
@@ -7267,12 +6109,10 @@ let points = [{
     "x_real": 170.62,
     "y_real": 206.86,
     "z_real": 36.64,
-    "x_img": 2685.1722158438565,
-    "y_img": 1344.0400410677612,
+    "x_img": 2685.17,
+    "y_img": 1344.04,
     "level": "level_37.8",
-    "oldName": "PHASE2_315",
-    "x_img_old": 2666.55,
-    "y_img_old": 1197.54
+    "oldName": "PHASE2_315"
 }, {
     "fullname": "PHASE2_683",
     "phase": "PHASE2",
@@ -7280,12 +6120,10 @@ let points = [{
     "x_real": 166.24,
     "y_real": 201.67,
     "z_real": 39.08,
-    "x_img": 2551.9115958668185,
-    "y_img": 1494.5713552361394,
+    "x_img": 2551.91,
+    "y_img": 1494.57,
     "level": "level_37.8",
-    "oldName": "PHASE2_316",
-    "x_img_old": 2529.83,
-    "y_img_old": 1361.45
+    "oldName": "PHASE2_316"
 }, {
     "fullname": "PHASE2_684",
     "phase": "PHASE2",
@@ -7293,12 +6131,10 @@ let points = [{
     "x_real": 164.15,
     "y_real": 206.21,
     "z_real": 41.58,
-    "x_img": 2488.3237657864515,
-    "y_img": 1362.8927104722788,
+    "x_img": 2488.32,
+    "y_img": 1362.89,
     "level": "level_37.8",
-    "oldName": "PHASE2_317",
-    "x_img_old": 2464.57,
-    "y_img_old": 1218.13
+    "oldName": "PHASE2_317"
 }, {
     "fullname": "PHASE2_685",
     "phase": "PHASE2",
@@ -7306,12 +6142,10 @@ let points = [{
     "x_real": 166.47,
     "y_real": 206.64,
     "z_real": 41.58,
-    "x_img": 2558.909299655567,
-    "y_img": 1350.420944558522,
+    "x_img": 2558.91,
+    "y_img": 1350.42,
     "level": "level_37.8",
-    "oldName": "PHASE2_318",
-    "x_img_old": 2536.93,
-    "y_img_old": 1204.47
+    "oldName": "PHASE2_318"
 }, {
     "fullname": "PHASE2_686",
     "phase": "PHASE2",
@@ -7319,12 +6153,10 @@ let points = [{
     "x_real": 165.62,
     "y_real": 201.56,
     "z_real": 44.11,
-    "x_img": 2533.0482204362793,
-    "y_img": 1497.761806981519,
+    "x_img": 2533.05,
+    "y_img": 1497.76,
     "level": "level_37.8",
-    "oldName": "PHASE2_319",
-    "x_img_old": 2510.65,
-    "y_img_old": 1364.86
+    "oldName": "PHASE2_319"
 }, {
     "fullname": "PHASE2_687",
     "phase": "PHASE2",
@@ -7332,12 +6164,10 @@ let points = [{
     "x_real": 164.23,
     "y_real": 206.23,
     "z_real": 46.61,
-    "x_img": 2490.757749712972,
-    "y_img": 1362.3126283367556,
+    "x_img": 2490.76,
+    "y_img": 1362.31,
     "level": "level_47.8",
-    "oldName": "PHASE2_320",
-    "x_img_old": 2482.89,
-    "y_img_old": 1179.88
+    "oldName": "PHASE2_320"
 }, {
     "fullname": "PHASE2_688",
     "phase": "PHASE2",
@@ -7345,12 +6175,10 @@ let points = [{
     "x_real": 166.81,
     "y_real": 206.46,
     "z_real": 46.61,
-    "x_img": 2569.2537313432827,
-    "y_img": 1355.6416837782335,
+    "x_img": 2569.25,
+    "y_img": 1355.64,
     "level": "level_47.8",
-    "oldName": "PHASE2_321",
-    "x_img_old": 2560.71,
-    "y_img_old": 1173.37
+    "oldName": "PHASE2_321"
 }, {
     "fullname": "PHASE2_689",
     "phase": "PHASE2",
@@ -7358,12 +6186,10 @@ let points = [{
     "x_real": 165.6,
     "y_real": 201.65,
     "z_real": 49.12,
-    "x_img": 2532.4397244546485,
-    "y_img": 1495.1514373716627,
+    "x_img": 2532.44,
+    "y_img": 1495.15,
     "level": "level_47.8",
-    "oldName": "PHASE2_322",
-    "x_img_old": 2524.3,
-    "y_img_old": 1315.16
+    "oldName": "PHASE2_322"
 }, {
     "fullname": "PHASE2_690",
     "phase": "PHASE2",
@@ -7371,12 +6197,10 @@ let points = [{
     "x_real": 164.37,
     "y_real": 207.68,
     "z_real": 53.11,
-    "x_img": 2495.0172215843845,
-    "y_img": 1320.2566735112932,
+    "x_img": 2495.02,
+    "y_img": 1320.26,
     "level": "level_47.8",
-    "oldName": "PHASE2_323",
-    "x_img_old": 2487.26,
-    "y_img_old": 1137.25
+    "oldName": "PHASE2_323"
 }, {
     "fullname": "PHASE2_691",
     "phase": "PHASE2",
@@ -7384,12 +6208,10 @@ let points = [{
     "x_real": 166.81,
     "y_real": 208.29,
     "z_real": 53.12,
-    "x_img": 2569.2537313432827,
-    "y_img": 1302.564168377823,
+    "x_img": 2569.25,
+    "y_img": 1302.56,
     "level": "level_47.8",
-    "oldName": "PHASE2_324",
-    "x_img_old": 2560.94,
-    "y_img_old": 1119.38
+    "oldName": "PHASE2_324"
 }, {
     "fullname": "PHASE2_692",
     "phase": "PHASE2",
@@ -7397,12 +6219,10 @@ let points = [{
     "x_real": 165.42,
     "y_real": 202.63,
     "z_real": 53.11,
-    "x_img": 2526.9632606199752,
-    "y_img": 1466.7274127310056,
+    "x_img": 2526.96,
+    "y_img": 1466.73,
     "level": "level_47.8",
-    "oldName": "PHASE2_325",
-    "x_img_old": 2519,
-    "y_img_old": 1286.28
+    "oldName": "PHASE2_325"
 }, {
     "fullname": "PHASE2_693",
     "phase": "PHASE2",
@@ -7410,12 +6230,10 @@ let points = [{
     "x_real": 164.65,
     "y_real": 207.73,
     "z_real": 56.18,
-    "x_img": 2503.536165327209,
-    "y_img": 1318.8064681724845,
+    "x_img": 2503.54,
+    "y_img": 1318.81,
     "level": "level_47.8",
-    "oldName": "PHASE2_326",
-    "x_img_old": 2495.5,
-    "y_img_old": 1135.62
+    "oldName": "PHASE2_326"
 }, {
     "fullname": "PHASE2_694",
     "phase": "PHASE2",
@@ -7423,12 +6241,10 @@ let points = [{
     "x_real": 166.83,
     "y_real": 208.1,
     "z_real": 56.18,
-    "x_img": 2569.8622273249125,
-    "y_img": 1308.0749486652976,
+    "x_img": 2569.86,
+    "y_img": 1308.07,
     "level": "level_47.8",
-    "oldName": "PHASE2_327",
-    "x_img_old": 2561.56,
-    "y_img_old": 1124.88
+    "oldName": "PHASE2_327"
 }, {
     "fullname": "PHASE2_695",
     "phase": "PHASE2",
@@ -7436,12 +6252,10 @@ let points = [{
     "x_real": 165.55,
     "y_real": 201.96,
     "z_real": 56.18,
-    "x_img": 2530.9184845005734,
-    "y_img": 1486.1601642710466,
+    "x_img": 2530.92,
+    "y_img": 1486.16,
     "level": "level_47.8",
-    "oldName": "PHASE2_328",
-    "x_img_old": 2522.74,
-    "y_img_old": 1306.02
+    "oldName": "PHASE2_328"
 }, {
     "fullname": "PHASE2_696",
     "phase": "PHASE2",
@@ -7449,12 +6263,10 @@ let points = [{
     "x_real": 164.57,
     "y_real": 206.77,
     "z_real": 59.26,
-    "x_img": 2501.1021814006876,
-    "y_img": 1346.6504106776174,
+    "x_img": 2501.1,
+    "y_img": 1346.65,
     "level": "level_58.0",
-    "oldName": "PHASE2_329",
-    "x_img_old": 2493.21,
-    "y_img_old": 1164
+    "oldName": "PHASE2_329"
 }, {
     "fullname": "PHASE2_697",
     "phase": "PHASE2",
@@ -7462,12 +6274,10 @@ let points = [{
     "x_real": 165.98,
     "y_real": 202.41,
     "z_real": 59.26,
-    "x_img": 2544.001148105624,
-    "y_img": 1473.1083162217656,
+    "x_img": 2544,
+    "y_img": 1473.11,
     "level": "level_58.0",
-    "oldName": "PHASE2_330",
-    "x_img_old": 2535.84,
-    "y_img_old": 1292.78
+    "oldName": "PHASE2_330"
 }, {
     "fullname": "PHASE2_698",
     "phase": "PHASE2",
@@ -7475,12 +6285,10 @@ let points = [{
     "x_real": 161.76,
     "y_real": 208.08,
     "z_real": 59.21,
-    "x_img": 2415.6084959816285,
-    "y_img": 1308.655030800821,
+    "x_img": 2415.61,
+    "y_img": 1308.66,
     "level": "level_58.0",
-    "oldName": "PHASE2_331",
-    "x_img_old": 2408.28,
-    "y_img_old": 1125.42
+    "oldName": "PHASE2_331"
 }, {
     "fullname": "PHASE2_699",
     "phase": "PHASE2",
@@ -7488,12 +6296,10 @@ let points = [{
     "x_real": 161.62,
     "y_real": 203.5,
     "z_real": 59.2,
-    "x_img": 2411.3490241102168,
-    "y_img": 1441.493839835729,
+    "x_img": 2411.35,
+    "y_img": 1441.49,
     "level": "level_58.0",
-    "oldName": "PHASE2_332",
-    "x_img_old": 2404.05,
-    "y_img_old": 1260.54
+    "oldName": "PHASE2_332"
 }, {
     "fullname": "PHASE2_700",
     "phase": "PHASE2",
@@ -7501,12 +6307,10 @@ let points = [{
     "x_real": 159.05,
     "y_real": 201.25,
     "z_real": 59.19,
-    "x_img": 2333.1572904707223,
-    "y_img": 1506.753080082135,
+    "x_img": 2333.16,
+    "y_img": 1506.75,
     "level": "level_58.0",
-    "oldName": "PHASE2_333",
-    "x_img_old": 2326.67,
-    "y_img_old": 1326.87
+    "oldName": "PHASE2_333"
 }, {
     "fullname": "PHASE2_701",
     "phase": "PHASE2",
@@ -7514,12 +6318,10 @@ let points = [{
     "x_real": 153.62,
     "y_real": 202.1,
     "z_real": 59.21,
-    "x_img": 2167.9506314580935,
-    "y_img": 1482.0995893223817,
+    "x_img": 2167.95,
+    "y_img": 1482.1,
     "level": "level_58.0",
-    "oldName": "PHASE2_334",
-    "x_img_old": 2162.6,
-    "y_img_old": 1301.93
+    "oldName": "PHASE2_334"
 }, {
     "fullname": "PHASE2_702",
     "phase": "PHASE2",
@@ -7527,12 +6329,10 @@ let points = [{
     "x_real": 150.38,
     "y_real": 204.82,
     "z_real": 59.21,
-    "x_img": 2069.374282433983,
-    "y_img": 1403.2084188911704,
+    "x_img": 2069.37,
+    "y_img": 1403.21,
     "level": "level_58.0",
-    "oldName": "PHASE2_335",
-    "x_img_old": 2064.75,
-    "y_img_old": 1221.64
+    "oldName": "PHASE2_335"
 }, {
     "fullname": "PHASE2_703",
     "phase": "PHASE2",
@@ -7540,12 +6340,10 @@ let points = [{
     "x_real": 143.52,
     "y_real": 203.74,
     "z_real": 59.19,
-    "x_img": 1860.660160734787,
-    "y_img": 1434.5328542094448,
+    "x_img": 1860.66,
+    "y_img": 1434.53,
     "level": "level_58.0",
-    "oldName": "PHASE2_336",
-    "x_img_old": 1857.59,
-    "y_img_old": 1253.55
+    "oldName": "PHASE2_336"
 }, {
     "fullname": "PHASE2_704",
     "phase": "PHASE2",
@@ -7553,12 +6351,10 @@ let points = [{
     "x_real": 135.29,
     "y_real": 203.8,
     "z_real": 59.2,
-    "x_img": 1610.2640642939145,
-    "y_img": 1432.792607802874,
+    "x_img": 1610.26,
+    "y_img": 1432.79,
     "level": "level_58.0",
-    "oldName": "PHASE2_337",
-    "x_img_old": 1609.07,
-    "y_img_old": 1251.87
+    "oldName": "PHASE2_337"
 }, {
     "fullname": "PHASE2_705",
     "phase": "PHASE2",
@@ -7566,12 +6362,10 @@ let points = [{
     "x_real": 129.64,
     "y_real": 203.06,
     "z_real": 59.2,
-    "x_img": 1438.363949483352,
-    "y_img": 1454.255646817248,
+    "x_img": 1438.36,
+    "y_img": 1454.26,
     "level": "level_58.0",
-    "oldName": "PHASE2_338",
-    "x_img_old": 1438.53,
-    "y_img_old": 1273.69
+    "oldName": "PHASE2_338"
 }, {
     "fullname": "PHASE2_706",
     "phase": "PHASE2",
@@ -7579,12 +6373,10 @@ let points = [{
     "x_real": 136.35,
     "y_real": 201.94,
     "z_real": 61.29,
-    "x_img": 1642.5143513203207,
-    "y_img": 1486.7402464065708,
+    "x_img": 1642.51,
+    "y_img": 1486.74,
     "level": "level_58.0",
-    "oldName": "PHASE2_339",
-    "x_img_old": 1641.15,
-    "y_img_old": 1306.54
+    "oldName": "PHASE2_339"
 }, {
     "fullname": "PHASE2_707",
     "phase": "PHASE2",
@@ -7592,12 +6384,10 @@ let points = [{
     "x_real": 137.05,
     "y_real": 198.99,
     "z_real": 61.3,
-    "x_img": 1663.811710677382,
-    "y_img": 1572.3023613963032,
+    "x_img": 1663.81,
+    "y_img": 1572.3,
     "level": "level_58.0",
-    "oldName": "PHASE2_340",
-    "x_img_old": 1662.33,
-    "y_img_old": 1393.56
+    "oldName": "PHASE2_340"
 }, {
     "fullname": "PHASE2_708",
     "phase": "PHASE2",
@@ -7605,12 +6395,10 @@ let points = [{
     "x_real": 121.39,
     "y_real": 202.79,
     "z_real": 59.21,
-    "x_img": 1187.3593570608496,
-    "y_img": 1462.0867556468174,
+    "x_img": 1187.36,
+    "y_img": 1462.09,
     "level": "level_58.0",
-    "oldName": "PHASE2_341",
-    "x_img_old": 1189.52,
-    "y_img_old": 1281.57
+    "oldName": "PHASE2_341"
 }, {
     "fullname": "PHASE2_709",
     "phase": "PHASE2",
@@ -7618,12 +6406,10 @@ let points = [{
     "x_real": 115.22,
     "y_real": 203.16,
     "z_real": 59.2,
-    "x_img": 999.6383467278988,
-    "y_img": 1451.3552361396305,
+    "x_img": 999.64,
+    "y_img": 1451.36,
     "level": "level_58.0",
-    "oldName": "PHASE2_342",
-    "x_img_old": 1003.29,
-    "y_img_old": 1270.69
+    "oldName": "PHASE2_342"
 }, {
     "fullname": "PHASE2_710",
     "phase": "PHASE2",
@@ -7631,12 +6417,10 @@ let points = [{
     "x_real": 124.98,
     "y_real": 202.74,
     "z_real": 59.2,
-    "x_img": 1296.58438576349,
-    "y_img": 1463.5369609856252,
+    "x_img": 1296.58,
+    "y_img": 1463.54,
     "level": "level_58.0",
-    "oldName": "PHASE2_343",
-    "x_img_old": 1297.92,
-    "y_img_old": 1283.09
+    "oldName": "PHASE2_343"
 }, {
     "fullname": "PHASE2_711",
     "phase": "PHASE2",
@@ -7644,12 +6428,10 @@ let points = [{
     "x_real": 110.79,
     "y_real": 205.86,
     "z_real": 59.2,
-    "x_img": 864.8564867967857,
-    "y_img": 1373.0441478439416,
+    "x_img": 864.86,
+    "y_img": 1373.04,
     "level": "level_58.0",
-    "oldName": "PHASE2_344",
-    "x_img_old": 869.41,
-    "y_img_old": 1190.93
+    "oldName": "PHASE2_344"
 }, {
     "fullname": "PHASE2_712",
     "phase": "PHASE2",
@@ -7657,12 +6439,10 @@ let points = [{
     "x_real": 111.26,
     "y_real": 211.35,
     "z_real": 59.21,
-    "x_img": 879.1561423650978,
-    "y_img": 1213.8116016427102,
+    "x_img": 879.16,
+    "y_img": 1213.81,
     "level": "level_58.0",
-    "oldName": "PHASE2_345",
-    "x_img_old": 883.78,
-    "y_img_old": 1029.03
+    "oldName": "PHASE2_345"
 }, {
     "fullname": "PHASE2_713",
     "phase": "PHASE2",
@@ -7670,12 +6450,10 @@ let points = [{
     "x_real": 116.9,
     "y_real": 210.65,
     "z_real": 59.2,
-    "x_img": 1050.752009184845,
-    "y_img": 1234.1144763860366,
+    "x_img": 1050.75,
+    "y_img": 1234.11,
     "level": "level_58.0",
-    "oldName": "PHASE2_346",
-    "x_img_old": 1053.87,
-    "y_img_old": 1049.7
+    "oldName": "PHASE2_346"
 }, {
     "fullname": "PHASE2_714",
     "phase": "PHASE2",
@@ -7683,12 +6461,10 @@ let points = [{
     "x_real": 121.21,
     "y_real": 210.65,
     "z_real": 59.2,
-    "x_img": 1181.8828932261763,
-    "y_img": 1234.1144763860366,
+    "x_img": 1181.88,
+    "y_img": 1234.11,
     "level": "level_58.0",
-    "oldName": "PHASE2_347",
-    "x_img_old": 1184.14,
-    "y_img_old": 1049.55
+    "oldName": "PHASE2_347"
 }, {
     "fullname": "PHASE2_715",
     "phase": "PHASE2",
@@ -7696,12 +6472,10 @@ let points = [{
     "x_real": 123.75,
     "y_real": 213.27,
     "z_real": 59.2,
-    "x_img": 1259.161882893226,
-    "y_img": 1158.1237166324427,
+    "x_img": 1259.16,
+    "y_img": 1158.12,
     "level": "level_58.0",
-    "oldName": "PHASE2_348",
-    "x_img_old": 1260.79,
-    "y_img_old": 972.18
+    "oldName": "PHASE2_348"
 }, {
     "fullname": "PHASE2_716",
     "phase": "PHASE2",
@@ -7709,12 +6483,10 @@ let points = [{
     "x_real": 131.41,
     "y_real": 213.57,
     "z_real": 59.21,
-    "x_img": 1492.2158438576344,
-    "y_img": 1149.4224845995896,
+    "x_img": 1492.22,
+    "y_img": 1149.42,
     "level": "level_58.0",
-    "oldName": "PHASE2_349",
-    "x_img_old": 1492.05,
-    "y_img_old": 963.54
+    "oldName": "PHASE2_349"
 }, {
     "fullname": "PHASE2_717",
     "phase": "PHASE2",
@@ -7722,12 +6494,10 @@ let points = [{
     "x_real": 139.08,
     "y_real": 212.23,
     "z_real": 59.2,
-    "x_img": 1725.5740528128586,
-    "y_img": 1188.2879876796715,
+    "x_img": 1725.57,
+    "y_img": 1188.29,
     "level": "level_58.0",
-    "oldName": "PHASE2_350",
-    "x_img_old": 1723.63,
-    "y_img_old": 1002.88
+    "oldName": "PHASE2_350"
 }, {
     "fullname": "PHASE2_718",
     "phase": "PHASE2",
@@ -7735,12 +6505,10 @@ let points = [{
     "x_real": 147.13,
     "y_real": 211.84,
     "z_real": 59.2,
-    "x_img": 1970.4936854190578,
-    "y_img": 1199.5995893223817,
+    "x_img": 1970.49,
+    "y_img": 1199.6,
     "level": "level_58.0",
-    "oldName": "PHASE2_351",
-    "x_img_old": 1966.6,
-    "y_img_old": 1014.57
+    "oldName": "PHASE2_351"
 }, {
     "fullname": "PHASE2_719",
     "phase": "PHASE2",
@@ -7748,12 +6516,10 @@ let points = [{
     "x_real": 150.25,
     "y_real": 239.88,
     "z_real": 24.07,
-    "x_img": 2065.4190585533856,
-    "y_img": 386.3244353182754,
+    "x_img": 2065.42,
+    "y_img": 386.32,
     "level": "level_22.8",
-    "oldName": "PHASE2_352",
-    "x_img_old": 2020.4,
-    "y_img_old": 238.04
+    "oldName": "PHASE2_352"
 }, {
     "fullname": "PHASE2_720",
     "phase": "PHASE2",
@@ -7761,12 +6527,10 @@ let points = [{
     "x_real": 152.86,
     "y_real": 237.78,
     "z_real": 24.06,
-    "x_img": 2144.8277841561417,
-    "y_img": 447.23305954825446,
+    "x_img": 2144.83,
+    "y_img": 447.23,
     "level": "level_22.8",
-    "oldName": "PHASE2_353",
-    "x_img_old": 2092.73,
-    "y_img_old": 297.08
+    "oldName": "PHASE2_353"
 }, {
     "fullname": "PHASE2_721",
     "phase": "PHASE2",
@@ -7774,12 +6538,10 @@ let points = [{
     "x_real": 152.88,
     "y_real": 234.41,
     "z_real": 24.06,
-    "x_img": 2145.4362801377715,
-    "y_img": 544.9768993839834,
+    "x_img": 2145.44,
+    "y_img": 544.98,
     "level": "level_22.8",
-    "oldName": "PHASE2_354",
-    "x_img_old": 2093.46,
-    "y_img_old": 392.06
+    "oldName": "PHASE2_354"
 }, {
     "fullname": "PHASE2_722",
     "phase": "PHASE2",
@@ -7787,12 +6549,10 @@ let points = [{
     "x_real": 151.36,
     "y_real": 234.29,
     "z_real": 24.06,
-    "x_img": 2099.1905855338687,
-    "y_img": 548.457392197125,
+    "x_img": 2099.19,
+    "y_img": 548.46,
     "level": "level_22.8",
-    "oldName": "PHASE2_355",
-    "x_img_old": 2051.25,
-    "y_img_old": 395.17
+    "oldName": "PHASE2_355"
 }, {
     "fullname": "PHASE2_723",
     "phase": "PHASE2",
@@ -7800,12 +6560,10 @@ let points = [{
     "x_real": 153.15,
     "y_real": 231.49,
     "z_real": 24.06,
-    "x_img": 2153.6509758897814,
-    "y_img": 629.6688911704305,
+    "x_img": 2153.65,
+    "y_img": 629.67,
     "level": "level_22.8",
-    "oldName": "PHASE2_356",
-    "x_img_old": 2100.96,
-    "y_img_old": 474.1
+    "oldName": "PHASE2_356"
 }, {
     "fullname": "PHASE2_724",
     "phase": "PHASE2",
@@ -7813,12 +6571,10 @@ let points = [{
     "x_real": 152.4,
     "y_real": 228.16,
     "z_real": 24.07,
-    "x_img": 2130.832376578644,
-    "y_img": 726.2525667351129,
+    "x_img": 2130.83,
+    "y_img": 726.25,
     "level": "level_22.8",
-    "oldName": "PHASE2_357",
-    "x_img_old": 2080.25,
-    "y_img_old": 567.55
+    "oldName": "PHASE2_357"
 }, {
     "fullname": "PHASE2_725",
     "phase": "PHASE2",
@@ -7826,12 +6582,10 @@ let points = [{
     "x_real": 152.18,
     "y_real": 227.22,
     "z_real": 24.07,
-    "x_img": 2124.138920780711,
-    "y_img": 753.5164271047224,
+    "x_img": 2124.14,
+    "y_img": 753.52,
     "level": "level_22.8",
-    "oldName": "PHASE2_358",
-    "x_img_old": 2073.92,
-    "y_img_old": 594.14
+    "oldName": "PHASE2_358"
 }, {
     "fullname": "PHASE2_726",
     "phase": "PHASE2",
@@ -7839,12 +6593,10 @@ let points = [{
     "x_real": 149,
     "y_real": 227.3,
     "z_real": 24.06,
-    "x_img": 2027.3880597014918,
-    "y_img": 751.1960985626274,
+    "x_img": 2027.39,
+    "y_img": 751.2,
     "level": "level_22.8",
-    "oldName": "PHASE2_359",
-    "x_img_old": 1985.82,
-    "y_img_old": 591.83
+    "oldName": "PHASE2_359"
 }, {
     "fullname": "PHASE2_727",
     "phase": "PHASE2",
@@ -7852,12 +6604,10 @@ let points = [{
     "x_real": 149.02,
     "y_real": 228.07,
     "z_real": 24.07,
-    "x_img": 2027.9965556831226,
-    "y_img": 728.8629363449691,
+    "x_img": 2028,
+    "y_img": 728.86,
     "level": "level_22.8",
-    "oldName": "PHASE2_360",
-    "x_img_old": 1986.32,
-    "y_img_old": 570.09
+    "oldName": "PHASE2_360"
 }, {
     "fullname": "PHASE2_728",
     "phase": "PHASE2",
@@ -7865,12 +6615,10 @@ let points = [{
     "x_real": 146.74,
     "y_real": 226.84,
     "z_real": 24.05,
-    "x_img": 1958.628013777267,
-    "y_img": 764.5379876796715,
+    "x_img": 1958.63,
+    "y_img": 764.54,
     "level": "level_22.8",
-    "oldName": "PHASE2_361",
-    "x_img_old": 1923.21,
-    "y_img_old": 604.8
+    "oldName": "PHASE2_361"
 }, {
     "fullname": "PHASE2_729",
     "phase": "PHASE2",
@@ -7878,12 +6626,10 @@ let points = [{
     "x_real": 149.63,
     "y_real": 223.16,
     "z_real": 24.04,
-    "x_img": 2046.5556831228464,
-    "y_img": 871.2731006160166,
+    "x_img": 2046.56,
+    "y_img": 871.27,
     "level": "level_22.8",
-    "oldName": "PHASE2_362",
-    "x_img_old": 2003.41,
-    "y_img_old": 708.3
+    "oldName": "PHASE2_362"
 }, {
     "fullname": "PHASE2_730",
     "phase": "PHASE2",
@@ -7891,12 +6637,10 @@ let points = [{
     "x_real": 149.59,
     "y_real": 219.87,
     "z_real": 24.04,
-    "x_img": 2045.3386911595858,
-    "y_img": 966.6966119096505,
+    "x_img": 2045.34,
+    "y_img": 966.7,
     "level": "level_22.8",
-    "oldName": "PHASE2_363",
-    "x_img_old": 2002.1,
-    "y_img_old": 800.73
+    "oldName": "PHASE2_363"
 }, {
     "fullname": "PHASE2_731",
     "phase": "PHASE2",
@@ -7904,12 +6648,10 @@ let points = [{
     "x_real": 149.18,
     "y_real": 217.46,
     "z_real": 24.04,
-    "x_img": 2032.864523536165,
-    "y_img": 1036.5965092402457,
+    "x_img": 2032.86,
+    "y_img": 1036.6,
     "level": "level_22.8",
-    "oldName": "PHASE2_364",
-    "x_img_old": 1990.8,
-    "y_img_old": 868.46
+    "oldName": "PHASE2_364"
 }, {
     "fullname": "PHASE2_732",
     "phase": "PHASE2",
@@ -7917,12 +6659,10 @@ let points = [{
     "x_real": 148.77,
     "y_real": 213.74,
     "z_real": 24.05,
-    "x_img": 2020.3903559127434,
-    "y_img": 1144.4917864476383,
+    "x_img": 2020.39,
+    "y_img": 1144.49,
     "level": "level_22.8",
-    "oldName": "PHASE2_365",
-    "x_img_old": 1979.49,
-    "y_img_old": 973.03
+    "oldName": "PHASE2_365"
 }, {
     "fullname": "PHASE2_733",
     "phase": "PHASE2",
@@ -7930,12 +6670,10 @@ let points = [{
     "x_real": 147.16,
     "y_real": 214.16,
     "z_real": 24.05,
-    "x_img": 1971.406429391503,
-    "y_img": 1132.3100616016427,
+    "x_img": 1971.41,
+    "y_img": 1132.31,
     "level": "level_22.8",
-    "oldName": "PHASE2_366",
-    "x_img_old": 1934.74,
-    "y_img_old": 961.24
+    "oldName": "PHASE2_366"
 }, {
     "fullname": "PHASE2_734",
     "phase": "PHASE2",
@@ -7943,12 +6681,10 @@ let points = [{
     "x_real": 146.72,
     "y_real": 209.22,
     "z_real": 24.03,
-    "x_img": 1958.0195177956361,
-    "y_img": 1275.5903490759747,
+    "x_img": 1958.02,
+    "y_img": 1275.59,
     "level": "level_22.8",
-    "oldName": "PHASE2_367",
-    "x_img_old": 1922.71,
-    "y_img_old": 1100.06
+    "oldName": "PHASE2_367"
 }, {
     "fullname": "PHASE2_735",
     "phase": "PHASE2",
@@ -7956,12 +6692,10 @@ let points = [{
     "x_real": 150,
     "y_real": 211.05,
     "z_real": 24.05,
-    "x_img": 2057.8128587830074,
-    "y_img": 1222.5128336755643,
+    "x_img": 2057.81,
+    "y_img": 1222.51,
     "level": "level_22.8",
-    "oldName": "PHASE2_368",
-    "x_img_old": 2013.6,
-    "y_img_old": 1048.72
+    "oldName": "PHASE2_368"
 }, {
     "fullname": "PHASE2_736",
     "phase": "PHASE2",
@@ -7969,12 +6703,10 @@ let points = [{
     "x_real": 149.62,
     "y_real": 207.71,
     "z_real": 24.05,
-    "x_img": 2046.251435132031,
-    "y_img": 1319.3865503080078,
+    "x_img": 2046.25,
+    "y_img": 1319.39,
     "level": "level_22.8",
-    "oldName": "PHASE2_369",
-    "x_img_old": 2002.92,
-    "y_img_old": 1142.59
+    "oldName": "PHASE2_369"
 }, {
     "fullname": "PHASE2_737",
     "phase": "PHASE2",
@@ -7982,12 +6714,10 @@ let points = [{
     "x_real": 149.51,
     "y_real": 204.76,
     "z_real": 24.05,
-    "x_img": 2042.9047072330645,
-    "y_img": 1404.9486652977412,
+    "x_img": 2042.9,
+    "y_img": 1404.95,
     "level": "level_22.8",
-    "oldName": "PHASE2_370",
-    "x_img_old": 1999.87,
-    "y_img_old": 1225.54
+    "oldName": "PHASE2_370"
 }, {
     "fullname": "PHASE2_738",
     "phase": "PHASE2",
@@ -7995,12 +6725,10 @@ let points = [{
     "x_real": 147.1,
     "y_real": 204.72,
     "z_real": 24.04,
-    "x_img": 1969.5809414466116,
-    "y_img": 1406.1088295687878,
+    "x_img": 1969.58,
+    "y_img": 1406.11,
     "level": "level_22.8",
-    "oldName": "PHASE2_371",
-    "x_img_old": 1933.32,
-    "y_img_old": 1226.66
+    "oldName": "PHASE2_371"
 }, {
     "fullname": "PHASE2_739",
     "phase": "PHASE2",
@@ -8008,12 +6736,10 @@ let points = [{
     "x_real": 153.79,
     "y_real": 225.05,
     "z_real": 24.06,
-    "x_img": 2173.1228473019505,
-    "y_img": 816.4553388090344,
+    "x_img": 2173.12,
+    "y_img": 816.46,
     "level": "level_22.8",
-    "oldName": "PHASE2_372",
-    "x_img_old": 2118.6,
-    "y_img_old": 654.94
+    "oldName": "PHASE2_372"
 }, {
     "fullname": "PHASE2_740",
     "phase": "PHASE2",
@@ -8021,12 +6747,10 @@ let points = [{
     "x_real": 152.04,
     "y_real": 220.31,
     "z_real": 24.05,
-    "x_img": 2119.8794489092984,
-    "y_img": 953.9348049281307,
+    "x_img": 2119.88,
+    "y_img": 953.93,
     "level": "level_22.8",
-    "oldName": "PHASE2_373",
-    "x_img_old": 2070.12,
-    "y_img_old": 788.48
+    "oldName": "PHASE2_373"
 }, {
     "fullname": "PHASE2_741",
     "phase": "PHASE2",
@@ -8034,12 +6758,10 @@ let points = [{
     "x_real": 153.4,
     "y_real": 216.22,
     "z_real": 24.05,
-    "x_img": 2161.2571756601596,
-    "y_img": 1072.5616016427102,
+    "x_img": 2161.26,
+    "y_img": 1072.56,
     "level": "level_22.8",
-    "oldName": "PHASE2_374",
-    "x_img_old": 2107.69,
-    "y_img_old": 903.36
+    "oldName": "PHASE2_374"
 }, {
     "fullname": "PHASE2_742",
     "phase": "PHASE2",
@@ -8047,12 +6769,10 @@ let points = [{
     "x_real": 152.29,
     "y_real": 213.26,
     "z_real": 24.05,
-    "x_img": 2127.4856486796775,
-    "y_img": 1158.4137577002057,
+    "x_img": 2127.49,
+    "y_img": 1158.41,
     "level": "level_22.8",
-    "oldName": "PHASE2_375",
-    "x_img_old": 2076.97,
-    "y_img_old": 986.69
+    "oldName": "PHASE2_375"
 }, {
     "fullname": "PHASE2_743",
     "phase": "PHASE2",
@@ -8060,12 +6780,10 @@ let points = [{
     "x_real": 152.59,
     "y_real": 209.61,
     "z_real": 24.05,
-    "x_img": 2136.6130884041327,
-    "y_img": 1264.2787474332645,
+    "x_img": 2136.61,
+    "y_img": 1264.28,
     "level": "level_22.8",
-    "oldName": "PHASE2_376",
-    "x_img_old": 2085.39,
-    "y_img_old": 1089.2
+    "oldName": "PHASE2_376"
 }, {
     "fullname": "PHASE2_744",
     "phase": "PHASE2",
@@ -8073,12 +6791,10 @@ let points = [{
     "x_real": 152.15,
     "y_real": 207.05,
     "z_real": 24.05,
-    "x_img": 2123.226176808266,
-    "y_img": 1338.5292607802867,
+    "x_img": 2123.23,
+    "y_img": 1338.53,
     "level": "level_22.8",
-    "oldName": "PHASE2_377",
-    "x_img_old": 2073.21,
-    "y_img_old": 1161.25
+    "oldName": "PHASE2_377"
 }, {
     "fullname": "PHASE2_745",
     "phase": "PHASE2",
@@ -8086,12 +6802,10 @@ let points = [{
     "x_real": 149.72,
     "y_real": 234.27,
     "z_real": 24.06,
-    "x_img": 2049.293915040183,
-    "y_img": 549.0374743326483,
+    "x_img": 2049.29,
+    "y_img": 549.04,
     "level": "level_22.8",
-    "oldName": "PHASE2_378",
-    "x_img_old": 2005.7,
-    "y_img_old": 395.88
+    "oldName": "PHASE2_378"
 }, {
     "fullname": "PHASE2_746",
     "phase": "PHASE2",
@@ -8099,12 +6813,10 @@ let points = [{
     "x_real": 150.42,
     "y_real": 237.59,
     "z_real": 24.06,
-    "x_img": 2070.5912743972435,
-    "y_img": 452.743839835729,
+    "x_img": 2070.59,
+    "y_img": 452.74,
     "level": "level_22.8",
-    "oldName": "PHASE2_379",
-    "x_img_old": 2025.11,
-    "y_img_old": 302.57
+    "oldName": "PHASE2_379"
 }, {
     "fullname": "PHASE2_747",
     "phase": "PHASE2",
@@ -8112,12 +6824,10 @@ let points = [{
     "x_real": 149.27,
     "y_real": 231.18,
     "z_real": 24.06,
-    "x_img": 2035.6027554535008,
-    "y_img": 638.6601642710466,
+    "x_img": 2035.6,
+    "y_img": 638.66,
     "level": "level_22.8",
-    "oldName": "PHASE2_380",
-    "x_img_old": 1993.43,
-    "y_img_old": 482.8
+    "oldName": "PHASE2_380"
 }, {
     "fullname": "PHASE2_748",
     "phase": "PHASE2",
@@ -8125,12 +6835,10 @@ let points = [{
     "x_real": 149.53,
     "y_real": 228.82,
     "z_real": 24.06,
-    "x_img": 2043.5132032146953,
-    "y_img": 707.109856262834,
+    "x_img": 2043.51,
+    "y_img": 707.11,
     "level": "level_22.8",
-    "oldName": "PHASE2_381",
-    "x_img_old": 2000.57,
-    "y_img_old": 549.03
+    "oldName": "PHASE2_381"
 }, {
     "fullname": "PHASE2_749",
     "phase": "PHASE2",
@@ -8138,12 +6846,10 @@ let points = [{
     "x_real": 147.21,
     "y_real": 228.77,
     "z_real": 24.05,
-    "x_img": 1972.927669345579,
-    "y_img": 708.5600616016418,
+    "x_img": 1972.93,
+    "y_img": 708.56,
     "level": "level_22.8",
-    "oldName": "PHASE2_382",
-    "x_img_old": 1936.13,
-    "y_img_old": 550.5
+    "oldName": "PHASE2_382"
 }, {
     "fullname": "PHASE2_750",
     "phase": "PHASE2",
@@ -8151,12 +6857,10 @@ let points = [{
     "x_real": 146.93,
     "y_real": 230.62,
     "z_real": 24.05,
-    "x_img": 1964.4087256027547,
-    "y_img": 654.902464065708,
+    "x_img": 1964.41,
+    "y_img": 654.9,
     "level": "level_22.8",
-    "oldName": "PHASE2_383",
-    "x_img_old": 1928.43,
-    "y_img_old": 498.41
+    "oldName": "PHASE2_383"
 }, {
     "fullname": "PHASE2_751",
     "phase": "PHASE2",
@@ -8164,12 +6868,10 @@ let points = [{
     "x_real": 153.35,
     "y_real": 238.96,
     "z_real": 24.06,
-    "x_img": 2159.7359357060836,
-    "y_img": 413.00821355236076,
+    "x_img": 2159.74,
+    "y_img": 413.01,
     "level": "level_22.8",
-    "oldName": "PHASE2_384",
-    "x_img_old": 2106.48,
-    "y_img_old": 263.91
+    "oldName": "PHASE2_384"
 }, {
     "fullname": "PHASE2_752",
     "phase": "PHASE2",
@@ -8177,12 +6879,10 @@ let points = [{
     "x_real": 154.51,
     "y_real": 238.99,
     "z_real": 24.06,
-    "x_img": 2195.0287026406418,
-    "y_img": 412.13809034907536,
+    "x_img": 2195.03,
+    "y_img": 412.14,
     "level": "level_22.8",
-    "oldName": "PHASE2_385",
-    "x_img_old": 2138.67,
-    "y_img_old": 263.08
+    "oldName": "PHASE2_385"
 }, {
     "fullname": "PHASE2_753",
     "phase": "PHASE2",
@@ -8190,12 +6890,10 @@ let points = [{
     "x_real": 156.24,
     "y_real": 241.54,
     "z_real": 24.07,
-    "x_img": 2247.663605051664,
-    "y_img": 338.17761806981525,
+    "x_img": 2247.66,
+    "y_img": 338.18,
     "level": "level_22.8",
-    "oldName": "PHASE2_386",
-    "x_img_old": 2186.52,
-    "y_img_old": 191.51
+    "oldName": "PHASE2_386"
 }, {
     "fullname": "PHASE2_754",
     "phase": "PHASE2",
@@ -8203,12 +6901,10 @@ let points = [{
     "x_real": 159.28,
     "y_real": 240.3,
     "z_real": 24.06,
-    "x_img": 2340.1549942594706,
-    "y_img": 374.14271047227885,
+    "x_img": 2340.15,
+    "y_img": 374.14,
     "level": "level_22.8",
-    "oldName": "PHASE2_387",
-    "x_img_old": 2270.8,
-    "y_img_old": 226.41
+    "oldName": "PHASE2_387"
 }, {
     "fullname": "PHASE2_755",
     "phase": "PHASE2",
@@ -8216,12 +6912,10 @@ let points = [{
     "x_real": 161.58,
     "y_real": 240.92,
     "z_real": 24.06,
-    "x_img": 2410.132032146957,
-    "y_img": 356.1601642710475,
+    "x_img": 2410.13,
+    "y_img": 356.16,
     "level": "level_22.8",
-    "oldName": "PHASE2_388",
-    "x_img_old": 2334.67,
-    "y_img_old": 208.91
+    "oldName": "PHASE2_388"
 }, {
     "fullname": "PHASE2_756",
     "phase": "PHASE2",
@@ -8229,12 +6923,10 @@ let points = [{
     "x_real": 159.68,
     "y_real": 237.62,
     "z_real": 24.06,
-    "x_img": 2352.324913892077,
-    "y_img": 451.8737166324436,
+    "x_img": 2352.32,
+    "y_img": 451.87,
     "level": "level_22.8",
-    "oldName": "PHASE2_389",
-    "x_img_old": 2281.95,
-    "y_img_old": 301.62
+    "oldName": "PHASE2_389"
 }, {
     "fullname": "PHASE2_757",
     "phase": "PHASE2",
@@ -8242,12 +6934,10 @@ let points = [{
     "x_real": 160.4,
     "y_real": 234.74,
     "z_real": 24.06,
-    "x_img": 2374.230769230768,
-    "y_img": 535.4055441478431,
+    "x_img": 2374.23,
+    "y_img": 535.41,
     "level": "level_22.8",
-    "oldName": "PHASE2_390",
-    "x_img_old": 2301.93,
-    "y_img_old": 382.61
+    "oldName": "PHASE2_390"
 }, {
     "fullname": "PHASE2_758",
     "phase": "PHASE2",
@@ -8255,12 +6945,10 @@ let points = [{
     "x_real": 160.33,
     "y_real": 231.75,
     "z_real": 24.06,
-    "x_img": 2372.1010332950623,
-    "y_img": 622.127823408624,
+    "x_img": 2372.1,
+    "y_img": 622.13,
     "level": "level_22.8",
-    "oldName": "PHASE2_391",
-    "x_img_old": 2299.87,
-    "y_img_old": 466.79
+    "oldName": "PHASE2_391"
 }, {
     "fullname": "PHASE2_759",
     "phase": "PHASE2",
@@ -8268,12 +6956,10 @@ let points = [{
     "x_real": 162.2,
     "y_real": 232.57,
     "z_real": 24.06,
-    "x_img": 2428.9954075774954,
-    "y_img": 598.344455852156,
+    "x_img": 2429,
+    "y_img": 598.34,
     "level": "level_22.8",
-    "oldName": "PHASE2_392",
-    "x_img_old": 2351.73,
-    "y_img_old": 443.77
+    "oldName": "PHASE2_392"
 }, {
     "fullname": "PHASE2_760",
     "phase": "PHASE2",
@@ -8281,12 +6967,10 @@ let points = [{
     "x_real": 159.88,
     "y_real": 228.73,
     "z_real": 24.06,
-    "x_img": 2358.40987370838,
-    "y_img": 709.7202258726902,
+    "x_img": 2358.41,
+    "y_img": 709.72,
     "level": "level_22.8",
-    "oldName": "PHASE2_393",
-    "x_img_old": 2287.5,
-    "y_img_old": 551.55
+    "oldName": "PHASE2_393"
 }, {
     "fullname": "PHASE2_761",
     "phase": "PHASE2",
@@ -8294,12 +6978,10 @@ let points = [{
     "x_real": 156.24,
     "y_real": 229.59,
     "z_real": 24.07,
-    "x_img": 2247.663605051664,
-    "y_img": 684.7766940451738,
+    "x_img": 2247.66,
+    "y_img": 684.78,
     "level": "level_22.8",
-    "oldName": "PHASE2_394",
-    "x_img_old": 2186.62,
-    "y_img_old": 527.44
+    "oldName": "PHASE2_394"
 }, {
     "fullname": "PHASE2_762",
     "phase": "PHASE2",
@@ -8307,12 +6989,10 @@ let points = [{
     "x_real": 155.16,
     "y_real": 232.14,
     "z_real": 24.06,
-    "x_img": 2214.804822043627,
-    "y_img": 610.8162217659137,
+    "x_img": 2214.8,
+    "y_img": 610.82,
     "level": "level_22.8",
-    "oldName": "PHASE2_395",
-    "x_img_old": 2156.75,
-    "y_img_old": 455.67
+    "oldName": "PHASE2_395"
 }, {
     "fullname": "PHASE2_763",
     "phase": "PHASE2",
@@ -8320,12 +7000,10 @@ let points = [{
     "x_real": 155.35,
     "y_real": 236.52,
     "z_real": 24.06,
-    "x_img": 2220.585533869115,
-    "y_img": 483.77823408624226,
+    "x_img": 2220.59,
+    "y_img": 483.78,
     "level": "level_22.8",
-    "oldName": "PHASE2_396",
-    "x_img_old": 2161.81,
-    "y_img_old": 332.46
+    "oldName": "PHASE2_396"
 }, {
     "fullname": "PHASE2_764",
     "phase": "PHASE2",
@@ -8333,12 +7011,10 @@ let points = [{
     "x_real": 156.36,
     "y_real": 227.79,
     "z_real": 24.07,
-    "x_img": 2251.314580941446,
-    "y_img": 736.9840862422998,
+    "x_img": 2251.31,
+    "y_img": 736.98,
     "level": "level_22.8",
-    "oldName": "PHASE2_397",
-    "x_img_old": 2189.98,
-    "y_img_old": 578.15
+    "oldName": "PHASE2_397"
 }, {
     "fullname": "PHASE2_765",
     "phase": "PHASE2",
@@ -8346,12 +7022,10 @@ let points = [{
     "x_real": 154.35,
     "y_real": 228.92,
     "z_real": 24.06,
-    "x_img": 2190.1607347875993,
-    "y_img": 704.2094455852157,
+    "x_img": 2190.16,
+    "y_img": 704.21,
     "level": "level_22.8",
-    "oldName": "PHASE2_398",
-    "x_img_old": 2134.27,
-    "y_img_old": 546.35
+    "oldName": "PHASE2_398"
 }, {
     "fullname": "PHASE2_766",
     "phase": "PHASE2",
@@ -8359,12 +7033,10 @@ let points = [{
     "x_real": 153.38,
     "y_real": 228.91,
     "z_real": 24.06,
-    "x_img": 2160.648679678529,
-    "y_img": 704.4994866529769,
+    "x_img": 2160.65,
+    "y_img": 704.5,
     "level": "level_22.8",
-    "oldName": "PHASE2_399",
-    "x_img_old": 2107.17,
-    "y_img_old": 546.46
+    "oldName": "PHASE2_399"
 }, {
     "fullname": "PHASE2_767",
     "phase": "PHASE2",
@@ -8372,12 +7044,10 @@ let points = [{
     "x_real": 156.08,
     "y_real": 201.92,
     "z_real": 24.05,
-    "x_img": 2242.7956371986215,
-    "y_img": 1487.320328542094,
+    "x_img": 2242.8,
+    "y_img": 1487.32,
     "level": "level_22.8",
-    "oldName": "PHASE2_400",
-    "x_img_old": 2182.16,
-    "y_img_old": 1305.38
+    "oldName": "PHASE2_400"
 }, {
     "fullname": "PHASE2_768",
     "phase": "PHASE2",
@@ -8385,12 +7055,10 @@ let points = [{
     "x_real": 156.77,
     "y_real": 202.95,
     "z_real": 24.06,
-    "x_img": 2263.7887485648675,
-    "y_img": 1457.4460985626283,
+    "x_img": 2263.79,
+    "y_img": 1457.45,
     "level": "level_22.8",
-    "oldName": "PHASE2_401",
-    "x_img_old": 2201.15,
-    "y_img_old": 1276.37
+    "oldName": "PHASE2_401"
 }, {
     "fullname": "PHASE2_769",
     "phase": "PHASE2",
@@ -8398,12 +7066,10 @@ let points = [{
     "x_real": 155.21,
     "y_real": 204.69,
     "z_real": 24.06,
-    "x_img": 2216.326061997703,
-    "y_img": 1406.9789527720732,
+    "x_img": 2216.33,
+    "y_img": 1406.98,
     "level": "level_22.8",
-    "oldName": "PHASE2_402",
-    "x_img_old": 2157.93,
-    "y_img_old": 1227.42
+    "oldName": "PHASE2_402"
 }, {
     "fullname": "PHASE2_770",
     "phase": "PHASE2",
@@ -8411,12 +7077,10 @@ let points = [{
     "x_real": 155.54,
     "y_real": 206.96,
     "z_real": 24.05,
-    "x_img": 2226.3662456946026,
-    "y_img": 1341.1396303901429,
+    "x_img": 2226.37,
+    "y_img": 1341.14,
     "level": "level_22.8",
-    "oldName": "PHASE2_403",
-    "x_img_old": 2167.17,
-    "y_img_old": 1163.55
+    "oldName": "PHASE2_403"
 }, {
     "fullname": "PHASE2_771",
     "phase": "PHASE2",
@@ -8424,12 +7088,10 @@ let points = [{
     "x_real": 154.96,
     "y_real": 210.38,
     "z_real": 24.06,
-    "x_img": 2208.719862227324,
-    "y_img": 1241.9455852156052,
+    "x_img": 2208.72,
+    "y_img": 1241.95,
     "level": "level_22.8",
-    "oldName": "PHASE2_404",
-    "x_img_old": 2151.16,
-    "y_img_old": 1067.57
+    "oldName": "PHASE2_404"
 }, {
     "fullname": "PHASE2_772",
     "phase": "PHASE2",
@@ -8437,12 +7099,10 @@ let points = [{
     "x_real": 156.01,
     "y_real": 211.98,
     "z_real": 24.06,
-    "x_img": 2240.6659012629148,
-    "y_img": 1195.5390143737168,
+    "x_img": 2240.67,
+    "y_img": 1195.54,
     "level": "level_22.8",
-    "oldName": "PHASE2_405",
-    "x_img_old": 2180.13,
-    "y_img_old": 1022.62
+    "oldName": "PHASE2_405"
 }, {
     "fullname": "PHASE2_773",
     "phase": "PHASE2",
@@ -8450,12 +7110,10 @@ let points = [{
     "x_real": 158.95,
     "y_real": 209.25,
     "z_real": 24.05,
-    "x_img": 2330.1148105625703,
-    "y_img": 1274.7202258726893,
+    "x_img": 2330.11,
+    "y_img": 1274.72,
     "level": "level_22.8",
-    "oldName": "PHASE2_406",
-    "x_img_old": 2261.65,
-    "y_img_old": 1099.26
+    "oldName": "PHASE2_406"
 }, {
     "fullname": "PHASE2_774",
     "phase": "PHASE2",
@@ -8463,12 +7121,10 @@ let points = [{
     "x_real": 155.15,
     "y_real": 213.51,
     "z_real": 24.06,
-    "x_img": 2214.5005740528118,
-    "y_img": 1151.1627310061604,
+    "x_img": 2214.5,
+    "y_img": 1151.16,
     "level": "level_22.8",
-    "oldName": "PHASE2_407",
-    "x_img_old": 2156.39,
-    "y_img_old": 979.44
+    "oldName": "PHASE2_407"
 }, {
     "fullname": "PHASE2_775",
     "phase": "PHASE2",
@@ -8476,12 +7132,10 @@ let points = [{
     "x_real": 157.98,
     "y_real": 213.4,
     "z_real": 24.15,
-    "x_img": 2300.6027554535,
-    "y_img": 1154.3531827515399,
+    "x_img": 2300.6,
+    "y_img": 1154.35,
     "level": "level_22.8",
-    "oldName": "PHASE2_408",
-    "x_img_old": 2234.75,
-    "y_img_old": 982.5
+    "oldName": "PHASE2_408"
 }, {
     "fullname": "PHASE2_776",
     "phase": "PHASE2",
@@ -8489,12 +7143,10 @@ let points = [{
     "x_real": 160.29,
     "y_real": 213.81,
     "z_real": 24.06,
-    "x_img": 2370.8840413318007,
-    "y_img": 1142.4614989733054,
+    "x_img": 2370.88,
+    "y_img": 1142.46,
     "level": "level_22.8",
-    "oldName": "PHASE2_409",
-    "x_img_old": 2298.89,
-    "y_img_old": 970.97
+    "oldName": "PHASE2_409"
 }, {
     "fullname": "PHASE2_777",
     "phase": "PHASE2",
@@ -8502,12 +7154,10 @@ let points = [{
     "x_real": 160.74,
     "y_real": 211.57,
     "z_real": 24.06,
-    "x_img": 2384.575200918484,
-    "y_img": 1207.4306981519503,
+    "x_img": 2384.58,
+    "y_img": 1207.43,
     "level": "level_22.8",
-    "oldName": "PHASE2_410",
-    "x_img_old": 2311.44,
-    "y_img_old": 1033.99
+    "oldName": "PHASE2_410"
 }, {
     "fullname": "PHASE2_778",
     "phase": "PHASE2",
@@ -8515,12 +7165,10 @@ let points = [{
     "x_real": 162.99,
     "y_real": 207.94,
     "z_real": 24.07,
-    "x_img": 2453.0309988518934,
-    "y_img": 1312.7156057494867,
+    "x_img": 2453.03,
+    "y_img": 1312.72,
     "level": "level_22.8",
-    "oldName": "PHASE2_411",
-    "x_img_old": 2373.75,
-    "y_img_old": 1135.99
+    "oldName": "PHASE2_411"
 }, {
     "fullname": "PHASE2_779",
     "phase": "PHASE2",
@@ -8528,12 +7176,10 @@ let points = [{
     "x_real": 164.04,
     "y_real": 207.93,
     "z_real": 24.06,
-    "x_img": 2484.977037887484,
-    "y_img": 1313.005646817248,
+    "x_img": 2484.98,
+    "y_img": 1313.01,
     "level": "level_22.8",
-    "oldName": "PHASE2_412",
-    "x_img_old": 2402.87,
-    "y_img_old": 1136.34
+    "oldName": "PHASE2_412"
 }, {
     "fullname": "PHASE2_780",
     "phase": "PHASE2",
@@ -8541,12 +7187,10 @@ let points = [{
     "x_real": 160.54,
     "y_real": 208.68,
     "z_real": 24.06,
-    "x_img": 2378.49024110218,
-    "y_img": 1291.252566735112,
+    "x_img": 2378.49,
+    "y_img": 1291.25,
     "level": "level_22.8",
-    "oldName": "PHASE2_413",
-    "x_img_old": 2305.64,
-    "y_img_old": 1115.24
+    "oldName": "PHASE2_413"
 }, {
     "fullname": "PHASE2_781",
     "phase": "PHASE2",
@@ -8554,12 +7198,10 @@ let points = [{
     "x_real": 160.06,
     "y_real": 205.11,
     "z_real": 24.06,
-    "x_img": 2363.8863375430524,
-    "y_img": 1394.7972279260775,
+    "x_img": 2363.89,
+    "y_img": 1394.8,
     "level": "level_22.8",
-    "oldName": "PHASE2_414",
-    "x_img_old": 2292.58,
-    "y_img_old": 1215.78
+    "oldName": "PHASE2_414"
 }, {
     "fullname": "PHASE2_782",
     "phase": "PHASE2",
@@ -8567,12 +7209,10 @@ let points = [{
     "x_real": 160.32,
     "y_real": 203.23,
     "z_real": 24.06,
-    "x_img": 2371.796785304247,
-    "y_img": 1449.3249486652976,
+    "x_img": 2371.8,
+    "y_img": 1449.32,
     "level": "level_22.8",
-    "oldName": "PHASE2_415",
-    "x_img_old": 2299.59,
-    "y_img_old": 1268.57
+    "oldName": "PHASE2_415"
 }, {
     "fullname": "PHASE2_783",
     "phase": "PHASE2",
@@ -8580,12 +7220,10 @@ let points = [{
     "x_real": 117.71,
     "y_real": 215.57,
     "z_real": 24.03,
-    "x_img": 1075.3960964408725,
-    "y_img": 1091.4142710472279,
+    "x_img": 1075.4,
+    "y_img": 1091.41,
     "level": "level_22.8",
-    "oldName": "PHASE2_416",
-    "x_img_old": 1118.48,
-    "y_img_old": 921.62
+    "oldName": "PHASE2_416"
 }, {
     "fullname": "PHASE2_784",
     "phase": "PHASE2",
@@ -8593,12 +7231,10 @@ let points = [{
     "x_real": 115.08,
     "y_real": 216.63,
     "z_real": 24.04,
-    "x_img": 995.3788748564866,
-    "y_img": 1060.6699178644758,
+    "x_img": 995.38,
+    "y_img": 1060.67,
     "level": "level_22.8",
-    "oldName": "PHASE2_417",
-    "x_img_old": 1045.59,
-    "y_img_old": 891.83
+    "oldName": "PHASE2_417"
 }, {
     "fullname": "PHASE2_785",
     "phase": "PHASE2",
@@ -8606,12 +7242,10 @@ let points = [{
     "x_real": 118.99,
     "y_real": 215.79,
     "z_real": 26.56,
-    "x_img": 1114.339839265212,
-    "y_img": 1085.033367556468,
+    "x_img": 1114.34,
+    "y_img": 1085.03,
     "level": "level_22.8",
-    "oldName": "PHASE2_418",
-    "x_img_old": 1153.87,
-    "y_img_old": 915.43
+    "oldName": "PHASE2_418"
 }, {
     "fullname": "PHASE2_786",
     "phase": "PHASE2",
@@ -8619,12 +7253,10 @@ let points = [{
     "x_real": 164.42,
     "y_real": 207.09,
     "z_real": 29.09,
-    "x_img": 2496.5384615384596,
-    "y_img": 1337.36909650924,
+    "x_img": 2496.54,
+    "y_img": 1337.37,
     "level": "level_27.8",
-    "oldName": "PHASE2_419",
-    "x_img_old": 2552.07,
-    "y_img_old": 1176.84
+    "oldName": "PHASE2_419"
 }, {
     "fullname": "PHASE2_787",
     "phase": "PHASE2",
@@ -8632,12 +7264,10 @@ let points = [{
     "x_real": 164.38,
     "y_real": 209.02,
     "z_real": 29.08,
-    "x_img": 2495.321469575199,
-    "y_img": 1281.3911704312104,
+    "x_img": 2495.32,
+    "y_img": 1281.39,
     "level": "level_27.8",
-    "oldName": "PHASE2_420",
-    "x_img_old": 2550.97,
-    "y_img_old": 1117.16
+    "oldName": "PHASE2_420"
 }, {
     "fullname": "PHASE2_788",
     "phase": "PHASE2",
@@ -8645,12 +7275,10 @@ let points = [{
     "x_real": 164.51,
     "y_real": 211.32,
     "z_real": 29.08,
-    "x_img": 2499.2766934557962,
-    "y_img": 1214.6817248459956,
+    "x_img": 2499.28,
+    "y_img": 1214.68,
     "level": "level_27.8",
-    "oldName": "PHASE2_421",
-    "x_img_old": 2554.82,
-    "y_img_old": 1046.06
+    "oldName": "PHASE2_421"
 }, {
     "fullname": "PHASE2_789",
     "phase": "PHASE2",
@@ -8658,12 +7286,10 @@ let points = [{
     "x_real": 164.1,
     "y_real": 213.76,
     "z_real": 29.09,
-    "x_img": 2486.8025258323746,
-    "y_img": 1143.911704312115,
+    "x_img": 2486.8,
+    "y_img": 1143.91,
     "level": "level_27.8",
-    "oldName": "PHASE2_422",
-    "x_img_old": 2542.14,
-    "y_img_old": 970.64
+    "oldName": "PHASE2_422"
 }, {
     "fullname": "PHASE2_790",
     "phase": "PHASE2",
@@ -8671,12 +7297,10 @@ let points = [{
     "x_real": 164.43,
     "y_real": 215.03,
     "z_real": 29.07,
-    "x_img": 2496.842709529276,
-    "y_img": 1107.0764887063651,
+    "x_img": 2496.84,
+    "y_img": 1107.08,
     "level": "level_27.8",
-    "oldName": "PHASE2_423",
-    "x_img_old": 2552.57,
-    "y_img_old": 931.41
+    "oldName": "PHASE2_423"
 }, {
     "fullname": "PHASE2_791",
     "phase": "PHASE2",
@@ -8684,12 +7308,10 @@ let points = [{
     "x_real": 166.75,
     "y_real": 215.31,
     "z_real": 29.06,
-    "x_img": 2567.4282433983913,
-    "y_img": 1098.9553388090344,
+    "x_img": 2567.43,
+    "y_img": 1098.96,
     "level": "level_27.8",
-    "oldName": "PHASE2_424",
-    "x_img_old": 2624.15,
-    "y_img_old": 922.75
+    "oldName": "PHASE2_424"
 }, {
     "fullname": "PHASE2_792",
     "phase": "PHASE2",
@@ -8697,12 +7319,10 @@ let points = [{
     "x_real": 166.61,
     "y_real": 220.42,
     "z_real": 29.06,
-    "x_img": 2563.1687715269795,
-    "y_img": 950.7443531827512,
+    "x_img": 2563.17,
+    "y_img": 950.74,
     "level": "level_27.8",
-    "oldName": "PHASE2_425",
-    "x_img_old": 2619.79,
-    "y_img_old": 764.65
+    "oldName": "PHASE2_425"
 }, {
     "fullname": "PHASE2_793",
     "phase": "PHASE2",
@@ -8710,12 +7330,10 @@ let points = [{
     "x_real": 164.47,
     "y_real": 206.79,
     "z_real": 46.61,
-    "x_img": 2498.0597014925356,
-    "y_img": 1346.070328542094,
+    "x_img": 2498.06,
+    "y_img": 1346.07,
     "level": "level_47.8",
-    "oldName": "PHASE2_426",
-    "x_img_old": 2490.17,
-    "y_img_old": 1163.54
+    "oldName": "PHASE2_426"
 }, {
     "fullname": "PHASE2_794",
     "phase": "PHASE2",
@@ -8723,12 +7341,10 @@ let points = [{
     "x_real": 164.27,
     "y_real": 208.19,
     "z_real": 46.61,
-    "x_img": 2491.9747416762334,
-    "y_img": 1305.4645790554414,
+    "x_img": 2491.97,
+    "y_img": 1305.46,
     "level": "level_47.8",
-    "oldName": "PHASE2_427",
-    "x_img_old": 2484.15,
-    "y_img_old": 1122.11
+    "oldName": "PHASE2_427"
 }, {
     "fullname": "PHASE2_795",
     "phase": "PHASE2",
@@ -8736,12 +7352,10 @@ let points = [{
     "x_real": 164.43,
     "y_real": 210.33,
     "z_real": 46.59,
-    "x_img": 2496.842709529276,
-    "y_img": 1243.395790554414,
+    "x_img": 2496.84,
+    "y_img": 1243.4,
     "level": "level_47.8",
-    "oldName": "PHASE2_428",
-    "x_img_old": 2488.88,
-    "y_img_old": 1059.17
+    "oldName": "PHASE2_428"
 }, {
     "fullname": "PHASE2_796",
     "phase": "PHASE2",
@@ -8749,12 +7363,10 @@ let points = [{
     "x_real": 164.37,
     "y_real": 212.7,
     "z_real": 46.6,
-    "x_img": 2495.0172215843845,
-    "y_img": 1174.6560574948662,
+    "x_img": 2495.02,
+    "y_img": 1174.66,
     "level": "level_47.8",
-    "oldName": "PHASE2_429",
-    "x_img_old": 2487.19,
-    "y_img_old": 989.12
+    "oldName": "PHASE2_429"
 }, {
     "fullname": "PHASE2_797",
     "phase": "PHASE2",
@@ -8762,12 +7374,10 @@ let points = [{
     "x_real": 98.03,
     "y_real": 206.09,
     "z_real": 26.57,
-    "x_img": 476.6360505166481,
-    "y_img": 1366.3732032854205,
+    "x_img": 476.64,
+    "y_img": 1366.37,
     "level": "level_22.8",
-    "oldName": "PHASE2_430",
-    "x_img_old": 573.01,
-    "y_img_old": 1188.22
+    "oldName": "PHASE2_430"
 }, {
     "fullname": "PHASE2_798",
     "phase": "PHASE2",
@@ -8775,12 +7385,10 @@ let points = [{
     "x_real": 95.77,
     "y_real": 206.04,
     "z_real": 26.57,
-    "x_img": 407.8760045924232,
-    "y_img": 1367.82340862423,
+    "x_img": 407.88,
+    "y_img": 1367.82,
     "level": "level_22.8",
-    "oldName": "PHASE2_431",
-    "x_img_old": 510.31,
-    "y_img_old": 1189.55
+    "oldName": "PHASE2_431"
 }, {
     "fullname": "PHASE2_799",
     "phase": "PHASE2",
@@ -8788,12 +7396,10 @@ let points = [{
     "x_real": 96.99,
     "y_real": 201.9,
     "z_real": 29.07,
-    "x_img": 444.9942594718718,
-    "y_img": 1487.9004106776174,
+    "x_img": 444.99,
+    "y_img": 1487.9,
     "level": "level_27.8",
-    "oldName": "PHASE2_432",
-    "x_img_old": 468.45,
-    "y_img_old": 1337.15
+    "oldName": "PHASE2_432"
 }, {
     "fullname": "PHASE2_800",
     "phase": "PHASE2",
@@ -8801,12 +7407,10 @@ let points = [{
     "x_real": 97.88,
     "y_real": 206.21,
     "z_real": 31.57,
-    "x_img": 472.0723306544205,
-    "y_img": 1362.8927104722788,
+    "x_img": 472.07,
+    "y_img": 1362.89,
     "level": "level_27.8",
-    "oldName": "PHASE2_433",
-    "x_img_old": 496.17,
-    "y_img_old": 1203.82
+    "oldName": "PHASE2_433"
 }, {
     "fullname": "PHASE2_801",
     "phase": "PHASE2",
@@ -8814,12 +7418,10 @@ let points = [{
     "x_real": 95.97,
     "y_real": 206.29,
     "z_real": 31.57,
-    "x_img": 413.96096440872634,
-    "y_img": 1360.5723819301847,
+    "x_img": 413.96,
+    "y_img": 1360.57,
     "level": "level_27.8",
-    "oldName": "PHASE2_434",
-    "x_img_old": 437.05,
-    "y_img_old": 1201.42
+    "oldName": "PHASE2_434"
 }, {
     "fullname": "PHASE2_802",
     "phase": "PHASE2",
@@ -8827,12 +7429,10 @@ let points = [{
     "x_real": 97.16,
     "y_real": 201.97,
     "z_real": 34.06,
-    "x_img": 450.1664753157297,
-    "y_img": 1485.8701232032854,
+    "x_img": 450.17,
+    "y_img": 1485.87,
     "level": "level_27.8",
-    "oldName": "PHASE2_435",
-    "x_img_old": 473.89,
-    "y_img_old": 1335.08
+    "oldName": "PHASE2_435"
 }, {
     "fullname": "PHASE2_803",
     "phase": "PHASE2",
@@ -8840,12 +7440,10 @@ let points = [{
     "x_real": 98.05,
     "y_real": 205.97,
     "z_real": 36.57,
-    "x_img": 477.2445464982784,
-    "y_img": 1369.853696098562,
+    "x_img": 477.24,
+    "y_img": 1369.85,
     "level": "level_37.8",
-    "oldName": "PHASE2_436",
-    "x_img_old": 401.73,
-    "y_img_old": 1225.67
+    "oldName": "PHASE2_436"
 }, {
     "fullname": "PHASE2_804",
     "phase": "PHASE2",
@@ -8853,12 +7451,10 @@ let points = [{
     "x_real": 95.9,
     "y_real": 206.21,
     "z_real": 36.57,
-    "x_img": 411.8312284730205,
-    "y_img": 1362.8927104722788,
+    "x_img": 411.83,
+    "y_img": 1362.89,
     "level": "level_37.8",
-    "oldName": "PHASE2_437",
-    "x_img_old": 334.74,
-    "y_img_old": 1218.26
+    "oldName": "PHASE2_437"
 }, {
     "fullname": "PHASE2_805",
     "phase": "PHASE2",
@@ -8866,12 +7462,10 @@ let points = [{
     "x_real": 97.08,
     "y_real": 201.88,
     "z_real": 39.06,
-    "x_img": 447.73249138920846,
-    "y_img": 1488.4804928131416,
+    "x_img": 447.73,
+    "y_img": 1488.48,
     "level": "level_37.8",
-    "oldName": "PHASE2_438",
-    "x_img_old": 371.47,
-    "y_img_old": 1354.68
+    "oldName": "PHASE2_438"
 }, {
     "fullname": "PHASE2_806",
     "phase": "PHASE2",
@@ -8879,12 +7473,10 @@ let points = [{
     "x_real": 97.82,
     "y_real": 205.93,
     "z_real": 41.56,
-    "x_img": 470.2468427095296,
-    "y_img": 1371.0138603696096,
+    "x_img": 470.25,
+    "y_img": 1371.01,
     "level": "level_37.8",
-    "oldName": "PHASE2_439",
-    "x_img_old": 394.55,
-    "y_img_old": 1227.06
+    "oldName": "PHASE2_439"
 }, {
     "fullname": "PHASE2_807",
     "phase": "PHASE2",
@@ -8892,12 +7484,10 @@ let points = [{
     "x_real": 96,
     "y_real": 206.35,
     "z_real": 41.56,
-    "x_img": 414.8737083811716,
-    "y_img": 1358.832135523614,
+    "x_img": 414.87,
+    "y_img": 1358.83,
     "level": "level_37.8",
-    "oldName": "PHASE2_440",
-    "x_img_old": 337.99,
-    "y_img_old": 1213.82
+    "oldName": "PHASE2_440"
 }, {
     "fullname": "PHASE2_808",
     "phase": "PHASE2",
@@ -8905,12 +7495,10 @@ let points = [{
     "x_real": 96.99,
     "y_real": 201.81,
     "z_real": 44.06,
-    "x_img": 444.9942594718718,
-    "y_img": 1490.5107802874736,
+    "x_img": 444.99,
+    "y_img": 1490.51,
     "level": "level_37.8",
-    "oldName": "PHASE2_441",
-    "x_img_old": 368.72,
-    "y_img_old": 1357.1
+    "oldName": "PHASE2_441"
 }, {
     "fullname": "PHASE2_809",
     "phase": "PHASE2",
@@ -8918,12 +7506,10 @@ let points = [{
     "x_real": 97.92,
     "y_real": 205.94,
     "z_real": 46.56,
-    "x_img": 473.2893226176816,
-    "y_img": 1370.7238193018475,
+    "x_img": 473.29,
+    "y_img": 1370.72,
     "level": "level_47.8",
-    "oldName": "PHASE2_442",
-    "x_img_old": 480.97,
-    "y_img_old": 1188.64
+    "oldName": "PHASE2_442"
 }, {
     "fullname": "PHASE2_810",
     "phase": "PHASE2",
@@ -8931,12 +7517,10 @@ let points = [{
     "x_real": 95.41,
     "y_real": 206.21,
     "z_real": 46.57,
-    "x_img": 396.9230769230776,
-    "y_img": 1362.8927104722788,
+    "x_img": 396.92,
+    "y_img": 1362.89,
     "level": "level_47.8",
-    "oldName": "PHASE2_443",
-    "x_img_old": 405.02,
-    "y_img_old": 1180.72
+    "oldName": "PHASE2_443"
 }, {
     "fullname": "PHASE2_811",
     "phase": "PHASE2",
@@ -8944,12 +7528,10 @@ let points = [{
     "x_real": 96.88,
     "y_real": 201.66,
     "z_real": 49.76,
-    "x_img": 441.64753157290534,
-    "y_img": 1494.8613963039015,
+    "x_img": 441.65,
+    "y_img": 1494.86,
     "level": "level_47.8",
-    "oldName": "PHASE2_444",
-    "x_img_old": 449.47,
-    "y_img_old": 1315.02
+    "oldName": "PHASE2_444"
 }, {
     "fullname": "PHASE2_812",
     "phase": "PHASE2",
@@ -8957,12 +7539,10 @@ let points = [{
     "x_real": 97.47,
     "y_real": 206.83,
     "z_real": 49.77,
-    "x_img": 459.59816303099933,
-    "y_img": 1344.9101642710466,
+    "x_img": 459.6,
+    "y_img": 1344.91,
     "level": "level_47.8",
-    "oldName": "PHASE2_445",
-    "x_img_old": 467.21,
-    "y_img_old": 1162.32
+    "oldName": "PHASE2_445"
 }, {
     "fullname": "PHASE2_813",
     "phase": "PHASE2",
@@ -8970,12 +7550,10 @@ let points = [{
     "x_real": 98.16,
     "y_real": 209.92,
     "z_real": 49.84,
-    "x_img": 480.5912743972449,
-    "y_img": 1255.2874743326493,
+    "x_img": 480.59,
+    "y_img": 1255.29,
     "level": "level_47.8",
-    "oldName": "PHASE2_446",
-    "x_img_old": 488.04,
-    "y_img_old": 1071.29
+    "oldName": "PHASE2_446"
 }, {
     "fullname": "PHASE2_814",
     "phase": "PHASE2",
@@ -8983,12 +7561,10 @@ let points = [{
     "x_real": 97.91,
     "y_real": 216.79,
     "z_real": 49.84,
-    "x_img": 472.9850746268662,
-    "y_img": 1056.0292607802876,
+    "x_img": 472.99,
+    "y_img": 1056.03,
     "level": "level_47.8",
-    "oldName": "PHASE2_447",
-    "x_img_old": 480.69,
-    "y_img_old": 868.36
+    "oldName": "PHASE2_447"
 }, {
     "fullname": "PHASE2_815",
     "phase": "PHASE2",
@@ -8996,12 +7572,10 @@ let points = [{
     "x_real": 97.93,
     "y_real": 226.97,
     "z_real": 49.86,
-    "x_img": 473.593570608497,
-    "y_img": 760.7674537987677,
+    "x_img": 473.59,
+    "y_img": 760.77,
     "level": "level_47.8",
-    "oldName": "PHASE2_448",
-    "x_img_old": 481.19,
-    "y_img_old": 568.03
+    "oldName": "PHASE2_448"
 }, {
     "fullname": "PHASE2_816",
     "phase": "PHASE2",
@@ -9009,12 +7583,10 @@ let points = [{
     "x_real": 95.04,
     "y_real": 206.61,
     "z_real": 49.77,
-    "x_img": 385.66590126291703,
-    "y_img": 1351.2910677618065,
+    "x_img": 385.67,
+    "y_img": 1351.29,
     "level": "level_47.8",
-    "oldName": "PHASE2_449",
-    "x_img_old": 394.06,
-    "y_img_old": 1168.73
+    "oldName": "PHASE2_449"
 }, {
     "fullname": "PHASE2_817",
     "phase": "PHASE2",
@@ -9022,12 +7594,10 @@ let points = [{
     "x_real": 96.52,
     "y_real": 202.73,
     "z_real": 52.92,
-    "x_img": 430.6946039035597,
-    "y_img": 1463.8270020533882,
+    "x_img": 430.69,
+    "y_img": 1463.83,
     "level": "level_47.8",
-    "oldName": "PHASE2_450",
-    "x_img_old": 438.76,
-    "y_img_old": 1283.17
+    "oldName": "PHASE2_450"
 }, {
     "fullname": "PHASE2_818",
     "phase": "PHASE2",
@@ -9035,12 +7605,10 @@ let points = [{
     "x_real": 97.67,
     "y_real": 206.39,
     "z_real": 52.92,
-    "x_img": 465.68312284730246,
-    "y_img": 1357.6719712525664,
+    "x_img": 465.68,
+    "y_img": 1357.67,
     "level": "level_47.8",
-    "oldName": "PHASE2_451",
-    "x_img_old": 473.24,
-    "y_img_old": 1175.31
+    "oldName": "PHASE2_451"
 }, {
     "fullname": "PHASE2_819",
     "phase": "PHASE2",
@@ -9048,12 +7616,10 @@ let points = [{
     "x_real": 99.15,
     "y_real": 206.22,
     "z_real": 53.03,
-    "x_img": 510.7118254879456,
-    "y_img": 1362.6026694045167,
+    "x_img": 510.71,
+    "y_img": 1362.6,
     "level": "level_47.8",
-    "oldName": "PHASE2_452",
-    "x_img_old": 518.09,
-    "y_img_old": 1180.45
+    "oldName": "PHASE2_452"
 }, {
     "fullname": "PHASE2_820",
     "phase": "PHASE2",
@@ -9061,12 +7627,10 @@ let points = [{
     "x_real": 95,
     "y_real": 206.83,
     "z_real": 52.92,
-    "x_img": 384.4489092996564,
-    "y_img": 1344.9101642710466,
+    "x_img": 384.45,
+    "y_img": 1344.91,
     "level": "level_47.8",
-    "oldName": "PHASE2_453",
-    "x_img_old": 392.76,
-    "y_img_old": 1162.25
+    "oldName": "PHASE2_453"
 }, {
     "fullname": "PHASE2_821",
     "phase": "PHASE2",
@@ -9074,12 +7638,10 @@ let points = [{
     "x_real": 96.56,
     "y_real": 203.01,
     "z_real": 56.06,
-    "x_img": 431.91159586682033,
-    "y_img": 1455.7058521560575,
+    "x_img": 431.91,
+    "y_img": 1455.71,
     "level": "level_47.8",
-    "oldName": "PHASE2_454",
-    "x_img_old": 439.82,
-    "y_img_old": 1275
+    "oldName": "PHASE2_454"
 }, {
     "fullname": "PHASE2_822",
     "phase": "PHASE2",
@@ -9087,12 +7649,10 @@ let points = [{
     "x_real": 97.35,
     "y_real": 207.17,
     "z_real": 56.07,
-    "x_img": 455.94718714121746,
-    "y_img": 1335.048767967146,
+    "x_img": 455.95,
+    "y_img": 1335.05,
     "level": "level_47.8",
-    "oldName": "PHASE2_455",
-    "x_img_old": 463.73,
-    "y_img_old": 1152.25
+    "oldName": "PHASE2_455"
 }, {
     "fullname": "PHASE2_823",
     "phase": "PHASE2",
@@ -9100,12 +7660,10 @@ let points = [{
     "x_real": 94.98,
     "y_real": 206.87,
     "z_real": 56.07,
-    "x_img": 383.8404133180261,
-    "y_img": 1343.749999999999,
+    "x_img": 383.84,
+    "y_img": 1343.75,
     "level": "level_47.8",
-    "oldName": "PHASE2_456",
-    "x_img_old": 392.25,
-    "y_img_old": 1161.25
+    "oldName": "PHASE2_456"
 }, {
     "fullname": "PHASE2_824",
     "phase": "PHASE2",
@@ -9113,12 +7671,10 @@ let points = [{
     "x_real": 95.48,
     "y_real": 201.51,
     "z_real": 59.21,
-    "x_img": 399.0528128587839,
-    "y_img": 1499.2120123203285,
+    "x_img": 399.05,
+    "y_img": 1499.21,
     "level": "level_58.0",
-    "oldName": "PHASE2_457",
-    "x_img_old": 407.11,
-    "y_img_old": 1319.34
+    "oldName": "PHASE2_457"
 }, {
     "fullname": "PHASE2_825",
     "phase": "PHASE2",
@@ -9126,12 +7682,10 @@ let points = [{
     "x_real": 99.09,
     "y_real": 201.01,
     "z_real": 59.27,
-    "x_img": 508.88633754305465,
-    "y_img": 1513.7140657084192,
+    "x_img": 508.89,
+    "y_img": 1513.71,
     "level": "level_58.0",
-    "oldName": "PHASE2_458",
-    "x_img_old": 516.16,
-    "y_img_old": 1334.05
+    "oldName": "PHASE2_458"
 }, {
     "fullname": "PHASE2_826",
     "phase": "PHASE2",
@@ -9139,12 +7693,10 @@ let points = [{
     "x_real": 98.05,
     "y_real": 234.75,
     "z_real": 29.09,
-    "x_img": 477.2445464982784,
-    "y_img": 535.1155030800819,
+    "x_img": 477.24,
+    "y_img": 535.12,
     "level": "level_27.8",
-    "oldName": "PHASE2_459",
-    "x_img_old": 501.23,
-    "y_img_old": 321.84
+    "oldName": "PHASE2_459"
 }, {
     "fullname": "PHASE2_827",
     "phase": "PHASE2",
@@ -9152,12 +7704,10 @@ let points = [{
     "x_real": 98.1,
     "y_real": 233.77,
     "z_real": 29.1,
-    "x_img": 478.76578645235395,
-    "y_img": 563.539527720739,
+    "x_img": 478.77,
+    "y_img": 563.54,
     "level": "level_27.8",
-    "oldName": "PHASE2_460",
-    "x_img_old": 502.96,
-    "y_img_old": 352.09
+    "oldName": "PHASE2_460"
 }, {
     "fullname": "PHASE2_828",
     "phase": "PHASE2",
@@ -9165,12 +7715,10 @@ let points = [{
     "x_real": 94.25,
     "y_real": 233.1,
     "z_real": 29.08,
-    "x_img": 361.63030998851946,
-    "y_img": 582.9722792607799,
+    "x_img": 361.63,
+    "y_img": 582.97,
     "level": "level_27.8",
-    "oldName": "PHASE2_461",
-    "x_img_old": 383.95,
-    "y_img_old": 372.98
+    "oldName": "PHASE2_461"
 }, {
     "fullname": "PHASE2_829",
     "phase": "PHASE2",
@@ -9178,12 +7726,10 @@ let points = [{
     "x_real": 90.88,
     "y_real": 237.04,
     "z_real": 29.06,
-    "x_img": 259.09873708381247,
-    "y_img": 468.6960985626283,
+    "x_img": 259.1,
+    "y_img": 468.7,
     "level": "level_27.8",
-    "oldName": "PHASE2_462",
-    "x_img_old": 279.8,
-    "y_img_old": 250.99
+    "oldName": "PHASE2_462"
 }, {
     "fullname": "PHASE2_830",
     "phase": "PHASE2",
@@ -9191,12 +7737,10 @@ let points = [{
     "x_real": 97.13,
     "y_real": 229.8,
     "z_real": 30.69,
-    "x_img": 449.253731343284,
-    "y_img": 678.685831622176,
+    "x_img": 449.25,
+    "y_img": 678.69,
     "level": "level_27.8",
-    "oldName": "PHASE2_463",
-    "x_img_old": 472.88,
-    "y_img_old": 474.76
+    "oldName": "PHASE2_463"
 }, {
     "fullname": "PHASE2_831",
     "phase": "PHASE2",
@@ -9204,12 +7748,10 @@ let points = [{
     "x_real": 98.39,
     "y_real": 228.69,
     "z_real": 29.09,
-    "x_img": 487.5889781859937,
-    "y_img": 710.8803901437368,
+    "x_img": 487.59,
+    "y_img": 710.88,
     "level": "level_27.8",
-    "oldName": "PHASE2_464",
-    "x_img_old": 511.8,
-    "y_img_old": 509.05
+    "oldName": "PHASE2_464"
 }, {
     "fullname": "PHASE2_832",
     "phase": "PHASE2",
@@ -9217,12 +7759,10 @@ let points = [{
     "x_real": 98.79,
     "y_real": 226.32,
     "z_real": 29.09,
-    "x_img": 499.75889781859996,
-    "y_img": 779.6201232032854,
+    "x_img": 499.76,
+    "y_img": 779.62,
     "level": "level_27.8",
-    "oldName": "PHASE2_465",
-    "x_img_old": 524.06,
-    "y_img_old": 582.55
+    "oldName": "PHASE2_465"
 }, {
     "fullname": "PHASE2_833",
     "phase": "PHASE2",
@@ -9230,12 +7770,10 @@ let points = [{
     "x_real": 99.75,
     "y_real": 226.26,
     "z_real": 29.07,
-    "x_img": 528.9667049368545,
-    "y_img": 781.3603696098562,
+    "x_img": 528.97,
+    "y_img": 781.36,
     "level": "level_27.8",
-    "oldName": "PHASE2_466",
-    "x_img_old": 553.74,
-    "y_img_old": 584.38
+    "oldName": "PHASE2_466"
 }, {
     "fullname": "PHASE2_834",
     "phase": "PHASE2",
@@ -9243,12 +7781,10 @@ let points = [{
     "x_real": 97.17,
     "y_real": 223.06,
     "z_real": 29.1,
-    "x_img": 450.47072330654464,
-    "y_img": 874.173511293634,
+    "x_img": 450.47,
+    "y_img": 874.17,
     "level": "level_27.8",
-    "oldName": "PHASE2_467",
-    "x_img_old": 473.97,
-    "y_img_old": 683.09
+    "oldName": "PHASE2_467"
 }, {
     "fullname": "PHASE2_835",
     "phase": "PHASE2",
@@ -9256,12 +7792,10 @@ let points = [{
     "x_real": 98.04,
     "y_real": 218.82,
     "z_real": 26.59,
-    "x_img": 476.94029850746347,
-    "y_img": 997.1509240246405,
+    "x_img": 476.94,
+    "y_img": 997.15,
     "level": "level_22.8",
-    "oldName": "PHASE2_468",
-    "x_img_old": 573.09,
-    "y_img_old": 830.27
+    "oldName": "PHASE2_468"
 }, {
     "fullname": "PHASE2_836",
     "phase": "PHASE2",
@@ -9269,12 +7803,10 @@ let points = [{
     "x_real": 153.03,
     "y_real": 214.3,
     "z_real": 49.07,
-    "x_img": 2149.9999999999986,
-    "y_img": 1128.2494866529769,
+    "x_img": 2150,
+    "y_img": 1128.25,
     "level": "level_47.8",
-    "oldName": "PHASE2_469",
-    "x_img_old": 2144.93,
-    "y_img_old": 941.84
+    "oldName": "PHASE2_469"
 }, {
     "fullname": "PHASE2_837",
     "phase": "PHASE2",
@@ -9282,12 +7814,10 @@ let points = [{
     "x_real": 152.89,
     "y_real": 213.31,
     "z_real": 49.06,
-    "x_img": 2145.740528128586,
-    "y_img": 1156.963552361396,
+    "x_img": 2145.74,
+    "y_img": 1156.96,
     "level": "level_47.8",
-    "oldName": "PHASE2_470",
-    "x_img_old": 2140.44,
-    "y_img_old": 971.17
+    "oldName": "PHASE2_470"
 }, {
     "fullname": "PHASE2_838",
     "phase": "PHASE2",
@@ -9295,12 +7825,10 @@ let points = [{
     "x_real": 152.13,
     "y_real": 211.12,
     "z_real": 49.05,
-    "x_img": 2122.617680826635,
-    "y_img": 1220.4825462012313,
+    "x_img": 2122.62,
+    "y_img": 1220.48,
     "level": "level_47.8",
-    "oldName": "PHASE2_471",
-    "x_img_old": 2117.75,
-    "y_img_old": 1035.76
+    "oldName": "PHASE2_471"
 }, {
     "fullname": "PHASE2_839",
     "phase": "PHASE2",
@@ -9308,12 +7836,10 @@ let points = [{
     "x_real": 153.83,
     "y_real": 207.34,
     "z_real": 49.04,
-    "x_img": 2174.339839265212,
-    "y_img": 1330.1180698151948,
+    "x_img": 2174.34,
+    "y_img": 1330.12,
     "level": "level_47.8",
-    "oldName": "PHASE2_472",
-    "x_img_old": 2168.98,
-    "y_img_old": 1147.26
+    "oldName": "PHASE2_472"
 }, {
     "fullname": "PHASE2_840",
     "phase": "PHASE2",
@@ -9321,12 +7847,10 @@ let points = [{
     "x_real": 150.75,
     "y_real": 212.27,
     "z_real": 49.06,
-    "x_img": 2080.631458094144,
-    "y_img": 1187.127823408624,
+    "x_img": 2080.63,
+    "y_img": 1187.13,
     "level": "level_47.8",
-    "oldName": "PHASE2_473",
-    "x_img_old": 2075.94,
-    "y_img_old": 1001.73
+    "oldName": "PHASE2_473"
 }, {
     "fullname": "PHASE2_841",
     "phase": "PHASE2",
@@ -9334,12 +7858,10 @@ let points = [{
     "x_real": 148.72,
     "y_real": 210.49,
     "z_real": 49.04,
-    "x_img": 2018.8691159586674,
-    "y_img": 1238.7551334702257,
+    "x_img": 2018.87,
+    "y_img": 1238.76,
     "level": "level_47.8",
-    "oldName": "PHASE2_474",
-    "x_img_old": 2014.61,
-    "y_img_old": 1054.39
+    "oldName": "PHASE2_474"
 }, {
     "fullname": "PHASE2_842",
     "phase": "PHASE2",
@@ -9347,12 +7869,10 @@ let points = [{
     "x_real": 145.26,
     "y_real": 213,
     "z_real": 49.05,
-    "x_img": 1913.5993111366238,
-    "y_img": 1165.9548254620122,
+    "x_img": 1913.6,
+    "y_img": 1165.95,
     "level": "level_47.8",
-    "oldName": "PHASE2_475",
-    "x_img_old": 1910.08,
-    "y_img_old": 980.26
+    "oldName": "PHASE2_475"
 }, {
     "fullname": "PHASE2_843",
     "phase": "PHASE2",
@@ -9360,12 +7880,10 @@ let points = [{
     "x_real": 141.75,
     "y_real": 210.16,
     "z_real": 49.03,
-    "x_img": 1806.8082663605041,
-    "y_img": 1248.3264887063651,
+    "x_img": 1806.81,
+    "y_img": 1248.33,
     "level": "level_47.8",
-    "oldName": "PHASE2_476",
-    "x_img_old": 1804.12,
-    "y_img_old": 1064.16
+    "oldName": "PHASE2_476"
 }, {
     "fullname": "PHASE2_844",
     "phase": "PHASE2",
@@ -9373,12 +7891,10 @@ let points = [{
     "x_real": 138.14,
     "y_real": 212.69,
     "z_real": 49.04,
-    "x_img": 1696.9747416762334,
-    "y_img": 1174.9460985626283,
+    "x_img": 1696.97,
+    "y_img": 1174.95,
     "level": "level_47.8",
-    "oldName": "PHASE2_477",
-    "x_img_old": 1695.22,
-    "y_img_old": 989.28
+    "oldName": "PHASE2_477"
 }, {
     "fullname": "PHASE2_845",
     "phase": "PHASE2",
@@ -9386,12 +7902,10 @@ let points = [{
     "x_real": 138.27,
     "y_real": 209.87,
     "z_real": 49.03,
-    "x_img": 1700.9299655568307,
-    "y_img": 1256.737679671457,
+    "x_img": 1700.93,
+    "y_img": 1256.74,
     "level": "level_47.8",
-    "oldName": "PHASE2_478",
-    "x_img_old": 1699.24,
-    "y_img_old": 1072.72
+    "oldName": "PHASE2_478"
 }, {
     "fullname": "PHASE2_846",
     "phase": "PHASE2",
@@ -9399,12 +7913,10 @@ let points = [{
     "x_real": 135.64,
     "y_real": 211.17,
     "z_real": 49.49,
-    "x_img": 1620.9127439724448,
-    "y_img": 1219.0323408624226,
+    "x_img": 1620.91,
+    "y_img": 1219.03,
     "level": "level_47.8",
-    "oldName": "PHASE2_479",
-    "x_img_old": 1619.77,
-    "y_img_old": 1034.35
+    "oldName": "PHASE2_479"
 }, {
     "fullname": "PHASE2_847",
     "phase": "PHASE2",
@@ -9412,12 +7924,10 @@ let points = [{
     "x_real": 133.97,
     "y_real": 209.02,
     "z_real": 49.05,
-    "x_img": 1570.103329506314,
-    "y_img": 1281.3911704312104,
+    "x_img": 1570.1,
+    "y_img": 1281.39,
     "level": "level_47.8",
-    "oldName": "PHASE2_480",
-    "x_img_old": 1569.37,
-    "y_img_old": 1097.56
+    "oldName": "PHASE2_480"
 }, {
     "fullname": "PHASE2_848",
     "phase": "PHASE2",
@@ -9425,12 +7935,10 @@ let points = [{
     "x_real": 135.61,
     "y_real": 208.16,
     "z_real": 49.49,
-    "x_img": 1619.9999999999995,
-    "y_img": 1306.3347022587268,
+    "x_img": 1620,
+    "y_img": 1306.33,
     "level": "level_47.8",
-    "oldName": "PHASE2_481",
-    "x_img_old": 1618.89,
-    "y_img_old": 1123.04
+    "oldName": "PHASE2_481"
 }, {
     "fullname": "PHASE2_849",
     "phase": "PHASE2",
@@ -9438,12 +7946,10 @@ let points = [{
     "x_real": 136.59,
     "y_real": 205.66,
     "z_real": 49.35,
-    "x_img": 1649.8163030998844,
-    "y_img": 1378.8449691991782,
+    "x_img": 1649.82,
+    "y_img": 1378.84,
     "level": "level_47.8",
-    "oldName": "PHASE2_482",
-    "x_img_old": 1648.57,
-    "y_img_old": 1196.9
+    "oldName": "PHASE2_482"
 }, {
     "fullname": "PHASE2_850",
     "phase": "PHASE2",
@@ -9451,12 +7957,10 @@ let points = [{
     "x_real": 135.34,
     "y_real": 203.73,
     "z_real": 49.04,
-    "x_img": 1611.7853042479906,
-    "y_img": 1434.822895277207,
+    "x_img": 1611.79,
+    "y_img": 1434.82,
     "level": "level_47.8",
-    "oldName": "PHASE2_483",
-    "x_img_old": 1610.81,
-    "y_img_old": 1253.67
+    "oldName": "PHASE2_483"
 }, {
     "fullname": "PHASE2_851",
     "phase": "PHASE2",
@@ -9464,12 +7968,10 @@ let points = [{
     "x_real": 133.44,
     "y_real": 201.97,
     "z_real": 49.05,
-    "x_img": 1553.9781859931109,
-    "y_img": 1485.8701232032854,
+    "x_img": 1553.98,
+    "y_img": 1485.87,
     "level": "level_47.8",
-    "oldName": "PHASE2_484",
-    "x_img_old": 1553.2,
-    "y_img_old": 1305.7
+    "oldName": "PHASE2_484"
 }, {
     "fullname": "PHASE2_852",
     "phase": "PHASE2",
@@ -9477,12 +7979,10 @@ let points = [{
     "x_real": 137.72,
     "y_real": 200.25,
     "z_real": 49.05,
-    "x_img": 1684.1963260619973,
-    "y_img": 1535.7571868583154,
+    "x_img": 1684.2,
+    "y_img": 1535.76,
     "level": "level_47.8",
-    "oldName": "PHASE2_485",
-    "x_img_old": 1682.55,
-    "y_img_old": 1356.39
+    "oldName": "PHASE2_485"
 }, {
     "fullname": "PHASE2_853",
     "phase": "PHASE2",
@@ -9490,12 +7990,10 @@ let points = [{
     "x_real": 141.75,
     "y_real": 201.68,
     "z_real": 49.03,
-    "x_img": 1806.8082663605041,
-    "y_img": 1494.2813141683773,
+    "x_img": 1806.81,
+    "y_img": 1494.28,
     "level": "level_47.8",
-    "oldName": "PHASE2_486",
-    "x_img_old": 1804.14,
-    "y_img_old": 1314.32
+    "oldName": "PHASE2_486"
 }, {
     "fullname": "PHASE2_854",
     "phase": "PHASE2",
@@ -9503,12 +8001,10 @@ let points = [{
     "x_real": 139.21,
     "y_real": 203.99,
     "z_real": 49.03,
-    "x_img": 1729.5292766934558,
-    "y_img": 1427.2818275153995,
+    "x_img": 1729.53,
+    "y_img": 1427.28,
     "level": "level_47.8",
-    "oldName": "PHASE2_487",
-    "x_img_old": 1727.58,
-    "y_img_old": 1246.25
+    "oldName": "PHASE2_487"
 }, {
     "fullname": "PHASE2_855",
     "phase": "PHASE2",
@@ -9516,12 +8012,10 @@ let points = [{
     "x_real": 143.29,
     "y_real": 203.52,
     "z_real": 49.03,
-    "x_img": 1853.6624569460378,
-    "y_img": 1440.9137577002048,
+    "x_img": 1853.66,
+    "y_img": 1440.91,
     "level": "level_47.8",
-    "oldName": "PHASE2_488",
-    "x_img_old": 1850.7,
-    "y_img_old": 1260.06
+    "oldName": "PHASE2_488"
 }, {
     "fullname": "PHASE2_856",
     "phase": "PHASE2",
@@ -9529,12 +8023,10 @@ let points = [{
     "x_real": 146.4,
     "y_real": 203.42,
     "z_real": 49.04,
-    "x_img": 1948.2835820895511,
-    "y_img": 1443.814168377823,
+    "x_img": 1948.28,
+    "y_img": 1443.81,
     "level": "level_47.8",
-    "oldName": "PHASE2_489",
-    "x_img_old": 1944.64,
-    "y_img_old": 1262.99
+    "oldName": "PHASE2_489"
 }, {
     "fullname": "PHASE2_857",
     "phase": "PHASE2",
@@ -9542,12 +8034,10 @@ let points = [{
     "x_real": 147.16,
     "y_real": 200.49,
     "z_real": 49.06,
-    "x_img": 1971.406429391503,
-    "y_img": 1528.7962012320322,
+    "x_img": 1971.41,
+    "y_img": 1528.8,
     "level": "level_47.8",
-    "oldName": "PHASE2_490",
-    "x_img_old": 1967.53,
-    "y_img_old": 1349.34
+    "oldName": "PHASE2_490"
 }, {
     "fullname": "PHASE2_858",
     "phase": "PHASE2",
@@ -9555,12 +8045,10 @@ let points = [{
     "x_real": 150.95,
     "y_real": 200.57,
     "z_real": 49.06,
-    "x_img": 2086.716417910446,
-    "y_img": 1526.4758726899381,
+    "x_img": 2086.72,
+    "y_img": 1526.48,
     "level": "level_47.8",
-    "oldName": "PHASE2_491",
-    "x_img_old": 2081.95,
-    "y_img_old": 1347.03
+    "oldName": "PHASE2_491"
 }, {
     "fullname": "PHASE2_859",
     "phase": "PHASE2",
@@ -9568,12 +8056,10 @@ let points = [{
     "x_real": 148.52,
     "y_real": 203.89,
     "z_real": 49.04,
-    "x_img": 2012.7841561423643,
-    "y_img": 1430.1822381930187,
+    "x_img": 2012.78,
+    "y_img": 1430.18,
     "level": "level_47.8",
-    "oldName": "PHASE2_492",
-    "x_img_old": 2008.76,
-    "y_img_old": 1248.93
+    "oldName": "PHASE2_492"
 }, {
     "fullname": "PHASE2_860",
     "phase": "PHASE2",
@@ -9581,12 +8067,10 @@ let points = [{
     "x_real": 152.56,
     "y_real": 201.72,
     "z_real": 49.05,
-    "x_img": 2135.7003444316865,
-    "y_img": 1493.1211498973298,
+    "x_img": 2135.7,
+    "y_img": 1493.12,
     "level": "level_47.8",
-    "oldName": "PHASE2_493",
-    "x_img_old": 2130.72,
-    "y_img_old": 1313.16
+    "oldName": "PHASE2_493"
 }, {
     "fullname": "PHASE2_861",
     "phase": "PHASE2",
@@ -9594,12 +8078,10 @@ let points = [{
     "x_real": 155.02,
     "y_real": 201.85,
     "z_real": 49.06,
-    "x_img": 2210.5453501722154,
-    "y_img": 1489.350616016427,
+    "x_img": 2210.55,
+    "y_img": 1489.35,
     "level": "level_47.8",
-    "oldName": "PHASE2_494",
-    "x_img_old": 2205.01,
-    "y_img_old": 1309.22
+    "oldName": "PHASE2_494"
 }, {
     "fullname": "PHASE2_862",
     "phase": "PHASE2",
@@ -9607,12 +8089,10 @@ let points = [{
     "x_real": 150.98,
     "y_real": 205.76,
     "z_real": 49.04,
-    "x_img": 2087.6291618828923,
-    "y_img": 1375.9445585215608,
+    "x_img": 2087.63,
+    "y_img": 1375.94,
     "level": "level_47.8",
-    "oldName": "PHASE2_495",
-    "x_img_old": 2082.89,
-    "y_img_old": 1193.84
+    "oldName": "PHASE2_495"
 }, {
     "fullname": "PHASE2_863",
     "phase": "PHASE2",
@@ -9620,12 +8100,10 @@ let points = [{
     "x_real": 151.33,
     "y_real": 207.75,
     "z_real": 49.39,
-    "x_img": 2098.2778415614234,
-    "y_img": 1318.2263860369603,
+    "x_img": 2098.28,
+    "y_img": 1318.23,
     "level": "level_47.8",
-    "oldName": "PHASE2_496",
-    "x_img_old": 2093.58,
-    "y_img_old": 1135.32
+    "oldName": "PHASE2_496"
 }, {
     "fullname": "PHASE2_864",
     "phase": "PHASE2",
@@ -9633,12 +8111,10 @@ let points = [{
     "x_real": 137.16,
     "y_real": 207.65,
     "z_real": 52.53,
-    "x_img": 1667.1584385763485,
-    "y_img": 1321.1267967145786,
+    "x_img": 1667.16,
+    "y_img": 1321.13,
     "level": "level_47.8",
-    "oldName": "PHASE2_497",
-    "x_img_old": 1665.73,
-    "y_img_old": 1138.24
+    "oldName": "PHASE2_497"
 }, {
     "fullname": "PHASE2_865",
     "phase": "PHASE2",
@@ -9646,12 +8122,10 @@ let points = [{
     "x_real": 135.66,
     "y_real": 207.77,
     "z_real": 52.56,
-    "x_img": 1621.5212399540756,
-    "y_img": 1317.646303901437,
+    "x_img": 1621.52,
+    "y_img": 1317.65,
     "level": "level_47.8",
-    "oldName": "PHASE2_498",
-    "x_img_old": 1620.26,
-    "y_img_old": 1134.56
+    "oldName": "PHASE2_498"
 }, {
     "fullname": "PHASE2_866",
     "phase": "PHASE2",
@@ -9659,12 +8133,10 @@ let points = [{
     "x_real": 149.92,
     "y_real": 206.6,
     "z_real": 55.02,
-    "x_img": 2055.3788748564853,
-    "y_img": 1351.5811088295686,
+    "x_img": 2055.38,
+    "y_img": 1351.58,
     "level": "level_47.8",
-    "oldName": "PHASE2_499",
-    "x_img_old": 2050.75,
-    "y_img_old": 1169.05
+    "oldName": "PHASE2_499"
 }, {
     "fullname": "PHASE2_867",
     "phase": "PHASE2",
@@ -9672,12 +8144,10 @@ let points = [{
     "x_real": 149.65,
     "y_real": 203.38,
     "z_real": 55.02,
-    "x_img": 2047.1641791044772,
-    "y_img": 1444.9743326488706,
+    "x_img": 2047.16,
+    "y_img": 1444.97,
     "level": "level_47.8",
-    "oldName": "PHASE2_500",
-    "x_img_old": 2042.73,
-    "y_img_old": 1264.21
+    "oldName": "PHASE2_500"
 }, {
     "fullname": "PHASE2_868",
     "phase": "PHASE2",
@@ -9685,12 +8155,10 @@ let points = [{
     "x_real": 142.55,
     "y_real": 202.54,
     "z_real": 55.01,
-    "x_img": 1831.1481056257176,
-    "y_img": 1469.3377823408618,
+    "x_img": 1831.15,
+    "y_img": 1469.34,
     "level": "level_47.8",
-    "oldName": "PHASE2_501",
-    "x_img_old": 1828.42,
-    "y_img_old": 1288.82
+    "oldName": "PHASE2_501"
 }, {
     "fullname": "PHASE2_869",
     "phase": "PHASE2",
@@ -9698,12 +8166,10 @@ let points = [{
     "x_real": 156.2,
     "y_real": 201.84,
     "z_real": 49.05,
-    "x_img": 2246.4466130884025,
-    "y_img": 1489.6406570841882,
+    "x_img": 2246.45,
+    "y_img": 1489.64,
     "level": "level_47.8",
-    "oldName": "PHASE2_502",
-    "x_img_old": 2240.37,
-    "y_img_old": 1309.7
+    "oldName": "PHASE2_502"
 }, {
     "fullname": "PHASE2_870",
     "phase": "PHASE2",
@@ -9711,12 +8177,10 @@ let points = [{
     "x_real": 158.34,
     "y_real": 202.95,
     "z_real": 49.05,
-    "x_img": 2311.5556831228464,
-    "y_img": 1457.4460985626283,
+    "x_img": 2311.56,
+    "y_img": 1457.45,
     "level": "level_47.8",
-    "oldName": "PHASE2_503",
-    "x_img_old": 2305.23,
-    "y_img_old": 1276.67
+    "oldName": "PHASE2_503"
 }, {
     "fullname": "PHASE2_871",
     "phase": "PHASE2",
@@ -9724,12 +8188,10 @@ let points = [{
     "x_real": 155.44,
     "y_real": 206.24,
     "z_real": 49.05,
-    "x_img": 2223.3237657864515,
-    "y_img": 1362.0225872689934,
+    "x_img": 2223.32,
+    "y_img": 1362.02,
     "level": "level_47.8",
-    "oldName": "PHASE2_504",
-    "x_img_old": 2217.53,
-    "y_img_old": 1179.88
+    "oldName": "PHASE2_504"
 }, {
     "fullname": "PHASE2_872",
     "phase": "PHASE2",
@@ -9737,12 +8199,10 @@ let points = [{
     "x_real": 155.42,
     "y_real": 209.63,
     "z_real": 49.05,
-    "x_img": 2222.7152698048208,
-    "y_img": 1263.6986652977412,
+    "x_img": 2222.72,
+    "y_img": 1263.7,
     "level": "level_47.8",
-    "oldName": "PHASE2_505",
-    "x_img_old": 2216.9,
-    "y_img_old": 1079.68
+    "oldName": "PHASE2_505"
 }, {
     "fullname": "PHASE2_873",
     "phase": "PHASE2",
@@ -9750,12 +8210,10 @@ let points = [{
     "x_real": 158.12,
     "y_real": 210.42,
     "z_real": 49.06,
-    "x_img": 2304.8622273249125,
-    "y_img": 1240.7854209445586,
+    "x_img": 2304.86,
+    "y_img": 1240.79,
     "level": "level_47.8",
-    "oldName": "PHASE2_506",
-    "x_img_old": 2298.51,
-    "y_img_old": 1056.28
+    "oldName": "PHASE2_506"
 }, {
     "fullname": "PHASE2_874",
     "phase": "PHASE2",
@@ -9763,12 +8221,10 @@ let points = [{
     "x_real": 158.31,
     "y_real": 207.38,
     "z_real": 49.05,
-    "x_img": 2310.6429391504003,
-    "y_img": 1328.9579055441473,
+    "x_img": 2310.64,
+    "y_img": 1328.96,
     "level": "level_47.8",
-    "oldName": "PHASE2_507",
-    "x_img_old": 2304.19,
-    "y_img_old": 1146.14
+    "oldName": "PHASE2_507"
 }, {
     "fullname": "PHASE2_875",
     "phase": "PHASE2",
@@ -9776,12 +8232,10 @@ let points = [{
     "x_real": 158.41,
     "y_real": 204.82,
     "z_real": 49.05,
-    "x_img": 2313.6854190585523,
-    "y_img": 1403.2084188911704,
+    "x_img": 2313.69,
+    "y_img": 1403.21,
     "level": "level_47.8",
-    "oldName": "PHASE2_508",
-    "x_img_old": 2307.19,
-    "y_img_old": 1221.74
+    "oldName": "PHASE2_508"
 }, {
     "fullname": "PHASE2_876",
     "phase": "PHASE2",
@@ -9789,12 +8243,10 @@ let points = [{
     "x_real": 160.41,
     "y_real": 203.25,
     "z_real": 49.05,
-    "x_img": 2374.5350172215826,
-    "y_img": 1448.7448665297734,
+    "x_img": 2374.54,
+    "y_img": 1448.74,
     "level": "level_47.8",
-    "oldName": "PHASE2_509",
-    "x_img_old": 2367.48,
-    "y_img_old": 1267.98
+    "oldName": "PHASE2_509"
 }, {
     "fullname": "PHASE2_877",
     "phase": "PHASE2",
@@ -9802,12 +8254,10 @@ let points = [{
     "x_real": 161.6,
     "y_real": 204.2,
     "z_real": 49.06,
-    "x_img": 2410.740528128586,
-    "y_img": 1421.1909650924026,
+    "x_img": 2410.74,
+    "y_img": 1421.19,
     "level": "level_47.8",
-    "oldName": "PHASE2_510",
-    "x_img_old": 2403.67,
-    "y_img_old": 1239.83
+    "oldName": "PHASE2_510"
 }, {
     "fullname": "PHASE2_878",
     "phase": "PHASE2",
@@ -9815,12 +8265,10 @@ let points = [{
     "x_real": 161.92,
     "y_real": 206.82,
     "z_real": 49.07,
-    "x_img": 2420.476463834671,
-    "y_img": 1345.2002053388087,
+    "x_img": 2420.48,
+    "y_img": 1345.2,
     "level": "level_47.8",
-    "oldName": "PHASE2_511",
-    "x_img_old": 2413.21,
-    "y_img_old": 1162.55
+    "oldName": "PHASE2_511"
 }, {
     "fullname": "PHASE2_879",
     "phase": "PHASE2",
@@ -9828,12 +8276,10 @@ let points = [{
     "x_real": 161.84,
     "y_real": 209.59,
     "z_real": 49.07,
-    "x_img": 2418.0424799081507,
-    "y_img": 1264.8588295687878,
+    "x_img": 2418.04,
+    "y_img": 1264.86,
     "level": "level_47.8",
-    "oldName": "PHASE2_512",
-    "x_img_old": 2410.7,
-    "y_img_old": 1080.97
+    "oldName": "PHASE2_512"
 }, {
     "fullname": "PHASE2_880",
     "phase": "PHASE2",
@@ -9841,12 +8287,10 @@ let points = [{
     "x_real": 160.13,
     "y_real": 212.84,
     "z_real": 49.06,
-    "x_img": 2366.0160734787582,
-    "y_img": 1170.5954825462004,
+    "x_img": 2366.02,
+    "y_img": 1170.6,
     "level": "level_47.8",
-    "oldName": "PHASE2_513",
-    "x_img_old": 2359.12,
-    "y_img_old": 985.1
+    "oldName": "PHASE2_513"
 }, {
     "fullname": "PHASE2_881",
     "phase": "PHASE2",
@@ -9854,12 +8298,10 @@ let points = [{
     "x_real": 154.41,
     "y_real": 212.23,
     "z_real": 49.06,
-    "x_img": 2191.9862227324898,
-    "y_img": 1188.2879876796715,
+    "x_img": 2191.99,
+    "y_img": 1188.29,
     "level": "level_47.8",
-    "oldName": "PHASE2_514",
-    "x_img_old": 2186.53,
-    "y_img_old": 1003.04
+    "oldName": "PHASE2_514"
 }, {
     "fullname": "PHASE2_882",
     "phase": "PHASE2",
@@ -9867,12 +8309,10 @@ let points = [{
     "x_real": 156.12,
     "y_real": 211.77,
     "z_real": 49.06,
-    "x_img": 2244.012629161882,
-    "y_img": 1201.6298767967137,
+    "x_img": 2244.01,
+    "y_img": 1201.63,
     "level": "level_47.8",
-    "oldName": "PHASE2_515",
-    "x_img_old": 2238.13,
-    "y_img_old": 1016.61
+    "oldName": "PHASE2_515"
 }, {
     "fullname": "PHASE2_883",
     "phase": "PHASE2",
@@ -9880,12 +8320,10 @@ let points = [{
     "x_real": 156.44,
     "y_real": 213.61,
     "z_real": 49.07,
-    "x_img": 2253.7485648679663,
-    "y_img": 1148.2623203285411,
+    "x_img": 2253.75,
+    "y_img": 1148.26,
     "level": "level_47.8",
-    "oldName": "PHASE2_516",
-    "x_img_old": 2247.65,
-    "y_img_old": 962.15
+    "oldName": "PHASE2_516"
 }, {
     "fullname": "PHASE2_884",
     "phase": "PHASE2",
@@ -9893,12 +8331,10 @@ let points = [{
     "x_real": 158.7,
     "y_real": 240.25,
     "z_real": 56.05,
-    "x_img": 2322.508610792191,
-    "y_img": 375.59291581108846,
+    "x_img": 2322.51,
+    "y_img": 375.59,
     "level": "level_47.8",
-    "oldName": "PHASE2_517",
-    "x_img_old": 2315.85,
-    "y_img_old": 176.15
+    "oldName": "PHASE2_517"
 }, {
     "fullname": "PHASE2_885",
     "phase": "PHASE2",
@@ -9906,12 +8342,10 @@ let points = [{
     "x_real": 161.55,
     "y_real": 236.53,
     "z_real": 56.69,
-    "x_img": 2409.219288174511,
-    "y_img": 483.48819301848016,
+    "x_img": 2409.22,
+    "y_img": 483.49,
     "level": "level_47.8",
-    "oldName": "PHASE2_518",
-    "x_img_old": 2402.02,
-    "y_img_old": 285.84
+    "oldName": "PHASE2_518"
 }, {
     "fullname": "PHASE2_886",
     "phase": "PHASE2",
@@ -9919,12 +8353,10 @@ let points = [{
     "x_real": 154.33,
     "y_real": 215.65,
     "z_real": 49.07,
-    "x_img": 2189.5522388059694,
-    "y_img": 1089.0939425051329,
+    "x_img": 2189.55,
+    "y_img": 1089.09,
     "level": "level_47.8",
-    "oldName": "PHASE2_519",
-    "x_img_old": 2183.9,
-    "y_img_old": 902.07
+    "oldName": "PHASE2_519"
 }, {
     "fullname": "PHASE2_887",
     "phase": "PHASE2",
@@ -9932,12 +8364,10 @@ let points = [{
     "x_real": 156.5,
     "y_real": 214.85,
     "z_real": 49.06,
-    "x_img": 2255.5740528128576,
-    "y_img": 1112.2972279260775,
+    "x_img": 2255.57,
+    "y_img": 1112.3,
     "level": "level_47.8",
-    "oldName": "PHASE2_520",
-    "x_img_old": 2249.41,
-    "y_img_old": 925.69
+    "oldName": "PHASE2_520"
 }, {
     "fullname": "PHASE2_888",
     "phase": "PHASE2",
@@ -9945,12 +8375,10 @@ let points = [{
     "x_real": 156.04,
     "y_real": 218.03,
     "z_real": 49.07,
-    "x_img": 2241.57864523536,
-    "y_img": 1020.0641683778231,
+    "x_img": 2241.58,
+    "y_img": 1020.06,
     "level": "level_47.8",
-    "oldName": "PHASE2_521",
-    "x_img_old": 2235.74,
-    "y_img_old": 831.83
+    "oldName": "PHASE2_521"
 }, {
     "fullname": "PHASE2_889",
     "phase": "PHASE2",
@@ -9958,12 +8386,10 @@ let points = [{
     "x_real": 159.4,
     "y_real": 216.28,
     "z_real": 49.07,
-    "x_img": 2343.8059701492525,
-    "y_img": 1070.8213552361394,
+    "x_img": 2343.81,
+    "y_img": 1070.82,
     "level": "level_47.8",
-    "oldName": "PHASE2_522",
-    "x_img_old": 2336.99,
-    "y_img_old": 883.49
+    "oldName": "PHASE2_522"
 }, {
     "fullname": "PHASE2_890",
     "phase": "PHASE2",
@@ -9971,12 +8397,10 @@ let points = [{
     "x_real": 158,
     "y_real": 220.28,
     "z_real": 49.07,
-    "x_img": 2301.2112514351306,
-    "y_img": 954.8049281314161,
+    "x_img": 2301.21,
+    "y_img": 954.8,
     "level": "level_47.8",
-    "oldName": "PHASE2_523",
-    "x_img_old": 2294.8,
-    "y_img_old": 765.41
+    "oldName": "PHASE2_523"
 }, {
     "fullname": "PHASE2_891",
     "phase": "PHASE2",
@@ -9984,12 +8408,10 @@ let points = [{
     "x_real": 158.03,
     "y_real": 223.18,
     "z_real": 49.08,
-    "x_img": 2302.123995407577,
-    "y_img": 870.6930184804924,
+    "x_img": 2302.12,
+    "y_img": 870.69,
     "level": "level_47.8",
-    "oldName": "PHASE2_524",
-    "x_img_old": 2295.63,
-    "y_img_old": 679.98
+    "oldName": "PHASE2_524"
 }, {
     "fullname": "PHASE2_892",
     "phase": "PHASE2",
@@ -9997,12 +8419,10 @@ let points = [{
     "x_real": 155.38,
     "y_real": 224.68,
     "z_real": 49.07,
-    "x_img": 2221.49827784156,
-    "y_img": 827.1868583162213,
+    "x_img": 2221.5,
+    "y_img": 827.19,
     "level": "level_47.8",
-    "oldName": "PHASE2_525",
-    "x_img_old": 2215.81,
-    "y_img_old": 635.51
+    "oldName": "PHASE2_525"
 }, {
     "fullname": "PHASE2_893",
     "phase": "PHASE2",
@@ -10010,12 +8430,10 @@ let points = [{
     "x_real": 154.27,
     "y_real": 224.68,
     "z_real": 49.07,
-    "x_img": 2187.726750861078,
-    "y_img": 827.1868583162213,
+    "x_img": 2187.73,
+    "y_img": 827.19,
     "level": "level_47.8",
-    "oldName": "PHASE2_526",
-    "x_img_old": 2182.23,
-    "y_img_old": 635.58
+    "oldName": "PHASE2_526"
 }, {
     "fullname": "PHASE2_894",
     "phase": "PHASE2",
@@ -10023,12 +8441,10 @@ let points = [{
     "x_real": 152.04,
     "y_real": 227.37,
     "z_real": 49.07,
-    "x_img": 2119.8794489092984,
-    "y_img": 749.1658110882954,
+    "x_img": 2119.88,
+    "y_img": 749.17,
     "level": "level_47.8",
-    "oldName": "PHASE2_527",
-    "x_img_old": 2114.85,
-    "y_img_old": 556.34
+    "oldName": "PHASE2_527"
 }, {
     "fullname": "PHASE2_895",
     "phase": "PHASE2",
@@ -10036,12 +8452,10 @@ let points = [{
     "x_real": 152.14,
     "y_real": 228.2,
     "z_real": 49.07,
-    "x_img": 2122.9219288174495,
-    "y_img": 725.0924024640663,
+    "x_img": 2122.92,
+    "y_img": 725.09,
     "level": "level_47.8",
-    "oldName": "PHASE2_528",
-    "x_img_old": 2117.96,
-    "y_img_old": 531.65
+    "oldName": "PHASE2_528"
 }, {
     "fullname": "PHASE2_896",
     "phase": "PHASE2",
@@ -10049,12 +8463,10 @@ let points = [{
     "x_real": 154.36,
     "y_real": 230,
     "z_real": 49.06,
-    "x_img": 2190.4649827784147,
-    "y_img": 672.8850102669403,
+    "x_img": 2190.46,
+    "y_img": 672.89,
     "level": "level_47.8",
-    "oldName": "PHASE2_529",
-    "x_img_old": 2184.82,
-    "y_img_old": 478.71
+    "oldName": "PHASE2_529"
 }, {
     "fullname": "PHASE2_897",
     "phase": "PHASE2",
@@ -10062,12 +8474,10 @@ let points = [{
     "x_real": 155.08,
     "y_real": 230.06,
     "z_real": 49.06,
-    "x_img": 2212.370838117106,
-    "y_img": 671.1447638603695,
+    "x_img": 2212.37,
+    "y_img": 671.14,
     "level": "level_47.8",
-    "oldName": "PHASE2_530",
-    "x_img_old": 2206.69,
-    "y_img_old": 476.86
+    "oldName": "PHASE2_530"
 }, {
     "fullname": "PHASE2_898",
     "phase": "PHASE2",
@@ -10075,12 +8485,10 @@ let points = [{
     "x_real": 158.94,
     "y_real": 225.08,
     "z_real": 49.08,
-    "x_img": 2329.810562571755,
-    "y_img": 815.585215605749,
+    "x_img": 2329.81,
+    "y_img": 815.59,
     "level": "level_47.8",
-    "oldName": "PHASE2_531",
-    "x_img_old": 2323.17,
-    "y_img_old": 623.91
+    "oldName": "PHASE2_531"
 }, {
     "fullname": "PHASE2_899",
     "phase": "PHASE2",
@@ -10088,12 +8496,10 @@ let points = [{
     "x_real": 162.06,
     "y_real": 223.84,
     "z_real": 49.08,
-    "x_img": 2424.7359357060836,
-    "y_img": 851.5503080082135,
+    "x_img": 2424.74,
+    "y_img": 851.55,
     "level": "level_47.8",
-    "oldName": "PHASE2_532",
-    "x_img_old": 2417.33,
-    "y_img_old": 660.41
+    "oldName": "PHASE2_532"
 }, {
     "fullname": "PHASE2_900",
     "phase": "PHASE2",
@@ -10101,12 +8507,10 @@ let points = [{
     "x_real": 161.63,
     "y_real": 219.87,
     "z_real": 49.08,
-    "x_img": 2411.653272101032,
-    "y_img": 966.6966119096505,
+    "x_img": 2411.65,
+    "y_img": 966.7,
     "level": "level_47.8",
-    "oldName": "PHASE2_533",
-    "x_img_old": 2404.57,
-    "y_img_old": 777.68
+    "oldName": "PHASE2_533"
 }, {
     "fullname": "PHASE2_901",
     "phase": "PHASE2",
@@ -10114,12 +8518,10 @@ let points = [{
     "x_real": 160.8,
     "y_real": 227.27,
     "z_real": 49.08,
-    "x_img": 2386.4006888633744,
-    "y_img": 752.0662217659128,
+    "x_img": 2386.4,
+    "y_img": 752.07,
     "level": "level_47.8",
-    "oldName": "PHASE2_534",
-    "x_img_old": 2379.45,
-    "y_img_old": 559.07
+    "oldName": "PHASE2_534"
 }, {
     "fullname": "PHASE2_902",
     "phase": "PHASE2",
@@ -10127,12 +8529,10 @@ let points = [{
     "x_real": 160.42,
     "y_real": 218.24,
     "z_real": 49.08,
-    "x_img": 2374.839265212398,
-    "y_img": 1013.9733059548253,
+    "x_img": 2374.84,
+    "y_img": 1013.97,
     "level": "level_47.8",
-    "oldName": "PHASE2_535",
-    "x_img_old": 2367.96,
-    "y_img_old": 825.66
+    "oldName": "PHASE2_535"
 }, {
     "fullname": "PHASE2_903",
     "phase": "PHASE2",
@@ -10140,12 +8540,10 @@ let points = [{
     "x_real": 156.6,
     "y_real": 229.06,
     "z_real": 49.07,
-    "x_img": 2258.6165327210088,
-    "y_img": 700.1488706365499,
+    "x_img": 2258.62,
+    "y_img": 700.15,
     "level": "level_47.8",
-    "oldName": "PHASE2_536",
-    "x_img_old": 2252.48,
-    "y_img_old": 506.26
+    "oldName": "PHASE2_536"
 }, {
     "fullname": "PHASE2_904",
     "phase": "PHASE2",
@@ -10153,12 +8551,10 @@ let points = [{
     "x_real": 158.18,
     "y_real": 228.52,
     "z_real": 49.07,
-    "x_img": 2306.687715269804,
-    "y_img": 715.8110882956871,
+    "x_img": 2306.69,
+    "y_img": 715.81,
     "level": "level_47.8",
-    "oldName": "PHASE2_537",
-    "x_img_old": 2300.3,
-    "y_img_old": 522.47
+    "oldName": "PHASE2_537"
 }, {
     "fullname": "PHASE2_905",
     "phase": "PHASE2",
@@ -10166,12 +8562,10 @@ let points = [{
     "x_real": 156.88,
     "y_real": 232.69,
     "z_real": 49.07,
-    "x_img": 2267.135476463833,
-    "y_img": 594.8639630390144,
+    "x_img": 2267.14,
+    "y_img": 594.86,
     "level": "level_47.8",
-    "oldName": "PHASE2_538",
-    "x_img_old": 2261.16,
-    "y_img_old": 399.24
+    "oldName": "PHASE2_538"
 }, {
     "fullname": "PHASE2_906",
     "phase": "PHASE2",
@@ -10179,12 +8573,10 @@ let points = [{
     "x_real": 157.71,
     "y_real": 234.94,
     "z_real": 49.07,
-    "x_img": 2292.388059701492,
-    "y_img": 529.6047227926074,
+    "x_img": 2292.39,
+    "y_img": 529.6,
     "level": "level_47.8",
-    "oldName": "PHASE2_539",
-    "x_img_old": 2286.14,
-    "y_img_old": 332.78
+    "oldName": "PHASE2_539"
 }, {
     "fullname": "PHASE2_907",
     "phase": "PHASE2",
@@ -10192,12 +8584,10 @@ let points = [{
     "x_real": 157.93,
     "y_real": 237.05,
     "z_real": 49.07,
-    "x_img": 2299.0815154994248,
-    "y_img": 468.4060574948662,
+    "x_img": 2299.08,
+    "y_img": 468.41,
     "level": "level_47.8",
-    "oldName": "PHASE2_540",
-    "x_img_old": 2292.71,
-    "y_img_old": 270.68
+    "oldName": "PHASE2_540"
 }, {
     "fullname": "PHASE2_908",
     "phase": "PHASE2",
@@ -10205,12 +8595,10 @@ let points = [{
     "x_real": 158.54,
     "y_real": 239.19,
     "z_real": 49.07,
-    "x_img": 2317.6406429391486,
-    "y_img": 406.33726899383964,
+    "x_img": 2317.64,
+    "y_img": 406.34,
     "level": "level_47.8",
-    "oldName": "PHASE2_541",
-    "x_img_old": 2311.19,
-    "y_img_old": 207.58
+    "oldName": "PHASE2_541"
 }, {
     "fullname": "PHASE2_909",
     "phase": "PHASE2",
@@ -10218,12 +8606,10 @@ let points = [{
     "x_real": 158.02,
     "y_real": 241.47,
     "z_real": 49.08,
-    "x_img": 2301.8197474167614,
-    "y_img": 340.20790554414816,
+    "x_img": 2301.82,
+    "y_img": 340.21,
     "level": "level_47.8",
-    "oldName": "PHASE2_542",
-    "x_img_old": 2295.36,
-    "y_img_old": 140.27
+    "oldName": "PHASE2_542"
 }, {
     "fullname": "PHASE2_910",
     "phase": "PHASE2",
@@ -10231,12 +8617,10 @@ let points = [{
     "x_real": 155.03,
     "y_real": 240.55,
     "z_real": 49.08,
-    "x_img": 2210.84959816303,
-    "y_img": 366.8916837782335,
+    "x_img": 2210.85,
+    "y_img": 366.89,
     "level": "level_47.8",
-    "oldName": "PHASE2_543",
-    "x_img_old": 2205.13,
-    "y_img_old": 167.3
+    "oldName": "PHASE2_543"
 }, {
     "fullname": "PHASE2_911",
     "phase": "PHASE2",
@@ -10244,12 +8628,10 @@ let points = [{
     "x_real": 154.33,
     "y_real": 240.49,
     "z_real": 49.08,
-    "x_img": 2189.5522388059694,
-    "y_img": 368.63193018480433,
+    "x_img": 2189.55,
+    "y_img": 368.63,
     "level": "level_47.8",
-    "oldName": "PHASE2_544",
-    "x_img_old": 2183.9,
-    "y_img_old": 168.99
+    "oldName": "PHASE2_544"
 }, {
     "fullname": "PHASE2_912",
     "phase": "PHASE2",
@@ -10257,12 +8639,10 @@ let points = [{
     "x_real": 161.79,
     "y_real": 237.53,
     "z_real": 49.07,
-    "x_img": 2416.5212399540746,
-    "y_img": 454.4840862422998,
+    "x_img": 2416.52,
+    "y_img": 454.48,
     "level": "level_47.8",
-    "oldName": "PHASE2_545",
-    "x_img_old": 2409.22,
-    "y_img_old": 256.35
+    "oldName": "PHASE2_545"
 }, {
     "fullname": "PHASE2_913",
     "phase": "PHASE2",
@@ -10270,12 +8650,10 @@ let points = [{
     "x_real": 161.62,
     "y_real": 233.61,
     "z_real": 49.13,
-    "x_img": 2411.3490241102168,
-    "y_img": 568.1801848049272,
+    "x_img": 2411.35,
+    "y_img": 568.18,
     "level": "level_47.8",
-    "oldName": "PHASE2_546",
-    "x_img_old": 2404.19,
-    "y_img_old": 372.03
+    "oldName": "PHASE2_546"
 }, {
     "fullname": "PHASE2_914",
     "phase": "PHASE2",
@@ -10283,12 +8661,10 @@ let points = [{
     "x_real": 161.78,
     "y_real": 229.7,
     "z_real": 49.08,
-    "x_img": 2416.2169919632593,
-    "y_img": 681.5862422997952,
+    "x_img": 2416.22,
+    "y_img": 681.59,
     "level": "level_47.8",
-    "oldName": "PHASE2_547",
-    "x_img_old": 2408.89,
-    "y_img_old": 487.47
+    "oldName": "PHASE2_547"
 }, {
     "fullname": "PHASE2_915",
     "phase": "PHASE2",
@@ -10296,12 +8672,10 @@ let points = [{
     "x_real": 161.88,
     "y_real": 240.25,
     "z_real": 49.07,
-    "x_img": 2419.2594718714104,
-    "y_img": 375.59291581108846,
+    "x_img": 2419.26,
+    "y_img": 375.59,
     "level": "level_47.8",
-    "oldName": "PHASE2_548",
-    "x_img_old": 2412.03,
-    "y_img_old": 176.1
+    "oldName": "PHASE2_548"
 }, {
     "fullname": "PHASE2_916",
     "phase": "PHASE2",
@@ -10309,12 +8683,10 @@ let points = [{
     "x_real": 158.8,
     "y_real": 240.1,
     "z_real": 51.25,
-    "x_img": 2325.551090700343,
-    "y_img": 379.94353182751547,
+    "x_img": 2325.55,
+    "y_img": 379.94,
     "level": "level_47.8",
-    "oldName": "PHASE2_549",
-    "x_img_old": 2318.96,
-    "y_img_old": 180.56
+    "oldName": "PHASE2_549"
 }, {
     "fullname": "PHASE2_917",
     "phase": "PHASE2",
@@ -10322,12 +8694,10 @@ let points = [{
     "x_real": 156.55,
     "y_real": 240.15,
     "z_real": 53.06,
-    "x_img": 2257.0952927669337,
-    "y_img": 378.49332648870586,
+    "x_img": 2257.1,
+    "y_img": 378.49,
     "level": "level_47.8",
-    "oldName": "PHASE2_550",
-    "x_img_old": 2251.16,
-    "y_img_old": 179.04
+    "oldName": "PHASE2_550"
 }, {
     "fullname": "PHASE2_918",
     "phase": "PHASE2",
@@ -10335,12 +8705,10 @@ let points = [{
     "x_real": 155.65,
     "y_real": 237.92,
     "z_real": 53.05,
-    "x_img": 2229.71297359357,
-    "y_img": 443.17248459958955,
+    "x_img": 2229.71,
+    "y_img": 443.17,
     "level": "level_47.8",
-    "oldName": "PHASE2_551",
-    "x_img_old": 2223.86,
-    "y_img_old": 244.98
+    "oldName": "PHASE2_551"
 }, {
     "fullname": "PHASE2_919",
     "phase": "PHASE2",
@@ -10348,12 +8716,10 @@ let points = [{
     "x_real": 158.7,
     "y_real": 238.59,
     "z_real": 53.05,
-    "x_img": 2322.508610792191,
-    "y_img": 423.7397330595477,
+    "x_img": 2322.51,
+    "y_img": 423.74,
     "level": "level_47.8",
-    "oldName": "PHASE2_552",
-    "x_img_old": 2315.95,
-    "y_img_old": 225.16
+    "oldName": "PHASE2_552"
 }, {
     "fullname": "PHASE2_920",
     "phase": "PHASE2",
@@ -10361,12 +8727,10 @@ let points = [{
     "x_real": 160.32,
     "y_real": 237.57,
     "z_real": 53.05,
-    "x_img": 2371.796785304247,
-    "y_img": 453.3239219712523,
+    "x_img": 2371.8,
+    "y_img": 453.32,
     "level": "level_47.8",
-    "oldName": "PHASE2_553",
-    "x_img_old": 2365.02,
-    "y_img_old": 255.21
+    "oldName": "PHASE2_553"
 }, {
     "fullname": "PHASE2_921",
     "phase": "PHASE2",
@@ -10374,12 +8738,10 @@ let points = [{
     "x_real": 159.35,
     "y_real": 235.36,
     "z_real": 53.04,
-    "x_img": 2342.2847301951765,
-    "y_img": 517.4229979466118,
+    "x_img": 2342.28,
+    "y_img": 517.42,
     "level": "level_47.8",
-    "oldName": "PHASE2_554",
-    "x_img_old": 2335.46,
-    "y_img_old": 320.59
+    "oldName": "PHASE2_554"
 }, {
     "fullname": "PHASE2_922",
     "phase": "PHASE2",
@@ -10387,12 +8749,10 @@ let points = [{
     "x_real": 158.97,
     "y_real": 231.84,
     "z_real": 53.05,
-    "x_img": 2330.723306544201,
-    "y_img": 619.5174537987677,
+    "x_img": 2330.72,
+    "y_img": 619.52,
     "level": "level_47.8",
-    "oldName": "PHASE2_555",
-    "x_img_old": 2324.03,
-    "y_img_old": 424.36
+    "oldName": "PHASE2_555"
 }, {
     "fullname": "PHASE2_923",
     "phase": "PHASE2",
@@ -10400,12 +8760,10 @@ let points = [{
     "x_real": 159.16,
     "y_real": 229.54,
     "z_real": 53.06,
-    "x_img": 2336.5040183696888,
-    "y_img": 686.2268993839834,
+    "x_img": 2336.5,
+    "y_img": 686.23,
     "level": "level_47.8",
-    "oldName": "PHASE2_556",
-    "x_img_old": 2329.87,
-    "y_img_old": 492.36
+    "oldName": "PHASE2_556"
 }, {
     "fullname": "PHASE2_924",
     "phase": "PHASE2",
@@ -10413,12 +8771,10 @@ let points = [{
     "x_real": 157.16,
     "y_real": 228.28,
     "z_real": 53.07,
-    "x_img": 2275.6544202066575,
-    "y_img": 722.7720739219712,
+    "x_img": 2275.65,
+    "y_img": 722.77,
     "level": "level_47.8",
-    "oldName": "PHASE2_557",
-    "x_img_old": 2269.48,
-    "y_img_old": 529.32
+    "oldName": "PHASE2_557"
 }, {
     "fullname": "PHASE2_925",
     "phase": "PHASE2",
@@ -10426,12 +8782,10 @@ let points = [{
     "x_real": 155.67,
     "y_real": 229.2,
     "z_real": 53.06,
-    "x_img": 2230.321469575199,
-    "y_img": 696.088295687885,
+    "x_img": 2230.32,
+    "y_img": 696.09,
     "level": "level_47.8",
-    "oldName": "PHASE2_558",
-    "x_img_old": 2224.44,
-    "y_img_old": 502.29
+    "oldName": "PHASE2_558"
 }, {
     "fullname": "PHASE2_926",
     "phase": "PHASE2",
@@ -10439,12 +8793,10 @@ let points = [{
     "x_real": 161.2,
     "y_real": 229.23,
     "z_real": 53.08,
-    "x_img": 2398.5706084959797,
-    "y_img": 695.2181724845996,
+    "x_img": 2398.57,
+    "y_img": 695.22,
     "level": "level_47.8",
-    "oldName": "PHASE2_559",
-    "x_img_old": 2391.31,
-    "y_img_old": 501.26
+    "oldName": "PHASE2_559"
 }, {
     "fullname": "PHASE2_927",
     "phase": "PHASE2",
@@ -10452,12 +8804,10 @@ let points = [{
     "x_real": 159.84,
     "y_real": 227.28,
     "z_real": 53.08,
-    "x_img": 2357.1928817451194,
-    "y_img": 751.7761806981516,
+    "x_img": 2357.19,
+    "y_img": 751.78,
     "level": "level_47.8",
-    "oldName": "PHASE2_560",
-    "x_img_old": 2350.47,
-    "y_img_old": 559.05
+    "oldName": "PHASE2_560"
 }, {
     "fullname": "PHASE2_928",
     "phase": "PHASE2",
@@ -10465,12 +8815,10 @@ let points = [{
     "x_real": 160.59,
     "y_real": 223.44,
     "z_real": 53.08,
-    "x_img": 2380.011481056256,
-    "y_img": 863.1519507186858,
+    "x_img": 2380.01,
+    "y_img": 863.15,
     "level": "level_47.8",
-    "oldName": "PHASE2_561",
-    "x_img_old": 2372.91,
-    "y_img_old": 672.24
+    "oldName": "PHASE2_561"
 }, {
     "fullname": "PHASE2_929",
     "phase": "PHASE2",
@@ -10478,12 +8826,10 @@ let points = [{
     "x_real": 155.82,
     "y_real": 225.41,
     "z_real": 53.05,
-    "x_img": 2234.885189437427,
-    "y_img": 806.0138603696096,
+    "x_img": 2234.89,
+    "y_img": 806.01,
     "level": "level_47.8",
-    "oldName": "PHASE2_562",
-    "x_img_old": 2228.99,
-    "y_img_old": 614.2
+    "oldName": "PHASE2_562"
 }, {
     "fullname": "PHASE2_930",
     "phase": "PHASE2",
@@ -10491,12 +8837,10 @@ let points = [{
     "x_real": 158.51,
     "y_real": 222.17,
     "z_real": 53.05,
-    "x_img": 2316.7278989667034,
-    "y_img": 899.9871663244357,
+    "x_img": 2316.73,
+    "y_img": 899.99,
     "level": "level_47.8",
-    "oldName": "PHASE2_563",
-    "x_img_old": 2310.33,
-    "y_img_old": 709.67
+    "oldName": "PHASE2_563"
 }, {
     "fullname": "PHASE2_931",
     "phase": "PHASE2",
@@ -10504,12 +8848,10 @@ let points = [{
     "x_real": 158.91,
     "y_real": 219.81,
     "z_real": 53.05,
-    "x_img": 2328.8978185993096,
-    "y_img": 968.4368583162213,
+    "x_img": 2328.9,
+    "y_img": 968.44,
     "level": "level_47.8",
-    "oldName": "PHASE2_564",
-    "x_img_old": 2322.4,
-    "y_img_old": 779.35
+    "oldName": "PHASE2_564"
 }, {
     "fullname": "PHASE2_932",
     "phase": "PHASE2",
@@ -10517,12 +8859,10 @@ let points = [{
     "x_real": 157.47,
     "y_real": 218.17,
     "z_real": 53.05,
-    "x_img": 2285.086107921928,
-    "y_img": 1016.0035934291582,
+    "x_img": 2285.09,
+    "y_img": 1016,
     "level": "level_47.8",
-    "oldName": "PHASE2_565",
-    "x_img_old": 2278.89,
-    "y_img_old": 827.84
+    "oldName": "PHASE2_565"
 }, {
     "fullname": "PHASE2_933",
     "phase": "PHASE2",
@@ -10530,12 +8870,10 @@ let points = [{
     "x_real": 155.44,
     "y_real": 217.75,
     "z_real": 53.05,
-    "x_img": 2223.3237657864515,
-    "y_img": 1028.1853182751538,
+    "x_img": 2223.32,
+    "y_img": 1028.19,
     "level": "level_47.8",
-    "oldName": "PHASE2_566",
-    "x_img_old": 2217.44,
-    "y_img_old": 840.05
+    "oldName": "PHASE2_566"
 }, {
     "fullname": "PHASE2_934",
     "phase": "PHASE2",
@@ -10543,12 +8881,10 @@ let points = [{
     "x_real": 157.34,
     "y_real": 214.66,
     "z_real": 53.07,
-    "x_img": 2281.130884041331,
-    "y_img": 1117.808008213552,
+    "x_img": 2281.13,
+    "y_img": 1117.81,
     "level": "level_47.8",
-    "oldName": "PHASE2_567",
-    "x_img_old": 2274.91,
-    "y_img_old": 931.3
+    "oldName": "PHASE2_567"
 }, {
     "fullname": "PHASE2_935",
     "phase": "PHASE2",
@@ -10556,12 +8892,10 @@ let points = [{
     "x_real": 160.04,
     "y_real": 201.84,
     "z_real": 49.06,
-    "x_img": 2363.2778415614225,
-    "y_img": 1489.6406570841882,
+    "x_img": 2363.28,
+    "y_img": 1489.64,
     "level": "level_47.8",
-    "oldName": "PHASE2_568",
-    "x_img_old": 2356.41,
-    "y_img_old": 1309.66
+    "oldName": "PHASE2_568"
 }, {
     "fullname": "PHASE2_936",
     "phase": "PHASE2",
@@ -10569,12 +8903,10 @@ let points = [{
     "x_real": 161.95,
     "y_real": 201.57,
     "z_real": 49.06,
-    "x_img": 2421.3892078071162,
-    "y_img": 1497.4717659137577,
+    "x_img": 2421.39,
+    "y_img": 1497.47,
     "level": "level_47.8",
-    "oldName": "PHASE2_569",
-    "x_img_old": 2414.15,
-    "y_img_old": 1317.38
+    "oldName": "PHASE2_569"
 }, {
     "fullname": "PHASE2_937",
     "phase": "PHASE2",
@@ -10582,12 +8914,10 @@ let points = [{
     "x_real": 163.6,
     "y_real": 201.48,
     "z_real": 49.12,
-    "x_img": 2471.5901262916173,
-    "y_img": 1500.082135523614,
+    "x_img": 2471.59,
+    "y_img": 1500.08,
     "level": "level_47.8",
-    "oldName": "PHASE2_570",
-    "x_img_old": 2463.84,
-    "y_img_old": 1320.15
+    "oldName": "PHASE2_570"
 }, {
     "fullname": "PHASE2_938",
     "phase": "PHASE2",
@@ -10595,12 +8925,10 @@ let points = [{
     "x_real": 163.3,
     "y_real": 201.58,
     "z_real": 53.13,
-    "x_img": 2462.462686567163,
-    "y_img": 1497.1817248459947,
+    "x_img": 2462.46,
+    "y_img": 1497.18,
     "level": "level_47.8",
-    "oldName": "PHASE2_571",
-    "x_img_old": 2454.84,
-    "y_img_old": 1317.22
+    "oldName": "PHASE2_571"
 }, {
     "fullname": "PHASE2_939",
     "phase": "PHASE2",
@@ -10608,12 +8936,10 @@ let points = [{
     "x_real": 161.67,
     "y_real": 201.49,
     "z_real": 53.05,
-    "x_img": 2412.870264064292,
-    "y_img": 1499.7920944558518,
+    "x_img": 2412.87,
+    "y_img": 1499.79,
     "level": "level_47.8",
-    "oldName": "PHASE2_572",
-    "x_img_old": 2405.74,
-    "y_img_old": 1320.02
+    "oldName": "PHASE2_572"
 }, {
     "fullname": "PHASE2_940",
     "phase": "PHASE2",
@@ -10621,12 +8947,10 @@ let points = [{
     "x_real": 160.06,
     "y_real": 201.83,
     "z_real": 53.05,
-    "x_img": 2363.8863375430524,
-    "y_img": 1489.9306981519503,
+    "x_img": 2363.89,
+    "y_img": 1489.93,
     "level": "level_47.8",
-    "oldName": "PHASE2_573",
-    "x_img_old": 2357.07,
-    "y_img_old": 1309.8
+    "oldName": "PHASE2_573"
 }, {
     "fullname": "PHASE2_941",
     "phase": "PHASE2",
@@ -10634,12 +8958,10 @@ let points = [{
     "x_real": 157.5,
     "y_real": 201.9,
     "z_real": 53.05,
-    "x_img": 2285.9988518943733,
-    "y_img": 1487.9004106776174,
+    "x_img": 2286,
+    "y_img": 1487.9,
     "level": "level_47.8",
-    "oldName": "PHASE2_574",
-    "x_img_old": 2279.6,
-    "y_img_old": 1307.94
+    "oldName": "PHASE2_574"
 }, {
     "fullname": "PHASE2_942",
     "phase": "PHASE2",
@@ -10647,12 +8969,10 @@ let points = [{
     "x_real": 155.18,
     "y_real": 201.92,
     "z_real": 52.78,
-    "x_img": 2215.413318025257,
-    "y_img": 1487.320328542094,
+    "x_img": 2215.41,
+    "y_img": 1487.32,
     "level": "level_47.8",
-    "oldName": "PHASE2_575",
-    "x_img_old": 2209.82,
-    "y_img_old": 1307.27
+    "oldName": "PHASE2_575"
 }, {
     "fullname": "PHASE2_943",
     "phase": "PHASE2",
@@ -10660,12 +8980,10 @@ let points = [{
     "x_real": 159.21,
     "y_real": 204.8,
     "z_real": 53.03,
-    "x_img": 2338.025258323765,
-    "y_img": 1403.7885010266937,
+    "x_img": 2338.03,
+    "y_img": 1403.79,
     "level": "level_47.8",
-    "oldName": "PHASE2_576",
-    "x_img_old": 2331.25,
-    "y_img_old": 1222.24
+    "oldName": "PHASE2_576"
 }, {
     "fullname": "PHASE2_944",
     "phase": "PHASE2",
@@ -10673,12 +8991,10 @@ let points = [{
     "x_real": 160.91,
     "y_real": 206.06,
     "z_real": 53.04,
-    "x_img": 2389.747416762341,
-    "y_img": 1367.2433264887059,
+    "x_img": 2389.75,
+    "y_img": 1367.24,
     "level": "level_47.8",
-    "oldName": "PHASE2_577",
-    "x_img_old": 2382.77,
-    "y_img_old": 1184.97
+    "oldName": "PHASE2_577"
 }, {
     "fullname": "PHASE2_945",
     "phase": "PHASE2",
@@ -10686,12 +9002,10 @@ let points = [{
     "x_real": 158.34,
     "y_real": 208.24,
     "z_real": 53.04,
-    "x_img": 2311.5556831228464,
-    "y_img": 1304.0143737166318,
+    "x_img": 2311.56,
+    "y_img": 1304.01,
     "level": "level_47.8",
-    "oldName": "PHASE2_578",
-    "x_img_old": 2305.07,
-    "y_img_old": 1120.64
+    "oldName": "PHASE2_578"
 }, {
     "fullname": "PHASE2_946",
     "phase": "PHASE2",
@@ -10699,12 +9013,10 @@ let points = [{
     "x_real": 159.23,
     "y_real": 211.85,
     "z_real": 53.05,
-    "x_img": 2338.6337543053946,
-    "y_img": 1199.3095482546196,
+    "x_img": 2338.63,
+    "y_img": 1199.31,
     "level": "level_47.8",
-    "oldName": "PHASE2_579",
-    "x_img_old": 2331.96,
-    "y_img_old": 1014.15
+    "oldName": "PHASE2_579"
 }, {
     "fullname": "PHASE2_947",
     "phase": "PHASE2",
@@ -10712,12 +9024,10 @@ let points = [{
     "x_real": 155.21,
     "y_real": 211.85,
     "z_real": 53.07,
-    "x_img": 2216.326061997703,
-    "y_img": 1199.3095482546196,
+    "x_img": 2216.33,
+    "y_img": 1199.31,
     "level": "level_47.8",
-    "oldName": "PHASE2_580",
-    "x_img_old": 2210.46,
-    "y_img_old": 1014.16
+    "oldName": "PHASE2_580"
 }, {
     "fullname": "PHASE2_948",
     "phase": "PHASE2",
@@ -10725,12 +9035,10 @@ let points = [{
     "x_real": 160.87,
     "y_real": 213.28,
     "z_real": 53.07,
-    "x_img": 2388.5304247990803,
-    "y_img": 1157.8336755646815,
+    "x_img": 2388.53,
+    "y_img": 1157.83,
     "level": "level_47.8",
-    "oldName": "PHASE2_581",
-    "x_img_old": 2381.39,
-    "y_img_old": 972.12
+    "oldName": "PHASE2_581"
 }, {
     "fullname": "PHASE2_949",
     "phase": "PHASE2",
@@ -10738,12 +9046,10 @@ let points = [{
     "x_real": 161.16,
     "y_real": 214.19,
     "z_real": 53.07,
-    "x_img": 2397.35361653272,
-    "y_img": 1131.4399383983573,
+    "x_img": 2397.35,
+    "y_img": 1131.44,
     "level": "level_47.8",
-    "oldName": "PHASE2_582",
-    "x_img_old": 2390.37,
-    "y_img_old": 945.2
+    "oldName": "PHASE2_582"
 }, {
     "fullname": "PHASE2_950",
     "phase": "PHASE2",
@@ -10751,12 +9057,10 @@ let points = [{
     "x_real": 152.68,
     "y_real": 215.63,
     "z_real": 49.06,
-    "x_img": 2139.3513203214684,
-    "y_img": 1089.674024640657,
+    "x_img": 2139.35,
+    "y_img": 1089.67,
     "level": "level_47.8",
-    "oldName": "PHASE2_583",
-    "x_img_old": 2134.28,
-    "y_img_old": 902.73
+    "oldName": "PHASE2_583"
 }, {
     "fullname": "PHASE2_951",
     "phase": "PHASE2",
@@ -10764,12 +9068,10 @@ let points = [{
     "x_real": 152.02,
     "y_real": 219.29,
     "z_real": 49.06,
-    "x_img": 2119.2709529276685,
-    "y_img": 983.5189938398353,
+    "x_img": 2119.27,
+    "y_img": 983.52,
     "level": "level_47.8",
-    "oldName": "PHASE2_584",
-    "x_img_old": 2114.27,
-    "y_img_old": 794.54
+    "oldName": "PHASE2_584"
 }, {
     "fullname": "PHASE2_952",
     "phase": "PHASE2",
@@ -10777,12 +9079,10 @@ let points = [{
     "x_real": 151.13,
     "y_real": 223.2,
     "z_real": 49.06,
-    "x_img": 2092.1928817451194,
-    "y_img": 870.1129363449691,
+    "x_img": 2092.19,
+    "y_img": 870.11,
     "level": "level_47.8",
-    "oldName": "PHASE2_585",
-    "x_img_old": 2087.52,
-    "y_img_old": 679.17
+    "oldName": "PHASE2_585"
 }, {
     "fullname": "PHASE2_953",
     "phase": "PHASE2",
@@ -10790,12 +9090,10 @@ let points = [{
     "x_real": 152.56,
     "y_real": 226.32,
     "z_real": 49.07,
-    "x_img": 2135.7003444316865,
-    "y_img": 779.6201232032854,
+    "x_img": 2135.7,
+    "y_img": 779.62,
     "level": "level_47.8",
-    "oldName": "PHASE2_586",
-    "x_img_old": 2130.5,
-    "y_img_old": 587.3
+    "oldName": "PHASE2_586"
 }, {
     "fullname": "PHASE2_954",
     "phase": "PHASE2",
@@ -10803,12 +9101,10 @@ let points = [{
     "x_real": 146.8,
     "y_real": 226.52,
     "z_real": 49.07,
-    "x_img": 1960.4535017221583,
-    "y_img": 773.8193018480488,
+    "x_img": 1960.45,
+    "y_img": 773.82,
     "level": "level_47.8",
-    "oldName": "PHASE2_587",
-    "x_img_old": 1956.7,
-    "y_img_old": 581.31
+    "oldName": "PHASE2_587"
 }, {
     "fullname": "PHASE2_955",
     "phase": "PHASE2",
@@ -10816,12 +9112,10 @@ let points = [{
     "x_real": 142.07,
     "y_real": 225.43,
     "z_real": 49.06,
-    "x_img": 1816.5442020665892,
-    "y_img": 805.4337782340854,
+    "x_img": 1816.54,
+    "y_img": 805.43,
     "level": "level_47.8",
-    "oldName": "PHASE2_588",
-    "x_img_old": 1813.97,
-    "y_img_old": 613.37
+    "oldName": "PHASE2_588"
 }, {
     "fullname": "PHASE2_956",
     "phase": "PHASE2",
@@ -10829,12 +9123,10 @@ let points = [{
     "x_real": 142.46,
     "y_real": 220.96,
     "z_real": 49.05,
-    "x_img": 1828.409873708381,
-    "y_img": 935.082135523613,
+    "x_img": 1828.41,
+    "y_img": 935.08,
     "level": "level_47.8",
-    "oldName": "PHASE2_589",
-    "x_img_old": 1825.7,
-    "y_img_old": 745.49
+    "oldName": "PHASE2_589"
 }, {
     "fullname": "PHASE2_957",
     "phase": "PHASE2",
@@ -10842,12 +9134,10 @@ let points = [{
     "x_real": 147.89,
     "y_real": 220.82,
     "z_real": 49.07,
-    "x_img": 1993.6165327210088,
-    "y_img": 939.1427104722788,
+    "x_img": 1993.62,
+    "y_img": 939.14,
     "level": "level_47.8",
-    "oldName": "PHASE2_590",
-    "x_img_old": 1989.65,
-    "y_img_old": 749.64
+    "oldName": "PHASE2_590"
 }, {
     "fullname": "PHASE2_958",
     "phase": "PHASE2",
@@ -10855,12 +9145,10 @@ let points = [{
     "x_real": 142.07,
     "y_real": 216.2,
     "z_real": 49.05,
-    "x_img": 1816.5442020665892,
-    "y_img": 1073.1416837782344,
+    "x_img": 1816.54,
+    "y_img": 1073.14,
     "level": "level_47.8",
-    "oldName": "PHASE2_591",
-    "x_img_old": 1813.86,
-    "y_img_old": 885.93
+    "oldName": "PHASE2_591"
 }, {
     "fullname": "PHASE2_959",
     "phase": "PHASE2",
@@ -10868,12 +9156,10 @@ let points = [{
     "x_real": 147.86,
     "y_real": 215.73,
     "z_real": 49.07,
-    "x_img": 1992.7037887485644,
-    "y_img": 1086.7736139630388,
+    "x_img": 1992.7,
+    "y_img": 1086.77,
     "level": "level_47.8",
-    "oldName": "PHASE2_592",
-    "x_img_old": 1988.62,
-    "y_img_old": 899.7
+    "oldName": "PHASE2_592"
 }, {
     "fullname": "PHASE2_960",
     "phase": "PHASE2",
@@ -10881,12 +9167,10 @@ let points = [{
     "x_real": 152.34,
     "y_real": 230.24,
     "z_real": 49.06,
-    "x_img": 2129.0068886337535,
-    "y_img": 665.9240246406562,
+    "x_img": 2129.01,
+    "y_img": 665.92,
     "level": "level_47.8",
-    "oldName": "PHASE2_593",
-    "x_img_old": 2124.04,
-    "y_img_old": 471.53
+    "oldName": "PHASE2_593"
 }, {
     "fullname": "PHASE2_961",
     "phase": "PHASE2",
@@ -10894,12 +9178,10 @@ let points = [{
     "x_real": 149.03,
     "y_real": 230.12,
     "z_real": 49.06,
-    "x_img": 2028.300803673937,
-    "y_img": 669.4045174537987,
+    "x_img": 2028.3,
+    "y_img": 669.4,
     "level": "level_47.8",
-    "oldName": "PHASE2_594",
-    "x_img_old": 2023.96,
-    "y_img_old": 475
+    "oldName": "PHASE2_594"
 }, {
     "fullname": "PHASE2_962",
     "phase": "PHASE2",
@@ -10907,12 +9189,10 @@ let points = [{
     "x_real": 145.37,
     "y_real": 228.23,
     "z_real": 49.07,
-    "x_img": 1916.9460390355903,
-    "y_img": 724.2222792607799,
+    "x_img": 1916.95,
+    "y_img": 724.22,
     "level": "level_47.8",
-    "oldName": "PHASE2_595",
-    "x_img_old": 1913.62,
-    "y_img_old": 530.76
+    "oldName": "PHASE2_595"
 }, {
     "fullname": "PHASE2_963",
     "phase": "PHASE2",
@@ -10920,12 +9200,10 @@ let points = [{
     "x_real": 142.33,
     "y_real": 231.37,
     "z_real": 49.04,
-    "x_img": 1824.4546498277837,
-    "y_img": 633.149383983573,
+    "x_img": 1824.45,
+    "y_img": 633.15,
     "level": "level_47.8",
-    "oldName": "PHASE2_596",
-    "x_img_old": 1821.79,
-    "y_img_old": 438.36
+    "oldName": "PHASE2_596"
 }, {
     "fullname": "PHASE2_964",
     "phase": "PHASE2",
@@ -10933,12 +9211,10 @@ let points = [{
     "x_real": 138.3,
     "y_real": 230.89,
     "z_real": 49.05,
-    "x_img": 1701.8427095292768,
-    "y_img": 647.0713552361394,
+    "x_img": 1701.84,
+    "y_img": 647.07,
     "level": "level_47.8",
-    "oldName": "PHASE2_597",
-    "x_img_old": 1700.11,
-    "y_img_old": 452.28
+    "oldName": "PHASE2_597"
 }, {
     "fullname": "PHASE2_965",
     "phase": "PHASE2",
@@ -10946,12 +9222,10 @@ let points = [{
     "x_real": 134.16,
     "y_real": 228.68,
     "z_real": 49.07,
-    "x_img": 1575.884041331802,
-    "y_img": 711.1704312114989,
+    "x_img": 1575.88,
+    "y_img": 711.17,
     "level": "level_47.8",
-    "oldName": "PHASE2_598",
-    "x_img_old": 1575.21,
-    "y_img_old": 517.48
+    "oldName": "PHASE2_598"
 }, {
     "fullname": "PHASE2_966",
     "phase": "PHASE2",
@@ -10959,12 +9233,10 @@ let points = [{
     "x_real": 134.21,
     "y_real": 232.58,
     "z_real": 49.06,
-    "x_img": 1577.4052812858781,
-    "y_img": 598.0544147843939,
+    "x_img": 1577.41,
+    "y_img": 598.05,
     "level": "level_47.8",
-    "oldName": "PHASE2_599",
-    "x_img_old": 1576.62,
-    "y_img_old": 402.45
+    "oldName": "PHASE2_599"
 }, {
     "fullname": "PHASE2_967",
     "phase": "PHASE2",
@@ -10972,12 +9244,10 @@ let points = [{
     "x_real": 134.15,
     "y_real": 234.92,
     "z_real": 49.06,
-    "x_img": 1575.5797933409872,
-    "y_img": 530.1848049281316,
+    "x_img": 1575.58,
+    "y_img": 530.18,
     "level": "level_47.8",
-    "oldName": "PHASE2_600",
-    "x_img_old": 1574.62,
-    "y_img_old": 333.42
+    "oldName": "PHASE2_600"
 }, {
     "fullname": "PHASE2_968",
     "phase": "PHASE2",
@@ -10985,12 +9255,10 @@ let points = [{
     "x_real": 135.16,
     "y_real": 237.23,
     "z_real": 49.07,
-    "x_img": 1606.3088404133173,
-    "y_img": 463.1853182751538,
+    "x_img": 1606.31,
+    "y_img": 463.19,
     "level": "level_47.8",
-    "oldName": "PHASE2_601",
-    "x_img_old": 1605.15,
-    "y_img_old": 265.45
+    "oldName": "PHASE2_601"
 }, {
     "fullname": "PHASE2_969",
     "phase": "PHASE2",
@@ -10998,12 +9266,10 @@ let points = [{
     "x_real": 138.38,
     "y_real": 238.25,
     "z_real": 49.36,
-    "x_img": 1704.2766934557972,
-    "y_img": 433.6011293634492,
+    "x_img": 1704.28,
+    "y_img": 433.6,
     "level": "level_47.8",
-    "oldName": "PHASE2_602",
-    "x_img_old": 1702.51,
-    "y_img_old": 235.15
+    "oldName": "PHASE2_602"
 }, {
     "fullname": "PHASE2_970",
     "phase": "PHASE2",
@@ -11011,12 +9277,10 @@ let points = [{
     "x_real": 142.83,
     "y_real": 238.11,
     "z_real": 49.05,
-    "x_img": 1839.667049368542,
-    "y_img": 437.6617043121141,
+    "x_img": 1839.67,
+    "y_img": 437.66,
     "level": "level_47.8",
-    "oldName": "PHASE2_603",
-    "x_img_old": 1836.81,
-    "y_img_old": 239.39
+    "oldName": "PHASE2_603"
 }, {
     "fullname": "PHASE2_971",
     "phase": "PHASE2",
@@ -11024,12 +9288,10 @@ let points = [{
     "x_real": 147.25,
     "y_real": 238.05,
     "z_real": 49.06,
-    "x_img": 1974.1446613088397,
-    "y_img": 439.40195071868493,
+    "x_img": 1974.14,
+    "y_img": 439.4,
     "level": "level_47.8",
-    "oldName": "PHASE2_604",
-    "x_img_old": 1970.23,
-    "y_img_old": 241.03
+    "oldName": "PHASE2_604"
 }, {
     "fullname": "PHASE2_972",
     "phase": "PHASE2",
@@ -11037,12 +9299,10 @@ let points = [{
     "x_real": 137.81,
     "y_real": 239.51,
     "z_real": 49.07,
-    "x_img": 1686.934557979334,
-    "y_img": 397.0559548254623,
+    "x_img": 1686.93,
+    "y_img": 397.06,
     "level": "level_47.8",
-    "oldName": "PHASE2_605",
-    "x_img_old": 1685.24,
-    "y_img_old": 198.17
+    "oldName": "PHASE2_605"
 }, {
     "fullname": "PHASE2_973",
     "phase": "PHASE2",
@@ -11050,12 +9310,10 @@ let points = [{
     "x_real": 142.39,
     "y_real": 241.39,
     "z_real": 49.07,
-    "x_img": 1826.2801377726742,
-    "y_img": 342.52823408624226,
+    "x_img": 1826.28,
+    "y_img": 342.53,
     "level": "level_47.8",
-    "oldName": "PHASE2_606",
-    "x_img_old": 1823.63,
-    "y_img_old": 142.68
+    "oldName": "PHASE2_606"
 }, {
     "fullname": "PHASE2_974",
     "phase": "PHASE2",
@@ -11063,12 +9321,10 @@ let points = [{
     "x_real": 146.58,
     "y_real": 240.72,
     "z_real": 49.07,
-    "x_img": 1953.7600459242244,
-    "y_img": 361.9609856262832,
+    "x_img": 1953.76,
+    "y_img": 361.96,
     "level": "level_47.8",
-    "oldName": "PHASE2_607",
-    "x_img_old": 1950.11,
-    "y_img_old": 162.44
+    "oldName": "PHASE2_607"
 }, {
     "fullname": "PHASE2_975",
     "phase": "PHASE2",
@@ -11076,12 +9332,10 @@ let points = [{
     "x_real": 152.35,
     "y_real": 240.21,
     "z_real": 49.07,
-    "x_img": 2129.311136624568,
-    "y_img": 376.75308008213506,
+    "x_img": 2129.31,
+    "y_img": 376.75,
     "level": "level_47.8",
-    "oldName": "PHASE2_608",
-    "x_img_old": 2124.39,
-    "y_img_old": 177.4
+    "oldName": "PHASE2_608"
 }, {
     "fullname": "PHASE2_976",
     "phase": "PHASE2",
@@ -11089,12 +9343,10 @@ let points = [{
     "x_real": 153,
     "y_real": 235.23,
     "z_real": 49.06,
-    "x_img": 2149.0872560275534,
-    "y_img": 521.1935318275155,
+    "x_img": 2149.09,
+    "y_img": 521.19,
     "level": "level_47.8",
-    "oldName": "PHASE2_609",
-    "x_img_old": 2143.97,
-    "y_img_old": 324.32
+    "oldName": "PHASE2_609"
 }, {
     "fullname": "PHASE2_977",
     "phase": "PHASE2",
@@ -11102,12 +9354,10 @@ let points = [{
     "x_real": 150.5,
     "y_real": 233.42,
     "z_real": 49.05,
-    "x_img": 2073.025258323765,
-    "y_img": 573.6909650924026,
+    "x_img": 2073.03,
+    "y_img": 573.69,
     "level": "level_47.8",
-    "oldName": "PHASE2_610",
-    "x_img_old": 2068.28,
-    "y_img_old": 377.72
+    "oldName": "PHASE2_610"
 }, {
     "fullname": "PHASE2_978",
     "phase": "PHASE2",
@@ -11115,12 +9365,10 @@ let points = [{
     "x_real": 150.23,
     "y_real": 237.07,
     "z_real": 49.06,
-    "x_img": 2064.810562571756,
-    "y_img": 467.8259753593429,
+    "x_img": 2064.81,
+    "y_img": 467.83,
     "level": "level_47.8",
-    "oldName": "PHASE2_611",
-    "x_img_old": 2060.1,
-    "y_img_old": 270.08
+    "oldName": "PHASE2_611"
 }, {
     "fullname": "PHASE2_979",
     "phase": "PHASE2",
@@ -11128,12 +9376,10 @@ let points = [{
     "x_real": 140.36,
     "y_real": 225.99,
     "z_real": 49.07,
-    "x_img": 1764.5177956371986,
-    "y_img": 789.1914784394248,
+    "x_img": 1764.52,
+    "y_img": 789.19,
     "level": "level_47.8",
-    "oldName": "PHASE2_612",
-    "x_img_old": 1762.35,
-    "y_img_old": 596.92
+    "oldName": "PHASE2_612"
 }, {
     "fullname": "PHASE2_980",
     "phase": "PHASE2",
@@ -11141,12 +9387,10 @@ let points = [{
     "x_real": 139.51,
     "y_real": 225.94,
     "z_real": 49.06,
-    "x_img": 1738.6567164179091,
-    "y_img": 790.6416837782335,
+    "x_img": 1738.66,
+    "y_img": 790.64,
     "level": "level_47.8",
-    "oldName": "PHASE2_613",
-    "x_img_old": 1736.45,
-    "y_img_old": 598.32
+    "oldName": "PHASE2_613"
 }, {
     "fullname": "PHASE2_981",
     "phase": "PHASE2",
@@ -11154,12 +9398,10 @@ let points = [{
     "x_real": 134.99,
     "y_real": 226.13,
     "z_real": 49.07,
-    "x_img": 1601.1366245694603,
-    "y_img": 785.1309034907599,
+    "x_img": 1601.14,
+    "y_img": 785.13,
     "level": "level_47.8",
-    "oldName": "PHASE2_614",
-    "x_img_old": 1600,
-    "y_img_old": 592.98
+    "oldName": "PHASE2_614"
 }, {
     "fullname": "PHASE2_982",
     "phase": "PHASE2",
@@ -11167,12 +9409,10 @@ let points = [{
     "x_real": 131.72,
     "y_real": 227.55,
     "z_real": 49.07,
-    "x_img": 1501.6475315729044,
-    "y_img": 743.945071868583,
+    "x_img": 1501.65,
+    "y_img": 743.95,
     "level": "level_47.8",
-    "oldName": "PHASE2_615",
-    "x_img_old": 1501.3,
-    "y_img_old": 551
+    "oldName": "PHASE2_615"
 }, {
     "fullname": "PHASE2_983",
     "phase": "PHASE2",
@@ -11180,12 +9420,10 @@ let points = [{
     "x_real": 132.63,
     "y_real": 223.25,
     "z_real": 49.06,
-    "x_img": 1529.3340987370834,
-    "y_img": 868.6627310061604,
+    "x_img": 1529.33,
+    "y_img": 868.66,
     "level": "level_47.8",
-    "oldName": "PHASE2_616",
-    "x_img_old": 1528.89,
-    "y_img_old": 677.81
+    "oldName": "PHASE2_616"
 }, {
     "fullname": "PHASE2_984",
     "phase": "PHASE2",
@@ -11193,12 +9431,10 @@ let points = [{
     "x_real": 131.45,
     "y_real": 220.41,
     "z_real": 49.05,
-    "x_img": 1493.432835820895,
-    "y_img": 951.0343942505133,
+    "x_img": 1493.43,
+    "y_img": 951.03,
     "level": "level_47.8",
-    "oldName": "PHASE2_617",
-    "x_img_old": 1493.22,
-    "y_img_old": 761.48
+    "oldName": "PHASE2_617"
 }, {
     "fullname": "PHASE2_985",
     "phase": "PHASE2",
@@ -11206,12 +9442,10 @@ let points = [{
     "x_real": 126.94,
     "y_real": 221.11,
     "z_real": 49.04,
-    "x_img": 1356.2169919632602,
-    "y_img": 930.731519507186,
+    "x_img": 1356.22,
+    "y_img": 930.73,
     "level": "level_47.8",
-    "oldName": "PHASE2_618",
-    "x_img_old": 1356.93,
-    "y_img_old": 741.07
+    "oldName": "PHASE2_618"
 }, {
     "fullname": "PHASE2_986",
     "phase": "PHASE2",
@@ -11219,12 +9453,10 @@ let points = [{
     "x_real": 123.09,
     "y_real": 220.39,
     "z_real": 49.04,
-    "x_img": 1239.0815154994257,
-    "y_img": 951.6144763860375,
+    "x_img": 1239.08,
+    "y_img": 951.61,
     "level": "level_47.8",
-    "oldName": "PHASE2_619",
-    "x_img_old": 1240.81,
-    "y_img_old": 762.3
+    "oldName": "PHASE2_619"
 }, {
     "fullname": "PHASE2_987",
     "phase": "PHASE2",
@@ -11232,12 +9464,10 @@ let points = [{
     "x_real": 122.19,
     "y_real": 224.15,
     "z_real": 49.05,
-    "x_img": 1211.6991963260616,
-    "y_img": 842.5590349075974,
+    "x_img": 1211.7,
+    "y_img": 842.56,
     "level": "level_47.8",
-    "oldName": "PHASE2_620",
-    "x_img_old": 1213.75,
-    "y_img_old": 651.12
+    "oldName": "PHASE2_620"
 }, {
     "fullname": "PHASE2_988",
     "phase": "PHASE2",
@@ -11245,12 +9475,10 @@ let points = [{
     "x_real": 121.26,
     "y_real": 226.18,
     "z_real": 49.06,
-    "x_img": 1183.4041331802528,
-    "y_img": 783.6806981519503,
+    "x_img": 1183.4,
+    "y_img": 783.68,
     "level": "level_47.8",
-    "oldName": "PHASE2_621",
-    "x_img_old": 1185.5,
-    "y_img_old": 591.49
+    "oldName": "PHASE2_621"
 }, {
     "fullname": "PHASE2_989",
     "phase": "PHASE2",
@@ -11258,12 +9486,10 @@ let points = [{
     "x_real": 125.08,
     "y_real": 226.64,
     "z_real": 49.05,
-    "x_img": 1299.6268656716416,
-    "y_img": 770.3388090349081,
+    "x_img": 1299.63,
+    "y_img": 770.34,
     "level": "level_47.8",
-    "oldName": "PHASE2_622",
-    "x_img_old": 1300.86,
-    "y_img_old": 577.81
+    "oldName": "PHASE2_622"
 }, {
     "fullname": "PHASE2_990",
     "phase": "PHASE2",
@@ -11271,12 +9497,10 @@ let points = [{
     "x_real": 128.78,
     "y_real": 225.19,
     "z_real": 49.05,
-    "x_img": 1412.198622273249,
-    "y_img": 812.3947638603695,
+    "x_img": 1412.2,
+    "y_img": 812.39,
     "level": "level_47.8",
-    "oldName": "PHASE2_623",
-    "x_img_old": 1412.64,
-    "y_img_old": 620.71
+    "oldName": "PHASE2_623"
 }, {
     "fullname": "PHASE2_991",
     "phase": "PHASE2",
@@ -11284,12 +9508,10 @@ let points = [{
     "x_real": 127.51,
     "y_real": 229.64,
     "z_real": 49.05,
-    "x_img": 1373.5591274397243,
-    "y_img": 683.326488706366,
+    "x_img": 1373.56,
+    "y_img": 683.33,
     "level": "level_47.8",
-    "oldName": "PHASE2_624",
-    "x_img_old": 1374.18,
-    "y_img_old": 489.38
+    "oldName": "PHASE2_624"
 }, {
     "fullname": "PHASE2_992",
     "phase": "PHASE2",
@@ -11297,12 +9519,10 @@ let points = [{
     "x_real": 132.14,
     "y_real": 232.15,
     "z_real": 49.06,
-    "x_img": 1514.4259471871405,
-    "y_img": 610.5261806981516,
+    "x_img": 1514.43,
+    "y_img": 610.53,
     "level": "level_47.8",
-    "oldName": "PHASE2_625",
-    "x_img_old": 1514.08,
-    "y_img_old": 415.2
+    "oldName": "PHASE2_625"
 }, {
     "fullname": "PHASE2_993",
     "phase": "PHASE2",
@@ -11310,12 +9530,10 @@ let points = [{
     "x_real": 131.97,
     "y_real": 232.97,
     "z_real": 49.06,
-    "x_img": 1509.253731343283,
-    "y_img": 586.7428131416837,
+    "x_img": 1509.25,
+    "y_img": 586.74,
     "level": "level_47.8",
-    "oldName": "PHASE2_626",
-    "x_img_old": 1509.02,
-    "y_img_old": 390.97
+    "oldName": "PHASE2_626"
 }, {
     "fullname": "PHASE2_994",
     "phase": "PHASE2",
@@ -11323,12 +9541,10 @@ let points = [{
     "x_real": 136.43,
     "y_real": 221.43,
     "z_real": 49.05,
-    "x_img": 1644.948335246842,
-    "y_img": 921.4502053388087,
+    "x_img": 1644.95,
+    "y_img": 921.45,
     "level": "level_47.8",
-    "oldName": "PHASE2_627",
-    "x_img_old": 1643.74,
-    "y_img_old": 731.54
+    "oldName": "PHASE2_627"
 }, {
     "fullname": "PHASE2_995",
     "phase": "PHASE2",
@@ -11336,12 +9552,10 @@ let points = [{
     "x_real": 138.7,
     "y_real": 218.37,
     "z_real": 49.04,
-    "x_img": 1714.0126291618822,
-    "y_img": 1010.2027720739216,
+    "x_img": 1714.01,
+    "y_img": 1010.2,
     "level": "level_47.8",
-    "oldName": "PHASE2_628",
-    "x_img_old": 1712.11,
-    "y_img_old": 821.73
+    "oldName": "PHASE2_628"
 }, {
     "fullname": "PHASE2_996",
     "phase": "PHASE2",
@@ -11349,12 +9563,10 @@ let points = [{
     "x_real": 139.57,
     "y_real": 215.48,
     "z_real": 49.05,
-    "x_img": 1740.4822043628005,
-    "y_img": 1094.024640657084,
+    "x_img": 1740.48,
+    "y_img": 1094.02,
     "level": "level_47.8",
-    "oldName": "PHASE2_629",
-    "x_img_old": 1738.53,
-    "y_img_old": 907.2
+    "oldName": "PHASE2_629"
 }, {
     "fullname": "PHASE2_997",
     "phase": "PHASE2",
@@ -11362,12 +9574,10 @@ let points = [{
     "x_real": 140.49,
     "y_real": 215.57,
     "z_real": 49.05,
-    "x_img": 1768.473019517795,
-    "y_img": 1091.4142710472279,
+    "x_img": 1768.47,
+    "y_img": 1091.41,
     "level": "level_47.8",
-    "oldName": "PHASE2_630",
-    "x_img_old": 1766.16,
-    "y_img_old": 904.31
+    "oldName": "PHASE2_630"
 }, {
     "fullname": "PHASE2_998",
     "phase": "PHASE2",
@@ -11375,12 +9585,10 @@ let points = [{
     "x_real": 134.19,
     "y_real": 215.79,
     "z_real": 49.06,
-    "x_img": 1576.7967853042474,
-    "y_img": 1085.033367556468,
+    "x_img": 1576.8,
+    "y_img": 1085.03,
     "level": "level_47.8",
-    "oldName": "PHASE2_631",
-    "x_img_old": 1575.9,
-    "y_img_old": 897.97
+    "oldName": "PHASE2_631"
 }, {
     "fullname": "PHASE2_999",
     "phase": "PHASE2",
@@ -11388,12 +9596,10 @@ let points = [{
     "x_real": 130.43,
     "y_real": 214.75,
     "z_real": 49.04,
-    "x_img": 1462.3995407577495,
-    "y_img": 1115.1976386036959,
+    "x_img": 1462.4,
+    "y_img": 1115.2,
     "level": "level_47.8",
-    "oldName": "PHASE2_632",
-    "x_img_old": 1462.45,
-    "y_img_old": 928.64
+    "oldName": "PHASE2_632"
 }, {
     "fullname": "PHASE2_1000",
     "phase": "PHASE2",
@@ -11401,12 +9607,10 @@ let points = [{
     "x_real": 127.44,
     "y_real": 217.57,
     "z_real": 49.03,
-    "x_img": 1371.429391504018,
-    "y_img": 1033.4060574948662,
+    "x_img": 1371.43,
+    "y_img": 1033.41,
     "level": "level_47.8",
-    "oldName": "PHASE2_633",
-    "x_img_old": 1372.27,
-    "y_img_old": 845.34
+    "oldName": "PHASE2_633"
 }, {
     "fullname": "PHASE2_1001",
     "phase": "PHASE2",
@@ -11414,12 +9618,10 @@ let points = [{
     "x_real": 126.23,
     "y_real": 213.07,
     "z_real": 49.04,
-    "x_img": 1334.6153846153843,
-    "y_img": 1163.9245379876793,
+    "x_img": 1334.62,
+    "y_img": 1163.92,
     "level": "level_47.8",
-    "oldName": "PHASE2_634",
-    "x_img_old": 1335.77,
-    "y_img_old": 978.33
+    "oldName": "PHASE2_634"
 }, {
     "fullname": "PHASE2_1002",
     "phase": "PHASE2",
@@ -11427,12 +9629,10 @@ let points = [{
     "x_real": 127.77,
     "y_real": 210.35,
     "z_real": 49.04,
-    "x_img": 1381.469575200918,
-    "y_img": 1242.8157084188906,
+    "x_img": 1381.47,
+    "y_img": 1242.82,
     "level": "level_47.8",
-    "oldName": "PHASE2_635",
-    "x_img_old": 1382.09,
-    "y_img_old": 1058.48
+    "oldName": "PHASE2_635"
 }, {
     "fullname": "PHASE2_1003",
     "phase": "PHASE2",
@@ -11440,12 +9640,10 @@ let points = [{
     "x_real": 131.64,
     "y_real": 209.47,
     "z_real": 49.05,
-    "x_img": 1499.2135476463827,
-    "y_img": 1268.3393223819303,
+    "x_img": 1499.21,
+    "y_img": 1268.34,
     "level": "level_47.8",
-    "oldName": "PHASE2_636",
-    "x_img_old": 1499.08,
-    "y_img_old": 1084.48
+    "oldName": "PHASE2_636"
 }, {
     "fullname": "PHASE2_1004",
     "phase": "PHASE2",
@@ -11453,12 +9651,10 @@ let points = [{
     "x_real": 131.82,
     "y_real": 208.3,
     "z_real": 49.05,
-    "x_img": 1504.6900114810555,
-    "y_img": 1302.274127310061,
+    "x_img": 1504.69,
+    "y_img": 1302.27,
     "level": "level_47.8",
-    "oldName": "PHASE2_637",
-    "x_img_old": 1504.53,
-    "y_img_old": 1118.95
+    "oldName": "PHASE2_637"
 }, {
     "fullname": "PHASE2_1005",
     "phase": "PHASE2",
@@ -11466,12 +9662,10 @@ let points = [{
     "x_real": 123.72,
     "y_real": 214.92,
     "z_real": 49.04,
-    "x_img": 1258.2491389207803,
-    "y_img": 1110.2669404517455,
+    "x_img": 1258.25,
+    "y_img": 1110.27,
     "level": "level_47.8",
-    "oldName": "PHASE2_638",
-    "x_img_old": 1259.89,
-    "y_img_old": 923.61
+    "oldName": "PHASE2_638"
 }, {
     "fullname": "PHASE2_1006",
     "phase": "PHASE2",
@@ -11479,12 +9673,10 @@ let points = [{
     "x_real": 120.03,
     "y_real": 215.87,
     "z_real": 48.74,
-    "x_img": 1145.9816303099883,
-    "y_img": 1082.713039014373,
+    "x_img": 1145.98,
+    "y_img": 1082.71,
     "level": "level_47.8",
-    "oldName": "PHASE2_639",
-    "x_img_old": 1148.48,
-    "y_img_old": 895.49
+    "oldName": "PHASE2_639"
 }, {
     "fullname": "PHASE2_1007",
     "phase": "PHASE2",
@@ -11492,12 +9684,10 @@ let points = [{
     "x_real": 119.57,
     "y_real": 219.52,
     "z_real": 48.74,
-    "x_img": 1131.9862227324911,
-    "y_img": 976.8480492813133,
+    "x_img": 1131.99,
+    "y_img": 976.85,
     "level": "level_47.8",
-    "oldName": "PHASE2_640",
-    "x_img_old": 1134.61,
-    "y_img_old": 787.75
+    "oldName": "PHASE2_640"
 }, {
     "fullname": "PHASE2_1008",
     "phase": "PHASE2",
@@ -11505,12 +9695,10 @@ let points = [{
     "x_real": 118.99,
     "y_real": 224.06,
     "z_real": 48.74,
-    "x_img": 1114.339839265212,
-    "y_img": 845.1694045174536,
+    "x_img": 1114.34,
+    "y_img": 845.17,
     "level": "level_47.8",
-    "oldName": "PHASE2_641",
-    "x_img_old": 1117.18,
-    "y_img_old": 653.79
+    "oldName": "PHASE2_641"
 }, {
     "fullname": "PHASE2_1009",
     "phase": "PHASE2",
@@ -11518,12 +9706,10 @@ let points = [{
     "x_real": 118.65,
     "y_real": 226.67,
     "z_real": 48.75,
-    "x_img": 1103.9954075774972,
-    "y_img": 769.4686858316227,
+    "x_img": 1104,
+    "y_img": 769.47,
     "level": "level_47.8",
-    "oldName": "PHASE2_642",
-    "x_img_old": 1106.8,
-    "y_img_old": 576.92
+    "oldName": "PHASE2_642"
 }, {
     "fullname": "PHASE2_1010",
     "phase": "PHASE2",
@@ -11531,12 +9717,10 @@ let points = [{
     "x_real": 115.77,
     "y_real": 226.64,
     "z_real": 48.75,
-    "x_img": 1016.3719862227326,
-    "y_img": 770.3388090349081,
+    "x_img": 1016.37,
+    "y_img": 770.34,
     "level": "level_47.8",
-    "oldName": "PHASE2_643",
-    "x_img_old": 1019.74,
-    "y_img_old": 577.65
+    "oldName": "PHASE2_643"
 }, {
     "fullname": "PHASE2_1011",
     "phase": "PHASE2",
@@ -11544,12 +9728,10 @@ let points = [{
     "x_real": 115.83,
     "y_real": 221.88,
     "z_real": 48.73,
-    "x_img": 1018.1974741676236,
-    "y_img": 908.3983572895277,
+    "x_img": 1018.2,
+    "y_img": 908.4,
     "level": "level_47.8",
-    "oldName": "PHASE2_644",
-    "x_img_old": 1021.51,
-    "y_img_old": 718.12
+    "oldName": "PHASE2_644"
 }, {
     "fullname": "PHASE2_1012",
     "phase": "PHASE2",
@@ -11557,12 +9739,10 @@ let points = [{
     "x_real": 116.06,
     "y_real": 215.62,
     "z_real": 48.73,
-    "x_img": 1025.195177956372,
-    "y_img": 1089.9640657084183,
+    "x_img": 1025.2,
+    "y_img": 1089.96,
     "level": "level_47.8",
-    "oldName": "PHASE2_645",
-    "x_img_old": 1028.57,
-    "y_img_old": 902.89
+    "oldName": "PHASE2_645"
 }, {
     "fullname": "PHASE2_1013",
     "phase": "PHASE2",
@@ -11570,12 +9750,10 @@ let points = [{
     "x_real": 114.26,
     "y_real": 218.84,
     "z_real": 48.73,
-    "x_img": 970.4305396096443,
-    "y_img": 996.5708418891163,
+    "x_img": 970.43,
+    "y_img": 996.57,
     "level": "level_47.8",
-    "oldName": "PHASE2_646",
-    "x_img_old": 974.3,
-    "y_img_old": 807.99
+    "oldName": "PHASE2_646"
 }, {
     "fullname": "PHASE2_1014",
     "phase": "PHASE2",
@@ -11583,12 +9761,10 @@ let points = [{
     "x_real": 113.16,
     "y_real": 226.54,
     "z_real": 49.06,
-    "x_img": 936.9632606199771,
-    "y_img": 773.2392197125255,
+    "x_img": 936.96,
+    "y_img": 773.24,
     "level": "level_47.8",
-    "oldName": "PHASE2_647",
-    "x_img_old": 941.08,
-    "y_img_old": 580.7
+    "oldName": "PHASE2_647"
 }, {
     "fullname": "PHASE2_1015",
     "phase": "PHASE2",
@@ -11596,12 +9772,10 @@ let points = [{
     "x_real": 111.99,
     "y_real": 229.24,
     "z_real": 49.06,
-    "x_img": 901.366245694604,
-    "y_img": 694.9281314168375,
+    "x_img": 901.37,
+    "y_img": 694.93,
     "level": "level_47.8",
-    "oldName": "PHASE2_648",
-    "x_img_old": 905.57,
-    "y_img_old": 500.98
+    "oldName": "PHASE2_648"
 }, {
     "fullname": "PHASE2_1016",
     "phase": "PHASE2",
@@ -11609,12 +9783,10 @@ let points = [{
     "x_real": 113.01,
     "y_real": 231.92,
     "z_real": 49.05,
-    "x_img": 932.39954075775,
-    "y_img": 617.1971252566736,
+    "x_img": 932.4,
+    "y_img": 617.2,
     "level": "level_47.8",
-    "oldName": "PHASE2_649",
-    "x_img_old": 936.44,
-    "y_img_old": 422.01
+    "oldName": "PHASE2_649"
 }, {
     "fullname": "PHASE2_1017",
     "phase": "PHASE2",
@@ -11622,12 +9794,10 @@ let points = [{
     "x_real": 112.93,
     "y_real": 234.01,
     "z_real": 49.05,
-    "x_img": 929.9655568312287,
-    "y_img": 556.5785420944558,
+    "x_img": 929.97,
+    "y_img": 556.58,
     "level": "level_47.8",
-    "oldName": "PHASE2_650",
-    "x_img_old": 933.95,
-    "y_img_old": 360.24
+    "oldName": "PHASE2_650"
 }, {
     "fullname": "PHASE2_1018",
     "phase": "PHASE2",
@@ -11635,12 +9805,10 @@ let points = [{
     "x_real": 112.67,
     "y_real": 222.85,
     "z_real": 49.05,
-    "x_img": 922.0551090700346,
-    "y_img": 880.2643737166327,
+    "x_img": 922.06,
+    "y_img": 880.26,
     "level": "level_47.8",
-    "oldName": "PHASE2_651",
-    "x_img_old": 926.15,
-    "y_img_old": 689.71
+    "oldName": "PHASE2_651"
 }, {
     "fullname": "PHASE2_1019",
     "phase": "PHASE2",
@@ -11648,12 +9816,10 @@ let points = [{
     "x_real": 112.58,
     "y_real": 214.24,
     "z_real": 49.06,
-    "x_img": 919.316877152698,
-    "y_img": 1129.9897330595477,
+    "x_img": 919.32,
+    "y_img": 1129.99,
     "level": "level_47.8",
-    "oldName": "PHASE2_652",
-    "x_img_old": 923.52,
-    "y_img_old": 943.75
+    "oldName": "PHASE2_652"
 }, {
     "fullname": "PHASE2_1020",
     "phase": "PHASE2",
@@ -11661,12 +9827,10 @@ let points = [{
     "x_real": 112.28,
     "y_real": 212.92,
     "z_real": 49.06,
-    "x_img": 910.1894374282438,
-    "y_img": 1168.2751540041072,
+    "x_img": 910.19,
+    "y_img": 1168.28,
     "level": "level_47.8",
-    "oldName": "PHASE2_653",
-    "x_img_old": 914.35,
-    "y_img_old": 982.68
+    "oldName": "PHASE2_653"
 }, {
     "fullname": "PHASE2_1021",
     "phase": "PHASE2",
@@ -11674,12 +9838,10 @@ let points = [{
     "x_real": 112.71,
     "y_real": 209.36,
     "z_real": 49.05,
-    "x_img": 923.2721010332948,
-    "y_img": 1271.5297741273089,
+    "x_img": 923.27,
+    "y_img": 1271.53,
     "level": "level_47.8",
-    "oldName": "PHASE2_654",
-    "x_img_old": 927.41,
-    "y_img_old": 1087.75
+    "oldName": "PHASE2_654"
 }, {
     "fullname": "PHASE2_1022",
     "phase": "PHASE2",
@@ -11687,12 +9849,10 @@ let points = [{
     "x_real": 112.65,
     "y_real": 208.3,
     "z_real": 49.05,
-    "x_img": 921.4466130884043,
-    "y_img": 1302.274127310061,
+    "x_img": 921.45,
+    "y_img": 1302.27,
     "level": "level_47.8",
-    "oldName": "PHASE2_655",
-    "x_img_old": 925.5,
-    "y_img_old": 1118.95
+    "oldName": "PHASE2_655"
 }, {
     "fullname": "PHASE2_1023",
     "phase": "PHASE2",
@@ -11700,12 +9860,10 @@ let points = [{
     "x_real": 115.86,
     "y_real": 211.29,
     "z_real": 49.05,
-    "x_img": 1019.1102181400688,
-    "y_img": 1215.551848049281,
+    "x_img": 1019.11,
+    "y_img": 1215.55,
     "level": "level_47.8",
-    "oldName": "PHASE2_656",
-    "x_img_old": 1022.51,
-    "y_img_old": 1030.74
+    "oldName": "PHASE2_656"
 }, {
     "fullname": "PHASE2_1024",
     "phase": "PHASE2",
@@ -11713,12 +9871,10 @@ let points = [{
     "x_real": 120.58,
     "y_real": 211.43,
     "z_real": 49.06,
-    "x_img": 1162.7152698048217,
-    "y_img": 1211.4912731006152,
+    "x_img": 1162.72,
+    "y_img": 1211.49,
     "level": "level_47.8",
-    "oldName": "PHASE2_657",
-    "x_img_old": 1165.13,
-    "y_img_old": 1026.56
+    "oldName": "PHASE2_657"
 }, {
     "fullname": "PHASE2_1025",
     "phase": "PHASE2",
@@ -11726,12 +9882,10 @@ let points = [{
     "x_real": 123.54,
     "y_real": 211.7,
     "z_real": 49.04,
-    "x_img": 1252.772675086108,
-    "y_img": 1203.6601642710475,
+    "x_img": 1252.77,
+    "y_img": 1203.66,
     "level": "level_47.8",
-    "oldName": "PHASE2_658",
-    "x_img_old": 1254.32,
-    "y_img_old": 1018.5
+    "oldName": "PHASE2_658"
 }, {
     "fullname": "PHASE2_1026",
     "phase": "PHASE2",
@@ -11739,12 +9893,10 @@ let points = [{
     "x_real": 123.86,
     "y_real": 209.74,
     "z_real": 49.04,
-    "x_img": 1262.5086107921925,
-    "y_img": 1260.5082135523608,
+    "x_img": 1262.51,
+    "y_img": 1260.51,
     "level": "level_47.8",
-    "oldName": "PHASE2_659",
-    "x_img_old": 1264.02,
-    "y_img_old": 1076.36
+    "oldName": "PHASE2_659"
 }, {
     "fullname": "PHASE2_1027",
     "phase": "PHASE2",
@@ -11752,12 +9904,10 @@ let points = [{
     "x_real": 99.85,
     "y_real": 240.38,
     "z_real": 49.08,
-    "x_img": 532.0091848450061,
-    "y_img": 371.82238193018475,
+    "x_img": 532.01,
+    "y_img": 371.82,
     "level": "level_47.8",
-    "oldName": "PHASE2_660",
-    "x_img_old": 539.27,
-    "y_img_old": 172.25
+    "oldName": "PHASE2_660"
 }, {
     "fullname": "PHASE2_1028",
     "phase": "PHASE2",
@@ -11765,12 +9915,10 @@ let points = [{
     "x_real": 104.81,
     "y_real": 240.62,
     "z_real": 49.07,
-    "x_img": 682.9161882893231,
-    "y_img": 364.86139630390153,
+    "x_img": 682.92,
+    "y_img": 364.86,
     "level": "level_47.8",
-    "oldName": "PHASE2_661",
-    "x_img_old": 688.79,
-    "y_img_old": 165.42
+    "oldName": "PHASE2_661"
 }, {
     "fullname": "PHASE2_1029",
     "phase": "PHASE2",
@@ -11778,12 +9926,10 @@ let points = [{
     "x_real": 107.96,
     "y_real": 240.24,
     "z_real": 49.07,
-    "x_img": 778.7543053960967,
-    "y_img": 375.88295687884965,
+    "x_img": 778.75,
+    "y_img": 375.88,
     "level": "level_47.8",
-    "oldName": "PHASE2_662",
-    "x_img_old": 783.95,
-    "y_img_old": 176.4
+    "oldName": "PHASE2_662"
 }, {
     "fullname": "PHASE2_1030",
     "phase": "PHASE2",
@@ -11791,12 +9937,10 @@ let points = [{
     "x_real": 110.43,
     "y_real": 239.96,
     "z_real": 49.06,
-    "x_img": 853.9035591274401,
-    "y_img": 384.0041067761804,
+    "x_img": 853.9,
+    "y_img": 384,
     "level": "level_47.8",
-    "oldName": "PHASE2_663",
-    "x_img_old": 858.75,
-    "y_img_old": 184.91
+    "oldName": "PHASE2_663"
 }, {
     "fullname": "PHASE2_1031",
     "phase": "PHASE2",
@@ -11804,12 +9948,10 @@ let points = [{
     "x_real": 112.32,
     "y_real": 239.94,
     "z_real": 49.06,
-    "x_img": 911.4064293915039,
-    "y_img": 384.5841889117046,
+    "x_img": 911.41,
+    "y_img": 384.58,
     "level": "level_47.8",
-    "oldName": "PHASE2_664",
-    "x_img_old": 915.79,
-    "y_img_old": 185.4
+    "oldName": "PHASE2_664"
 }, {
     "fullname": "PHASE2_1032",
     "phase": "PHASE2",
@@ -11817,12 +9959,10 @@ let points = [{
     "x_real": 110.62,
     "y_real": 235.86,
     "z_real": 49.05,
-    "x_img": 859.6842709529278,
-    "y_img": 502.9209445585211,
+    "x_img": 859.68,
+    "y_img": 502.92,
     "level": "level_47.8",
-    "oldName": "PHASE2_665",
-    "x_img_old": 864.44,
-    "y_img_old": 305.62
+    "oldName": "PHASE2_665"
 }, {
     "fullname": "PHASE2_1033",
     "phase": "PHASE2",
@@ -11830,12 +9970,10 @@ let points = [{
     "x_real": 110.71,
     "y_real": 233.38,
     "z_real": 49.05,
-    "x_img": 862.422502870264,
-    "y_img": 574.8511293634492,
+    "x_img": 862.42,
+    "y_img": 574.85,
     "level": "level_47.8",
-    "oldName": "PHASE2_666",
-    "x_img_old": 867,
-    "y_img_old": 379.03
+    "oldName": "PHASE2_666"
 }, {
     "fullname": "PHASE2_1034",
     "phase": "PHASE2",
@@ -11843,12 +9981,10 @@ let points = [{
     "x_real": 113.47,
     "y_real": 236.06,
     "z_real": 49.05,
-    "x_img": 946.3949483352471,
-    "y_img": 497.1201232032854,
+    "x_img": 946.39,
+    "y_img": 497.12,
     "level": "level_47.8",
-    "oldName": "PHASE2_667",
-    "x_img_old": 950.38,
-    "y_img_old": 299.78
+    "oldName": "PHASE2_667"
 }, {
     "fullname": "PHASE2_1035",
     "phase": "PHASE2",
@@ -11856,12 +9992,10 @@ let points = [{
     "x_real": 119.96,
     "y_real": 240.23,
     "z_real": 49.08,
-    "x_img": 1143.851894374282,
-    "y_img": 376.17299794661176,
+    "x_img": 1143.85,
+    "y_img": 376.17,
     "level": "level_47.8",
-    "oldName": "PHASE2_668",
-    "x_img_old": 1146.45,
-    "y_img_old": 176.84
+    "oldName": "PHASE2_668"
 }, {
     "fullname": "PHASE2_1036",
     "phase": "PHASE2",
@@ -11869,12 +10003,10 @@ let points = [{
     "x_real": 120.5,
     "y_real": 234.58,
     "z_real": 49.06,
-    "x_img": 1160.2812858783009,
-    "y_img": 540.0462012320322,
+    "x_img": 1160.28,
+    "y_img": 540.05,
     "level": "level_47.8",
-    "oldName": "PHASE2_669",
-    "x_img_old": 1162.59,
-    "y_img_old": 343.42
+    "oldName": "PHASE2_669"
 }, {
     "fullname": "PHASE2_1037",
     "phase": "PHASE2",
@@ -11882,12 +10014,10 @@ let points = [{
     "x_real": 113.68,
     "y_real": 230.59,
     "z_real": 49.05,
-    "x_img": 952.7841561423652,
-    "y_img": 655.7725872689934,
+    "x_img": 952.78,
+    "y_img": 655.77,
     "level": "level_47.8",
-    "oldName": "PHASE2_670",
-    "x_img_old": 956.86,
-    "y_img_old": 461.17
+    "oldName": "PHASE2_670"
 }, {
     "fullname": "PHASE2_1038",
     "phase": "PHASE2",
@@ -11895,12 +10025,10 @@ let points = [{
     "x_real": 116,
     "y_real": 229.02,
     "z_real": 49.06,
-    "x_img": 1023.369690011481,
-    "y_img": 701.3090349075974,
+    "x_img": 1023.37,
+    "y_img": 701.31,
     "level": "level_47.8",
-    "oldName": "PHASE2_671",
-    "x_img_old": 1026.92,
-    "y_img_old": 507.63
+    "oldName": "PHASE2_671"
 }, {
     "fullname": "PHASE2_1039",
     "phase": "PHASE2",
@@ -11908,12 +10036,10 @@ let points = [{
     "x_real": 116.25,
     "y_real": 231.97,
     "z_real": 49.06,
-    "x_img": 1030.9758897818601,
-    "y_img": 615.746919917864,
+    "x_img": 1030.98,
+    "y_img": 615.75,
     "level": "level_47.8",
-    "oldName": "PHASE2_672",
-    "x_img_old": 1034.39,
-    "y_img_old": 420.55
+    "oldName": "PHASE2_672"
 }, {
     "fullname": "PHASE2_1040",
     "phase": "PHASE2",
@@ -11921,12 +10047,10 @@ let points = [{
     "x_real": 119.4,
     "y_real": 230.54,
     "z_real": 49.07,
-    "x_img": 1126.8140068886337,
-    "y_img": 657.2227926078031,
+    "x_img": 1126.81,
+    "y_img": 657.22,
     "level": "level_47.8",
-    "oldName": "PHASE2_673",
-    "x_img_old": 1129.55,
-    "y_img_old": 462.82
+    "oldName": "PHASE2_673"
 }, {
     "fullname": "PHASE2_1041",
     "phase": "PHASE2",
@@ -11934,12 +10058,10 @@ let points = [{
     "x_real": 122.91,
     "y_real": 230.37,
     "z_real": 49.07,
-    "x_img": 1233.6050516647529,
-    "y_img": 662.1534907597534,
+    "x_img": 1233.61,
+    "y_img": 662.15,
     "level": "level_47.8",
-    "oldName": "PHASE2_674",
-    "x_img_old": 1235.32,
-    "y_img_old": 467.88
+    "oldName": "PHASE2_674"
 }, {
     "fullname": "PHASE2_1042",
     "phase": "PHASE2",
@@ -11947,12 +10069,10 @@ let points = [{
     "x_real": 124.76,
     "y_real": 230.56,
     "z_real": 49.05,
-    "x_img": 1289.8909299655566,
-    "y_img": 656.6427104722788,
+    "x_img": 1289.89,
+    "y_img": 656.64,
     "level": "level_47.8",
-    "oldName": "PHASE2_675",
-    "x_img_old": 1291.24,
-    "y_img_old": 462.23
+    "oldName": "PHASE2_675"
 }, {
     "fullname": "PHASE2_1043",
     "phase": "PHASE2",
@@ -11960,12 +10080,10 @@ let points = [{
     "x_real": 126.75,
     "y_real": 240.01,
     "z_real": 49.06,
-    "x_img": 1350.4362801377724,
-    "y_img": 382.5539014373717,
+    "x_img": 1350.44,
+    "y_img": 382.55,
     "level": "level_47.8",
-    "oldName": "PHASE2_676",
-    "x_img_old": 1351.26,
-    "y_img_old": 183.37
+    "oldName": "PHASE2_676"
 }, {
     "fullname": "PHASE2_1044",
     "phase": "PHASE2",
@@ -11973,12 +10091,10 @@ let points = [{
     "x_real": 126.4,
     "y_real": 233.72,
     "z_real": 49.05,
-    "x_img": 1339.7876004592422,
-    "y_img": 564.9897330595477,
+    "x_img": 1339.79,
+    "y_img": 564.99,
     "level": "level_47.8",
-    "oldName": "PHASE2_677",
-    "x_img_old": 1340.66,
-    "y_img_old": 368.84
+    "oldName": "PHASE2_677"
 }, {
     "fullname": "PHASE2_1045",
     "phase": "PHASE2",
@@ -11986,12 +10102,10 @@ let points = [{
     "x_real": 132.11,
     "y_real": 239.75,
     "z_real": 49.07,
-    "x_img": 1513.5132032146957,
-    "y_img": 390.0949691991782,
+    "x_img": 1513.51,
+    "y_img": 390.09,
     "level": "level_47.8",
-    "oldName": "PHASE2_678",
-    "x_img_old": 1513.06,
-    "y_img_old": 190.85
+    "oldName": "PHASE2_678"
 }, {
     "fullname": "PHASE2_1046",
     "phase": "PHASE2",
@@ -11999,12 +10113,10 @@ let points = [{
     "x_real": 134.25,
     "y_real": 239.79,
     "z_real": 49.08,
-    "x_img": 1578.6222732491383,
-    "y_img": 388.9348049281316,
+    "x_img": 1578.62,
+    "y_img": 388.93,
     "level": "level_47.8",
-    "oldName": "PHASE2_679",
-    "x_img_old": 1577.84,
-    "y_img_old": 189.73
+    "oldName": "PHASE2_679"
 }, {
     "fullname": "PHASE2_1047",
     "phase": "PHASE2",
@@ -12012,12 +10124,10 @@ let points = [{
     "x_real": 131.85,
     "y_real": 233.57,
     "z_real": 53.27,
-    "x_img": 1505.6027554535012,
-    "y_img": 569.3403490759756,
+    "x_img": 1505.6,
+    "y_img": 569.34,
     "level": "level_47.8",
-    "oldName": "PHASE2_680",
-    "x_img_old": 1505.33,
-    "y_img_old": 373.28
+    "oldName": "PHASE2_680"
 }, {
     "fullname": "PHASE2_1048",
     "phase": "PHASE2",
@@ -12025,12 +10135,10 @@ let points = [{
     "x_real": 131.66,
     "y_real": 231.5,
     "z_real": 53.26,
-    "x_img": 1499.822043628013,
-    "y_img": 629.3788501026693,
+    "x_img": 1499.82,
+    "y_img": 629.38,
     "level": "level_47.8",
-    "oldName": "PHASE2_681",
-    "x_img_old": 1499.56,
-    "y_img_old": 434.42
+    "oldName": "PHASE2_681"
 }, {
     "fullname": "PHASE2_1049",
     "phase": "PHASE2",
@@ -12038,12 +10146,10 @@ let points = [{
     "x_real": 128.33,
     "y_real": 230.79,
     "z_real": 53.25,
-    "x_img": 1398.5074626865671,
-    "y_img": 649.9717659137577,
+    "x_img": 1398.51,
+    "y_img": 649.97,
     "level": "level_47.8",
-    "oldName": "PHASE2_682",
-    "x_img_old": 1399.17,
-    "y_img_old": 455.41
+    "oldName": "PHASE2_682"
 }, {
     "fullname": "PHASE2_1050",
     "phase": "PHASE2",
@@ -12051,12 +10157,10 @@ let points = [{
     "x_real": 123.12,
     "y_real": 230.44,
     "z_real": 53.25,
-    "x_img": 1239.9942594718714,
-    "y_img": 660.1232032854205,
+    "x_img": 1239.99,
+    "y_img": 660.12,
     "level": "level_47.8",
-    "oldName": "PHASE2_683",
-    "x_img_old": 1241.79,
-    "y_img_old": 465.58
+    "oldName": "PHASE2_683"
 }, {
     "fullname": "PHASE2_1051",
     "phase": "PHASE2",
@@ -12064,12 +10168,10 @@ let points = [{
     "x_real": 120.13,
     "y_real": 228.93,
     "z_real": 53.25,
-    "x_img": 1149.0241102181399,
-    "y_img": 703.9194045174536,
+    "x_img": 1149.02,
+    "y_img": 703.92,
     "level": "level_47.8",
-    "oldName": "PHASE2_684",
-    "x_img_old": 1151.46,
-    "y_img_old": 510.1
+    "oldName": "PHASE2_684"
 }, {
     "fullname": "PHASE2_1052",
     "phase": "PHASE2",
@@ -12077,12 +10179,10 @@ let points = [{
     "x_real": 117.93,
     "y_real": 230.33,
     "z_real": 53.25,
-    "x_img": 1082.089552238806,
-    "y_img": 663.3136550308,
+    "x_img": 1082.09,
+    "y_img": 663.31,
     "level": "level_47.8",
-    "oldName": "PHASE2_685",
-    "x_img_old": 1085.15,
-    "y_img_old": 468.99
+    "oldName": "PHASE2_685"
 }, {
     "fullname": "PHASE2_1053",
     "phase": "PHASE2",
@@ -12090,12 +10190,10 @@ let points = [{
     "x_real": 120.46,
     "y_real": 231.75,
     "z_real": 53.26,
-    "x_img": 1159.0642939150398,
-    "y_img": 622.127823408624,
+    "x_img": 1159.06,
+    "y_img": 622.13,
     "level": "level_47.8",
-    "oldName": "PHASE2_686",
-    "x_img_old": 1161.51,
-    "y_img_old": 427.09
+    "oldName": "PHASE2_686"
 }, {
     "fullname": "PHASE2_1054",
     "phase": "PHASE2",
@@ -12103,12 +10201,10 @@ let points = [{
     "x_real": 115.21,
     "y_real": 230.05,
     "z_real": 53.25,
-    "x_img": 999.3340987370839,
-    "y_img": 671.4348049281307,
+    "x_img": 999.33,
+    "y_img": 671.43,
     "level": "level_47.8",
-    "oldName": "PHASE2_687",
-    "x_img_old": 1002.95,
-    "y_img_old": 477.26
+    "oldName": "PHASE2_687"
 }, {
     "fullname": "PHASE2_1055",
     "phase": "PHASE2",
@@ -12116,12 +10212,10 @@ let points = [{
     "x_real": 112.63,
     "y_real": 230.58,
     "z_real": 53.25,
-    "x_img": 920.838117106774,
-    "y_img": 656.0626283367546,
+    "x_img": 920.84,
+    "y_img": 656.06,
     "level": "level_47.8",
-    "oldName": "PHASE2_688",
-    "x_img_old": 924.9,
-    "y_img_old": 461.51
+    "oldName": "PHASE2_688"
 }, {
     "fullname": "PHASE2_1056",
     "phase": "PHASE2",
@@ -12129,12 +10223,10 @@ let points = [{
     "x_real": 110.72,
     "y_real": 230.26,
     "z_real": 53.26,
-    "x_img": 862.7267508610794,
-    "y_img": 665.3439425051338,
+    "x_img": 862.73,
+    "y_img": 665.34,
     "level": "level_47.8",
-    "oldName": "PHASE2_689",
-    "x_img_old": 867.24,
-    "y_img_old": 470.9
+    "oldName": "PHASE2_689"
 }, {
     "fullname": "PHASE2_1057",
     "phase": "PHASE2",
@@ -12142,12 +10234,10 @@ let points = [{
     "x_real": 110.65,
     "y_real": 233.52,
     "z_real": 53.24,
-    "x_img": 860.5970149253735,
-    "y_img": 570.7905544147843,
+    "x_img": 860.6,
+    "y_img": 570.79,
     "level": "level_47.8",
-    "oldName": "PHASE2_690",
-    "x_img_old": 865.37,
-    "y_img_old": 374.75
+    "oldName": "PHASE2_690"
 }, {
     "fullname": "PHASE2_1058",
     "phase": "PHASE2",
@@ -12155,12 +10245,10 @@ let points = [{
     "x_real": 110.18,
     "y_real": 237.84,
     "z_real": 53.24,
-    "x_img": 846.2973593570614,
-    "y_img": 445.49281314168365,
+    "x_img": 846.3,
+    "y_img": 445.49,
     "level": "level_47.8",
-    "oldName": "PHASE2_691",
-    "x_img_old": 851.11,
-    "y_img_old": 247.22
+    "oldName": "PHASE2_691"
 }, {
     "fullname": "PHASE2_1059",
     "phase": "PHASE2",
@@ -12168,12 +10256,10 @@ let points = [{
     "x_real": 110.68,
     "y_real": 240.88,
     "z_real": 53.25,
-    "x_img": 861.5097588978192,
-    "y_img": 357.3203285420941,
+    "x_img": 861.51,
+    "y_img": 357.32,
     "level": "level_47.8",
-    "oldName": "PHASE2_692",
-    "x_img_old": 866.03,
-    "y_img_old": 157.51
+    "oldName": "PHASE2_692"
 }, {
     "fullname": "PHASE2_1060",
     "phase": "PHASE2",
@@ -12181,12 +10267,10 @@ let points = [{
     "x_real": 110.81,
     "y_real": 227.75,
     "z_real": 53.26,
-    "x_img": 865.464982778416,
-    "y_img": 738.1442505133464,
+    "x_img": 865.46,
+    "y_img": 738.14,
     "level": "level_47.8",
-    "oldName": "PHASE2_693",
-    "x_img_old": 869.93,
-    "y_img_old": 545.04
+    "oldName": "PHASE2_693"
 }, {
     "fullname": "PHASE2_1061",
     "phase": "PHASE2",
@@ -12194,12 +10278,10 @@ let points = [{
     "x_real": 111.86,
     "y_real": 224.17,
     "z_real": 52.13,
-    "x_img": 897.4110218140072,
-    "y_img": 841.9789527720741,
+    "x_img": 897.41,
+    "y_img": 841.98,
     "level": "level_47.8",
-    "oldName": "PHASE2_694",
-    "x_img_old": 901.89,
-    "y_img_old": 650.55
+    "oldName": "PHASE2_694"
 }, {
     "fullname": "PHASE2_1062",
     "phase": "PHASE2",
@@ -12207,12 +10289,10 @@ let points = [{
     "x_real": 151.13,
     "y_real": 214.9,
     "z_real": 59.21,
-    "x_img": 2092.1928817451194,
-    "y_img": 1110.8470225872688,
+    "x_img": 2092.19,
+    "y_img": 1110.85,
     "level": "level_58.0",
-    "oldName": "PHASE2_695",
-    "x_img_old": 2087.33,
-    "y_img_old": 924.31
+    "oldName": "PHASE2_695"
 }, {
     "fullname": "PHASE2_1063",
     "phase": "PHASE2",
@@ -12220,12 +10300,10 @@ let points = [{
     "x_real": 155.23,
     "y_real": 209.02,
     "z_real": 59.2,
-    "x_img": 2216.934557979333,
-    "y_img": 1281.3911704312104,
+    "x_img": 2216.93,
+    "y_img": 1281.39,
     "level": "level_58.0",
-    "oldName": "PHASE2_696",
-    "x_img_old": 2211.24,
-    "y_img_old": 1097.65
+    "oldName": "PHASE2_696"
 }, {
     "fullname": "PHASE2_1064",
     "phase": "PHASE2",
@@ -12233,12 +10311,10 @@ let points = [{
     "x_real": 156.15,
     "y_real": 218.11,
     "z_real": 59.58,
-    "x_img": 2244.9253731343274,
-    "y_img": 1017.7438398357281,
+    "x_img": 2244.93,
+    "y_img": 1017.74,
     "level": "level_58.0",
-    "oldName": "PHASE2_697",
-    "x_img_old": 2239.11,
-    "y_img_old": 829.41
+    "oldName": "PHASE2_697"
 }, {
     "fullname": "PHASE2_1065",
     "phase": "PHASE2",
@@ -12246,12 +10322,10 @@ let points = [{
     "x_real": 161.01,
     "y_real": 222.8,
     "z_real": 59.58,
-    "x_img": 2392.789896670492,
-    "y_img": 881.7145790554405,
+    "x_img": 2392.79,
+    "y_img": 881.71,
     "level": "level_58.0",
-    "oldName": "PHASE2_698",
-    "x_img_old": 2385.84,
-    "y_img_old": 691.03
+    "oldName": "PHASE2_698"
 }, {
     "fullname": "PHASE2_1066",
     "phase": "PHASE2",
@@ -12259,12 +10333,10 @@ let points = [{
     "x_real": 161.25,
     "y_real": 226.23,
     "z_real": 59.22,
-    "x_img": 2400.0918484500557,
-    "y_img": 782.2304928131416,
+    "x_img": 2400.09,
+    "y_img": 782.23,
     "level": "level_58.0",
-    "oldName": "PHASE2_699",
-    "x_img_old": 2392.93,
-    "y_img_old": 589.89
+    "oldName": "PHASE2_699"
 }, {
     "fullname": "PHASE2_1067",
     "phase": "PHASE2",
@@ -12272,12 +10344,10 @@ let points = [{
     "x_real": 161.87,
     "y_real": 231.09,
     "z_real": 59.22,
-    "x_img": 2418.955223880596,
-    "y_img": 641.2705338809028,
+    "x_img": 2418.96,
+    "y_img": 641.27,
     "level": "level_58.0",
-    "oldName": "PHASE2_700",
-    "x_img_old": 2411.82,
-    "y_img_old": 446.63
+    "oldName": "PHASE2_700"
 }, {
     "fullname": "PHASE2_1068",
     "phase": "PHASE2",
@@ -12285,12 +10355,10 @@ let points = [{
     "x_real": 160.42,
     "y_real": 234.16,
     "z_real": 59.21,
-    "x_img": 2374.839265212398,
-    "y_img": 552.2279260780288,
+    "x_img": 2374.84,
+    "y_img": 552.23,
     "level": "level_58.0",
-    "oldName": "PHASE2_701",
-    "x_img_old": 2367.89,
-    "y_img_old": 356.04
+    "oldName": "PHASE2_701"
 }, {
     "fullname": "PHASE2_1069",
     "phase": "PHASE2",
@@ -12298,12 +10366,10 @@ let points = [{
     "x_real": 160.33,
     "y_real": 239.73,
     "z_real": 59.21,
-    "x_img": 2372.1010332950623,
-    "y_img": 390.6750513347024,
+    "x_img": 2372.1,
+    "y_img": 390.68,
     "level": "level_58.0",
-    "oldName": "PHASE2_702",
-    "x_img_old": 2365.15,
-    "y_img_old": 191.59
+    "oldName": "PHASE2_702"
 }, {
     "fullname": "PHASE2_1070",
     "phase": "PHASE2",
@@ -12311,12 +10377,10 @@ let points = [{
     "x_real": 161.46,
     "y_real": 213.67,
     "z_real": 59.64,
-    "x_img": 2406.4810562571743,
-    "y_img": 1146.5220739219712,
+    "x_img": 2406.48,
+    "y_img": 1146.52,
     "level": "level_58.0",
-    "oldName": "PHASE2_703",
-    "x_img_old": 2399.41,
-    "y_img_old": 960.44
+    "oldName": "PHASE2_703"
 }, {
     "fullname": "PHASE2_1071",
     "phase": "PHASE2",
@@ -12324,12 +10388,10 @@ let points = [{
     "x_real": 150.85,
     "y_real": 223.09,
     "z_real": 59.57,
-    "x_img": 2083.673938002295,
-    "y_img": 873.3033880903486,
+    "x_img": 2083.67,
+    "y_img": 873.3,
     "level": "level_58.0",
-    "oldName": "PHASE2_704",
-    "x_img_old": 2078.95,
-    "y_img_old": 682.47
+    "oldName": "PHASE2_704"
 }, {
     "fullname": "PHASE2_1072",
     "phase": "PHASE2",
@@ -12337,12 +10399,10 @@ let points = [{
     "x_real": 149.01,
     "y_real": 228.46,
     "z_real": 59.58,
-    "x_img": 2027.6923076923063,
-    "y_img": 717.5513347022579,
+    "x_img": 2027.69,
+    "y_img": 717.55,
     "level": "level_58.0",
-    "oldName": "PHASE2_705",
-    "x_img_old": 2023.33,
-    "y_img_old": 524.06
+    "oldName": "PHASE2_705"
 }, {
     "fullname": "PHASE2_1073",
     "phase": "PHASE2",
@@ -12350,12 +10410,10 @@ let points = [{
     "x_real": 152.49,
     "y_real": 234.93,
     "z_real": 59.58,
-    "x_img": 2133.5706084959807,
-    "y_img": 529.8947638603695,
+    "x_img": 2133.57,
+    "y_img": 529.89,
     "level": "level_58.0",
-    "oldName": "PHASE2_706",
-    "x_img_old": 2128.62,
-    "y_img_old": 333.26
+    "oldName": "PHASE2_706"
 }, {
     "fullname": "PHASE2_1074",
     "phase": "PHASE2",
@@ -12363,12 +10421,10 @@ let points = [{
     "x_real": 152.21,
     "y_real": 240.59,
     "z_real": 59.59,
-    "x_img": 2125.0516647531563,
-    "y_img": 365.73151950718693,
+    "x_img": 2125.05,
+    "y_img": 365.73,
     "level": "level_58.0",
-    "oldName": "PHASE2_707",
-    "x_img_old": 2119.88,
-    "y_img_old": 166.06
+    "oldName": "PHASE2_707"
 }, {
     "fullname": "PHASE2_1075",
     "phase": "PHASE2",
@@ -12376,12 +10432,10 @@ let points = [{
     "x_real": 156.85,
     "y_real": 240.85,
     "z_real": 59.59,
-    "x_img": 2266.222732491388,
-    "y_img": 358.1904517453795,
+    "x_img": 2266.22,
+    "y_img": 358.19,
     "level": "level_58.0",
-    "oldName": "PHASE2_708",
-    "x_img_old": 2260.25,
-    "y_img_old": 158.63
+    "oldName": "PHASE2_708"
 }, {
     "fullname": "PHASE2_1076",
     "phase": "PHASE2",
@@ -12389,12 +10443,10 @@ let points = [{
     "x_real": 141.48,
     "y_real": 238.02,
     "z_real": 59.58,
-    "x_img": 1798.5935706084952,
-    "y_img": 440.27207392197124,
+    "x_img": 1798.59,
+    "y_img": 440.27,
     "level": "level_58.0",
-    "oldName": "PHASE2_709",
-    "x_img_old": 1796.03,
-    "y_img_old": 242.09
+    "oldName": "PHASE2_709"
 }, {
     "fullname": "PHASE2_1077",
     "phase": "PHASE2",
@@ -12402,12 +10454,10 @@ let points = [{
     "x_real": 132.27,
     "y_real": 238.44,
     "z_real": 59.58,
-    "x_img": 1518.3811710677383,
-    "y_img": 428.0903490759756,
+    "x_img": 1518.38,
+    "y_img": 428.09,
     "level": "level_58.0",
-    "oldName": "PHASE2_710",
-    "x_img_old": 1518.05,
-    "y_img_old": 229.64
+    "oldName": "PHASE2_710"
 }, {
     "fullname": "PHASE2_1078",
     "phase": "PHASE2",
@@ -12415,12 +10465,10 @@ let points = [{
     "x_real": 121.42,
     "y_real": 235.38,
     "z_real": 59.56,
-    "x_img": 1188.2721010332948,
-    "y_img": 516.8429158110885,
+    "x_img": 1188.27,
+    "y_img": 516.84,
     "level": "level_58.0",
-    "oldName": "PHASE2_711",
-    "x_img_old": 1190.4,
-    "y_img_old": 319.95
+    "oldName": "PHASE2_711"
 }, {
     "fullname": "PHASE2_1079",
     "phase": "PHASE2",
@@ -12428,12 +10476,10 @@ let points = [{
     "x_real": 121.54,
     "y_real": 227.18,
     "z_real": 59.57,
-    "x_img": 1191.9230769230771,
-    "y_img": 754.6765913757699,
+    "x_img": 1191.92,
+    "y_img": 754.68,
     "level": "level_58.0",
-    "oldName": "PHASE2_712",
-    "x_img_old": 1193.98,
-    "y_img_old": 561.91
+    "oldName": "PHASE2_712"
 }, {
     "fullname": "PHASE2_1080",
     "phase": "PHASE2",
@@ -12441,12 +10487,10 @@ let points = [{
     "x_real": 128.73,
     "y_real": 228.08,
     "z_real": 59.56,
-    "x_img": 1410.677382319173,
-    "y_img": 728.572895277207,
+    "x_img": 1410.68,
+    "y_img": 728.57,
     "level": "level_58.0",
-    "oldName": "PHASE2_713",
-    "x_img_old": 1411.04,
-    "y_img_old": 535.23
+    "oldName": "PHASE2_713"
 }, {
     "fullname": "PHASE2_1081",
     "phase": "PHASE2",
@@ -12454,12 +10498,10 @@ let points = [{
     "x_real": 138.43,
     "y_real": 228.2,
     "z_real": 59.55,
-    "x_img": 1705.7979334098732,
-    "y_img": 725.0924024640663,
+    "x_img": 1705.8,
+    "y_img": 725.09,
     "level": "level_58.0",
-    "oldName": "PHASE2_714",
-    "x_img_old": 1704.06,
-    "y_img_old": 531.66
+    "oldName": "PHASE2_714"
 }, {
     "fullname": "PHASE2_1082",
     "phase": "PHASE2",
@@ -12467,12 +10509,10 @@ let points = [{
     "x_real": 121.21,
     "y_real": 218.38,
     "z_real": 59.54,
-    "x_img": 1181.8828932261763,
-    "y_img": 1009.9127310061604,
+    "x_img": 1181.88,
+    "y_img": 1009.91,
     "level": "level_58.0",
-    "oldName": "PHASE2_715",
-    "x_img_old": 1184.11,
-    "y_img_old": 821.52
+    "oldName": "PHASE2_715"
 }, {
     "fullname": "PHASE2_1083",
     "phase": "PHASE2",
@@ -12480,12 +10520,10 @@ let points = [{
     "x_real": 116.84,
     "y_real": 226.71,
     "z_real": 59.54,
-    "x_img": 1048.9265212399541,
-    "y_img": 768.3085215605743,
+    "x_img": 1048.93,
+    "y_img": 768.31,
     "level": "level_58.0",
-    "oldName": "PHASE2_716",
-    "x_img_old": 1052.22,
-    "y_img_old": 575.76
+    "oldName": "PHASE2_716"
 }, {
     "fullname": "PHASE2_1084",
     "phase": "PHASE2",
@@ -12493,12 +10531,10 @@ let points = [{
     "x_real": 119.31,
     "y_real": 218.26,
     "z_real": 59.59,
-    "x_img": 1124.0757749712975,
-    "y_img": 1013.393223819302,
+    "x_img": 1124.08,
+    "y_img": 1013.39,
     "level": "level_58.0",
-    "oldName": "PHASE2_717",
-    "x_img_old": 1126.84,
-    "y_img_old": 824.94
+    "oldName": "PHASE2_717"
 }, {
     "fullname": "PHASE2_1085",
     "phase": "PHASE2",
@@ -12506,12 +10542,10 @@ let points = [{
     "x_real": 117.53,
     "y_real": 215.64,
     "z_real": 59.58,
-    "x_img": 1069.9196326061997,
-    "y_img": 1089.383983572895,
+    "x_img": 1069.92,
+    "y_img": 1089.38,
     "level": "level_58.0",
-    "oldName": "PHASE2_718",
-    "x_img_old": 1072.98,
-    "y_img_old": 902.28
+    "oldName": "PHASE2_718"
 }, {
     "fullname": "PHASE2_1086",
     "phase": "PHASE2",
@@ -12519,12 +10553,10 @@ let points = [{
     "x_real": 117.81,
     "y_real": 220.91,
     "z_real": 59.57,
-    "x_img": 1078.438576349024,
-    "y_img": 936.5323408624226,
+    "x_img": 1078.44,
+    "y_img": 936.53,
     "level": "level_58.0",
-    "oldName": "PHASE2_719",
-    "x_img_old": 1081.34,
-    "y_img_old": 746.9
+    "oldName": "PHASE2_719"
 }, {
     "fullname": "PHASE2_1087",
     "phase": "PHASE2",
@@ -12532,12 +10564,10 @@ let points = [{
     "x_real": 117.28,
     "y_real": 222.76,
     "z_real": 59.58,
-    "x_img": 1062.313432835821,
-    "y_img": 882.8747433264889,
+    "x_img": 1062.31,
+    "y_img": 882.87,
     "level": "level_58.0",
-    "oldName": "PHASE2_720",
-    "x_img_old": 1065.46,
-    "y_img_old": 692.38
+    "oldName": "PHASE2_720"
 }, {
     "fullname": "PHASE2_1088",
     "phase": "PHASE2",
@@ -12545,12 +10575,10 @@ let points = [{
     "x_real": 118.61,
     "y_real": 223.37,
     "z_real": 59.58,
-    "x_img": 1102.7784156142366,
-    "y_img": 865.1822381930178,
+    "x_img": 1102.78,
+    "y_img": 865.18,
     "level": "level_58.0",
-    "oldName": "PHASE2_721",
-    "x_img_old": 1105.63,
-    "y_img_old": 674.15
+    "oldName": "PHASE2_721"
 }, {
     "fullname": "PHASE2_1089",
     "phase": "PHASE2",
@@ -12558,12 +10586,10 @@ let points = [{
     "x_real": 112.32,
     "y_real": 221.38,
     "z_real": 59.58,
-    "x_img": 911.4064293915039,
-    "y_img": 922.9004106776183,
+    "x_img": 911.41,
+    "y_img": 922.9,
     "level": "level_58.0",
-    "oldName": "PHASE2_722",
-    "x_img_old": 915.56,
-    "y_img_old": 732.87
+    "oldName": "PHASE2_722"
 }, {
     "fullname": "PHASE2_1090",
     "phase": "PHASE2",
@@ -12571,12 +10597,10 @@ let points = [{
     "x_real": 112.63,
     "y_real": 217.96,
     "z_real": 59.58,
-    "x_img": 920.838117106774,
-    "y_img": 1022.094455852156,
+    "x_img": 920.84,
+    "y_img": 1022.09,
     "level": "level_58.0",
-    "oldName": "PHASE2_723",
-    "x_img_old": 925.15,
-    "y_img_old": 834.04
+    "oldName": "PHASE2_723"
 }, {
     "fullname": "PHASE2_1091",
     "phase": "PHASE2",
@@ -12584,12 +10608,10 @@ let points = [{
     "x_real": 113.79,
     "y_real": 215.23,
     "z_real": 59.58,
-    "x_img": 956.1308840413321,
-    "y_img": 1101.2756673511294,
+    "x_img": 956.13,
+    "y_img": 1101.28,
     "level": "level_58.0",
-    "oldName": "PHASE2_724",
-    "x_img_old": 960.16,
-    "y_img_old": 914.46
+    "oldName": "PHASE2_724"
 }, {
     "fullname": "PHASE2_1092",
     "phase": "PHASE2",
@@ -12597,12 +10619,10 @@ let points = [{
     "x_real": 112.45,
     "y_real": 224.11,
     "z_real": 59.59,
-    "x_img": 915.3616532721012,
-    "y_img": 843.719199178644,
+    "x_img": 915.36,
+    "y_img": 843.72,
     "level": "level_58.0",
-    "oldName": "PHASE2_725",
-    "x_img_old": 919.74,
-    "y_img_old": 652.4
+    "oldName": "PHASE2_725"
 }, {
     "fullname": "PHASE2_1093",
     "phase": "PHASE2",
@@ -12610,12 +10630,10 @@ let points = [{
     "x_real": 112.42,
     "y_real": 225.62,
     "z_real": 59.2,
-    "x_img": 914.448909299656,
-    "y_img": 799.9229979466118,
+    "x_img": 914.45,
+    "y_img": 799.92,
     "level": "level_58.0",
-    "oldName": "PHASE2_726",
-    "x_img_old": 918.84,
-    "y_img_old": 607.92
+    "oldName": "PHASE2_726"
 }, {
     "fullname": "PHASE2_1094",
     "phase": "PHASE2",
@@ -12623,12 +10641,10 @@ let points = [{
     "x_real": 120.87,
     "y_real": 222.59,
     "z_real": 59.55,
-    "x_img": 1171.5384615384614,
-    "y_img": 887.8054414784392,
+    "x_img": 1171.54,
+    "y_img": 887.81,
     "level": "level_58.0",
-    "oldName": "PHASE2_727",
-    "x_img_old": 1173.9,
-    "y_img_old": 697.28
+    "oldName": "PHASE2_727"
 }, {
     "fullname": "PHASE2_1095",
     "phase": "PHASE2",
@@ -12636,12 +10652,10 @@ let points = [{
     "x_real": 120.89,
     "y_real": 215.26,
     "z_real": 59.55,
-    "x_img": 1172.1469575200917,
-    "y_img": 1100.405544147844,
+    "x_img": 1172.15,
+    "y_img": 1100.41,
     "level": "level_58.0",
-    "oldName": "PHASE2_728",
-    "x_img_old": 1174.54,
-    "y_img_old": 913.48
+    "oldName": "PHASE2_728"
 }, {
     "fullname": "PHASE2_1096",
     "phase": "PHASE2",
@@ -12649,12 +10663,10 @@ let points = [{
     "x_real": 109.99,
     "y_real": 226.8,
     "z_real": 59.58,
-    "x_img": 840.5166475315727,
-    "y_img": 765.698151950718,
+    "x_img": 840.52,
+    "y_img": 765.7,
     "level": "level_58.0",
-    "oldName": "PHASE2_729",
-    "x_img_old": 845.42,
-    "y_img_old": 573.07
+    "oldName": "PHASE2_729"
 }, {
     "fullname": "PHASE2_1097",
     "phase": "PHASE2",
@@ -12662,12 +10674,10 @@ let points = [{
     "x_real": 110.26,
     "y_real": 237.2,
     "z_real": 59.54,
-    "x_img": 848.7313432835826,
-    "y_img": 464.0554414784392,
+    "x_img": 848.73,
+    "y_img": 464.06,
     "level": "level_58.0",
-    "oldName": "PHASE2_730",
-    "x_img_old": 853.44,
-    "y_img_old": 266.1
+    "oldName": "PHASE2_730"
 }, {
     "fullname": "PHASE2_1098",
     "phase": "PHASE2",
@@ -12675,12 +10685,10 @@ let points = [{
     "x_real": 108.17,
     "y_real": 233.07,
     "z_real": 59.67,
-    "x_img": 785.1435132032152,
-    "y_img": 583.8424024640653,
+    "x_img": 785.14,
+    "y_img": 583.84,
     "level": "level_58.0",
-    "oldName": "PHASE2_731",
-    "x_img_old": 790.51,
-    "y_img_old": 388.16
+    "oldName": "PHASE2_731"
 }, {
     "fullname": "PHASE2_1099",
     "phase": "PHASE2",
@@ -12688,12 +10696,10 @@ let points = [{
     "x_real": 102.96,
     "y_real": 233.56,
     "z_real": 59.53,
-    "x_img": 626.630309988519,
-    "y_img": 569.6303901437368,
+    "x_img": 626.63,
+    "y_img": 569.63,
     "level": "level_58.0",
-    "oldName": "PHASE2_732",
-    "x_img_old": 633.08,
-    "y_img_old": 373.58
+    "oldName": "PHASE2_732"
 }, {
     "fullname": "PHASE2_1100",
     "phase": "PHASE2",
@@ -12701,12 +10707,10 @@ let points = [{
     "x_real": 106.72,
     "y_real": 238.02,
     "z_real": 59.53,
-    "x_img": 741.0275545350173,
-    "y_img": 440.27207392197124,
+    "x_img": 741.03,
+    "y_img": 440.27,
     "level": "level_58.0",
-    "oldName": "PHASE2_733",
-    "x_img_old": 746.64,
-    "y_img_old": 242.03
+    "oldName": "PHASE2_733"
 }, {
     "fullname": "PHASE2_1101",
     "phase": "PHASE2",
@@ -12714,12 +10718,10 @@ let points = [{
     "x_real": 106.9,
     "y_real": 242.29,
     "z_real": 62.37,
-    "x_img": 746.5040183696906,
-    "y_img": 316.4245379876802,
+    "x_img": 746.5,
+    "y_img": 316.42,
     "level": "level_58.0",
-    "oldName": "PHASE2_734",
-    "x_img_old": 752.17,
-    "y_img_old": 115.91
+    "oldName": "PHASE2_734"
 }, {
     "fullname": "PHASE2_1102",
     "phase": "PHASE2",
@@ -12727,12 +10729,10 @@ let points = [{
     "x_real": 108.72,
     "y_real": 245.15,
     "z_real": 63.19,
-    "x_img": 801.8771526980486,
-    "y_img": 233.47279260780215,
+    "x_img": 801.88,
+    "y_img": 233.47,
     "level": "level_58.0",
-    "oldName": "PHASE2_735",
-    "x_img_old": 806.89,
-    "y_img_old": 31.52
+    "oldName": "PHASE2_735"
 }, {
     "fullname": "PHASE2_1103",
     "phase": "PHASE2",
@@ -12740,12 +10740,10 @@ let points = [{
     "x_real": 110.44,
     "y_real": 246.78,
     "z_real": 64.93,
-    "x_img": 854.207807118255,
-    "y_img": 186.19609856262832,
+    "x_img": 854.21,
+    "y_img": 186.2,
     "level": "level_58.0",
-    "oldName": "PHASE2_736",
-    "x_img_old": 858.87,
-    "y_img_old": -16.38
+    "oldName": "PHASE2_736"
 }, {
     "fullname": "PHASE2_1104",
     "phase": "PHASE2",
@@ -12753,12 +10751,10 @@ let points = [{
     "x_real": 108.49,
     "y_real": 241.91,
     "z_real": 66.51,
-    "x_img": 794.8794489092998,
-    "y_img": 327.4460985626283,
+    "x_img": 794.88,
+    "y_img": 327.45,
     "level": "level_58.0",
-    "oldName": "PHASE2_737",
-    "x_img_old": 800.1,
-    "y_img_old": 127.36
+    "oldName": "PHASE2_737"
 }, {
     "fullname": "PHASE2_1105",
     "phase": "PHASE2",
@@ -12766,12 +10762,10 @@ let points = [{
     "x_real": 107.64,
     "y_real": 231.58,
     "z_real": 66.52,
-    "x_img": 769.0183696900117,
-    "y_img": 627.0585215605743,
+    "x_img": 769.02,
+    "y_img": 627.06,
     "level": "level_58.0",
-    "oldName": "PHASE2_738",
-    "x_img_old": 774.27,
-    "y_img_old": 431.94
+    "oldName": "PHASE2_738"
 }, {
     "fullname": "PHASE2_1106",
     "phase": "PHASE2",
@@ -12779,12 +10773,10 @@ let points = [{
     "x_real": 100.49,
     "y_real": 226.9,
     "z_real": 66.41,
-    "x_img": 551.4810562571761,
-    "y_img": 762.7977412731007,
+    "x_img": 551.48,
+    "y_img": 762.8,
     "level": "level_58.0",
-    "oldName": "PHASE2_739",
-    "x_img_old": 558.48,
-    "y_img_old": 570.24
+    "oldName": "PHASE2_739"
 }, {
     "fullname": "PHASE2_1107",
     "phase": "PHASE2",
@@ -12792,12 +10784,10 @@ let points = [{
     "x_real": 89.84,
     "y_real": 233.16,
     "z_real": 66.33,
-    "x_img": 227.45694603903667,
-    "y_img": 581.2320328542091,
+    "x_img": 227.46,
+    "y_img": 581.23,
     "level": "level_58.0",
-    "oldName": "PHASE2_740",
-    "x_img_old": 237.02,
-    "y_img_old": 385.32
+    "oldName": "PHASE2_740"
 }, {
     "fullname": "PHASE2_1108",
     "phase": "PHASE2",
@@ -12805,12 +10795,10 @@ let points = [{
     "x_real": 94.31,
     "y_real": 245.61,
     "z_real": 66.38,
-    "x_img": 363.4557979334104,
-    "y_img": 220.130903490759,
+    "x_img": 363.46,
+    "y_img": 220.13,
     "level": "level_58.0",
-    "oldName": "PHASE2_741",
-    "x_img_old": 372.04,
-    "y_img_old": 17.91
+    "oldName": "PHASE2_741"
 }, {
     "fullname": "PHASE2_1109",
     "phase": "PHASE2",
@@ -12818,12 +10806,10 @@ let points = [{
     "x_real": 96.73,
     "y_real": 222,
     "z_real": 64.77,
-    "x_img": 437.0838117106782,
-    "y_img": 904.9178644763861,
+    "x_img": 437.08,
+    "y_img": 904.92,
     "level": "level_58.0",
-    "oldName": "PHASE2_742",
-    "x_img_old": 444.94,
-    "y_img_old": 714.75
+    "oldName": "PHASE2_742"
 }, {
     "fullname": "PHASE2_1110",
     "phase": "PHASE2",
@@ -12831,12 +10817,10 @@ let points = [{
     "x_real": 100,
     "y_real": 222.01,
     "z_real": 64.83,
-    "x_img": 536.5729047072336,
-    "y_img": 904.627823408624,
+    "x_img": 536.57,
+    "y_img": 904.63,
     "level": "level_58.0",
-    "oldName": "PHASE2_743",
-    "x_img_old": 543.8,
-    "y_img_old": 714.31
+    "oldName": "PHASE2_743"
 }, {
     "fullname": "PHASE2_1111",
     "phase": "PHASE2",
@@ -12844,12 +10828,10 @@ let points = [{
     "x_real": 100.09,
     "y_real": 227.03,
     "z_real": 61.96,
-    "x_img": 539.3111366245703,
-    "y_img": 759.0272073921969,
+    "x_img": 539.31,
+    "y_img": 759.03,
     "level": "level_58.0",
-    "oldName": "PHASE2_744",
-    "x_img_old": 546.57,
-    "y_img_old": 566.27
+    "oldName": "PHASE2_744"
 }, {
     "fullname": "PHASE2_1112",
     "phase": "PHASE2",
@@ -12857,12 +10839,10 @@ let points = [{
     "x_real": 102.95,
     "y_real": 228.78,
     "z_real": 61.91,
-    "x_img": 626.3260619977041,
-    "y_img": 708.2700205338806,
+    "x_img": 626.33,
+    "y_img": 708.27,
     "level": "level_58.0",
-    "oldName": "PHASE2_745",
-    "x_img_old": 632.74,
-    "y_img_old": 514.53
+    "oldName": "PHASE2_745"
 }, {
     "fullname": "PHASE2_1113",
     "phase": "PHASE2",
@@ -12870,12 +10850,10 @@ let points = [{
     "x_real": 102.53,
     "y_real": 239.03,
     "z_real": 59.46,
-    "x_img": 613.547646383468,
-    "y_img": 410.97792607802876,
+    "x_img": 613.55,
+    "y_img": 410.98,
     "level": "level_58.0",
-    "oldName": "PHASE2_746",
-    "x_img_old": 619.98,
-    "y_img_old": 212.09
+    "oldName": "PHASE2_746"
 }, {
     "fullname": "PHASE2_1114",
     "phase": "PHASE2",
@@ -12883,12 +10861,10 @@ let points = [{
     "x_real": 100.09,
     "y_real": 240.54,
     "z_real": 59.59,
-    "x_img": 539.3111366245703,
-    "y_img": 367.18172484599563,
+    "x_img": 539.31,
+    "y_img": 367.18,
     "level": "level_58.0",
-    "oldName": "PHASE2_747",
-    "x_img_old": 546.56,
-    "y_img_old": 167.62
+    "oldName": "PHASE2_747"
 }, {
     "fullname": "PHASE2_1115",
     "phase": "PHASE2",
@@ -12896,12 +10872,10 @@ let points = [{
     "x_real": 98.17,
     "y_real": 240.33,
     "z_real": 59.48,
-    "x_img": 480.8955223880603,
-    "y_img": 373.27258726899345,
+    "x_img": 480.9,
+    "y_img": 373.27,
     "level": "level_58.0",
-    "oldName": "PHASE2_748",
-    "x_img_old": 488.43,
-    "y_img_old": 173.76
+    "oldName": "PHASE2_748"
 }, {
     "fullname": "PHASE2_1116",
     "phase": "PHASE2",
@@ -12909,12 +10883,10 @@ let points = [{
     "x_real": 110.35,
     "y_real": 219.64,
     "z_real": 60.35,
-    "x_img": 851.4695752009184,
-    "y_img": 973.3675564681726,
+    "x_img": 851.47,
+    "y_img": 973.37,
     "level": "level_58.0",
-    "oldName": "PHASE2_749",
-    "x_img_old": 856.33,
-    "y_img_old": 784.48
+    "oldName": "PHASE2_749"
 }, {
     "fullname": "PHASE2_1117",
     "phase": "PHASE2",
@@ -12922,12 +10894,10 @@ let points = [{
     "x_real": 110.29,
     "y_real": 213.36,
     "z_real": 60.17,
-    "x_img": 849.6440872560279,
-    "y_img": 1155.5133470225865,
+    "x_img": 849.64,
+    "y_img": 1155.51,
     "level": "level_58.0",
-    "oldName": "PHASE2_750",
-    "x_img_old": 854.32,
-    "y_img_old": 969.74
+    "oldName": "PHASE2_750"
 }, {
     "fullname": "PHASE2_1118",
     "phase": "PHASE2",
@@ -12935,12 +10905,10 @@ let points = [{
     "x_real": 106.27,
     "y_real": 205.68,
     "z_real": 59.51,
-    "x_img": 727.3363949483355,
-    "y_img": 1378.264887063655,
+    "x_img": 727.34,
+    "y_img": 1378.26,
     "level": "level_58.0",
-    "oldName": "PHASE2_751",
-    "x_img_old": 733.11,
-    "y_img_old": 1196.31
+    "oldName": "PHASE2_751"
 }, {
     "fullname": "PHASE2_1119",
     "phase": "PHASE2",
@@ -12948,12 +10916,10 @@ let points = [{
     "x_real": 106.24,
     "y_real": 199.95,
     "z_real": 59.58,
-    "x_img": 726.4236509758898,
-    "y_img": 1544.4584188911704,
+    "x_img": 726.42,
+    "y_img": 1544.46,
     "level": "level_58.0",
-    "oldName": "PHASE2_752",
-    "x_img_old": 732.05,
-    "y_img_old": 1365.42
+    "oldName": "PHASE2_752"
 }, {
     "fullname": "PHASE2_1120",
     "phase": "PHASE2",
@@ -12961,12 +10927,10 @@ let points = [{
     "x_real": 100.18,
     "y_real": 210.55,
     "z_real": 59.51,
-    "x_img": 542.0493685419065,
-    "y_img": 1237.014887063654,
+    "x_img": 542.05,
+    "y_img": 1237.01,
     "level": "level_58.0",
-    "oldName": "PHASE2_753",
-    "x_img_old": 549.18,
-    "y_img_old": 1052.53
+    "oldName": "PHASE2_753"
 }, {
     "fullname": "PHASE2_1121",
     "phase": "PHASE2",
@@ -12974,12 +10938,10 @@ let points = [{
     "x_real": 102.38,
     "y_real": 217.3,
     "z_real": 59.53,
-    "x_img": 608.9839265212404,
-    "y_img": 1041.2371663244348,
+    "x_img": 608.98,
+    "y_img": 1041.24,
     "level": "level_58.0",
-    "oldName": "PHASE2_754",
-    "x_img_old": 615.41,
-    "y_img_old": 853.42
+    "oldName": "PHASE2_754"
 }, {
     "fullname": "PHASE2_1122",
     "phase": "PHASE2",
@@ -12987,12 +10949,10 @@ let points = [{
     "x_real": 102.06,
     "y_real": 223.15,
     "z_real": 59.5,
-    "x_img": 599.2479908151554,
-    "y_img": 871.5631416837778,
+    "x_img": 599.25,
+    "y_img": 871.56,
     "level": "level_58.0",
-    "oldName": "PHASE2_755",
-    "x_img_old": 605.89,
-    "y_img_old": 680.68
+    "oldName": "PHASE2_755"
 }, {
     "fullname": "PHASE2_1123",
     "phase": "PHASE2",
@@ -13000,12 +10960,10 @@ let points = [{
     "x_real": 99.65,
     "y_real": 230.22,
     "z_real": 59.53,
-    "x_img": 525.9242250287034,
-    "y_img": 666.5041067761804,
+    "x_img": 525.92,
+    "y_img": 666.5,
     "level": "level_58.0",
-    "oldName": "PHASE2_756",
-    "x_img_old": 533.2,
-    "y_img_old": 472.03
+    "oldName": "PHASE2_756"
 }, {
     "fullname": "PHASE2_1124",
     "phase": "PHASE2",
@@ -13013,12 +10971,10 @@ let points = [{
     "x_real": 105.98,
     "y_real": 227.02,
     "z_real": 59.49,
-    "x_img": 718.5132032146962,
-    "y_img": 759.3172484599581,
+    "x_img": 718.51,
+    "y_img": 759.32,
     "level": "level_58.0",
-    "oldName": "PHASE2_757",
-    "x_img_old": 724.17,
-    "y_img_old": 566.67
+    "oldName": "PHASE2_757"
 }, {
     "fullname": "PHASE2_1125",
     "phase": "PHASE2",
@@ -13026,12 +10982,10 @@ let points = [{
     "x_real": 118.31,
     "y_real": 215.18,
     "z_real": 63.26,
-    "x_img": 1093.6509758897819,
-    "y_img": 1102.7258726899381,
+    "x_img": 1093.65,
+    "y_img": 1102.73,
     "level": "level_58.0",
-    "oldName": "PHASE2_758",
-    "x_img_old": 1096.43,
-    "y_img_old": 915.96
+    "oldName": "PHASE2_758"
 }, {
     "fullname": "PHASE2_1126",
     "phase": "PHASE2",
@@ -13039,12 +10993,10 @@ let points = [{
     "x_real": 118.57,
     "y_real": 221.87,
     "z_real": 63.24,
-    "x_img": 1101.5614236509755,
-    "y_img": 908.6883983572889,
+    "x_img": 1101.56,
+    "y_img": 908.69,
     "level": "level_58.0",
-    "oldName": "PHASE2_759",
-    "x_img_old": 1104.32,
-    "y_img_old": 718.62
+    "oldName": "PHASE2_759"
 }, {
     "fullname": "PHASE2_1127",
     "phase": "PHASE2",
@@ -13052,12 +11004,10 @@ let points = [{
     "x_real": 112.64,
     "y_real": 223.57,
     "z_real": 63.27,
-    "x_img": 921.1423650975889,
-    "y_img": 859.3814168377821,
+    "x_img": 921.14,
+    "y_img": 859.38,
     "level": "level_58.0",
-    "oldName": "PHASE2_760",
-    "x_img_old": 925.21,
-    "y_img_old": 668.47
+    "oldName": "PHASE2_760"
 }, {
     "fullname": "PHASE2_1128",
     "phase": "PHASE2",
@@ -13065,12 +11015,10 @@ let points = [{
     "x_real": 97.6,
     "y_real": 198.97,
     "z_real": 50.04,
-    "x_img": 463.55338691159614,
-    "y_img": 1572.8824435318274,
+    "x_img": 463.55,
+    "y_img": 1572.88,
     "level": "level_47.8",
-    "oldName": "PHASE2_761",
-    "x_img_old": 471.13,
-    "y_img_old": 1394.29
+    "oldName": "PHASE2_761"
 }, {
     "fullname": "PHASE2_1129",
     "phase": "PHASE2",
@@ -13078,12 +11026,10 @@ let points = [{
     "x_real": 102.42,
     "y_real": 198.84,
     "z_real": 50.09,
-    "x_img": 610.200918484501,
-    "y_img": 1576.6529774127303,
+    "x_img": 610.2,
+    "y_img": 1576.65,
     "level": "level_47.8",
-    "oldName": "PHASE2_762",
-    "x_img_old": 616.74,
-    "y_img_old": 1398.17
+    "oldName": "PHASE2_762"
 }, {
     "fullname": "PHASE2_1130",
     "phase": "PHASE2",
@@ -13091,12 +11037,10 @@ let points = [{
     "x_real": 106.68,
     "y_real": 198.84,
     "z_real": 50.06,
-    "x_img": 739.8105625717571,
-    "y_img": 1576.6529774127303,
+    "x_img": 739.81,
+    "y_img": 1576.65,
     "level": "level_47.8",
-    "oldName": "PHASE2_763",
-    "x_img_old": 745.44,
-    "y_img_old": 1397.96
+    "oldName": "PHASE2_763"
 }, {
     "fullname": "PHASE2_1131",
     "phase": "PHASE2",
@@ -13104,12 +11048,10 @@ let points = [{
     "x_real": 164.51,
     "y_real": 207.9,
     "z_real": 62.74,
-    "x_img": 2499.2766934557962,
-    "y_img": 1313.8757700205333,
+    "x_img": 2499.28,
+    "y_img": 1313.88,
     "level": "level_58.0",
-    "oldName": "PHASE2_765",
-    "x_img_old": 2491.43,
-    "y_img_old": 1130.64
+    "oldName": "PHASE2_765"
 }, {
     "fullname": "PHASE2_1132",
     "phase": "PHASE2",
@@ -13117,12 +11059,10 @@ let points = [{
     "x_real": 166.22,
     "y_real": 207.48,
     "z_real": 62.78,
-    "x_img": 2551.3030998851877,
-    "y_img": 1326.0574948665299,
+    "x_img": 2551.3,
+    "y_img": 1326.06,
     "level": "level_58.0",
-    "oldName": "PHASE2_766",
-    "x_img_old": 2543.06,
-    "y_img_old": 1143.09
+    "oldName": "PHASE2_766"
 }, {
     "fullname": "PHASE2_1133",
     "phase": "PHASE2",
@@ -13130,12 +11070,10 @@ let points = [{
     "x_real": 166.16,
     "y_real": 201.79,
     "z_real": 65.91,
-    "x_img": 2549.4776119402973,
-    "y_img": 1491.0908624229978,
+    "x_img": 2549.48,
+    "y_img": 1491.09,
     "level": "level_58.0",
-    "oldName": "PHASE2_767",
-    "x_img_old": 2541.14,
-    "y_img_old": 1310.95
+    "oldName": "PHASE2_767"
 }, {
     "fullname": "PHASE2_1134",
     "phase": "PHASE2",
@@ -13143,12 +11081,10 @@ let points = [{
     "x_real": 164.64,
     "y_real": 204.39,
     "z_real": 65.97,
-    "x_img": 2503.2319173363935,
-    "y_img": 1415.680184804928,
+    "x_img": 2503.23,
+    "y_img": 1415.68,
     "level": "level_58.0",
-    "oldName": "PHASE2_768",
-    "x_img_old": 2495.21,
-    "y_img_old": 1234.2
+    "oldName": "PHASE2_768"
 }, {
     "fullname": "PHASE2_1135",
     "phase": "PHASE2",
@@ -13156,12 +11092,10 @@ let points = [{
     "x_real": 164.43,
     "y_real": 208.71,
     "z_real": 68.66,
-    "x_img": 2496.842709529276,
-    "y_img": 1290.3824435318265,
+    "x_img": 2496.84,
+    "y_img": 1290.38,
     "level": "level_58.0",
-    "oldName": "PHASE2_769",
-    "x_img_old": 2488.87,
-    "y_img_old": 1106.8
+    "oldName": "PHASE2_769"
 }, {
     "fullname": "PHASE2_1136",
     "phase": "PHASE2",
@@ -13169,12 +11103,10 @@ let points = [{
     "x_real": 166.61,
     "y_real": 204.96,
     "z_real": 68.67,
-    "x_img": 2563.1687715269795,
-    "y_img": 1399.1478439425046,
+    "x_img": 2563.17,
+    "y_img": 1399.15,
     "level": "level_58.0",
-    "oldName": "PHASE2_770",
-    "x_img_old": 2554.69,
-    "y_img_old": 1217.52
+    "oldName": "PHASE2_770"
 }, {
     "fullname": "PHASE2_1137",
     "phase": "PHASE2",
@@ -13182,12 +11114,10 @@ let points = [{
     "x_real": 164.55,
     "y_real": 200.85,
     "z_real": 68.61,
-    "x_img": 2500.493685419058,
-    "y_img": 1518.3547227926074,
+    "x_img": 2500.49,
+    "y_img": 1518.35,
     "level": "level_58.0",
-    "oldName": "PHASE2_771",
-    "x_img_old": 2492.73,
-    "y_img_old": 1338.86
+    "oldName": "PHASE2_771"
 }, {
     "fullname": "PHASE2_1138",
     "phase": "PHASE2",
@@ -13195,12 +11125,10 @@ let points = [{
     "x_real": 113.12,
     "y_real": 226.41,
     "z_real": 51.78,
-    "x_img": 935.7462686567169,
-    "y_img": 777.0097535934292,
+    "x_img": 935.75,
+    "y_img": 777.01,
     "level": "level_47.8",
-    "oldName": "PHASE2_772",
-    "x_img_old": 939.71,
-    "y_img_old": 584.69
+    "oldName": "PHASE2_772"
 }, {
     "fullname": "PHASE2_1139",
     "phase": "PHASE2",
@@ -13208,12 +11136,10 @@ let points = [{
     "x_real": 115.1,
     "y_real": 226.66,
     "z_real": 51.78,
-    "x_img": 995.9873708381169,
-    "y_img": 769.7587268993839,
+    "x_img": 995.99,
+    "y_img": 769.76,
     "level": "level_47.8",
-    "oldName": "PHASE2_773",
-    "x_img_old": 999.52,
-    "y_img_old": 577.25
+    "oldName": "PHASE2_773"
 }, {
     "fullname": "PHASE2_1140",
     "phase": "PHASE2",
@@ -13221,12 +11147,10 @@ let points = [{
     "x_real": 115.16,
     "y_real": 223.28,
     "z_real": 52.12,
-    "x_img": 997.8128587830079,
-    "y_img": 867.792607802874,
+    "x_img": 997.81,
+    "y_img": 867.79,
     "level": "level_47.8",
-    "oldName": "PHASE2_774",
-    "x_img_old": 1001.38,
-    "y_img_old": 676.82
+    "oldName": "PHASE2_774"
 }, {
     "fullname": "PHASE2_1141",
     "phase": "PHASE2",
@@ -13234,12 +11158,10 @@ let points = [{
     "x_real": 118.66,
     "y_real": 226.77,
     "z_real": 52.12,
-    "x_img": 1104.2996555683121,
-    "y_img": 766.5682751540035,
+    "x_img": 1104.3,
+    "y_img": 766.57,
     "level": "level_47.8",
-    "oldName": "PHASE2_775",
-    "x_img_old": 1107.23,
-    "y_img_old": 573.97
+    "oldName": "PHASE2_775"
 }, {
     "fullname": "PHASE2_1142",
     "phase": "PHASE2",
@@ -13247,12 +11169,10 @@ let points = [{
     "x_real": 118.8,
     "y_real": 223.15,
     "z_real": 52.12,
-    "x_img": 1108.5591274397243,
-    "y_img": 871.5631416837778,
+    "x_img": 1108.56,
+    "y_img": 871.56,
     "level": "level_47.8",
-    "oldName": "PHASE2_776",
-    "x_img_old": 1111.24,
-    "y_img_old": 680.91
+    "oldName": "PHASE2_776"
 }, {
     "fullname": "PHASE2_1143",
     "phase": "PHASE2",
@@ -13260,12 +11180,10 @@ let points = [{
     "x_real": 122.2,
     "y_real": 226.79,
     "z_real": 52.12,
-    "x_img": 1212.003444316877,
-    "y_img": 765.9881930184802,
+    "x_img": 1212,
+    "y_img": 765.99,
     "level": "level_47.8",
-    "oldName": "PHASE2_777",
-    "x_img_old": 1214.07,
-    "y_img_old": 573.41
+    "oldName": "PHASE2_777"
 }, {
     "fullname": "PHASE2_1144",
     "phase": "PHASE2",
@@ -13273,12 +11191,10 @@ let points = [{
     "x_real": 122.54,
     "y_real": 224.09,
     "z_real": 52.11,
-    "x_img": 1222.3478760045923,
-    "y_img": 844.2992813141682,
+    "x_img": 1222.35,
+    "y_img": 844.3,
     "level": "level_47.8",
-    "oldName": "PHASE2_778",
-    "x_img_old": 1224.23,
-    "y_img_old": 652.92
+    "oldName": "PHASE2_778"
 }, {
     "fullname": "PHASE2_1145",
     "phase": "PHASE2",
@@ -13286,12 +11202,10 @@ let points = [{
     "x_real": 125.95,
     "y_real": 226.78,
     "z_real": 52.12,
-    "x_img": 1326.09644087256,
-    "y_img": 766.2782340862423,
+    "x_img": 1326.1,
+    "y_img": 766.28,
     "level": "level_47.8",
-    "oldName": "PHASE2_779",
-    "x_img_old": 1327.21,
-    "y_img_old": 573.66
+    "oldName": "PHASE2_779"
 }, {
     "fullname": "PHASE2_1146",
     "phase": "PHASE2",
@@ -13299,12 +11213,10 @@ let points = [{
     "x_real": 126.05,
     "y_real": 223.25,
     "z_real": 52.11,
-    "x_img": 1329.1389207807115,
-    "y_img": 868.6627310061604,
+    "x_img": 1329.14,
+    "y_img": 868.66,
     "level": "level_47.8",
-    "oldName": "PHASE2_780",
-    "x_img_old": 1330.14,
-    "y_img_old": 677.96
+    "oldName": "PHASE2_780"
 }, {
     "fullname": "PHASE2_1147",
     "phase": "PHASE2",
@@ -13312,12 +11224,10 @@ let points = [{
     "x_real": 129.54,
     "y_real": 226.8,
     "z_real": 52.13,
-    "x_img": 1435.3214695752004,
-    "y_img": 765.698151950718,
+    "x_img": 1435.32,
+    "y_img": 765.7,
     "level": "level_47.8",
-    "oldName": "PHASE2_781",
-    "x_img_old": 1435.65,
-    "y_img_old": 572.96
+    "oldName": "PHASE2_781"
 }, {
     "fullname": "PHASE2_1148",
     "phase": "PHASE2",
@@ -13325,12 +11235,10 @@ let points = [{
     "x_real": 129.56,
     "y_real": 223.45,
     "z_real": 52.12,
-    "x_img": 1435.9299655568311,
-    "y_img": 862.8619096509237,
+    "x_img": 1435.93,
+    "y_img": 862.86,
     "level": "level_47.8",
-    "oldName": "PHASE2_782",
-    "x_img_old": 1436.18,
-    "y_img_old": 672.03
+    "oldName": "PHASE2_782"
 }, {
     "fullname": "PHASE2_1149",
     "phase": "PHASE2",
@@ -13338,12 +11246,10 @@ let points = [{
     "x_real": 132.48,
     "y_real": 226.31,
     "z_real": 52.13,
-    "x_img": 1524.7703788748559,
-    "y_img": 779.9101642710466,
+    "x_img": 1524.77,
+    "y_img": 779.91,
     "level": "level_47.8",
-    "oldName": "PHASE2_783",
-    "x_img_old": 1524.32,
-    "y_img_old": 587.47
+    "oldName": "PHASE2_783"
 }, {
     "fullname": "PHASE2_1150",
     "phase": "PHASE2",
@@ -13351,12 +11257,10 @@ let points = [{
     "x_real": 134.31,
     "y_real": 226.04,
     "z_real": 52.12,
-    "x_img": 1580.4477611940292,
-    "y_img": 787.7412731006161,
+    "x_img": 1580.45,
+    "y_img": 787.74,
     "level": "level_47.8",
-    "oldName": "PHASE2_784",
-    "x_img_old": 1579.5,
-    "y_img_old": 595.63
+    "oldName": "PHASE2_784"
 }, {
     "fullname": "PHASE2_1151",
     "phase": "PHASE2",
@@ -13364,12 +11268,10 @@ let points = [{
     "x_real": 113.81,
     "y_real": 219.65,
     "z_real": 53.92,
-    "x_img": 956.7393800229625,
-    "y_img": 973.0775154004104,
+    "x_img": 956.74,
+    "y_img": 973.08,
     "level": "level_47.8",
-    "oldName": "PHASE2_785",
-    "x_img_old": 960.64,
-    "y_img_old": 783.97
+    "oldName": "PHASE2_785"
 }, {
     "fullname": "PHASE2_1152",
     "phase": "PHASE2",
@@ -13377,12 +11279,10 @@ let points = [{
     "x_real": 119.9,
     "y_real": 219.84,
     "z_real": 53.92,
-    "x_img": 1142.0264064293915,
-    "y_img": 967.5667351129359,
+    "x_img": 1142.03,
+    "y_img": 967.57,
     "level": "level_47.8",
-    "oldName": "PHASE2_786",
-    "x_img_old": 1144.6,
-    "y_img_old": 778.54
+    "oldName": "PHASE2_786"
 }, {
     "fullname": "PHASE2_1153",
     "phase": "PHASE2",
@@ -13390,12 +11290,10 @@ let points = [{
     "x_real": 127.09,
     "y_real": 219.85,
     "z_real": 53.92,
-    "x_img": 1360.7807118254877,
-    "y_img": 967.2766940451747,
+    "x_img": 1360.78,
+    "y_img": 967.28,
     "level": "level_47.8",
-    "oldName": "PHASE2_787",
-    "x_img_old": 1361.71,
-    "y_img_old": 778.11
+    "oldName": "PHASE2_787"
 }, {
     "fullname": "PHASE2_1154",
     "phase": "PHASE2",
@@ -13403,12 +11301,10 @@ let points = [{
     "x_real": 130.78,
     "y_real": 219.65,
     "z_real": 53.93,
-    "x_img": 1473.0482204362797,
-    "y_img": 973.0775154004104,
+    "x_img": 1473.05,
+    "y_img": 973.08,
     "level": "level_47.8",
-    "oldName": "PHASE2_788",
-    "x_img_old": 1473.03,
-    "y_img_old": 784.08
+    "oldName": "PHASE2_788"
 }, {
     "fullname": "PHASE2_1155",
     "phase": "PHASE2",
@@ -13416,12 +11312,10 @@ let points = [{
     "x_real": 129.7,
     "y_real": 224.33,
     "z_real": 51.47,
-    "x_img": 1440.1894374282429,
-    "y_img": 837.338295687884,
+    "x_img": 1440.19,
+    "y_img": 837.34,
     "level": "level_47.8",
-    "oldName": "PHASE2_789",
-    "x_img_old": 1440.55,
-    "y_img_old": 645.97
+    "oldName": "PHASE2_789"
 }, {
     "fullname": "PHASE2_1156",
     "phase": "PHASE2",
@@ -13429,12 +11323,10 @@ let points = [{
     "x_real": 126.08,
     "y_real": 224.36,
     "z_real": 51.47,
-    "x_img": 1330.0516647531572,
-    "y_img": 836.4681724845987,
+    "x_img": 1330.05,
+    "y_img": 836.47,
     "level": "level_47.8",
-    "oldName": "PHASE2_790",
-    "x_img_old": 1331.26,
-    "y_img_old": 645.04
+    "oldName": "PHASE2_790"
 }, {
     "fullname": "PHASE2_1157",
     "phase": "PHASE2",
@@ -13442,12 +11334,10 @@ let points = [{
     "x_real": 122.58,
     "y_real": 224.32,
     "z_real": 51.46,
-    "x_img": 1223.564867967853,
-    "y_img": 837.6283367556471,
+    "x_img": 1223.56,
+    "y_img": 837.63,
     "level": "level_47.8",
-    "oldName": "PHASE2_791",
-    "x_img_old": 1225.54,
-    "y_img_old": 646.11
+    "oldName": "PHASE2_791"
 }, {
     "fullname": "PHASE2_1158",
     "phase": "PHASE2",
@@ -13455,12 +11345,10 @@ let points = [{
     "x_real": 118.81,
     "y_real": 224.48,
     "z_real": 51.47,
-    "x_img": 1108.8633754305397,
-    "y_img": 832.987679671458,
+    "x_img": 1108.86,
+    "y_img": 832.99,
     "level": "level_47.8",
-    "oldName": "PHASE2_792",
-    "x_img_old": 1111.66,
-    "y_img_old": 641.54
+    "oldName": "PHASE2_792"
 }, {
     "fullname": "PHASE2_1159",
     "phase": "PHASE2",
@@ -13468,12 +11356,10 @@ let points = [{
     "x_real": 116.95,
     "y_real": 226.8,
     "z_real": 52.12,
-    "x_img": 1052.273249138921,
-    "y_img": 765.698151950718,
+    "x_img": 1052.27,
+    "y_img": 765.7,
     "level": "level_47.8",
-    "oldName": "PHASE2_793",
-    "x_img_old": 1055.34,
-    "y_img_old": 573.09
+    "oldName": "PHASE2_793"
 }, {
     "fullname": "PHASE2_1160",
     "phase": "PHASE2",
@@ -13481,12 +11367,10 @@ let points = [{
     "x_real": 120.45,
     "y_real": 226.77,
     "z_real": 52.12,
-    "x_img": 1158.7600459242249,
-    "y_img": 766.5682751540035,
+    "x_img": 1158.76,
+    "y_img": 766.57,
     "level": "level_47.8",
-    "oldName": "PHASE2_794",
-    "x_img_old": 1161.26,
-    "y_img_old": 573.89
+    "oldName": "PHASE2_794"
 }, {
     "fullname": "PHASE2_1161",
     "phase": "PHASE2",
@@ -13494,12 +11378,10 @@ let points = [{
     "x_real": 124.12,
     "y_real": 226.81,
     "z_real": 52.12,
-    "x_img": 1270.419058553387,
-    "y_img": 765.4081108829569,
+    "x_img": 1270.42,
+    "y_img": 765.41,
     "level": "level_47.8",
-    "oldName": "PHASE2_795",
-    "x_img_old": 1272.02,
-    "y_img_old": 572.76
+    "oldName": "PHASE2_795"
 }, {
     "fullname": "PHASE2_1162",
     "phase": "PHASE2",
@@ -13507,12 +11389,10 @@ let points = [{
     "x_real": 127.7,
     "y_real": 226.85,
     "z_real": 52.12,
-    "x_img": 1379.339839265212,
-    "y_img": 764.2479466119094,
+    "x_img": 1379.34,
+    "y_img": 764.25,
     "level": "level_47.8",
-    "oldName": "PHASE2_796",
-    "x_img_old": 1380.04,
-    "y_img_old": 571.71
+    "oldName": "PHASE2_796"
 }, {
     "fullname": "PHASE2_1163",
     "phase": "PHASE2",
@@ -13520,12 +11400,10 @@ let points = [{
     "x_real": 138.48,
     "y_real": 225.78,
     "z_real": 52.1,
-    "x_img": 1707.3191733639483,
-    "y_img": 795.2823408624226,
+    "x_img": 1707.32,
+    "y_img": 795.28,
     "level": "level_47.8",
-    "oldName": "PHASE2_797",
-    "x_img_old": 1705.56,
-    "y_img_old": 603.31
+    "oldName": "PHASE2_797"
 }, {
     "fullname": "PHASE2_1164",
     "phase": "PHASE2",
@@ -13533,12 +11411,10 @@ let points = [{
     "x_real": 135.17,
     "y_real": 219.9,
     "z_real": 52.1,
-    "x_img": 1606.6130884041327,
-    "y_img": 965.8264887063651,
+    "x_img": 1606.61,
+    "y_img": 965.83,
     "level": "level_47.8",
-    "oldName": "PHASE2_798",
-    "x_img_old": 1605.49,
-    "y_img_old": 776.62
+    "oldName": "PHASE2_798"
 }, {
     "fullname": "PHASE2_1165",
     "phase": "PHASE2",
@@ -13546,12 +11422,10 @@ let points = [{
     "x_real": 135.52,
     "y_real": 215.68,
     "z_real": 52.09,
-    "x_img": 1617.2617680826638,
-    "y_img": 1088.2238193018475,
+    "x_img": 1617.26,
+    "y_img": 1088.22,
     "level": "level_47.8",
-    "oldName": "PHASE2_799",
-    "x_img_old": 1616.24,
-    "y_img_old": 901.12
+    "oldName": "PHASE2_799"
 }, {
     "fullname": "PHASE2_1166",
     "phase": "PHASE2",
@@ -13559,12 +11433,10 @@ let points = [{
     "x_real": 138.52,
     "y_real": 216.58,
     "z_real": 52.1,
-    "x_img": 1708.5361653272098,
-    "y_img": 1062.1201232032845,
+    "x_img": 1708.54,
+    "y_img": 1062.12,
     "level": "level_47.8",
-    "oldName": "PHASE2_800",
-    "x_img_old": 1706.69,
-    "y_img_old": 874.52
+    "oldName": "PHASE2_800"
 }, {
     "fullname": "PHASE2_1167",
     "phase": "PHASE2",
@@ -13572,12 +11444,10 @@ let points = [{
     "x_real": 133.15,
     "y_real": 220.25,
     "z_real": 52.11,
-    "x_img": 1545.1549942594716,
-    "y_img": 955.6750513347024,
+    "x_img": 1545.15,
+    "y_img": 955.68,
     "level": "level_47.8",
-    "oldName": "PHASE2_801",
-    "x_img_old": 1544.57,
-    "y_img_old": 766.41
+    "oldName": "PHASE2_801"
 }, {
     "fullname": "PHASE2_1168",
     "phase": "PHASE2",
@@ -13585,12 +11455,10 @@ let points = [{
     "x_real": 131.74,
     "y_real": 215.74,
     "z_real": 52.13,
-    "x_img": 1502.2560275545347,
-    "y_img": 1086.4835728952767,
+    "x_img": 1502.26,
+    "y_img": 1086.48,
     "level": "level_47.8",
-    "oldName": "PHASE2_802",
-    "x_img_old": 1501.95,
-    "y_img_old": 899.37
+    "oldName": "PHASE2_802"
 }, {
     "fullname": "PHASE2_1169",
     "phase": "PHASE2",
@@ -13598,12 +11466,10 @@ let points = [{
     "x_real": 128.2,
     "y_real": 215.11,
     "z_real": 52.12,
-    "x_img": 1394.5522388059694,
-    "y_img": 1104.75616016427,
+    "x_img": 1394.55,
+    "y_img": 1104.76,
     "level": "level_47.8",
-    "oldName": "PHASE2_803",
-    "x_img_old": 1395.26,
-    "y_img_old": 918.09
+    "oldName": "PHASE2_803"
 }, {
     "fullname": "PHASE2_1170",
     "phase": "PHASE2",
@@ -13611,12 +11477,10 @@ let points = [{
     "x_real": 125.6,
     "y_real": 215.06,
     "z_real": 52.12,
-    "x_img": 1315.4477611940292,
-    "y_img": 1106.2063655030797,
+    "x_img": 1315.45,
+    "y_img": 1106.21,
     "level": "level_47.8",
-    "oldName": "PHASE2_804",
-    "x_img_old": 1316.64,
-    "y_img_old": 919.4
+    "oldName": "PHASE2_804"
 }, {
     "fullname": "PHASE2_1171",
     "phase": "PHASE2",
@@ -13624,12 +11488,10 @@ let points = [{
     "x_real": 123.2,
     "y_real": 215.12,
     "z_real": 52.11,
-    "x_img": 1242.4282433983926,
-    "y_img": 1104.466119096509,
+    "x_img": 1242.43,
+    "y_img": 1104.47,
     "level": "level_47.8",
-    "oldName": "PHASE2_805",
-    "x_img_old": 1244.04,
-    "y_img_old": 917.79
+    "oldName": "PHASE2_805"
 }, {
     "fullname": "PHASE2_1172",
     "phase": "PHASE2",
@@ -13637,12 +11499,10 @@ let points = [{
     "x_real": 120.51,
     "y_real": 215.15,
     "z_real": 52.11,
-    "x_img": 1160.5855338691158,
-    "y_img": 1103.5959958932235,
+    "x_img": 1160.59,
+    "y_img": 1103.6,
     "level": "level_47.8",
-    "oldName": "PHASE2_806",
-    "x_img_old": 1162.79,
-    "y_img_old": 916.83
+    "oldName": "PHASE2_806"
 }, {
     "fullname": "PHASE2_1173",
     "phase": "PHASE2",
@@ -13650,12 +11510,10 @@ let points = [{
     "x_real": 117.25,
     "y_real": 215.15,
     "z_real": 52.12,
-    "x_img": 1061.4006888633753,
-    "y_img": 1103.5959958932235,
+    "x_img": 1061.4,
+    "y_img": 1103.6,
     "level": "level_47.8",
-    "oldName": "PHASE2_807",
-    "x_img_old": 1064.45,
-    "y_img_old": 916.9
+    "oldName": "PHASE2_807"
 }, {
     "fullname": "PHASE2_1174",
     "phase": "PHASE2",
@@ -13663,12 +11521,10 @@ let points = [{
     "x_real": 114.22,
     "y_real": 215.25,
     "z_real": 52.12,
-    "x_img": 969.2135476463836,
-    "y_img": 1100.6955852156052,
+    "x_img": 969.21,
+    "y_img": 1100.7,
     "level": "level_47.8",
-    "oldName": "PHASE2_808",
-    "x_img_old": 973.01,
-    "y_img_old": 913.99
+    "oldName": "PHASE2_808"
 }, {
     "fullname": "PHASE2_1175",
     "phase": "PHASE2",
@@ -13676,12 +11532,10 @@ let points = [{
     "x_real": 111.07,
     "y_real": 216.94,
     "z_real": 52.12,
-    "x_img": 873.3754305396096,
-    "y_img": 1051.6786447638606,
+    "x_img": 873.38,
+    "y_img": 1051.68,
     "level": "level_47.8",
-    "oldName": "PHASE2_809",
-    "x_img_old": 877.93,
-    "y_img_old": 864
+    "oldName": "PHASE2_809"
 }, {
     "fullname": "PHASE2_1176",
     "phase": "PHASE2",
@@ -13689,12 +11543,10 @@ let points = [{
     "x_real": 112.49,
     "y_real": 219.42,
     "z_real": 52.12,
-    "x_img": 916.5786452353618,
-    "y_img": 979.7484599589325,
+    "x_img": 916.58,
+    "y_img": 979.75,
     "level": "level_47.8",
-    "oldName": "PHASE2_810",
-    "x_img_old": 920.84,
-    "y_img_old": 790.82
+    "oldName": "PHASE2_810"
 }, {
     "fullname": "PHASE2_1177",
     "phase": "PHASE2",
@@ -13702,12 +11554,10 @@ let points = [{
     "x_real": 111.11,
     "y_real": 222.81,
     "z_real": 52.11,
-    "x_img": 874.5924225028702,
-    "y_img": 881.4245379876793,
+    "x_img": 874.59,
+    "y_img": 881.42,
     "level": "level_47.8",
-    "oldName": "PHASE2_811",
-    "x_img_old": 879.07,
-    "y_img_old": 690.88
+    "oldName": "PHASE2_811"
 }, {
     "fullname": "PHASE2_1178",
     "phase": "PHASE2",
@@ -13715,12 +11565,10 @@ let points = [{
     "x_real": 112.06,
     "y_real": 214.39,
     "z_real": 53.25,
-    "x_img": 903.4959816303103,
-    "y_img": 1125.6391170431216,
+    "x_img": 903.5,
+    "y_img": 1125.64,
     "level": "level_47.8",
-    "oldName": "PHASE2_812",
-    "x_img_old": 907.94,
-    "y_img_old": 939.11
+    "oldName": "PHASE2_812"
 }, {
     "fullname": "PHASE2_1179",
     "phase": "PHASE2",
@@ -13728,12 +11576,10 @@ let points = [{
     "x_real": 111.56,
     "y_real": 212.45,
     "z_real": 53.25,
-    "x_img": 888.2835820895525,
-    "y_img": 1181.9070841889115,
+    "x_img": 888.28,
+    "y_img": 1181.91,
     "level": "level_47.8",
-    "oldName": "PHASE2_813",
-    "x_img_old": 892.72,
-    "y_img_old": 996.63
+    "oldName": "PHASE2_813"
 }, {
     "fullname": "PHASE2_1180",
     "phase": "PHASE2",
@@ -13741,12 +11587,10 @@ let points = [{
     "x_real": 115.61,
     "y_real": 210.52,
     "z_real": 53.23,
-    "x_img": 1011.5040183696901,
-    "y_img": 1237.8850102669394,
+    "x_img": 1011.5,
+    "y_img": 1237.89,
     "level": "level_47.8",
-    "oldName": "PHASE2_814",
-    "x_img_old": 1015.05,
-    "y_img_old": 1053.51
+    "oldName": "PHASE2_814"
 }, {
     "fullname": "PHASE2_1181",
     "phase": "PHASE2",
@@ -13754,12 +11598,10 @@ let points = [{
     "x_real": 108.95,
     "y_real": 212.67,
     "z_real": 53.37,
-    "x_img": 808.874856486797,
-    "y_img": 1175.5261806981516,
+    "x_img": 808.87,
+    "y_img": 1175.53,
     "level": "level_47.8",
-    "oldName": "PHASE2_815",
-    "x_img_old": 813.79,
-    "y_img_old": 989.96
+    "oldName": "PHASE2_815"
 }, {
     "fullname": "PHASE2_1182",
     "phase": "PHASE2",
@@ -13767,12 +11609,10 @@ let points = [{
     "x_real": 118.42,
     "y_real": 212.93,
     "z_real": 53.25,
-    "x_img": 1096.9977037887484,
-    "y_img": 1167.9851129363442,
+    "x_img": 1097,
+    "y_img": 1167.99,
     "level": "level_47.8",
-    "oldName": "PHASE2_816",
-    "x_img_old": 1099.85,
-    "y_img_old": 982.44
+    "oldName": "PHASE2_816"
 }, {
     "fullname": "PHASE2_1183",
     "phase": "PHASE2",
@@ -13780,12 +11620,10 @@ let points = [{
     "x_real": 120.57,
     "y_real": 210.59,
     "z_real": 53.23,
-    "x_img": 1162.4110218140067,
-    "y_img": 1235.8547227926074,
+    "x_img": 1162.41,
+    "y_img": 1235.85,
     "level": "level_47.8",
-    "oldName": "PHASE2_817",
-    "x_img_old": 1164.89,
-    "y_img_old": 1051.41
+    "oldName": "PHASE2_817"
 }, {
     "fullname": "PHASE2_1184",
     "phase": "PHASE2",
@@ -13793,12 +11631,10 @@ let points = [{
     "x_real": 124.8,
     "y_real": 211.48,
     "z_real": 53.23,
-    "x_img": 1291.1079219288172,
-    "y_img": 1210.0410677618065,
+    "x_img": 1291.11,
+    "y_img": 1210.04,
     "level": "level_47.8",
-    "oldName": "PHASE2_818",
-    "x_img_old": 1292.39,
-    "y_img_old": 1025.12
+    "oldName": "PHASE2_818"
 }, {
     "fullname": "PHASE2_1185",
     "phase": "PHASE2",
@@ -13806,12 +11642,10 @@ let points = [{
     "x_real": 128.52,
     "y_real": 210.31,
     "z_real": 53.23,
-    "x_img": 1404.2881745120553,
-    "y_img": 1243.9758726899381,
+    "x_img": 1404.29,
+    "y_img": 1243.98,
     "level": "level_47.8",
-    "oldName": "PHASE2_819",
-    "x_img_old": 1404.72,
-    "y_img_old": 1059.55
+    "oldName": "PHASE2_819"
 }, {
     "fullname": "PHASE2_1186",
     "phase": "PHASE2",
@@ -13819,12 +11653,10 @@ let points = [{
     "x_real": 132.35,
     "y_real": 210.66,
     "z_real": 53.24,
-    "x_img": 1520.815154994259,
-    "y_img": 1233.8244353182745,
+    "x_img": 1520.82,
+    "y_img": 1233.82,
     "level": "level_47.8",
-    "oldName": "PHASE2_820",
-    "x_img_old": 1520.4,
-    "y_img_old": 1049.31
+    "oldName": "PHASE2_820"
 }, {
     "fullname": "PHASE2_1187",
     "phase": "PHASE2",
@@ -13832,12 +11664,10 @@ let points = [{
     "x_real": 131.75,
     "y_real": 208.17,
     "z_real": 53.25,
-    "x_img": 1502.5602755453497,
-    "y_img": 1306.0446611909647,
+    "x_img": 1502.56,
+    "y_img": 1306.04,
     "level": "level_47.8",
-    "oldName": "PHASE2_821",
-    "x_img_old": 1502.4,
-    "y_img_old": 1122.81
+    "oldName": "PHASE2_821"
 }, {
     "fullname": "PHASE2_1188",
     "phase": "PHASE2",
@@ -13845,12 +11675,10 @@ let points = [{
     "x_real": 130.88,
     "y_real": 201.64,
     "z_real": 49.05,
-    "x_img": 1476.0907003444313,
-    "y_img": 1495.4414784394248,
+    "x_img": 1476.09,
+    "y_img": 1495.44,
     "level": "level_47.8",
-    "oldName": "PHASE2_822",
-    "x_img_old": 1475.97,
-    "y_img_old": 1315.55
+    "oldName": "PHASE2_822"
 }, {
     "fullname": "PHASE2_1189",
     "phase": "PHASE2",
@@ -13858,12 +11686,10 @@ let points = [{
     "x_real": 126.7,
     "y_real": 201.41,
     "z_real": 49.05,
-    "x_img": 1348.9150401836969,
-    "y_img": 1502.112422997946,
+    "x_img": 1348.92,
+    "y_img": 1502.11,
     "level": "level_47.8",
-    "oldName": "PHASE2_823",
-    "x_img_old": 1349.82,
-    "y_img_old": 1322.25
+    "oldName": "PHASE2_823"
 }, {
     "fullname": "PHASE2_1190",
     "phase": "PHASE2",
@@ -13871,12 +11697,10 @@ let points = [{
     "x_real": 126.56,
     "y_real": 207.81,
     "z_real": 49.04,
-    "x_img": 1344.6555683122847,
-    "y_img": 1316.4861396303895,
+    "x_img": 1344.66,
+    "y_img": 1316.49,
     "level": "level_47.8",
-    "oldName": "PHASE2_824",
-    "x_img_old": 1345.7,
-    "y_img_old": 1133.29
+    "oldName": "PHASE2_824"
 }, {
     "fullname": "PHASE2_1191",
     "phase": "PHASE2",
@@ -13884,12 +11708,10 @@ let points = [{
     "x_real": 131.68,
     "y_real": 205.72,
     "z_real": 49.05,
-    "x_img": 1500.4305396096438,
-    "y_img": 1377.1047227926074,
+    "x_img": 1500.43,
+    "y_img": 1377.1,
     "level": "level_47.8",
-    "oldName": "PHASE2_825",
-    "x_img_old": 1500.21,
-    "y_img_old": 1195.01
+    "oldName": "PHASE2_825"
 }, {
     "fullname": "PHASE2_1192",
     "phase": "PHASE2",
@@ -13897,12 +11719,10 @@ let points = [{
     "x_real": 122.01,
     "y_real": 200.79,
     "z_real": 49.05,
-    "x_img": 1206.2227324913893,
-    "y_img": 1520.0949691991782,
+    "x_img": 1206.22,
+    "y_img": 1520.09,
     "level": "level_47.8",
-    "oldName": "PHASE2_826",
-    "x_img_old": 1208.15,
-    "y_img_old": 1340.45
+    "oldName": "PHASE2_826"
 }, {
     "fullname": "PHASE2_1193",
     "phase": "PHASE2",
@@ -13910,12 +11730,10 @@ let points = [{
     "x_real": 116.34,
     "y_real": 201.32,
     "z_real": 49.05,
-    "x_img": 1033.7141216991963,
-    "y_img": 1504.722792607803,
+    "x_img": 1033.71,
+    "y_img": 1504.72,
     "level": "level_47.8",
-    "oldName": "PHASE2_827",
-    "x_img_old": 1037.04,
-    "y_img_old": 1324.81
+    "oldName": "PHASE2_827"
 }, {
     "fullname": "PHASE2_1194",
     "phase": "PHASE2",
@@ -13923,12 +11741,10 @@ let points = [{
     "x_real": 111.14,
     "y_real": 201.65,
     "z_real": 49.06,
-    "x_img": 875.505166475316,
-    "y_img": 1495.1514373716627,
+    "x_img": 875.51,
+    "y_img": 1495.15,
     "level": "level_47.8",
-    "oldName": "PHASE2_828",
-    "x_img_old": 879.9,
-    "y_img_old": 1315.28
+    "oldName": "PHASE2_828"
 }, {
     "fullname": "PHASE2_1195",
     "phase": "PHASE2",
@@ -13936,12 +11752,10 @@ let points = [{
     "x_real": 111.83,
     "y_real": 206.55,
     "z_real": 49.05,
-    "x_img": 896.4982778415615,
-    "y_img": 1353.0313141683773,
+    "x_img": 896.5,
+    "y_img": 1353.03,
     "level": "level_47.8",
-    "oldName": "PHASE2_829",
-    "x_img_old": 901,
-    "y_img_old": 1170.7
+    "oldName": "PHASE2_829"
 }, {
     "fullname": "PHASE2_1196",
     "phase": "PHASE2",
@@ -13949,12 +11763,10 @@ let points = [{
     "x_real": 111.1,
     "y_real": 208.7,
     "z_real": 49.06,
-    "x_img": 874.2881745120553,
-    "y_img": 1290.6724845995896,
+    "x_img": 874.29,
+    "y_img": 1290.67,
     "level": "level_47.8",
-    "oldName": "PHASE2_830",
-    "x_img_old": 878.76,
-    "y_img_old": 1107.12
+    "oldName": "PHASE2_830"
 }, {
     "fullname": "PHASE2_1197",
     "phase": "PHASE2",
@@ -13962,12 +11774,10 @@ let points = [{
     "x_real": 117.77,
     "y_real": 207.99,
     "z_real": 49.04,
-    "x_img": 1077.2215843857634,
-    "y_img": 1311.265400410677,
+    "x_img": 1077.22,
+    "y_img": 1311.27,
     "level": "level_47.8",
-    "oldName": "PHASE2_831",
-    "x_img_old": 1080.34,
-    "y_img_old": 1128.01
+    "oldName": "PHASE2_831"
 }, {
     "fullname": "PHASE2_1198",
     "phase": "PHASE2",
@@ -13975,12 +11785,10 @@ let points = [{
     "x_real": 122.09,
     "y_real": 207.66,
     "z_real": 49.04,
-    "x_img": 1208.6567164179105,
-    "y_img": 1320.8367556468174,
+    "x_img": 1208.66,
+    "y_img": 1320.84,
     "level": "level_47.8",
-    "oldName": "PHASE2_832",
-    "x_img_old": 1210.7,
-    "y_img_old": 1137.74
+    "oldName": "PHASE2_832"
 }, {
     "fullname": "PHASE2_1199",
     "phase": "PHASE2",
@@ -13988,12 +11796,10 @@ let points = [{
     "x_real": 100.25,
     "y_real": 225.54,
     "z_real": 29.07,
-    "x_img": 544.1791044776123,
-    "y_img": 802.2433264887068,
+    "x_img": 544.18,
+    "y_img": 802.24,
     "level": "level_27.8",
-    "oldName": "PHASE2_833",
-    "x_img_old": 569.31,
-    "y_img_old": 606.4
+    "oldName": "PHASE2_833"
 }, {
     "fullname": "PHASE2_1200",
     "phase": "PHASE2",
@@ -14001,12 +11807,10 @@ let points = [{
     "x_real": 100.2,
     "y_real": 222.93,
     "z_real": 29.07,
-    "x_img": 542.6578645235368,
-    "y_img": 877.9440451745377,
+    "x_img": 542.66,
+    "y_img": 877.94,
     "level": "level_27.8",
-    "oldName": "PHASE2_834",
-    "x_img_old": 567.81,
-    "y_img_old": 687.27
+    "oldName": "PHASE2_834"
 }, {
     "fullname": "PHASE2_1201",
     "phase": "PHASE2",
@@ -14014,12 +11818,10 @@ let points = [{
     "x_real": 102.32,
     "y_real": 221.69,
     "z_real": 29.06,
-    "x_img": 607.1584385763495,
-    "y_img": 913.9091375770022,
+    "x_img": 607.16,
+    "y_img": 913.91,
     "level": "level_27.8",
-    "oldName": "PHASE2_835",
-    "x_img_old": 633.19,
-    "y_img_old": 725.47
+    "oldName": "PHASE2_835"
 }, {
     "fullname": "PHASE2_1202",
     "phase": "PHASE2",
@@ -14027,12 +11829,10 @@ let points = [{
     "x_real": 103.74,
     "y_real": 226.46,
     "z_real": 29.06,
-    "x_img": 650.3616532721012,
-    "y_img": 775.5595482546196,
+    "x_img": 650.36,
+    "y_img": 775.56,
     "level": "level_27.8",
-    "oldName": "PHASE2_836",
-    "x_img_old": 677.15,
-    "y_img_old": 578.01
+    "oldName": "PHASE2_836"
 }, {
     "fullname": "PHASE2_1203",
     "phase": "PHASE2",
@@ -14040,12 +11840,10 @@ let points = [{
     "x_real": 108.42,
     "y_real": 226.53,
     "z_real": 29.06,
-    "x_img": 792.7497129735939,
-    "y_img": 773.5292607802876,
+    "x_img": 792.75,
+    "y_img": 773.53,
     "level": "level_27.8",
-    "oldName": "PHASE2_837",
-    "x_img_old": 821.88,
-    "y_img_old": 575.82
+    "oldName": "PHASE2_837"
 }, {
     "fullname": "PHASE2_1204",
     "phase": "PHASE2",
@@ -14053,12 +11851,10 @@ let points = [{
     "x_real": 108.88,
     "y_real": 221.91,
     "z_real": 29.05,
-    "x_img": 806.7451205510906,
-    "y_img": 907.5282340862423,
+    "x_img": 806.75,
+    "y_img": 907.53,
     "level": "level_27.8",
-    "oldName": "PHASE2_838",
-    "x_img_old": 835.82,
-    "y_img_old": 718.73
+    "oldName": "PHASE2_838"
 }, {
     "fullname": "PHASE2_1205",
     "phase": "PHASE2",
@@ -14066,12 +11862,10 @@ let points = [{
     "x_real": 115.23,
     "y_real": 227.05,
     "z_real": 29.04,
-    "x_img": 999.9425947187142,
-    "y_img": 758.4471252566727,
+    "x_img": 999.94,
+    "y_img": 758.45,
     "level": "level_27.8",
-    "oldName": "PHASE2_839",
-    "x_img_old": 1032.25,
-    "y_img_old": 559.77
+    "oldName": "PHASE2_839"
 }, {
     "fullname": "PHASE2_1206",
     "phase": "PHASE2",
@@ -14079,12 +11873,10 @@ let points = [{
     "x_real": 113.5,
     "y_real": 221.75,
     "z_real": 29.04,
-    "x_img": 947.3076923076924,
-    "y_img": 912.1688911704314,
+    "x_img": 947.31,
+    "y_img": 912.17,
     "level": "level_27.8",
-    "oldName": "PHASE2_840",
-    "x_img_old": 978.68,
-    "y_img_old": 723.56
+    "oldName": "PHASE2_840"
 }, {
     "fullname": "PHASE2_1207",
     "phase": "PHASE2",
@@ -14092,12 +11884,10 @@ let points = [{
     "x_real": 116.5,
     "y_real": 223.46,
     "z_real": 29.04,
-    "x_img": 1038.5820895522388,
-    "y_img": 862.5718685831616,
+    "x_img": 1038.58,
+    "y_img": 862.57,
     "level": "level_27.8",
-    "oldName": "PHASE2_841",
-    "x_img_old": 1071.4,
-    "y_img_old": 670.72
+    "oldName": "PHASE2_841"
 }, {
     "fullname": "PHASE2_1208",
     "phase": "PHASE2",
@@ -14105,12 +11895,10 @@ let points = [{
     "x_real": 122.43,
     "y_real": 226.78,
     "z_real": 29.04,
-    "x_img": 1219.0011481056258,
-    "y_img": 766.2782340862423,
+    "x_img": 1219,
+    "y_img": 766.28,
     "level": "level_27.8",
-    "oldName": "PHASE2_842",
-    "x_img_old": 1254.57,
-    "y_img_old": 568.08
+    "oldName": "PHASE2_842"
 }, {
     "fullname": "PHASE2_1209",
     "phase": "PHASE2",
@@ -14118,12 +11906,10 @@ let points = [{
     "x_real": 121.52,
     "y_real": 221.83,
     "z_real": 29.03,
-    "x_img": 1191.3145809414464,
-    "y_img": 909.8485626283364,
+    "x_img": 1191.31,
+    "y_img": 909.85,
     "level": "level_27.8",
-    "oldName": "PHASE2_843",
-    "x_img_old": 1226.55,
-    "y_img_old": 721.24
+    "oldName": "PHASE2_843"
 }, {
     "fullname": "PHASE2_1210",
     "phase": "PHASE2",
@@ -14131,12 +11917,10 @@ let points = [{
     "x_real": 119.23,
     "y_real": 221.82,
     "z_real": 29.04,
-    "x_img": 1121.6417910447763,
-    "y_img": 910.1386036960985,
+    "x_img": 1121.64,
+    "y_img": 910.14,
     "level": "level_27.8",
-    "oldName": "PHASE2_844",
-    "x_img_old": 1155.7,
-    "y_img_old": 721.5
+    "oldName": "PHASE2_844"
 }, {
     "fullname": "PHASE2_1211",
     "phase": "PHASE2",
@@ -14144,12 +11928,10 @@ let points = [{
     "x_real": 121.09,
     "y_real": 219.68,
     "z_real": 29.03,
-    "x_img": 1178.2319173363949,
-    "y_img": 972.207392197125,
+    "x_img": 1178.23,
+    "y_img": 972.21,
     "level": "level_27.8",
-    "oldName": "PHASE2_845",
-    "x_img_old": 1213.2,
-    "y_img_old": 787.67
+    "oldName": "PHASE2_845"
 }, {
     "fullname": "PHASE2_1212",
     "phase": "PHASE2",
@@ -14157,12 +11939,10 @@ let points = [{
     "x_real": 120.99,
     "y_real": 214.85,
     "z_real": 29.04,
-    "x_img": 1175.1894374282433,
-    "y_img": 1112.2972279260775,
+    "x_img": 1175.19,
+    "y_img": 1112.3,
     "level": "level_27.8",
-    "oldName": "PHASE2_846",
-    "x_img_old": 1210.26,
-    "y_img_old": 936.88
+    "oldName": "PHASE2_846"
 }, {
     "fullname": "PHASE2_1213",
     "phase": "PHASE2",
@@ -14170,12 +11950,10 @@ let points = [{
     "x_real": 117.77,
     "y_real": 218.2,
     "z_real": 29.04,
-    "x_img": 1077.2215843857634,
-    "y_img": 1015.1334702258728,
+    "x_img": 1077.22,
+    "y_img": 1015.13,
     "level": "level_27.8",
-    "oldName": "PHASE2_847",
-    "x_img_old": 1110.75,
-    "y_img_old": 833.39
+    "oldName": "PHASE2_847"
 }, {
     "fullname": "PHASE2_1214",
     "phase": "PHASE2",
@@ -14183,12 +11961,10 @@ let points = [{
     "x_real": 114.93,
     "y_real": 214.88,
     "z_real": 29.05,
-    "x_img": 990.81515499426,
-    "y_img": 1111.4271047227921,
+    "x_img": 990.82,
+    "y_img": 1111.43,
     "level": "level_27.8",
-    "oldName": "PHASE2_848",
-    "x_img_old": 1022.99,
-    "y_img_old": 936.03
+    "oldName": "PHASE2_848"
 }, {
     "fullname": "PHASE2_1215",
     "phase": "PHASE2",
@@ -14196,12 +11972,10 @@ let points = [{
     "x_real": 109.98,
     "y_real": 214.92,
     "z_real": 29.05,
-    "x_img": 840.2123995407583,
-    "y_img": 1110.2669404517455,
+    "x_img": 840.21,
+    "y_img": 1110.27,
     "level": "level_27.8",
-    "oldName": "PHASE2_849",
-    "x_img_old": 869.83,
-    "y_img_old": 934.67
+    "oldName": "PHASE2_849"
 }, {
     "fullname": "PHASE2_1216",
     "phase": "PHASE2",
@@ -14209,12 +11983,10 @@ let points = [{
     "x_real": 106.91,
     "y_real": 216.86,
     "z_real": 29.06,
-    "x_img": 746.8082663605055,
-    "y_img": 1053.9989733059538,
+    "x_img": 746.81,
+    "y_img": 1054,
     "level": "level_27.8",
-    "oldName": "PHASE2_850",
-    "x_img_old": 775.2,
-    "y_img_old": 874.68
+    "oldName": "PHASE2_850"
 }, {
     "fullname": "PHASE2_1217",
     "phase": "PHASE2",
@@ -14222,12 +11994,10 @@ let points = [{
     "x_real": 104.09,
     "y_real": 214.81,
     "z_real": 29.06,
-    "x_img": 661.0103329506319,
-    "y_img": 1113.457392197125,
+    "x_img": 661.01,
+    "y_img": 1113.46,
     "level": "level_27.8",
-    "oldName": "PHASE2_851",
-    "x_img_old": 688.03,
-    "y_img_old": 938.2
+    "oldName": "PHASE2_851"
 }, {
     "fullname": "PHASE2_1218",
     "phase": "PHASE2",
@@ -14235,12 +12005,10 @@ let points = [{
     "x_real": 101.72,
     "y_real": 215.63,
     "z_real": 29.06,
-    "x_img": 588.9035591274401,
-    "y_img": 1089.674024640657,
+    "x_img": 588.9,
+    "y_img": 1089.67,
     "level": "level_27.8",
-    "oldName": "PHASE2_852",
-    "x_img_old": 614.68,
-    "y_img_old": 912.9
+    "oldName": "PHASE2_852"
 }, {
     "fullname": "PHASE2_1219",
     "phase": "PHASE2",
@@ -14248,12 +12016,10 @@ let points = [{
     "x_real": 100.71,
     "y_real": 218.52,
     "z_real": 29.07,
-    "x_img": 558.1745120551095,
-    "y_img": 1005.8521560574945,
+    "x_img": 558.17,
+    "y_img": 1005.85,
     "level": "level_27.8",
-    "oldName": "PHASE2_853",
-    "x_img_old": 583.34,
-    "y_img_old": 823.42
+    "oldName": "PHASE2_853"
 }, {
     "fullname": "PHASE2_1220",
     "phase": "PHASE2",
@@ -14261,12 +12027,10 @@ let points = [{
     "x_real": 102.58,
     "y_real": 220.09,
     "z_real": 29.06,
-    "x_img": 615.0688863375435,
-    "y_img": 960.3157084188906,
+    "x_img": 615.07,
+    "y_img": 960.32,
     "level": "level_27.8",
-    "oldName": "PHASE2_854",
-    "x_img_old": 641.36,
-    "y_img_old": 774.92
+    "oldName": "PHASE2_854"
 }, {
     "fullname": "PHASE2_1221",
     "phase": "PHASE2",
@@ -14274,12 +12038,10 @@ let points = [{
     "x_real": 115.31,
     "y_real": 214.99,
     "z_real": 31.68,
-    "x_img": 1002.3765786452354,
-    "y_img": 1108.2366529774117,
+    "x_img": 1002.38,
+    "y_img": 1108.24,
     "level": "level_27.8",
-    "oldName": "PHASE2_855",
-    "x_img_old": 1034.73,
-    "y_img_old": 932.54
+    "oldName": "PHASE2_855"
 }, {
     "fullname": "PHASE2_1222",
     "phase": "PHASE2",
@@ -14287,12 +12049,10 @@ let points = [{
     "x_real": 115.21,
     "y_real": 221.85,
     "z_real": 31.65,
-    "x_img": 999.3340987370839,
-    "y_img": 909.2684804928131,
+    "x_img": 999.33,
+    "y_img": 909.27,
     "level": "level_27.8",
-    "oldName": "PHASE2_856",
-    "x_img_old": 1031.45,
-    "y_img_old": 720.7
+    "oldName": "PHASE2_856"
 }, {
     "fullname": "PHASE2_1223",
     "phase": "PHASE2",
@@ -14300,12 +12060,10 @@ let points = [{
     "x_real": 112.2,
     "y_real": 221.73,
     "z_real": 33.93,
-    "x_img": 907.7554535017225,
-    "y_img": 912.7489733059547,
+    "x_img": 907.76,
+    "y_img": 912.75,
     "level": "level_27.8",
-    "oldName": "PHASE2_857",
-    "x_img_old": 938.56,
-    "y_img_old": 724.23
+    "oldName": "PHASE2_857"
 }, {
     "fullname": "PHASE2_1224",
     "phase": "PHASE2",
@@ -14313,12 +12071,10 @@ let points = [{
     "x_real": 115.47,
     "y_real": 223.77,
     "z_real": 33.93,
-    "x_img": 1007.2445464982779,
-    "y_img": 853.5805954825455,
+    "x_img": 1007.24,
+    "y_img": 853.58,
     "level": "level_27.8",
-    "oldName": "PHASE2_858",
-    "x_img_old": 1039.49,
-    "y_img_old": 661.21
+    "oldName": "PHASE2_858"
 }, {
     "fullname": "PHASE2_1225",
     "phase": "PHASE2",
@@ -14326,12 +12082,10 @@ let points = [{
     "x_real": 120.18,
     "y_real": 222.4,
     "z_real": 33.93,
-    "x_img": 1150.5453501722159,
-    "y_img": 893.3162217659137,
+    "x_img": 1150.55,
+    "y_img": 893.32,
     "level": "level_27.8",
-    "oldName": "PHASE2_859",
-    "x_img_old": 1185.21,
-    "y_img_old": 703.58
+    "oldName": "PHASE2_859"
 }, {
     "fullname": "PHASE2_1226",
     "phase": "PHASE2",
@@ -14339,12 +12093,10 @@ let points = [{
     "x_real": 121.64,
     "y_real": 224.78,
     "z_real": 33.94,
-    "x_img": 1194.9655568312282,
-    "y_img": 824.286447638603,
+    "x_img": 1194.97,
+    "y_img": 824.29,
     "level": "level_27.8",
-    "oldName": "PHASE2_860",
-    "x_img_old": 1230.13,
-    "y_img_old": 630.07
+    "oldName": "PHASE2_860"
 }, {
     "fullname": "PHASE2_1227",
     "phase": "PHASE2",
@@ -14352,12 +12104,10 @@ let points = [{
     "x_real": 118.18,
     "y_real": 226.82,
     "z_real": 33.94,
-    "x_img": 1089.695752009185,
-    "y_img": 765.1180698151948,
+    "x_img": 1089.7,
+    "y_img": 765.12,
     "level": "level_27.8",
-    "oldName": "PHASE2_861",
-    "x_img_old": 1123.38,
-    "y_img_old": 566.89
+    "oldName": "PHASE2_861"
 }, {
     "fullname": "PHASE2_1228",
     "phase": "PHASE2",
@@ -14365,12 +12115,10 @@ let points = [{
     "x_real": 113.62,
     "y_real": 227.13,
     "z_real": 33.96,
-    "x_img": 950.9586681974743,
-    "y_img": 756.1267967145786,
+    "x_img": 950.96,
+    "y_img": 756.13,
     "level": "level_27.8",
-    "oldName": "PHASE2_862",
-    "x_img_old": 982.51,
-    "y_img_old": 557.3
+    "oldName": "PHASE2_862"
 }, {
     "fullname": "PHASE2_1229",
     "phase": "PHASE2",
@@ -14378,12 +12126,10 @@ let points = [{
     "x_real": 110.33,
     "y_real": 227.01,
     "z_real": 33.97,
-    "x_img": 850.8610792192885,
-    "y_img": 759.6072895277212,
+    "x_img": 850.86,
+    "y_img": 759.61,
     "level": "level_27.8",
-    "oldName": "PHASE2_863",
-    "x_img_old": 880.61,
-    "y_img_old": 561.17
+    "oldName": "PHASE2_863"
 }, {
     "fullname": "PHASE2_1230",
     "phase": "PHASE2",
@@ -14391,12 +12137,10 @@ let points = [{
     "x_real": 108.49,
     "y_real": 225.22,
     "z_real": 33.96,
-    "x_img": 794.8794489092998,
-    "y_img": 811.5246406570841,
+    "x_img": 794.88,
+    "y_img": 811.52,
     "level": "level_27.8",
-    "oldName": "PHASE2_864",
-    "x_img_old": 823.98,
-    "y_img_old": 616.52
+    "oldName": "PHASE2_864"
 }, {
     "fullname": "PHASE2_1231",
     "phase": "PHASE2",
@@ -14404,12 +12148,10 @@ let points = [{
     "x_real": 104.97,
     "y_real": 227.08,
     "z_real": 33.96,
-    "x_img": 687.7841561423656,
-    "y_img": 757.5770020533873,
+    "x_img": 687.78,
+    "y_img": 757.58,
     "level": "level_27.8",
-    "oldName": "PHASE2_865",
-    "x_img_old": 715.16,
-    "y_img_old": 559.02
+    "oldName": "PHASE2_865"
 }, {
     "fullname": "PHASE2_1232",
     "phase": "PHASE2",
@@ -14417,12 +12159,10 @@ let points = [{
     "x_real": 102.66,
     "y_real": 226.1,
     "z_real": 33.96,
-    "x_img": 617.5028702640648,
-    "y_img": 786.0010266940453,
+    "x_img": 617.5,
+    "y_img": 786,
     "level": "level_27.8",
-    "oldName": "PHASE2_866",
-    "x_img_old": 643.62,
-    "y_img_old": 589.15
+    "oldName": "PHASE2_866"
 }, {
     "fullname": "PHASE2_1233",
     "phase": "PHASE2",
@@ -14430,12 +12170,10 @@ let points = [{
     "x_real": 100.55,
     "y_real": 224.4,
     "z_real": 33.95,
-    "x_img": 553.306544202067,
-    "y_img": 835.3080082135521,
+    "x_img": 553.31,
+    "y_img": 835.31,
     "level": "level_27.8",
-    "oldName": "PHASE2_867",
-    "x_img_old": 578.55,
-    "y_img_old": 641.88
+    "oldName": "PHASE2_867"
 }, {
     "fullname": "PHASE2_1234",
     "phase": "PHASE2",
@@ -14443,12 +12181,10 @@ let points = [{
     "x_real": 102.82,
     "y_real": 222.77,
     "z_real": 33.93,
-    "x_img": 622.3708381171068,
-    "y_img": 882.5847022587268,
+    "x_img": 622.37,
+    "y_img": 882.58,
     "level": "level_27.8",
-    "oldName": "PHASE2_868",
-    "x_img_old": 648.72,
-    "y_img_old": 692
+    "oldName": "PHASE2_868"
 }, {
     "fullname": "PHASE2_1235",
     "phase": "PHASE2",
@@ -14456,12 +12192,10 @@ let points = [{
     "x_real": 105.53,
     "y_real": 222.04,
     "z_real": 33.94,
-    "x_img": 704.822043628014,
-    "y_img": 903.7577002053386,
+    "x_img": 704.82,
+    "y_img": 903.76,
     "level": "level_27.8",
-    "oldName": "PHASE2_869",
-    "x_img_old": 732.58,
-    "y_img_old": 714.6
+    "oldName": "PHASE2_869"
 }, {
     "fullname": "PHASE2_1236",
     "phase": "PHASE2",
@@ -14469,12 +12203,10 @@ let points = [{
     "x_real": 108.24,
     "y_real": 222.25,
     "z_real": 33.95,
-    "x_img": 787.2732491389211,
-    "y_img": 897.6668377823407,
+    "x_img": 787.27,
+    "y_img": 897.67,
     "level": "level_27.8",
-    "oldName": "PHASE2_870",
-    "x_img_old": 816.06,
-    "y_img_old": 708.08
+    "oldName": "PHASE2_870"
 }, {
     "fullname": "PHASE2_1237",
     "phase": "PHASE2",
@@ -14482,12 +12214,10 @@ let points = [{
     "x_real": 109.37,
     "y_real": 220.86,
     "z_real": 33.95,
-    "x_img": 821.6532721010335,
-    "y_img": 937.9825462012313,
+    "x_img": 821.65,
+    "y_img": 937.98,
     "level": "level_27.8",
-    "oldName": "PHASE2_871",
-    "x_img_old": 850.94,
-    "y_img_old": 751.08
+    "oldName": "PHASE2_871"
 }, {
     "fullname": "PHASE2_1238",
     "phase": "PHASE2",
@@ -14495,12 +12225,10 @@ let points = [{
     "x_real": 109.42,
     "y_real": 218.94,
     "z_real": 33.95,
-    "x_img": 823.1745120551095,
-    "y_img": 993.6704312114989,
+    "x_img": 823.17,
+    "y_img": 993.67,
     "level": "level_27.8",
-    "oldName": "PHASE2_872",
-    "x_img_old": 852.77,
-    "y_img_old": 810.39
+    "oldName": "PHASE2_872"
 }, {
     "fullname": "PHASE2_1239",
     "phase": "PHASE2",
@@ -14508,12 +12236,10 @@ let points = [{
     "x_real": 113.18,
     "y_real": 219.2,
     "z_real": 33.93,
-    "x_img": 937.5717566016078,
-    "y_img": 986.1293634496924,
+    "x_img": 937.57,
+    "y_img": 986.13,
     "level": "level_27.8",
-    "oldName": "PHASE2_873",
-    "x_img_old": 968.86,
-    "y_img_old": 802.51
+    "oldName": "PHASE2_873"
 }, {
     "fullname": "PHASE2_1240",
     "phase": "PHASE2",
@@ -14521,12 +12247,10 @@ let points = [{
     "x_real": 117.48,
     "y_real": 220.03,
     "z_real": 33.92,
-    "x_img": 1068.3983926521241,
-    "y_img": 962.0559548254614,
+    "x_img": 1068.4,
+    "y_img": 962.06,
     "level": "level_27.8",
-    "oldName": "PHASE2_874",
-    "x_img_old": 1101.81,
-    "y_img_old": 776.8
+    "oldName": "PHASE2_874"
 }, {
     "fullname": "PHASE2_1241",
     "phase": "PHASE2",
@@ -14534,12 +12258,10 @@ let points = [{
     "x_real": 119.71,
     "y_real": 217.86,
     "z_real": 33.93,
-    "x_img": 1136.2456946039033,
-    "y_img": 1024.9948665297734,
+    "x_img": 1136.25,
+    "y_img": 1024.99,
     "level": "level_27.8",
-    "oldName": "PHASE2_875",
-    "x_img_old": 1170.65,
-    "y_img_old": 843.79
+    "oldName": "PHASE2_875"
 }, {
     "fullname": "PHASE2_1242",
     "phase": "PHASE2",
@@ -14547,12 +12269,10 @@ let points = [{
     "x_real": 103.15,
     "y_real": 218.23,
     "z_real": 33.94,
-    "x_img": 632.4110218140077,
-    "y_img": 1014.2633470225874,
+    "x_img": 632.41,
+    "y_img": 1014.26,
     "level": "level_27.8",
-    "oldName": "PHASE2_876",
-    "x_img_old": 658.88,
-    "y_img_old": 832.6
+    "oldName": "PHASE2_876"
 }, {
     "fullname": "PHASE2_1243",
     "phase": "PHASE2",
@@ -14560,12 +12280,10 @@ let points = [{
     "x_real": 100.64,
     "y_real": 218.84,
     "z_real": 33.94,
-    "x_img": 556.0447761194037,
-    "y_img": 996.5708418891163,
+    "x_img": 556.04,
+    "y_img": 996.57,
     "level": "level_27.8",
-    "oldName": "PHASE2_877",
-    "x_img_old": 581.34,
-    "y_img_old": 813.74
+    "oldName": "PHASE2_877"
 }, {
     "fullname": "PHASE2_1244",
     "phase": "PHASE2",
@@ -14573,12 +12291,10 @@ let points = [{
     "x_real": 103.48,
     "y_real": 216.57,
     "z_real": 33.95,
-    "x_img": 642.4512055109076,
-    "y_img": 1062.4101642710475,
+    "x_img": 642.45,
+    "y_img": 1062.41,
     "level": "level_27.8",
-    "oldName": "PHASE2_878",
-    "x_img_old": 669.08,
-    "y_img_old": 883.8
+    "oldName": "PHASE2_878"
 }, {
     "fullname": "PHASE2_1245",
     "phase": "PHASE2",
@@ -14586,12 +12302,10 @@ let points = [{
     "x_real": 101.49,
     "y_real": 216.13,
     "z_real": 33.96,
-    "x_img": 581.9058553386913,
-    "y_img": 1075.1719712525664,
+    "x_img": 581.91,
+    "y_img": 1075.17,
     "level": "level_27.8",
-    "oldName": "PHASE2_879",
-    "x_img_old": 607.72,
-    "y_img_old": 897.32
+    "oldName": "PHASE2_879"
 }, {
     "fullname": "PHASE2_1246",
     "phase": "PHASE2",
@@ -14599,12 +12313,10 @@ let points = [{
     "x_real": 116.03,
     "y_real": 217.68,
     "z_real": 29.04,
-    "x_img": 1024.2824339839267,
-    "y_img": 1030.2156057494858,
+    "x_img": 1024.28,
+    "y_img": 1030.22,
     "level": "level_27.8",
-    "oldName": "PHASE2_880",
-    "x_img_old": 1056.9,
-    "y_img_old": 849.32
+    "oldName": "PHASE2_880"
 }, {
     "fullname": "PHASE2_1247",
     "phase": "PHASE2",
@@ -14612,12 +12324,10 @@ let points = [{
     "x_real": 115.36,
     "y_real": 219.26,
     "z_real": 29.05,
-    "x_img": 1003.897818599311,
-    "y_img": 984.3891170431207,
+    "x_img": 1003.9,
+    "y_img": 984.39,
     "level": "level_27.8",
-    "oldName": "PHASE2_881",
-    "x_img_old": 1036.1,
-    "y_img_old": 800.78
+    "oldName": "PHASE2_881"
 }, {
     "fullname": "PHASE2_1248",
     "phase": "PHASE2",
@@ -14625,12 +12335,10 @@ let points = [{
     "x_real": 110.35,
     "y_real": 219.14,
     "z_real": 29.06,
-    "x_img": 851.4695752009184,
-    "y_img": 987.8696098562632,
+    "x_img": 851.47,
+    "y_img": 987.87,
     "level": "level_27.8",
-    "oldName": "PHASE2_882",
-    "x_img_old": 881.52,
-    "y_img_old": 804.4
+    "oldName": "PHASE2_882"
 }, {
     "fullname": "PHASE2_1249",
     "phase": "PHASE2",
@@ -14638,12 +12346,10 @@ let points = [{
     "x_real": 106.9,
     "y_real": 218.98,
     "z_real": 29.06,
-    "x_img": 746.5040183696906,
-    "y_img": 992.5102669404514,
+    "x_img": 746.5,
+    "y_img": 992.51,
     "level": "level_27.8",
-    "oldName": "PHASE2_883",
-    "x_img_old": 774.88,
-    "y_img_old": 809.25
+    "oldName": "PHASE2_883"
 }, {
     "fullname": "PHASE2_1250",
     "phase": "PHASE2",
@@ -14651,12 +12357,10 @@ let points = [{
     "x_real": 104.18,
     "y_real": 219.03,
     "z_real": 29.06,
-    "x_img": 663.7485648679685,
-    "y_img": 991.0600616016427,
+    "x_img": 663.75,
+    "y_img": 991.06,
     "level": "level_27.8",
-    "oldName": "PHASE2_884",
-    "x_img_old": 690.86,
-    "y_img_old": 807.58
+    "oldName": "PHASE2_884"
 }, {
     "fullname": "PHASE2_1251",
     "phase": "PHASE2",
@@ -14664,12 +12368,10 @@ let points = [{
     "x_real": 103.04,
     "y_real": 218.9,
     "z_real": 29.06,
-    "x_img": 629.0642939150407,
-    "y_img": 994.8305954825455,
+    "x_img": 629.06,
+    "y_img": 994.83,
     "level": "level_27.8",
-    "oldName": "PHASE2_885",
-    "x_img_old": 655.35,
-    "y_img_old": 811.66
+    "oldName": "PHASE2_885"
 }, {
     "fullname": "PHASE2_1252",
     "phase": "PHASE2",
@@ -14677,12 +12379,10 @@ let points = [{
     "x_real": 106.2,
     "y_real": 217.46,
     "z_real": 33.95,
-    "x_img": 725.2066590126296,
-    "y_img": 1036.5965092402457,
+    "x_img": 725.21,
+    "y_img": 1036.6,
     "level": "level_27.8",
-    "oldName": "PHASE2_886",
-    "x_img_old": 753.15,
-    "y_img_old": 856.36
+    "oldName": "PHASE2_886"
 }, {
     "fullname": "PHASE2_1253",
     "phase": "PHASE2",
@@ -14690,12 +12390,10 @@ let points = [{
     "x_real": 108.31,
     "y_real": 215.85,
     "z_real": 33.96,
-    "x_img": 789.4029850746274,
-    "y_img": 1083.2931211498972,
+    "x_img": 789.4,
+    "y_img": 1083.29,
     "level": "level_27.8",
-    "oldName": "PHASE2_887",
-    "x_img_old": 818.4,
-    "y_img_old": 905.96
+    "oldName": "PHASE2_887"
 }, {
     "fullname": "PHASE2_1254",
     "phase": "PHASE2",
@@ -14703,12 +12401,10 @@ let points = [{
     "x_real": 111.86,
     "y_real": 214.46,
     "z_real": 33.96,
-    "x_img": 897.4110218140072,
-    "y_img": 1123.6088295687878,
+    "x_img": 897.41,
+    "y_img": 1123.61,
     "level": "level_27.8",
-    "oldName": "PHASE2_889",
-    "x_img_old": 928,
-    "y_img_old": 949.04
+    "oldName": "PHASE2_889"
 }, {
     "fullname": "PHASE2_1255",
     "phase": "PHASE2",
@@ -14716,12 +12412,10 @@ let points = [{
     "x_real": 113.97,
     "y_real": 216.36,
     "z_real": 33.94,
-    "x_img": 961.6073478760045,
-    "y_img": 1068.5010266940444,
+    "x_img": 961.61,
+    "y_img": 1068.5,
     "level": "level_27.8",
-    "oldName": "PHASE2_890",
-    "x_img_old": 993.1,
-    "y_img_old": 890.28
+    "oldName": "PHASE2_890"
 }, {
     "fullname": "PHASE2_1256",
     "phase": "PHASE2",
@@ -14729,12 +12423,10 @@ let points = [{
     "x_real": 117.42,
     "y_real": 216.1,
     "z_real": 33.94,
-    "x_img": 1066.5729047072332,
-    "y_img": 1076.0420944558518,
+    "x_img": 1066.57,
+    "y_img": 1076.04,
     "level": "level_27.8",
-    "oldName": "PHASE2_891",
-    "x_img_old": 1099.69,
-    "y_img_old": 898.15
+    "oldName": "PHASE2_891"
 }, {
     "fullname": "PHASE2_1257",
     "phase": "PHASE2",
@@ -14742,12 +12434,10 @@ let points = [{
     "x_real": 121.41,
     "y_real": 214.53,
     "z_real": 33.95,
-    "x_img": 1187.9678530424799,
-    "y_img": 1121.5785420944558,
+    "x_img": 1187.97,
+    "y_img": 1121.58,
     "level": "level_27.8",
-    "oldName": "PHASE2_892",
-    "x_img_old": 1222.98,
-    "y_img_old": 946.74
+    "oldName": "PHASE2_892"
 }, {
     "fullname": "PHASE2_1258",
     "phase": "PHASE2",
@@ -14755,12 +12445,10 @@ let points = [{
     "x_real": 122.67,
     "y_real": 215.49,
     "z_real": 33.95,
-    "x_img": 1226.303099885189,
-    "y_img": 1093.734599589322,
+    "x_img": 1226.3,
+    "y_img": 1093.73,
     "level": "level_27.8",
-    "oldName": "PHASE2_893",
-    "x_img_old": 1262.08,
-    "y_img_old": 917.28
+    "oldName": "PHASE2_893"
 }, {
     "fullname": "PHASE2_1259",
     "phase": "PHASE2",
@@ -14768,12 +12456,10 @@ let points = [{
     "x_real": 122.68,
     "y_real": 218.89,
     "z_real": 33.93,
-    "x_img": 1226.6073478760045,
-    "y_img": 995.1206365503085,
+    "x_img": 1226.61,
+    "y_img": 995.12,
     "level": "level_27.8",
-    "oldName": "PHASE2_894",
-    "x_img_old": 1262.35,
-    "y_img_old": 812.09
+    "oldName": "PHASE2_894"
 }, {
     "fullname": "PHASE2_1260",
     "phase": "PHASE2",
@@ -14781,12 +12467,10 @@ let points = [{
     "x_real": 97.05,
     "y_real": 240.37,
     "z_real": 24.06,
-    "x_img": 446.81974741676277,
-    "y_img": 372.11242299794594,
+    "x_img": 446.82,
+    "y_img": 372.11,
     "level": "level_22.8",
-    "oldName": "PHASE2_895",
-    "x_img_old": 545.84,
-    "y_img_old": 224.36
+    "oldName": "PHASE2_895"
 }, {
     "fullname": "PHASE2_1261",
     "phase": "PHASE2",
@@ -14794,12 +12478,10 @@ let points = [{
     "x_real": 93.6,
     "y_real": 242.32,
     "z_real": 24.08,
-    "x_img": 341.8541905855345,
-    "y_img": 315.5544147843939,
+    "x_img": 341.85,
+    "y_img": 315.55,
     "level": "level_22.8",
-    "oldName": "PHASE2_896",
-    "x_img_old": 450.11,
-    "y_img_old": 169.52
+    "oldName": "PHASE2_896"
 }, {
     "fullname": "PHASE2_1262",
     "phase": "PHASE2",
@@ -14807,12 +12489,10 @@ let points = [{
     "x_real": 94.51,
     "y_real": 241.07,
     "z_real": 22.96,
-    "x_img": 369.540757749714,
-    "y_img": 351.8095482546205,
+    "x_img": 369.54,
+    "y_img": 351.81,
     "level": "level_22.8",
-    "oldName": "PHASE2_897",
-    "x_img_old": 475.32,
-    "y_img_old": 204.57
+    "oldName": "PHASE2_897"
 }, {
     "fullname": "PHASE2_1263",
     "phase": "PHASE2",
@@ -14820,12 +12500,10 @@ let points = [{
     "x_real": 93.06,
     "y_real": 239.63,
     "z_real": 22.95,
-    "x_img": 325.4247990815161,
-    "y_img": 393.5754620123207,
+    "x_img": 325.42,
+    "y_img": 393.58,
     "level": "level_22.8",
-    "oldName": "PHASE2_898",
-    "x_img_old": 435.19,
-    "y_img_old": 245.03
+    "oldName": "PHASE2_898"
 }, {
     "fullname": "PHASE2_1264",
     "phase": "PHASE2",
@@ -14833,12 +12511,10 @@ let points = [{
     "x_real": 97.94,
     "y_real": 242.3,
     "z_real": 24.07,
-    "x_img": 473.89781859931145,
-    "y_img": 316.1344969199172,
+    "x_img": 473.9,
+    "y_img": 316.13,
     "level": "level_22.8",
-    "oldName": "PHASE2_899",
-    "x_img_old": 570.52,
-    "y_img_old": 170.03
+    "oldName": "PHASE2_899"
 }, {
     "fullname": "PHASE2_1265",
     "phase": "PHASE2",
@@ -14846,12 +12522,10 @@ let points = [{
     "x_real": 98.09,
     "y_real": 240.71,
     "z_real": 26.59,
-    "x_img": 478.461538461539,
-    "y_img": 362.2510266940444,
+    "x_img": 478.46,
+    "y_img": 362.25,
     "level": "level_22.8",
-    "oldName": "PHASE2_900",
-    "x_img_old": 574.61,
-    "y_img_old": 214.66
+    "oldName": "PHASE2_900"
 }, {
     "fullname": "PHASE2_1266",
     "phase": "PHASE2",
@@ -14859,12 +12533,10 @@ let points = [{
     "x_real": 95.82,
     "y_real": 240.69,
     "z_real": 26.59,
-    "x_img": 409.39724454649877,
-    "y_img": 362.8311088295686,
+    "x_img": 409.4,
+    "y_img": 362.83,
     "level": "level_22.8",
-    "oldName": "PHASE2_901",
-    "x_img_old": 511.73,
-    "y_img_old": 215.3
+    "oldName": "PHASE2_901"
 }, {
     "fullname": "PHASE2_1267",
     "phase": "PHASE2",
@@ -14872,12 +12544,10 @@ let points = [{
     "x_real": 96.46,
     "y_real": 235.62,
     "z_real": 29.07,
-    "x_img": 428.8691159586688,
-    "y_img": 509.88193018480433,
+    "x_img": 428.87,
+    "y_img": 509.88,
     "level": "level_27.8",
-    "oldName": "PHASE2_902",
-    "x_img_old": 452.23,
-    "y_img_old": 294.91
+    "oldName": "PHASE2_902"
 }, {
     "fullname": "PHASE2_1268",
     "phase": "PHASE2",
@@ -14885,12 +12555,10 @@ let points = [{
     "x_real": 98.18,
     "y_real": 240.85,
     "z_real": 29.08,
-    "x_img": 481.19977037887566,
-    "y_img": 358.1904517453795,
+    "x_img": 481.2,
+    "y_img": 358.19,
     "level": "level_27.8",
-    "oldName": "PHASE2_903",
-    "x_img_old": 505.38,
-    "y_img_old": 133.49
+    "oldName": "PHASE2_903"
 }, {
     "fullname": "PHASE2_1269",
     "phase": "PHASE2",
@@ -14898,12 +12566,10 @@ let points = [{
     "x_real": 95.88,
     "y_real": 240.69,
     "z_real": 29.08,
-    "x_img": 411.2227324913897,
-    "y_img": 362.8311088295686,
+    "x_img": 411.22,
+    "y_img": 362.83,
     "level": "level_27.8",
-    "oldName": "PHASE2_904",
-    "x_img_old": 434.28,
-    "y_img_old": 138.33
+    "oldName": "PHASE2_904"
 }, {
     "fullname": "PHASE2_1270",
     "phase": "PHASE2",
@@ -14911,12 +12577,10 @@ let points = [{
     "x_real": 97.06,
     "y_real": 235.75,
     "z_real": 31.57,
-    "x_img": 447.12399540757815,
-    "y_img": 506.11139630390153,
+    "x_img": 447.12,
+    "y_img": 506.11,
     "level": "level_27.8",
-    "oldName": "PHASE2_905",
-    "x_img_old": 470.59,
-    "y_img_old": 291.03
+    "oldName": "PHASE2_905"
 }, {
     "fullname": "PHASE2_1271",
     "phase": "PHASE2",
@@ -14924,12 +12588,10 @@ let points = [{
     "x_real": 97.99,
     "y_real": 240.8,
     "z_real": 34.07,
-    "x_img": 475.41905855338746,
-    "y_img": 359.6406570841882,
+    "x_img": 475.42,
+    "y_img": 359.64,
     "level": "level_27.8",
-    "oldName": "PHASE2_906",
-    "x_img_old": 499.41,
-    "y_img_old": 134.84
+    "oldName": "PHASE2_906"
 }, {
     "fullname": "PHASE2_1272",
     "phase": "PHASE2",
@@ -14937,12 +12599,10 @@ let points = [{
     "x_real": 95.71,
     "y_real": 240.58,
     "z_real": 34.07,
-    "x_img": 406.0505166475318,
-    "y_img": 366.0215605749481,
+    "x_img": 406.05,
+    "y_img": 366.02,
     "level": "level_27.8",
-    "oldName": "PHASE2_907",
-    "x_img_old": 429.13,
-    "y_img_old": 141.82
+    "oldName": "PHASE2_907"
 }, {
     "fullname": "PHASE2_1273",
     "phase": "PHASE2",
@@ -14950,12 +12610,10 @@ let points = [{
     "x_real": 96.99,
     "y_real": 235.81,
     "z_real": 36.57,
-    "x_img": 444.9942594718718,
-    "y_img": 504.3711498973307,
+    "x_img": 444.99,
+    "y_img": 504.37,
     "level": "level_37.8",
-    "oldName": "PHASE2_908",
-    "x_img_old": 368.86,
-    "y_img_old": 284.24
+    "oldName": "PHASE2_908"
 }, {
     "fullname": "PHASE2_1274",
     "phase": "PHASE2",
@@ -14963,12 +12621,10 @@ let points = [{
     "x_real": 98.1,
     "y_real": 240.75,
     "z_real": 39.08,
-    "x_img": 478.76578645235395,
-    "y_img": 361.0908624229978,
+    "x_img": 478.77,
+    "y_img": 361.09,
     "level": "level_37.8",
-    "oldName": "PHASE2_909",
-    "x_img_old": 403.39,
-    "y_img_old": 128.26
+    "oldName": "PHASE2_909"
 }, {
     "fullname": "PHASE2_1275",
     "phase": "PHASE2",
@@ -14976,12 +12632,10 @@ let points = [{
     "x_real": 95.72,
     "y_real": 240.48,
     "z_real": 39.07,
-    "x_img": 406.3547646383472,
-    "y_img": 368.92197125256735,
+    "x_img": 406.35,
+    "y_img": 368.92,
     "level": "level_37.8",
-    "oldName": "PHASE2_910",
-    "x_img_old": 329.25,
-    "y_img_old": 136.8
+    "oldName": "PHASE2_910"
 }, {
     "fullname": "PHASE2_1276",
     "phase": "PHASE2",
@@ -14989,12 +12643,10 @@ let points = [{
     "x_real": 97.04,
     "y_real": 235.79,
     "z_real": 41.57,
-    "x_img": 446.51549942594784,
-    "y_img": 504.951232032854,
+    "x_img": 446.52,
+    "y_img": 504.95,
     "level": "level_37.8",
-    "oldName": "PHASE2_911",
-    "x_img_old": 370.38,
-    "y_img_old": 284.9
+    "oldName": "PHASE2_911"
 }, {
     "fullname": "PHASE2_1277",
     "phase": "PHASE2",
@@ -15002,12 +12654,10 @@ let points = [{
     "x_real": 98.11,
     "y_real": 240.79,
     "z_real": 44.08,
-    "x_img": 479.07003444316933,
-    "y_img": 359.9306981519512,
+    "x_img": 479.07,
+    "y_img": 359.93,
     "level": "level_37.8",
-    "oldName": "PHASE2_912",
-    "x_img_old": 403.81,
-    "y_img_old": 127.05
+    "oldName": "PHASE2_912"
 }, {
     "fullname": "PHASE2_1278",
     "phase": "PHASE2",
@@ -15015,12 +12665,10 @@ let points = [{
     "x_real": 95.74,
     "y_real": 240.85,
     "z_real": 44.07,
-    "x_img": 406.9632606199775,
-    "y_img": 358.1904517453795,
+    "x_img": 406.96,
+    "y_img": 358.19,
     "level": "level_37.8",
-    "oldName": "PHASE2_913",
-    "x_img_old": 329.6,
-    "y_img_old": 125.28
+    "oldName": "PHASE2_913"
 }, {
     "fullname": "PHASE2_1279",
     "phase": "PHASE2",
@@ -15028,12 +12676,10 @@ let points = [{
     "x_real": 97.04,
     "y_real": 235.83,
     "z_real": 46.58,
-    "x_img": 446.51549942594784,
-    "y_img": 503.7910677618065,
+    "x_img": 446.52,
+    "y_img": 503.79,
     "level": "level_47.8",
-    "oldName": "PHASE2_914",
-    "x_img_old": 454.25,
-    "y_img_old": 306.6
+    "oldName": "PHASE2_914"
 }, {
     "fullname": "PHASE2_1280",
     "phase": "PHASE2",
@@ -15041,12 +12687,10 @@ let points = [{
     "x_real": 97.93,
     "y_real": 240.69,
     "z_real": 49.08,
-    "x_img": 473.593570608497,
-    "y_img": 362.8311088295686,
+    "x_img": 473.59,
+    "y_img": 362.83,
     "level": "level_47.8",
-    "oldName": "PHASE2_915",
-    "x_img_old": 481.35,
-    "y_img_old": 163.36
+    "oldName": "PHASE2_915"
 }, {
     "fullname": "PHASE2_1281",
     "phase": "PHASE2",
@@ -15054,12 +12698,10 @@ let points = [{
     "x_real": 97.11,
     "y_real": 234.21,
     "z_real": 49.07,
-    "x_img": 448.6452353616537,
-    "y_img": 550.7777207392191,
+    "x_img": 448.65,
+    "y_img": 550.78,
     "level": "level_47.8",
-    "oldName": "PHASE2_916",
-    "x_img_old": 456.32,
-    "y_img_old": 354.47
+    "oldName": "PHASE2_916"
 }, {
     "fullname": "PHASE2_1282",
     "phase": "PHASE2",
@@ -15067,12 +12709,10 @@ let points = [{
     "x_real": 95.83,
     "y_real": 240.92,
     "z_real": 49.07,
-    "x_img": 409.70149253731415,
-    "y_img": 356.1601642710475,
+    "x_img": 409.7,
+    "y_img": 356.16,
     "level": "level_47.8",
-    "oldName": "PHASE2_917",
-    "x_img_old": 417.93,
-    "y_img_old": 156.44
+    "oldName": "PHASE2_917"
 }, {
     "fullname": "PHASE2_1283",
     "phase": "PHASE2",
@@ -15080,12 +12720,10 @@ let points = [{
     "x_real": 98.09,
     "y_real": 241.11,
     "z_real": 52.92,
-    "x_img": 478.461538461539,
-    "y_img": 350.6493839835721,
+    "x_img": 478.46,
+    "y_img": 350.65,
     "level": "level_47.8",
-    "oldName": "PHASE2_918",
-    "x_img_old": 485.94,
-    "y_img_old": 150.82
+    "oldName": "PHASE2_918"
 }, {
     "fullname": "PHASE2_1284",
     "phase": "PHASE2",
@@ -15093,12 +12731,10 @@ let points = [{
     "x_real": 95.66,
     "y_real": 241.27,
     "z_real": 52.91,
-    "x_img": 404.52927669345627,
-    "y_img": 346.0087268993839,
+    "x_img": 404.53,
+    "y_img": 346.01,
     "level": "level_47.8",
-    "oldName": "PHASE2_919",
-    "x_img_old": 412.81,
-    "y_img_old": 145.98
+    "oldName": "PHASE2_919"
 }, {
     "fullname": "PHASE2_1285",
     "phase": "PHASE2",
@@ -15106,12 +12742,10 @@ let points = [{
     "x_real": 97.06,
     "y_real": 234.71,
     "z_real": 52.92,
-    "x_img": 447.12399540757815,
-    "y_img": 536.2756673511285,
+    "x_img": 447.12,
+    "y_img": 536.28,
     "level": "level_47.8",
-    "oldName": "PHASE2_920",
-    "x_img_old": 454.99,
-    "y_img_old": 339.65
+    "oldName": "PHASE2_920"
 }, {
     "fullname": "PHASE2_1286",
     "phase": "PHASE2",
@@ -15119,12 +12753,10 @@ let points = [{
     "x_real": 97.85,
     "y_real": 241.05,
     "z_real": 56.08,
-    "x_img": 471.15958668197527,
-    "y_img": 352.3896303901429,
+    "x_img": 471.16,
+    "y_img": 352.39,
     "level": "level_47.8",
-    "oldName": "PHASE2_921",
-    "x_img_old": 478.82,
-    "y_img_old": 152.48
+    "oldName": "PHASE2_921"
 }, {
     "fullname": "PHASE2_1287",
     "phase": "PHASE2",
@@ -15132,12 +12764,10 @@ let points = [{
     "x_real": 95.46,
     "y_real": 239.04,
     "z_real": 56.06,
-    "x_img": 398.44431687715314,
-    "y_img": 410.68788501026665,
+    "x_img": 398.44,
+    "y_img": 410.69,
     "level": "level_47.8",
-    "oldName": "PHASE2_922",
-    "x_img_old": 406.74,
-    "y_img_old": 211.95
+    "oldName": "PHASE2_922"
 }, {
     "fullname": "PHASE2_1288",
     "phase": "PHASE2",
@@ -15145,12 +12775,10 @@ let points = [{
     "x_real": 96.92,
     "y_real": 234.31,
     "z_real": 56.07,
-    "x_img": 442.86452353616596,
-    "y_img": 547.8773100616017,
+    "x_img": 442.86,
+    "y_img": 547.88,
     "level": "level_47.8",
-    "oldName": "PHASE2_923",
-    "x_img_old": 450.77,
-    "y_img_old": 351.36
+    "oldName": "PHASE2_923"
 }, {
     "fullname": "PHASE2_1289",
     "phase": "PHASE2",
@@ -15158,12 +12786,10 @@ let points = [{
     "x_real": 97.95,
     "y_real": 240.65,
     "z_real": 59.23,
-    "x_img": 474.20206659012683,
-    "y_img": 363.9912731006161,
+    "x_img": 474.2,
+    "y_img": 363.99,
     "level": "level_58.0",
-    "oldName": "PHASE2_924",
-    "x_img_old": 481.77,
-    "y_img_old": 164.46
+    "oldName": "PHASE2_924"
 }, {
     "fullname": "PHASE2_1290",
     "phase": "PHASE2",
@@ -15171,12 +12797,10 @@ let points = [{
     "x_real": 107.31,
     "y_real": 212.69,
     "z_real": 53.02,
-    "x_img": 758.9781859931118,
-    "y_img": 1174.9460985626283,
+    "x_img": 758.98,
+    "y_img": 1174.95,
     "level": "level_47.8",
-    "oldName": "PHASE2_925",
-    "x_img_old": 764.51,
-    "y_img_old": 989.55
+    "oldName": "PHASE2_925"
 }, {
     "fullname": "PHASE2_1291",
     "phase": "PHASE2",
@@ -15184,12 +12808,10 @@ let points = [{
     "x_real": 105.91,
     "y_real": 206.52,
     "z_real": 53.01,
-    "x_img": 716.3834672789899,
-    "y_img": 1353.9014373716627,
+    "x_img": 716.38,
+    "y_img": 1353.9,
     "level": "level_47.8",
-    "oldName": "PHASE2_926",
-    "x_img_old": 722,
-    "y_img_old": 1171.45
+    "oldName": "PHASE2_926"
 }, {
     "fullname": "PHASE2_1292",
     "phase": "PHASE2",
@@ -15197,12 +12819,10 @@ let points = [{
     "x_real": 100.84,
     "y_real": 206.24,
     "z_real": 53.01,
-    "x_img": 562.1297359357068,
-    "y_img": 1362.0225872689934,
+    "x_img": 562.13,
+    "y_img": 1362.02,
     "level": "level_47.8",
-    "oldName": "PHASE2_927",
-    "x_img_old": 569.19,
-    "y_img_old": 1179.65
+    "oldName": "PHASE2_927"
 }, {
     "fullname": "PHASE2_1293",
     "phase": "PHASE2",
@@ -15210,12 +12830,10 @@ let points = [{
     "x_real": 151.83,
     "y_real": 232.52,
     "z_real": 59.21,
-    "x_img": 2113.490241102181,
-    "y_img": 599.7946611909647,
+    "x_img": 2113.49,
+    "y_img": 599.79,
     "level": "level_58.0",
-    "oldName": "PHASE2_928",
-    "x_img_old": 2108.68,
-    "y_img_old": 404.27
+    "oldName": "PHASE2_928"
 }, {
     "fullname": "PHASE2_1294",
     "phase": "PHASE2",
@@ -15223,12 +12841,10 @@ let points = [{
     "x_real": 151.95,
     "y_real": 230.07,
     "z_real": 59.21,
-    "x_img": 2117.1412169919618,
-    "y_img": 670.8547227926074,
+    "x_img": 2117.14,
+    "y_img": 670.85,
     "level": "level_58.0",
-    "oldName": "PHASE2_929",
-    "x_img_old": 2112.32,
-    "y_img_old": 476.65
+    "oldName": "PHASE2_929"
 }, {
     "fullname": "PHASE2_1295",
     "phase": "PHASE2",
@@ -15236,12 +12852,10 @@ let points = [{
     "x_real": 151.98,
     "y_real": 227.53,
     "z_real": 59.22,
-    "x_img": 2118.053960964407,
-    "y_img": 744.5251540041063,
+    "x_img": 2118.05,
+    "y_img": 744.53,
     "level": "level_58.0",
-    "oldName": "PHASE2_930",
-    "x_img_old": 2113.22,
-    "y_img_old": 551.59
+    "oldName": "PHASE2_930"
 }, {
     "fullname": "PHASE2_1296",
     "phase": "PHASE2",
@@ -15249,12 +12863,10 @@ let points = [{
     "x_real": 153.4,
     "y_real": 227.49,
     "z_real": 59.39,
-    "x_img": 2161.2571756601596,
-    "y_img": 745.6853182751538,
+    "x_img": 2161.26,
+    "y_img": 745.69,
     "level": "level_58.0",
-    "oldName": "PHASE2_931",
-    "x_img_old": 2155.88,
-    "y_img_old": 552.6
+    "oldName": "PHASE2_931"
 }, {
     "fullname": "PHASE2_1297",
     "phase": "PHASE2",
@@ -15262,12 +12874,10 @@ let points = [{
     "x_real": 157.12,
     "y_real": 227.77,
     "z_real": 59.39,
-    "x_img": 2274.437428243398,
-    "y_img": 737.5641683778231,
+    "x_img": 2274.44,
+    "y_img": 737.56,
     "level": "level_58.0",
-    "oldName": "PHASE2_932",
-    "x_img_old": 2268.41,
-    "y_img_old": 544.31
+    "oldName": "PHASE2_932"
 }, {
     "fullname": "PHASE2_1298",
     "phase": "PHASE2",
@@ -15275,12 +12885,10 @@ let points = [{
     "x_real": 158.9,
     "y_real": 227.8,
     "z_real": 59.38,
-    "x_img": 2328.593570608495,
-    "y_img": 736.6940451745377,
+    "x_img": 2328.59,
+    "y_img": 736.69,
     "level": "level_58.0",
-    "oldName": "PHASE2_933",
-    "x_img_old": 2322.13,
-    "y_img_old": 543.7
+    "oldName": "PHASE2_933"
 }, {
     "fullname": "PHASE2_1299",
     "phase": "PHASE2",
@@ -15288,12 +12896,10 @@ let points = [{
     "x_real": 152.97,
     "y_real": 230.43,
     "z_real": 59.38,
-    "x_img": 2148.174512055108,
-    "y_img": 660.4132443531826,
+    "x_img": 2148.17,
+    "y_img": 660.41,
     "level": "level_58.0",
-    "oldName": "PHASE2_934",
-    "x_img_old": 2143.08,
-    "y_img_old": 465.98
+    "oldName": "PHASE2_934"
 }, {
     "fullname": "PHASE2_1300",
     "phase": "PHASE2",
@@ -15301,12 +12907,10 @@ let points = [{
     "x_real": 156.99,
     "y_real": 230.27,
     "z_real": 59.38,
-    "x_img": 2270.4822043628005,
-    "y_img": 665.0539014373708,
+    "x_img": 2270.48,
+    "y_img": 665.05,
     "level": "level_58.0",
-    "oldName": "PHASE2_935",
-    "x_img_old": 2264.21,
-    "y_img_old": 470.78
+    "oldName": "PHASE2_935"
 }, {
     "fullname": "PHASE2_1301",
     "phase": "PHASE2",
@@ -15314,12 +12918,10 @@ let points = [{
     "x_real": 158.91,
     "y_real": 230.38,
     "z_real": 59.38,
-    "x_img": 2328.8978185993096,
-    "y_img": 661.8634496919913,
+    "x_img": 2328.9,
+    "y_img": 661.86,
     "level": "level_58.0",
-    "oldName": "PHASE2_936",
-    "x_img_old": 2322.4,
-    "y_img_old": 467.48
+    "oldName": "PHASE2_936"
 }, {
     "fullname": "PHASE2_1302",
     "phase": "PHASE2",
@@ -15327,12 +12929,10 @@ let points = [{
     "x_real": 153.26,
     "y_real": 232.82,
     "z_real": 59.38,
-    "x_img": 2156.997703788747,
-    "y_img": 591.0934291581107,
+    "x_img": 2157,
+    "y_img": 591.09,
     "level": "level_58.0",
-    "oldName": "PHASE2_937",
-    "x_img_old": 2151.68,
-    "y_img_old": 395.35
+    "oldName": "PHASE2_937"
 }, {
     "fullname": "PHASE2_1303",
     "phase": "PHASE2",
@@ -15340,12 +12940,10 @@ let points = [{
     "x_real": 153.58,
     "y_real": 231.35,
     "z_real": 59.39,
-    "x_img": 2166.733639494833,
-    "y_img": 633.7294661190963,
+    "x_img": 2166.73,
+    "y_img": 633.73,
     "level": "level_58.0",
-    "oldName": "PHASE2_938",
-    "x_img_old": 2161.54,
-    "y_img_old": 438.76
+    "oldName": "PHASE2_938"
 }, {
     "fullname": "PHASE2_1304",
     "phase": "PHASE2",
@@ -15353,12 +12951,10 @@ let points = [{
     "x_real": 157.27,
     "y_real": 233.14,
     "z_real": 59.38,
-    "x_img": 2279.001148105625,
-    "y_img": 581.8121149897333,
+    "x_img": 2279,
+    "y_img": 581.81,
     "level": "level_58.0",
-    "oldName": "PHASE2_939",
-    "x_img_old": 2272.82,
-    "y_img_old": 386.05
+    "oldName": "PHASE2_939"
 }, {
     "fullname": "PHASE2_1305",
     "phase": "PHASE2",
@@ -15366,10 +12962,8 @@ let points = [{
     "x_real": 158.88,
     "y_real": 233.06,
     "z_real": 59.38,
-    "x_img": 2327.9850746268644,
-    "y_img": 584.1324435318274,
+    "x_img": 2327.99,
+    "y_img": 584.13,
     "level": "level_58.0",
-    "oldName": "PHASE2_940",
-    "x_img_old": 2321.5,
-    "y_img_old": 388.43
+    "oldName": "PHASE2_940"
 }]

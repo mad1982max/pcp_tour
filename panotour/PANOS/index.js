@@ -112,6 +112,12 @@ function onloadFn() {
     let stairsDownBtn = document.getElementById('stairsDownBtn');
     stairsDownBtn.addEventListener('click', changeStairsFn.bind(null, -1));
     stairsUpBtn.addEventListener('click', changeStairsFn.bind(null, 1));
+
+    let nextBtn = document.getElementById('next');
+    let prevBtn = document.getElementById('prev');
+    nextBtn.addEventListener('click', changePinFn.bind(null, 1));
+    prevBtn.addEventListener('click', changePinFn.bind(null, -1));
+
     let centerizeMapBtn = document.getElementById('centerizeMapBtn');
     centerizeMapBtn.addEventListener('click', centerizeFn);
 
@@ -320,12 +326,29 @@ function reSizeAfterClick(selector, oldSize, singleElem, newSize) {
 
 function clickedOnPin(d) {
     reColorizeAfterClick('circle', defaultColor, d3.event.target, checkedColor);
-    reSizeAfterClick('circle', oldR, d3.event.target, newR)
+    reSizeAfterClick('circle', oldR, d3.event.target, newR);
     clickedPin = d.fullname;
     name = d.name;
     switchPhoto360Observable.notify(clickedPin);
     toolTipFn(d.name, d.phase);
+    //deleteSet('svg', '.view');
+    //buildViewCone(5)
+
 };
+
+function changePinFn(counter) {
+    let currentPinIndex = pointsOnLevel.findIndex(point => point.name == name);
+    let nextIndex = currentPinIndex + counter;
+    if (nextIndex > pointsOnLevel.length - 1) nextIndex = 0;
+    if (nextIndex < 0) nextIndex = pointsOnLevel.length - 1;
+    let newPin = pointsOnLevel[nextIndex];
+    clickedPin = newPin.fullname;
+    name = newPin.name;
+    switchPhoto360Observable.notify(clickedPin);
+    let target = svg.select(`._${name} circle`).node();
+    reColorizeAfterClick('circle', defaultColor, target, checkedColor);
+    reSizeAfterClick('circle', oldR, target, newR);
+}
 
 function toolTipFn(id, phase, flag = true) {
     deleteSet('doc', '.tooltip');
@@ -362,19 +385,16 @@ function changeView(angle) {
     let point = pointsOnLevel.find(point => point.fullname === clickedPin);
     set
         .select(`._${point.name}`).select('.view')
-        .attr('transform', `rotate(${angle})`)
+        .attr('transform', `rotate(${angle} ${point.x_img} ${point.y_img+ 165})`)
 }
 
 
 
 function buildViewCone(angle) {
     let point = pointsOnLevel.find(point => point.fullname === clickedPin);
-    console.log(point)
     set
         .select(`._${name}`)
         .append('g')
-        // .attr('transform-box', 'fill-box')
-        .attr('transform-origin', 'center')
         .attr('class', 'view')
         .append('rect')
         .attr('x', point.x_img - 7.5)
@@ -383,5 +403,4 @@ function buildViewCone(angle) {
         .attr('width', 15)
         .attr('height', 45)
         .attr('fill', 'orange')
-
 }

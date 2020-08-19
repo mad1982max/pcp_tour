@@ -20,11 +20,12 @@
     var sceneElements = document.querySelectorAll('#mapList .scene');
     var mapListToggleElement = document.querySelector('#mapToggle');
 
-    
+
     panoElement.addEventListener('mousedown', mousedownFn);
 
     function mousedownFn() {
         panoElement.addEventListener('mousemove', rotateMapFn);
+
         function rotateMapFn() {
             var scene = viewer.scene(); // get the current scene
             var view = scene.view();
@@ -32,6 +33,7 @@
             rotationObservable.notify(yaw)
         }
         panoElement.addEventListener('mouseup', mouseupFn);
+
         function mouseupFn() {
             panoElement.removeEventListener('mousemove', rotateMapFn);
         }
@@ -141,7 +143,7 @@
         scene.view.setParameters(scene.data.initialViewParameters);
         scene.scene.switchTo();
         updateSceneName(scene);
-        updatemapList(scene);
+        //updatemapList(scene);
     }
 
     function updateSceneName(scene) {
@@ -172,14 +174,15 @@
 
     //***------------- */
     togglemapList();
+
     function togglemapList() {
         mapListElement.classList.toggle('enabled');
         mapListToggleElement.classList.toggle('checked-map');
 
-        if(mapListElement.classList.contains('enabled')) {            
-            mapListElement.style.transform =  `translateX(100%)`;
+        if (mapListElement.classList.contains('enabled')) {
+            mapListElement.style.transform = `translateX(100%)`;
         } else {
-            mapListElement.style.transform =  `translateX(0)`;            
+            mapListElement.style.transform = `translateX(0)`;
         }
         mapListToggleElement.classList.toggle('enabled');
     }

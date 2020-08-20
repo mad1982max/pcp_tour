@@ -213,7 +213,7 @@ function highLight(d, isBuild) {
             .join("g")
             .append("text")
             .attr("x", d => d.x_img)
-            .attr("y", d => d.y_img + 168)
+            .attr("y", d => d.y_img + 3)
             .attr("text-anchor", "middle")
             .attr("font-size", 16)
             .attr("fill", "white")

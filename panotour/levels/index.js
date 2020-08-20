@@ -2,7 +2,7 @@ let header, footer, container;
 let level, floorSrc, coverSrc, headerFooterHeight, wHeight, wWidth, cover, set, svg, svgHeight, floorLayer, mainLayer;
 let zoom;
 let setFlagObj = {};
-let currentRatioImgData = {
+let transform = {
     zoom: {
         x: 0,
         y: 0,
@@ -56,14 +56,14 @@ function getScreenWidthHeight() {
 function resize() {
     getScreenWidthHeight();
 
-    if (wWidth > svgHeight * currentRatioImgData.initPicWidth / currentRatioImgData.initPicH) {
-        currentRatioImgData.k = svgHeight / currentRatioImgData.initPicH;
-        currentRatioImgData.x = (wWidth / currentRatioImgData.k - currentRatioImgData.initPicWidth) / 2;
-        currentRatioImgData.y = 0;
+    if (wWidth > svgHeight * transform.initPicWidth / transform.initPicH) {
+        transform.k = svgHeight / transform.initPicH;
+        transform.x = (wWidth / transform.k - transform.initPicWidth) / 2;
+        transform.y = 0;
     } else {
-        currentRatioImgData.k = wWidth / currentRatioImgData.initPicWidth;
-        currentRatioImgData.x = 0;
-        currentRatioImgData.y = (wHeight / currentRatioImgData.k - currentRatioImgData.initPicH) / 5;
+        transform.k = wWidth / transform.initPicWidth;
+        transform.x = 0;
+        transform.y = (wHeight / transform.k - transform.initPicH) / 5;
     }
     container.style.height = `${svgHeight}px`;
     container.style.width = `${wWidth}px`;
@@ -72,11 +72,11 @@ function resize() {
 
     // if (mainLayer) {
     //     mainLayer
-    //         .attr("transform", `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+    //         .attr("transform", `translate(${transform.zoom.x},${transform.zoom.y}) scale(${transform.k*transform.zoom.k}) translate(${transform.x},${transform.y})`);
     // }
     if (mainLayer) {
         mainLayer
-            .attr("transform", `translate(${currentRatioImgData.zoom.x},${currentRatioImgData.zoom.y}) scale(${currentRatioImgData.k*currentRatioImgData.zoom.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`);
+            .attr("transform", `translate(${transform.zoom.x},${transform.zoom.y}) scale(${transform.k*transform.zoom.k}) translate(${transform.x},${transform.y})`);
     }
 }
 
@@ -93,7 +93,7 @@ function buildSvg() {
         .attr("class", "mainLayer")
         .attr("opacity", "0")
 
-    //.attr("transform", `scale(${currentRatioImgData.k}) translate(${currentRatioImgData.x},${currentRatioImgData.y})`)    
+    //.attr("transform", `scale(${transform.k}) translate(${transform.x},${transform.y})`)    
 
     floorLayer = mainLayer.append("g")
     floorLayer
@@ -298,11 +298,11 @@ function zoomed() {
 
     let transform2 = d3Transform()
         .translate([x, y])
-        .scale(k * currentRatioImgData.k)
-        .translate([currentRatioImgData.x, currentRatioImgData.y]);
+        .scale(k * transform.k)
+        .translate([transform.x, transform.y]);
     mainLayer.attr("transform", transform2);
 
-    currentRatioImgData.zoom = {
+    transform.zoom = {
         x,
         y,
         k

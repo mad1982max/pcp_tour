@@ -1,6 +1,7 @@
 let header, footer, container;
 let level, floorSrc, coverSrc, headerFooterHeight, wHeight, wWidth, cover, set, svg, svgHeight, floorLayer, mainLayer;
 let zoom;
+let asideContent;
 let setFlagObj = {};
 let transform = {
     zoom: {
@@ -16,11 +17,25 @@ let transform = {
 }
 let oldScale = 1;
 let clusterInitObj = [200, 120, 0];
+
 let setsToShow = [];
 let pointsOnLevel, currentSet_0, currentSet_1, currentSet_2;
+let subLevelToShow = 'sub_1';
 
 let highlghtedVisible = false;
 let currentCluster;
+let subLevelData;
+let subLevel;
+
+let subLevels = [{
+        level: 'level_47.8',
+        edge: 55
+    },
+    {
+        level: 'level_27.8',
+        edge: 35
+    }
+]
 
 window.onload = onloadFn;
 
@@ -30,9 +45,6 @@ function defineData4Floor() {
     level = searchParams.get("level");
     floorSrc = `./img/new/${level}.png`;
     pointsOnLevel = points.filter(point => point.level === level);
-    currentSet_0 = clusterize(pointsOnLevel, clusterInitObj[0]);
-    currentSet_1 = clusterize(pointsOnLevel, clusterInitObj[1]);
-    currentSet_2 = clusterize(pointsOnLevel, clusterInitObj[2]);
 }
 
 function onloadFn() {
@@ -40,10 +52,78 @@ function onloadFn() {
     header = document.querySelector(".header");
     footer = document.querySelector(".footer");
     container = document.getElementById("container");
+    wrapper = document.querySelector(".wrapper");
+    let asideSvg = document.getElementById('asideSvg');
+    
+
+    subLevel = getSubLevel(level);
+    if(subLevel) {
+        let subLevelImg = `./img/new/sub_${level}.svg`;
+        asideSvg.setAttribute('data', subLevelImg);
+
+        asideSvg.onload = function() {
+            asideContent = asideSvg.contentDocument;
+            colorizeSubFloor(subLevelToShow);
+            console.log('asideContent', asideContent)
+            let floorRect = [...asideContent.querySelectorAll('.block')];
+            floorRect.forEach(singleBlock => {
+                singleBlock.addEventListener('click', clickSubFloor);
+                singleBlock.addEventListener('mouseenter', mouseOverSubFloor);
+                singleBlock.addEventListener('mouseleave', mouseLeaveSubFloor);
+            })
+        }        
+    }
+    
+    
+
     window.addEventListener("resize", resize);
-    buildSvg();
     resize();
-    document.body.style.opacity = 1;
+    buildSvg();
+}
+
+function mouseLeaveSubFloor() {
+    this.style.fill = 'none';
+    //this.style.stroke = 'none'
+}
+
+function mouseOverSubFloor() {
+    this.style.fill = 'rgba(0,0,0,0.2)';
+    // this.style.stroke = '#FFF773';
+    // this.style.strokeWidth = 5;
+    this.style.cursor = 'pointer';
+}
+
+function clickSubFloor(e) {
+    deleteSet('svg', '.set');
+    deleteSet('svg', '.showTiedPins');
+    subLevelToShow = e.target.id;
+    colorizeSubFloor(subLevelToShow);
+    let dataForClusters;
+    let pinSize = "big";
+
+    let pointsArr;
+
+    if (subLevel) {
+
+        if (subLevelToShow === "sub_0") {
+            pointsArr = pointsOnLevel.filter(item => item.z_real < subLevel.edge)
+        } else {
+            pointsArr = pointsOnLevel.filter(item => item.z_real > subLevel.edge)
+        }
+    } else {
+        pointsArr = pointsOnLevel
+    }
+
+    if (oldScale <= 1.5) {
+        dataForClusters = clusterize(pointsArr, clusterInitObj[0]);
+    } else if (oldScale > 1.5 && oldScale <= 2) {
+        dataForClusters = clusterize(pointsArr, clusterInitObj[1]);
+    } else {
+        dataForClusters = clusterize(pointsArr, clusterInitObj[2]);
+        pinSize = "small";
+    }
+    drawSet('all', dataForClusters, pinSize);
+    
 }
 
 function getScreenWidthHeight() {
@@ -51,33 +131,34 @@ function getScreenWidthHeight() {
     wHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
     wWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     svgHeight = wHeight - headerFooterHeight;
+    containerW = container.offsetWidth;
 }
 
 function resize() {
     getScreenWidthHeight();
 
-    if (wWidth > svgHeight * transform.initPicWidth / transform.initPicH) {
+    if (containerW > svgHeight * transform.initPicWidth / transform.initPicH) {
         transform.k = svgHeight / transform.initPicH;
-        transform.x = (wWidth / transform.k - transform.initPicWidth) / 2;
+        transform.x = (containerW / transform.k - transform.initPicWidth) / 2;
         transform.y = 0;
     } else {
-        transform.k = wWidth / transform.initPicWidth;
+        transform.k = containerW / transform.initPicWidth;
         transform.x = 0;
-        transform.y = (wHeight / transform.k - transform.initPicH) / 5;
+        transform.y = (svgHeight / transform.k - transform.initPicH) / 2;
     }
     container.style.height = `${svgHeight}px`;
-    container.style.width = `${wWidth}px`;
+    // container.style.width = `${wWidth}px`;
 
     //centerizeFn();
 
-    // if (mainLayer) {
-    //     mainLayer
-    //         .attr("transform", `translate(${transform.zoom.x},${transform.zoom.y}) scale(${transform.k*transform.zoom.k}) translate(${transform.x},${transform.y})`);
-    // }
     if (mainLayer) {
         mainLayer
             .attr("transform", `translate(${transform.zoom.x},${transform.zoom.y}) scale(${transform.k*transform.zoom.k}) translate(${transform.x},${transform.y})`);
     }
+}
+
+function getSubLevel(level) {
+    return subLevels.find(lvl => lvl.level === level);
 }
 
 function buildSvg() {
@@ -92,21 +173,23 @@ function buildSvg() {
     mainLayer
         .attr("class", "mainLayer")
         .attr("opacity", "0")
-
-    //.attr("transform", `scale(${transform.k}) translate(${transform.x},${transform.y})`)    
+        .attr("transform", `scale(${transform.k}) translate(${transform.x},${transform.y})`)
 
     floorLayer = mainLayer.append("g")
     floorLayer
         .attr("class", "floorLayer")
         .on('click', () => {
-            if (svg.select('highLight')) deleteSet('svg', '.highLight');
+            if (svg.select('showTiedPins')) deleteSet('svg', '.showTiedPins');
             currentCluster = null;
         })
     let floor = floorLayer.append("image");
     floor.attr("class", "currentFloor");
     floor.attr("xlink:href", floorSrc);
     floor.on("load", () => {
-        drawSet('all', currentSet_0, 'big');
+        document.body.style.opacity = 1;
+        let pointsArr = subLevel ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
+        let currentSet = clusterize(pointsArr, clusterInitObj[0]);
+        drawSet('all', currentSet, 'big');
     });
 
     mainLayer
@@ -117,12 +200,28 @@ function buildSvg() {
     zoom = d3.zoom()
         .scaleExtent([0.3, 10])
         .on("zoom", () => {
-            deleteSet('svg', '.highLight');
+            deleteSet('svg', '.showTiedPins');
             zoomed();
             rebuildClusters();
         });
+
     svg.call(zoom);
     d3.select("svg").on("dblclick.zoom", null);
+}
+
+function getSubPoints(subFloor, allPoints, edge) {
+    let points = [];
+    switch(subFloor) {
+        case 'sub_0':
+            points = allPoints.filter(item => item.z_real < edge);
+            break;
+        case 'sub_1':
+            points = allPoints.filter(item => item.z_real > edge);
+            break;
+        default:
+            console.log('sub_XXX error');
+    }
+    return points;
 }
 
 function rebuildClusters() {
@@ -130,69 +229,77 @@ function rebuildClusters() {
     if (scale.toFixed(1) === oldScale.toFixed(1)) return;
     oldScale = scale;
     deleteSet('svg', '.set');
-    let dataForClusters;
     let pinSize = "big";
 
+    let pointsArr = subLevel ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
+    let clusterSensivity;
+
     if (scale <= 1.5) {
-        dataForClusters = currentSet_0;
+        clusterSensivity = clusterInitObj[0];
     } else if (scale > 1.5 && scale <= 2) {
-        dataForClusters = currentSet_1;
+        clusterSensivity = clusterInitObj[1];
     } else {
-        dataForClusters = currentSet_2;
+        clusterSensivity = clusterInitObj[2];
         pinSize = "small";
     }
+    let dataForClusters = clusterize(pointsArr, clusterSensivity);
     drawSet('all', dataForClusters, pinSize);
 }
 
 
-function drawSet(itemToShow, currentSet, sizePoint = "big", isChecked = true) {
-    if (isChecked) {
-        set = mainLayer.append("g");
-        set.attr("class", `set ${itemToShow}`)
-            .selectAll("g")
-            .data(currentSet)
-            .join("g")
-            .attr("pointer-events", "visible")
-            .attr("cursor", "pointer")
-            .attr("id", d => d.name)
-            .append("circle")
-            .attr("fill", d => d.pointsCopy.length > 1 ? "#00BD63" : "#FF2A2A")
-            .attr("cx", d => d.centroid.x)
-            .attr("cy", d => d.centroid.y)
-            .attr("r", d => d.pointsCopy.length > 1 ? 40 : sizePoint === "big" ? 25 : 10)
-            .on("click", clickedOnPin)
-        set
-            .selectAll("g")
-            .data(currentSet)
-            .join("g")
-            .append("text")
-            .attr("x", d => d.centroid.x)
-            .attr("y", d => d.centroid.y + 3)
-            .attr("text-anchor", "middle")
-            .attr("font-size", d => d.pointsCopy.length > 1 ? 45 : sizePoint === "big" ? 16 : 8)
-            .attr("fill", "white")
-            .attr("font-family", "sans-serif")
-            .attr("dy", d => d.pointsCopy.length > 1 ? "12" : sizePoint === "big" ? "3" : "-1")
-            .attr("dx", d => d.pointsCopy.length > 1 ? "0" : sizePoint === "big" ? "0" : "0")
-            .attr("pointer-events", "none")
-            .text(d => d.pointsCopy.length > 1 ? d.pointsCopy.length : d.pointsCopy[0].name);
-    } else {
-        let current = svg.select(`.${itemToShow}`);
-        if (current) current.remove();
-    }
+function drawSet(itemToShow, currentSet, sizePoint = "big") {
+    set = mainLayer.append("g");
+    set.attr("class", `set ${itemToShow}`)
+        .selectAll("g")
+        .data(currentSet)
+        .join("g")
+        .attr("pointer-events", "visible")
+        .attr("cursor", "pointer")
+        .attr("id", d => d.name)
+        .append("circle")
+        .attr("fill", d => d.pointsCopy.length > 1 ? "#00BD63" : "#FF2A2A")
+        .attr("cx", d => d.centroid.x)
+        .attr("cy", d => d.centroid.y)
+        .attr("r", d => d.pointsCopy.length > 1 ? 40 : sizePoint === "big" ? 25 : 10)
+        .on("click", clickedOnPin)
+    set
+        .selectAll("g")
+        .data(currentSet)
+        .join("g")
+        .append("text")
+        .attr("x", d => d.centroid.x)
+        .attr("y", d => d.centroid.y + 3)
+        .attr("text-anchor", "middle")
+        .attr("font-size", d => d.pointsCopy.length > 1 ? 45 : sizePoint === "big" ? 16 : 8)
+        .attr("fill", "white")
+        .attr("font-family", "sans-serif")
+        .attr("dy", d => d.pointsCopy.length > 1 ? "12" : sizePoint === "big" ? "3" : "-1")
+        .attr("dx", d => d.pointsCopy.length > 1 ? "0" : sizePoint === "big" ? "0" : "0")
+        .attr("pointer-events", "none")
+        .text(d => d.pointsCopy.length > 1 ? d.pointsCopy.length : d.pointsCopy[0].name);
 }
 
+function colorizeSubFloor(subLevelToShow) {
+    let blocks = [...asideContent.querySelectorAll('.block')];
+    blocks.forEach(block => {
+        block.style.stroke = 'none';
+    });
+    
+    let clickedBlock = asideContent.querySelector(`.${subLevelToShow}`);
+    clickedBlock.style.stroke = '#FFF773';
+    clickedBlock.style.strokeWidth = 5;
+}
 
-function highLight(d, isBuild) {
+function showTiedPins(d, isBuild) {
     if (d.pointsCopy.length === 1) return;
     if (!isBuild) {
-        deleteSet('svg', '.highLight');
+        deleteSet('svg', '.showTiedPins');
     }
     if (isBuild) {
         svg
             .select('.mainLayer')
             .append('g')
-            .attr('class', 'highLight')
+            .attr('class', 'showTiedPins')
             .selectAll('circle')
             .data(d.pointsCopy)
             .join("circle")
@@ -202,12 +309,12 @@ function highLight(d, isBuild) {
             .attr('r', 25)
             .attr('fill', "#FF2A2A")
             .attr("cursor", "pointer")
-            .on("click", clickedOnHighLighted)
+            .on("click", clickedOnshowTiedPinsed)
 
         svg
             .select('.mainLayer')
             .append('g')
-            .attr('class', 'highLight')
+            .attr('class', 'showTiedPins')
             .selectAll('g')
             .data(d.pointsCopy)
             .join("g")
@@ -225,7 +332,6 @@ function highLight(d, isBuild) {
     }
 }
 
-
 function deleteSet(base, selector) {
     let element;
     if (base === "doc") {
@@ -236,8 +342,7 @@ function deleteSet(base, selector) {
     if (element) element.remove();
 }
 
-function clickedOnHighLighted(d) {
-    console.log(d);
+function clickedOnshowTiedPinsed(d) {
     let {
         name,
         phase
@@ -246,7 +351,7 @@ function clickedOnHighLighted(d) {
 }
 
 function clickedOnPin(d) {
-    deleteSet('svg', '.highLight');
+    deleteSet('svg', '.showTiedPins');
     let points = d.pointsCopy;
     if (points.length === 1) {
         let {
@@ -256,19 +361,12 @@ function clickedOnPin(d) {
         window.open("../PANOS/mainPointCloud.html?level=" + level + "&name=" + name + "&phase=" + phase, "_self");
     } else {
         if (currentCluster === d.id) {
-            deleteSet('svg', '.highLight');
+            deleteSet('svg', '.showTiedPins');
             currentCluster = null;
         } else {
-            highLight(d, true);
+            showTiedPins(d, true);
             currentCluster = d.id;
         }
-
-
-        let {
-            clientX,
-            clientY
-        } = d3.event;
-        console.log('---cluster', clientX, clientY);
     }
 };
 
@@ -308,28 +406,3 @@ function zoomed() {
         k
     };
 }
-
-//checkbox disabled
-// function checkBoxListener(itemToShow, isChecked) {
-//     switch (itemToShow) {
-//         case "cover":
-//             drawCover(itemToShow, isChecked);
-//             break;
-//         case "PHASE1":
-//         case "PHASE2":
-//             drawSet(itemToShow, isChecked);
-//             break;
-//         default:
-//             console.log("--nothing to draw");
-//     }
-// }
-
-//let currentSet = pointsOnLevel.filter(point => itemToShow === "all" ? true : point.phase === itemToShow);
-
-//checkbox disabled
-// let checkBoxArr = [...document.querySelectorAll(".form-check-input")];
-// checkBoxArr.forEach(box => {
-//     setFlagObj[box.id] = box.checked;
-//     box.addEventListener("change", (e) => checkBoxListener(e.target.id, e.target.checked))
-//     checkBoxListener(box.id, box.checked);
-// });

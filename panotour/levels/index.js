@@ -57,6 +57,7 @@ function onloadFn() {
     
 
     subLevel = getSubLevel(level);
+    console.log('subLevel.edge', subLevel.edge)
     if(subLevel) {
         let subLevelImg = `./img/new/sub_${level}.svg`;
         asideSvg.setAttribute('data', subLevelImg);
@@ -64,7 +65,6 @@ function onloadFn() {
         asideSvg.onload = function() {
             asideContent = asideSvg.contentDocument;
             colorizeSubFloor(subLevelToShow);
-            console.log('asideContent', asideContent)
             let floorRect = [...asideContent.querySelectorAll('.block')];
             floorRect.forEach(singleBlock => {
                 singleBlock.addEventListener('click', clickSubFloor);
@@ -83,13 +83,10 @@ function onloadFn() {
 
 function mouseLeaveSubFloor() {
     this.style.fill = 'none';
-    //this.style.stroke = 'none'
 }
 
 function mouseOverSubFloor() {
     this.style.fill = 'rgba(0,0,0,0.2)';
-    // this.style.stroke = '#FFF773';
-    // this.style.strokeWidth = 5;
     this.style.cursor = 'pointer';
 }
 
@@ -122,7 +119,7 @@ function clickSubFloor(e) {
         dataForClusters = clusterize(pointsArr, clusterInitObj[2]);
         pinSize = "small";
     }
-    drawSet('all', dataForClusters, pinSize);
+    drawSet(dataForClusters, pinSize);
     
 }
 
@@ -189,7 +186,7 @@ function buildSvg() {
         document.body.style.opacity = 1;
         let pointsArr = subLevel ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
         let currentSet = clusterize(pointsArr, clusterInitObj[0]);
-        drawSet('all', currentSet, 'big');
+        drawSet(currentSet, 'big');
     });
 
     mainLayer
@@ -243,13 +240,13 @@ function rebuildClusters() {
         pinSize = "small";
     }
     let dataForClusters = clusterize(pointsArr, clusterSensivity);
-    drawSet('all', dataForClusters, pinSize);
+    drawSet(dataForClusters, pinSize);
 }
 
 
-function drawSet(itemToShow, currentSet, sizePoint = "big") {
+function drawSet(currentSet, sizePoint = "big") {
     set = mainLayer.append("g");
-    set.attr("class", `set ${itemToShow}`)
+    set.attr("class", "set")
         .selectAll("g")
         .data(currentSet)
         .join("g")

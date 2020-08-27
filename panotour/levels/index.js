@@ -95,7 +95,7 @@ function displayAsideFn() {
 
     let shevron = document.querySelector('.shevron');
     let angle = 180;
-    let hideSidePosition = 0;
+    let hideSidePosition = 3;
     if(aside.classList.contains('hide')) {
         angle = 0;
         hideSidePosition = -48;

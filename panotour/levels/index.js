@@ -1,5 +1,5 @@
 let header, footer, container;
-let level, floorSrc, coverSrc, set, svg, svgHeight, floorLayer, mainLayer;
+let level, floorSrc, coverSrc, set, svg, svgHeight, floorLayer, mainLayer, floor;
 let zoom;
 let asideContent;
 let setFlagObj = {};
@@ -21,7 +21,9 @@ let clusterInitObj = [200, 120, 0];
 let setsToShow = [];
 let pointsOnLevel;
 let subLevelToShow = 'sub_0';
+let pinSize;
 
+let isFirstFloorLoading = true;
 let highlghtedVisible = false;
 let currentCluster;
 let subLevelData;
@@ -39,7 +41,12 @@ function defineData4Floor() {
     let paramsString = window.location.search;
     let searchParams = new URLSearchParams(paramsString);
     level = searchParams.get("level");
-    floorSrc = `./img/new/${level}.png`;
+    subLevel = getSubLevel(level);
+    if(subLevel) {
+        floorSrc = `./img/new/${level}_${subLevelToShow}.png`;
+    } else {
+        floorSrc = `./img/new/${level}.png`;
+    }    
     pointsOnLevel = points.filter(point => point.level === level);
 }
 
@@ -51,8 +58,6 @@ function onloadFn() {
     let showHideBtn = document.querySelector(".hideAside");
     showHideBtn.addEventListener('click', displayAsideFn);
     let asideSvg = document.getElementById('asideSvg');    
-
-    subLevel = getSubLevel(level);
     
     if(subLevel) {
         console.log('subLevel.edge', subLevel.edge)
@@ -61,7 +66,7 @@ function onloadFn() {
 
         asideSvg.onload = function() {
             asideContent = asideSvg.contentDocument;
-            colorizeSubFloor(subLevelToShow);
+            reColorizeSubFloor(subLevelToShow);
             let floorRect = [...asideContent.querySelectorAll('.block')];
             floorRect.forEach(singleBlock => {
                 singleBlock.addEventListener('click', clickSubFloor);
@@ -89,12 +94,9 @@ function displayAsideFn() {
 
     let shevron = document.querySelector('.shevron');
     let angle = 180;
-
     if(aside.classList.contains('hide')) {
-        console.log('hide');
         angle = 0;
-    }
-    
+    }    
     shevron.setAttribute("style", "transform: rotate(" + angle + "deg)");
 }
 
@@ -104,29 +106,38 @@ function mouseOverSubFloor() {
 }
 
 function clickSubFloor(e) {
+    document.body.style.opacity = 0;
     deleteSet('svg', '.set');
     deleteSet('svg', '.showTiedPins');
+    
     subLevelToShow = e.target.id;
-    colorizeSubFloor(subLevelToShow);
-    let dataForClusters;
-    let pinSize = "big";
-    let pointsArr;
+    reColorizeSubFloor(subLevelToShow);
+    floorSrc = `./img/new/${level}_${subLevelToShow}.png`;
+    floor.attr("xlink:href", floorSrc);
 
+    let pointsArr;
     if (subLevel) {
         pointsArr = pointsOnLevel.filter(item => subLevelToShow === "sub_0" ? item.z_real < subLevel.edge : item.z_real > subLevel.edge)
     } else {
         pointsArr = pointsOnLevel
     }
 
-    if (oldScale <= 1.5) {
-        dataForClusters = clusterize(pointsArr, clusterInitObj[0]);
-    } else if (oldScale > 1.5 && oldScale <= 2) {
-        dataForClusters = clusterize(pointsArr, clusterInitObj[1]);
-    } else {
-        dataForClusters = clusterize(pointsArr, clusterInitObj[2]);
-        pinSize = "small";
-    }
+    let sensitive = defineSensitiveOnCurrentZoom(oldScale, clusterInitObj)
+    let dataForClusters = clusterize(pointsArr, sensitive);
+    pinSize = oldScale <=2 ? "big":"small";
     drawSet(dataForClusters, pinSize);    
+}
+
+function defineSensitiveOnCurrentZoom(scale, clusterInitObj) {
+    let sensitive;
+    if (scale <= 1.5) {
+        sensitive = clusterInitObj[0]
+    } else if (oldScale > 1.5 && oldScale <= 2) {
+        sensitive = clusterInitObj[1]
+    } else {
+        sensitive = clusterInitObj[2]
+    }
+    return sensitive;
 }
 
 function resize() {
@@ -179,15 +190,18 @@ function buildSvg() {
             if (svg.select('showTiedPins')) deleteSet('svg', '.showTiedPins');
             currentCluster = null;
         })
-    let floor = floorLayer.append("image");
+    floor = floorLayer.append("image");
     floor.attr("class", "currentFloor");
     floor.attr("xlink:href", floorSrc);
     floor.on("load", () => {
         document.body.style.opacity = 1;
-        let pointsArr = subLevel ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
-        let currentSet = clusterize(pointsArr, clusterInitObj[0]);
-        displayAsideFn();
-        drawSet(currentSet, 'big');
+        if(isFirstFloorLoading) {
+            let pointsArr = subLevel ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
+            let currentSet = clusterize(pointsArr, clusterInitObj[0]);
+            displayAsideFn();
+            drawSet(currentSet, 'big');
+            isFirstFloorLoading = false
+        }
     });
 
     mainLayer
@@ -227,21 +241,14 @@ function rebuildClusters() {
     if (scale.toFixed(1) === oldScale.toFixed(1)) return;
     oldScale = scale;
     deleteSet('svg', '.set');
-    let pinSize = "big";
 
     let pointsArr = subLevel ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
-    let clusterSensivity;
 
-    if (scale <= 1.5) {
-        clusterSensivity = clusterInitObj[0];
-    } else if (scale > 1.5 && scale <= 2) {
-        clusterSensivity = clusterInitObj[1];
-    } else {
-        clusterSensivity = clusterInitObj[2];
-        pinSize = "small";
-    }
-    let dataForClusters = clusterize(pointsArr, clusterSensivity);
+    let sensitive = defineSensitiveOnCurrentZoom(scale, clusterInitObj)
+    let dataForClusters = clusterize(pointsArr, sensitive);
+    pinSize = oldScale <=2 ? "big":"small";
     drawSet(dataForClusters, pinSize);
+
 }
 
 
@@ -277,7 +284,7 @@ function drawSet(currentSet, sizePoint = "big") {
         .text(d => d.pointsCopy.length > 1 ? d.pointsCopy.length : d.pointsCopy[0].name);
 }
 
-function colorizeSubFloor(subLevelToShow) {
+function reColorizeSubFloor(subLevelToShow) {
     let blocks = [...asideContent.querySelectorAll('.block')];
     blocks.forEach(block => {
         block.style.stroke = 'none';

@@ -31,7 +31,7 @@ let subLevel;
 
 let subLevels = [{
         level: 'level_47.8',
-        edge: 55
+        edge: 50
     },
 ]
 
@@ -98,7 +98,7 @@ function displayAsideFn() {
     let hideSidePosition = 0;
     if(aside.classList.contains('hide')) {
         angle = 0;
-        hideSidePosition = -45;
+        hideSidePosition = -48;
     }    
     shevron.setAttribute("style", "transform: rotate(" + angle + "deg)");
     if(this !== window) {

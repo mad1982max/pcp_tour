@@ -40,36 +40,6 @@ object {
     margin: auto;
 }
 
-.checkbox {
-    background: rgb(53, 51, 51);
-    margin: 5px;
-    position: absolute;
-    right: 0;
-    color: rgb(243, 243, 239);
-    padding: 10px;
-    font-weight: 700;
-    border: 1px solid rgb(141, 140, 140);
-    display: none;
-}
-
-.green {
-    color: #00bd63ff;
-}
-
-.red {
-    color: #ff2a2aff;
-}
-
-input[type=checkbox] {
-    vertical-align: middle;
-    position: relative;
-    bottom: 3px;
-}
-
-label {
-    display: block;
-}
-
 .aside {
     display: flex;
     position: absolute;
@@ -95,6 +65,7 @@ label {
     background: rgba(22, 22, 22, 0.8);
     top: 0;
     border-radius: 4px;
+    border: 1px solid white;
     cursor: pointer;  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
     -webkit-transition: left 0.5s ease-in-out;

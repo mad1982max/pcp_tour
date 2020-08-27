@@ -111,7 +111,7 @@ function mouseOverSubFloor() {
 }
 
 function clickSubFloor(e) {
-    document.body.style.opacity = 0;
+    //document.body.style.opacity = 0;
     deleteSet('svg', '.set');
     deleteSet('svg', '.showTiedPins');
     
@@ -123,12 +123,12 @@ function clickSubFloor(e) {
 
     let pointsArr;
     if (subLevel) {
-        pointsArr = pointsOnLevel.filter(item => subLevelToShow === "sub_0" ? item.z_real < subLevel.edge : item.z_real > subLevel.edge)
+        pointsArr = pointsOnLevel.filter(item => subLevelToShow === "sub_0" ? item.z_real < subLevel.edge : item.z_real > subLevel.edge);
     } else {
-        pointsArr = pointsOnLevel
+        pointsArr = pointsOnLevel;
     }
 
-    let sensitive = defineSensitiveOnCurrentZoom(oldScale, clusterInitObj)
+    let sensitive = defineSensitiveOnCurrentZoom(oldScale, clusterInitObj);
     let dataForClusters = clusterize(pointsArr, sensitive);
     pinSize = oldScale <=2 ? "big":"small";
     drawSet(dataForClusters, pinSize);    

@@ -89,15 +89,21 @@ function mouseLeaveSubFloor() {
 }
 
 function displayAsideFn() {
+    console.log(this)
     let aside = document.querySelector('.aside');
     aside.classList.toggle('hide');
 
     let shevron = document.querySelector('.shevron');
     let angle = 180;
+    let hideSidePosition = 0;
     if(aside.classList.contains('hide')) {
         angle = 0;
+        hideSidePosition = -45;
     }    
     shevron.setAttribute("style", "transform: rotate(" + angle + "deg)");
+    if(this !== window) {
+        this.style.left = hideSidePosition + 'px';
+    }
 }
 
 function mouseOverSubFloor() {
@@ -112,6 +118,7 @@ function clickSubFloor(e) {
     
     subLevelToShow = e.target.id;
     reColorizeSubFloor(subLevelToShow);
+
     floorSrc = `./img/new/${level}_${subLevelToShow}.png`;
     floor.attr("xlink:href", floorSrc);
 
@@ -203,7 +210,6 @@ function buildSvg() {
             isFirstFloorLoading = false
         }
     });
-
     mainLayer
         .transition()
         .duration(700)
@@ -216,7 +222,6 @@ function buildSvg() {
             zoomed();
             rebuildClusters();
         });
-
     svg.call(zoom);
     d3.select("svg").on("dblclick.zoom", null);
 }
@@ -243,12 +248,11 @@ function rebuildClusters() {
     deleteSet('svg', '.set');
 
     let pointsArr = subLevel ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
-
     let sensitive = defineSensitiveOnCurrentZoom(scale, clusterInitObj)
     let dataForClusters = clusterize(pointsArr, sensitive);
     pinSize = oldScale <=2 ? "big":"small";
-    drawSet(dataForClusters, pinSize);
 
+    drawSet(dataForClusters, pinSize);
 }
 
 

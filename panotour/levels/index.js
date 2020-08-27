@@ -1,5 +1,5 @@
 let header, footer, container;
-let level, floorSrc, coverSrc, headerFooterHeight, wHeight, wWidth, cover, set, svg, svgHeight, floorLayer, mainLayer;
+let level, floorSrc, coverSrc, set, svg, svgHeight, floorLayer, mainLayer;
 let zoom;
 let asideContent;
 let setFlagObj = {};
@@ -19,8 +19,8 @@ let oldScale = 1;
 let clusterInitObj = [200, 120, 0];
 
 let setsToShow = [];
-let pointsOnLevel, currentSet_0, currentSet_1, currentSet_2;
-let subLevelToShow = 'sub_1';
+let pointsOnLevel;
+let subLevelToShow = 'sub_0';
 
 let highlghtedVisible = false;
 let currentCluster;
@@ -31,10 +31,6 @@ let subLevels = [{
         level: 'level_47.8',
         edge: 55
     },
-    {
-        level: 'level_27.8',
-        edge: 35
-    }
 ]
 
 window.onload = onloadFn;
@@ -52,13 +48,14 @@ function onloadFn() {
     header = document.querySelector(".header");
     footer = document.querySelector(".footer");
     container = document.getElementById("container");
-    wrapper = document.querySelector(".wrapper");
-    let asideSvg = document.getElementById('asideSvg');
-    
+    let showHideBtn = document.querySelector(".hideAside");
+    showHideBtn.addEventListener('click', displayAsideFn);
+    let asideSvg = document.getElementById('asideSvg');    
 
     subLevel = getSubLevel(level);
-    console.log('subLevel.edge', subLevel.edge)
+    
     if(subLevel) {
+        console.log('subLevel.edge', subLevel.edge)
         let subLevelImg = `./img/new/sub_${level}.svg`;
         asideSvg.setAttribute('data', subLevelImg);
 
@@ -72,9 +69,10 @@ function onloadFn() {
                 singleBlock.addEventListener('mouseleave', mouseLeaveSubFloor);
             })
         }        
-    }
-    
-    
+    } else {
+        let aside = document.querySelector('.aside');
+        aside.style.display = 'none';
+    }    
 
     window.addEventListener("resize", resize);
     resize();
@@ -83,6 +81,21 @@ function onloadFn() {
 
 function mouseLeaveSubFloor() {
     this.style.fill = 'none';
+}
+
+function displayAsideFn() {
+    let aside = document.querySelector('.aside');
+    aside.classList.toggle('hide');
+
+    let shevron = document.querySelector('.shevron');
+    let angle = 180;
+
+    if(aside.classList.contains('hide')) {
+        console.log('hide');
+        angle = 0;
+    }
+    
+    shevron.setAttribute("style", "transform: rotate(" + angle + "deg)");
 }
 
 function mouseOverSubFloor() {
@@ -97,16 +110,10 @@ function clickSubFloor(e) {
     colorizeSubFloor(subLevelToShow);
     let dataForClusters;
     let pinSize = "big";
-
     let pointsArr;
 
     if (subLevel) {
-
-        if (subLevelToShow === "sub_0") {
-            pointsArr = pointsOnLevel.filter(item => item.z_real < subLevel.edge)
-        } else {
-            pointsArr = pointsOnLevel.filter(item => item.z_real > subLevel.edge)
-        }
+        pointsArr = pointsOnLevel.filter(item => subLevelToShow === "sub_0" ? item.z_real < subLevel.edge : item.z_real > subLevel.edge)
     } else {
         pointsArr = pointsOnLevel
     }
@@ -119,32 +126,26 @@ function clickSubFloor(e) {
         dataForClusters = clusterize(pointsArr, clusterInitObj[2]);
         pinSize = "small";
     }
-    drawSet(dataForClusters, pinSize);
-    
-}
-
-function getScreenWidthHeight() {
-    headerFooterHeight = header.offsetHeight + footer.offsetHeight;
-    wHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-    wWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    svgHeight = wHeight - headerFooterHeight;
-    containerW = container.offsetWidth;
+    drawSet(dataForClusters, pinSize);    
 }
 
 function resize() {
-    getScreenWidthHeight();
+    let headerFooterHeight = header.offsetHeight + footer.offsetHeight;
+    let wHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    let wWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    let svgHeight = wHeight - headerFooterHeight;
 
-    if (containerW > svgHeight * transform.initPicWidth / transform.initPicH) {
+    if (wWidth > svgHeight * transform.initPicWidth / transform.initPicH) {
         transform.k = svgHeight / transform.initPicH;
-        transform.x = (containerW / transform.k - transform.initPicWidth) / 2;
+        transform.x = (wWidth / transform.k - transform.initPicWidth) / 2;
         transform.y = 0;
     } else {
-        transform.k = containerW / transform.initPicWidth;
+        transform.k = wWidth / transform.initPicWidth;
         transform.x = 0;
         transform.y = (svgHeight / transform.k - transform.initPicH) / 2;
     }
     container.style.height = `${svgHeight}px`;
-    // container.style.width = `${wWidth}px`;
+    container.style.width = `${wWidth}px`;
 
     //centerizeFn();
 
@@ -159,7 +160,6 @@ function getSubLevel(level) {
 }
 
 function buildSvg() {
-
     svg = d3.select("#container").append("svg");
     svg
         .attr("class", "svgContainer")
@@ -186,6 +186,7 @@ function buildSvg() {
         document.body.style.opacity = 1;
         let pointsArr = subLevel ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
         let currentSet = clusterize(pointsArr, clusterInitObj[0]);
+        displayAsideFn();
         drawSet(currentSet, 'big');
     });
 
@@ -372,16 +373,6 @@ function centerizeFn() {
         .transition()
         .duration(400)
         .call(zoom.transform, d3.zoomIdentity.translate(0, 0).scale(1));
-}
-
-function drawCover(itemToShow, isChecked) {
-    console.log("cover to build:", itemToShow, isChecked);
-    if (isChecked) {
-        cover = floorLayer.insert("image", ":first-child");
-        cover.attr("xlink:href", coverSrc.src);
-    } else {
-        if (cover) cover.remove();
-    }
 }
 
 function zoomed() {

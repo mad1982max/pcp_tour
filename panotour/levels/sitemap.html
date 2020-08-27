@@ -8,7 +8,7 @@
     <title>Dolwin Alpha</title>
     <script src="../../interface_content/js/auth.js"></script>
     <script>
-        auth_status_object.add_auth_callback( function(resolved) {
+        auth_status_object.add_auth_callback(function (resolved) {
             if (!resolved) {
                 window.location = '/';
             }
@@ -44,11 +44,12 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid ml-0 pl-0">
-        <div class = "wrapper row ml-0 pl-0">
-            <div class = "col-8 mx-0 px-0" id="container" class=""></div>
-            <div class="col-4 mx-0 px-0 aside">
-                <object id="asideSvg"  type="image/svg+xml"></object>
+    <div class="container-fluid ml-0 pl-0 r">
+        <div id="container" class=""></div>
+        <div class="aside hide">
+            <object id="asideSvg" type="image/svg+xml"></object>
+            <div class = "hideAside">
+                <img class = "shevron" src="./img/left-dbl-arrow.svg" alt="">
             </div>
         </div>
     </div>

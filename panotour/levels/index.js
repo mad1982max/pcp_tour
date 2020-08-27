@@ -89,7 +89,6 @@ function mouseLeaveSubFloor() {
 }
 
 function displayAsideFn() {
-    console.log(this)
     let aside = document.querySelector('.aside');
     aside.classList.toggle('hide');
 

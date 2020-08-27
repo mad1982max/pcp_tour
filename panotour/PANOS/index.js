@@ -89,6 +89,7 @@ function makeResizableDiv(div) {
         } else {
             element.style.width = xs_size + 'px';
         }
+        console.log('height', height)
         resize();
         //centerizeFn();
     }
@@ -137,6 +138,7 @@ function initMapWidth() {
     if (window.innerWidth < 500) {
         sceneList.style.width = window.innerWidth + 'px';
         sceneList.style.height = window.innerWidth / currentRatioImgData.initPicWidth * currentRatioImgData.initPicHeight + 'px';
+        console.log('sceneList.style.height', sceneList.style.height)
     } else if (window.innerWidth > 500 && window.innerWidth < 800) {
         sceneList.style.width = xs_size + 'px';
         sceneList.style.height = xs_size / currentRatioImgData.initPicWidth * currentRatioImgData.initPicHeight + 'px';
@@ -243,7 +245,7 @@ function buildSvg() {
             // redrawPins();
         });
     svg.call(zoom);
-    d3.select("svg").on("dblclick.zoom", null);
+    //d3.select("svg").on("dblclick.zoom", null);
 }
 
 function redrawPins() {

@@ -39,26 +39,6 @@
         }
     }
 
-
-
-    // Detect desktop or mobile mode.
-    if (window.matchMedia) {
-        var setMode = function () {
-            if (mql.matches) {
-                document.body.classList.remove('desktop');
-                document.body.classList.add('mobile');
-            } else {
-                document.body.classList.remove('mobile');
-                document.body.classList.add('desktop');
-            }
-        };
-        var mql = matchMedia("(max-width: 500px)");
-        setMode();
-        mql.addListener(setMode);
-    } else {
-        document.body.classList.add('desktop');
-    }
-
     // Detect whether we are on a touch device.
     document.body.classList.add('no-touch');
     window.addEventListener('touchstart', function () {
@@ -128,12 +108,6 @@
 
     // Set handler for scene list toggle.
     mapListToggleElement.addEventListener('click', togglemapList);
-
-    //showmapList();
-    // Start with the scene list open on desktop.
-    if (!document.body.classList.contains('mobile')) {
-        //showmapList();
-    }
 
     function sanitize(s) {
         return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');

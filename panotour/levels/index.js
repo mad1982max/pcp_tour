@@ -111,6 +111,11 @@ function mouseOverSubFloor() {
 }
 
 function clickSubFloor(e) {
+    if(mainLayer) {
+        mainLayer
+            .attr("opacity", "0");
+    }
+    
     //document.body.style.opacity = 0;
     deleteSet('svg', '.set');
     deleteSet('svg', '.showTiedPins');
@@ -201,6 +206,12 @@ function buildSvg() {
     floor.attr("xlink:href", floorSrc);
     floor.on("load", () => {
         document.body.style.opacity = 1;
+
+        mainLayer
+            .transition()
+            .duration(600)
+            .attr("opacity", "1");
+
         if(isFirstFloorLoading) {
             let pointsArr = subLevel ? getSubPoints(subLevelToShow, pointsOnLevel, subLevel.edge) : pointsOnLevel;
             let currentSet = clusterize(pointsArr, clusterInitObj[0]);
@@ -209,10 +220,10 @@ function buildSvg() {
             isFirstFloorLoading = false
         }
     });
-    mainLayer
-        .transition()
-        .duration(700)
-        .attr("opacity", "1");
+    // mainLayer
+    //     .transition()
+    //     .duration(500)
+    //     .attr("opacity", "1");
 
     zoom = d3.zoom()
         .scaleExtent([0.3, 10])

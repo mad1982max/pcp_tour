@@ -31,6 +31,13 @@ button:focus {
     outline: none !important;
 }
 
+a, 
+a:active, 
+a:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
 object {
     width: 100%;
 }

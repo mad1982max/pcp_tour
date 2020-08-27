@@ -97,7 +97,7 @@ object {
     }
     .hideAside {
         padding: 3px;
-        top: 50%;
+        top: calc(50% - 45px/2);
     }
 }
 

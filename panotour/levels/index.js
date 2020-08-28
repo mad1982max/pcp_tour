@@ -234,7 +234,7 @@ function buildSvg() {
             rebuildClusters();
         });
     svg.call(zoom);
-    d3.select("svg").on("dblclick.zoom", null);
+    //d3.select("svg").on("dblclick.zoom", null);
 }
 
 function getSubPoints(subFloor, allPoints, edge) {
@@ -265,7 +265,6 @@ function rebuildClusters() {
 
     drawSet(dataForClusters, pinSize);
 }
-
 
 function drawSet(currentSet, sizePoint = "big") {
     set = mainLayer.append("g");
@@ -378,7 +377,8 @@ function clickedOnPin(d) {
             name,
             phase
         } = points[0];
-        window.open("../PANOS/mainPointCloud.html?level=" + level + "&name=" + name + "&phase=" + phase, "_self");
+        let subQuery = subLevel ? subLevelToShow : "_";
+        window.open("../PANOS/mainPointCloud.html?level=" + level + "&sub=" + subQuery + "&name=" + name + "&phase=" + phase, "_self");
     } else {
         if (currentCluster === d.id) {
             deleteSet('svg', '.showTiedPins');

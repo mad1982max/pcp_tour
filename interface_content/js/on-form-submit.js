@@ -17,6 +17,7 @@
         xhr.onload = function () {
             if (xhr.status === 200) {
                 const token = xhr.response.token;
+                console.log('token', token);
                 window.localStorage.setItem('token', token);
                 auth_status_object.auth_check();
             } else {

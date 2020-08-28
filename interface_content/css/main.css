@@ -13,7 +13,10 @@ body {
     opacity: 0;
     transition: opacity 500ms;
     overflow: auto;
+    /* filter: blur(5px); */
 }
+
+
 
 * {
     margin: 0;
@@ -23,11 +26,17 @@ body {
 
 .mainRow {
     border-top: 2px solid black;
+    margin: auto;
 }
 
 img {
     width: 100%;
     transition: transform 500ms;
+}
+
+
+.blur {
+    filter:blur(5px);
 }
 
 .main {
@@ -38,6 +47,10 @@ img {
 .wrapperObject {
     padding: 10px;
     overflow: hidden;
+}
+
+.hide {
+    display: none!important;
 }
 
 .wrapperBGObject {

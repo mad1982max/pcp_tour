@@ -2,16 +2,41 @@
 let container, tooltipElem, wrapper, currentSceneIndex;
 let level, sceneList, floorSrc, wHeight, wWidth, set, svg, svgHeight, floorLayer, mainLayer, miniMap, clickedPin, mapLevel;
 let showMiniMapFlag = false;
-let defaultColor;
+let defaultColor = "#FF2A2A";
 let checkedColor = '#00cc66';
 let tooltipPosFlag = false;
 let phase;
 let zoom;
+let sub;
 const xs_size = 300;
 let oldR = 15;
 let newR = 25;
 let isFirstLoading = true
-let levels = ["22.8", "27.8", "37.8", "47.8", "58.0"];
+//let levels = ["level_22.8", "level_27.8", "level_37.8", "level_47.8_sub_0", "level_47.8_sub_1", "level_58.0"];
+let levels = [
+    {
+        level: "level_22.8",
+        isSub: false,
+    },
+    {
+        level: "level_27.8",
+        isSub: false,
+    },
+    {
+        level: "level_37.8",
+        isSub: false,
+    },
+    {
+        level: "level_47.8",
+        isSub: true,
+        edge: 50
+    },
+    {
+        level: "level_58.0",
+        isSub: false,
+    }
+]
+
 let currentRatioImgData = {
     zoom: {
         x: 0,
@@ -25,7 +50,6 @@ let currentRatioImgData = {
     initRatio: 3000 / 1850,
     k: 0
 }
-
 let pointsOnLevel;
 let currentScene;
 
@@ -38,15 +62,21 @@ function defineData4Floor() {
     level = searchParams.get('level');
     mapLevel = level;
     name = searchParams.get('name');
-    phase = searchParams.get('phase');
+    phase = searchParams.get('phase'); 
+    sub = searchParams.get('sub');
+    floorSrc = sub !== "_" ? `../levels/img/new/${level}_${sub}.png` : `../levels/img/new/${level}.png`;
     clickedPin = `${phase}_${name}`;
-    floorSrc = `../levels/img/new/${level}.png`;
-    pointsOnLevel = points.filter(point => point.level === level);
-    defaultColor = "#FF2A2A";
+
+    let allPointsOnGlobLevel = points.filter(point => point.level === level);
+    let currentLevelObj = getCurrentLevel(level);
+    pointsOnLevel = sub !== "_" ? getSubPoints(sub, allPointsOnGlobLevel, currentLevelObj.edge) : allPointsOnGlobLevel;        
     currentScene = tails.find(scene => scene.name === clickedPin);
+    console.log('sub' , floorSrc)
 }
 //---end define query------------------
-
+function getCurrentLevel(level) {
+    return levels.find(lvl => lvl.level === level);
+}
 
 //add resizeBtnFn----------------------------------
 function makeResizableDiv(div) {
@@ -89,7 +119,6 @@ function makeResizableDiv(div) {
         } else {
             element.style.width = xs_size + 'px';
         }
-        console.log('height', height)
         resize();
         //centerizeFn();
     }
@@ -155,22 +184,85 @@ function centerizeFn() {
         .call(zoom.transform, d3.zoomIdentity.translate(0, 0).scale(1));
 }
 
-function changeStairsFn(counter) {
-    let indexOfFloor = levels.indexOf(level.split("_")[1]);
-    let nextLevel = levels[indexOfFloor + counter];
-    if (nextLevel) {
-        level = "level_" + nextLevel;
-        pointsOnLevel = points.filter(point => point.level === level);
-        console.log("next:", level, pointsOnLevel.length, "dots");
+// function changeStairsFn(counter) {
+//     let indexOfFloor = levels.indexOf(level);
+//     let nextLevel = levels[indexOfFloor + counter];
+//     if (nextLevel) {
+//         level = nextLevel;
+//         pointsOnLevel = points.filter(point => point.level === level);
+        
+//         console.log("next:", level, pointsOnLevel.length, "dots");
+//         deleteSet('svg', '.set');
+//         floorSrc = `../levels/img/new/${level}.png`;
+//         floorLayer
+//             .select('image')
+//             .attr('xlink:href', floorSrc);
+//     } else {
+//         console.log('---level not exist');
+//     }
+//     centerizeFn();
+// }
+
+function changeStairsFn(counter) {    
+    let currentFloorIndex = levels.findIndex(lvl => lvl.level === level);
+    sub  = nextSubFloor(sub,level, counter);
+
+    if(sub === "_") {
+        
+        let nextLevel = levels[currentFloorIndex + counter];
+        if(!nextLevel) nextLevel = levels[0];
         deleteSet('svg', '.set');
-        floorSrc = `../levels/img/new/${level}.png`;
+        level = nextLevel.level;
+
+        if(nextLevel.isSub) {
+            sub = counter < 0 ? "sub_1" : "sub_0";
+            let allPointsOnGlobLevel = points.filter(point => point.level === level);
+            pointsOnLevel = getSubPoints(sub, allPointsOnGlobLevel, nextLevel.edge)
+            floorSrc = `../levels/img/new/${level}_${sub}.png`;
+            floorLayer
+                .select('image')
+                .attr('xlink:href', floorSrc);
+
+        } else {
+            pointsOnLevel = points.filter(point => point.level === level);
+            floorSrc = `../levels/img/new/${level}.png`;
+            floorLayer
+                .select('image')
+                .attr('xlink:href', floorSrc);
+        }
+    } else {
+        deleteSet('svg', '.set');
+        let allPointsOnGlobLevel = points.filter(point => point.level === level);
+        pointsOnLevel = getSubPoints(sub, allPointsOnGlobLevel, levels[currentFloorIndex].edge)
+        floorSrc = `../levels/img/new/${level}_${sub}.png`;
         floorLayer
             .select('image')
             .attr('xlink:href', floorSrc);
-    } else {
-        console.log('---level not exist');
     }
-    centerizeFn();
+}
+
+function nextSubFloor(sub, level, counter) {
+    if(counter > 0) {
+        if(sub == "sub_0") return "sub_1"
+    } else {
+        if(sub == "sub_1") return "sub_0"
+    }
+    return "_"
+}
+
+function getSubPoints(subFloor, allPoints, edge) {
+    let points = [];
+    switch(subFloor) {
+        case 'sub_0':
+            points = allPoints.filter(item => item.z_real < edge);
+            break;
+        case 'sub_1':
+            points = allPoints.filter(item => item.z_real > edge);
+            break;
+        default:
+            console.log('sub_XXX error');
+    }
+    return points;
 }
 
 function ref() {

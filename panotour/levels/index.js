@@ -86,6 +86,7 @@ function onloadFn() {
 
 function mouseLeaveSubFloor() {
     this.style.fill = 'none';
+    this.style.cursor = 'inherit';
 }
 
 function displayAsideFn() {
